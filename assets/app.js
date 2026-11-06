@@ -1,13 +1,18 @@
-/* Community roster powered by the public Raider.IO API.
- * Configuration lives in roster.json. No build step, no secrets. */
+/* Community roster for World of Warcraft: Forever, powered by the public
+ * Raider.IO API (forever.raider.io). Configuration lives in roster.json.
+ * No build step, no secrets.
+ *
+ * Forever has no realms: Raider.IO identifies a character by region, ruleset
+ * ("normal" or "pvp") and its full two-word name, e.g. "Jokerd Prime". */
 
 (function () {
   'use strict';
 
-  const API_URL = 'https://raider.io/api/v1/characters/profile';
-  const API_FIELDS = 'gear,mythic_plus_scores_by_season:current,raid_progression,guild';
+  const API_URL = 'https://forever.raider.io/api/v1/characters/profile';
+  const API_FIELDS = 'gear,guild';
   const CONCURRENCY = 4;
-  const CACHE_PREFIX = 'rio:';
+  const CACHE_PREFIX = 'rio-forever:';
+  const MAX_LEVEL = 60;
 
   const CLASS_COLORS = {
     'Death Knight': '#C41E3A',
@@ -25,7 +30,8 @@
     'Warrior': '#C69B3A'
   };
 
-  const ROLE_LABELS = { TANK: 'Tank', HEALING: 'Healer', DPS: 'DPS' };
+  const FACTION_LABELS = { horde: 'Horda', alliance: 'Przymierze' };
+  const RULESET_LABELS = { normal: 'Normal', pvp: 'PvP' };
 
   const el = {
     name: document.getElementById('community-name'),
@@ -33,43 +39,42 @@
     links: document.getElementById('community-links'),
     body: document.getElementById('roster-body'),
     search: document.getElementById('search'),
-    role: document.getElementById('role-filter'),
+    faction: document.getElementById('faction-filter'),
     refresh: document.getElementById('refresh'),
     status: document.getElementById('status'),
     statCount: document.getElementById('stat-count'),
+    statLevel: document.getElementById('stat-level'),
     statIlvl: document.getElementById('stat-ilvl'),
-    statScore: document.getElementById('stat-score'),
-    statRoles: document.getElementById('stat-roles'),
+    statFactions: document.getElementById('stat-factions'),
     headers: Array.from(document.querySelectorAll('th[data-sort]'))
   };
 
   let config = null;
   let rows = [];
-  let sortKey = 'score';
+  let sortKey = 'level';
   let sortDir = -1;
 
   /* ---------- helpers ---------- */
 
-  function realmSlug(realm) {
-    return String(realm || '')
-      .trim()
-      .toLowerCase()
-      .replace(/['’]/g, '')
-      .replace(/\s+/g, '-');
+  function rulesetOf(entry) {
+    return String(entry.ruleset || config.community.ruleset || 'normal').trim().toLowerCase();
   }
 
-  function scoreColor(score) {
-    if (score >= 3000) return '#ff8000';
-    if (score >= 2500) return '#e268a8';
-    if (score >= 2000) return '#a335ee';
-    if (score >= 1500) return '#0070dd';
-    if (score >= 750) return '#1eff00';
-    if (score > 0) return '#ffffff';
+  function regionOf() {
+    return config.community.region || 'eu';
+  }
+
+  function levelColor(level) {
+    if (level >= MAX_LEVEL) return 'var(--accent)';
+    if (level >= 50) return '#a335ee';
+    if (level >= 40) return '#0070dd';
+    if (level >= 20) return '#1eff00';
+    if (level > 0) return '#ffffff';
     return 'var(--muted)';
   }
 
   function cacheKey(entry) {
-    return CACHE_PREFIX + config.community.region + ':' + realmSlug(entry.realm) + ':' + entry.name.toLowerCase();
+    return CACHE_PREFIX + regionOf() + ':' + rulesetOf(entry) + ':' + entry.name.trim().toLowerCase();
   }
 
   function cacheGet(entry) {
@@ -107,12 +112,16 @@
 
   function buildUrl(entry) {
     const params = new URLSearchParams({
-      region: config.community.region || 'eu',
-      realm: realmSlug(entry.realm),
+      region: regionOf(),
+      realm: rulesetOf(entry),
       name: entry.name.trim(),
       fields: API_FIELDS
     });
     return API_URL + '?' + params.toString();
+  }
+
+  function profileUrl(entry) {
+    return 'https://forever.raider.io/characters/' + regionOf() + '/' + rulesetOf(entry) + '/' + encodeURIComponent(entry.name.trim());
   }
 
   async function fetchCharacter(entry, force) {
@@ -136,57 +145,47 @@
   }
 
   function normalize(entry, data) {
-    const seasons = Array.isArray(data.mythic_plus_scores_by_season) ? data.mythic_plus_scores_by_season : [];
-    const score = seasons.length && seasons[0].scores ? Number(seasons[0].scores.all) || 0 : 0;
-
-    const raids = data.raid_progression && typeof data.raid_progression === 'object'
-      ? Object.keys(data.raid_progression) : [];
-    const raidKey = raids[0] || null;
-    const raid = raidKey ? data.raid_progression[raidKey] : null;
-
     return {
       entry: entry,
       ok: true,
       name: data.name || entry.name,
-      realm: data.realm || entry.realm,
+      ruleset: rulesetOf(entry),
       cls: data.class || '',
-      spec: data.active_spec_name || '',
-      role: data.active_spec_role || '',
+      race: data.race || '',
+      faction: data.faction || '',
+      level: Number(data.level) || 0,
       ilvl: data.gear ? Number(data.gear.item_level_equipped) || 0 : 0,
-      score: score,
-      raidName: raidKey ? raidKey.replace(/-/g, ' ') : '',
-      raidSummary: raid && raid.summary ? raid.summary : '',
       guild: data.guild && data.guild.name ? data.guild.name : '',
       thumb: data.thumbnail_url || '',
-      url: data.profile_url || ('https://raider.io/characters/' + (config.community.region || 'eu') + '/' + realmSlug(entry.realm) + '/' + encodeURIComponent(entry.name))
+      url: data.profile_url || profileUrl(entry)
     };
   }
 
   function failed(entry, message) {
     return {
       entry: entry, ok: false, error: message,
-      name: entry.name, realm: entry.realm, cls: '', spec: '', role: '',
-      ilvl: 0, score: 0, raidName: '', raidSummary: '', guild: '', thumb: '', url: ''
+      name: entry.name, ruleset: rulesetOf(entry), cls: '', race: '', faction: '',
+      level: 0, ilvl: 0, guild: '', thumb: '', url: profileUrl(entry)
     };
   }
 
   function pending(entry) {
     return {
       entry: entry, ok: false, pending: true,
-      name: '', realm: '', cls: '', spec: '', role: '',
-      ilvl: 0, score: 0, raidName: '', raidSummary: '', guild: '', thumb: '', url: ''
+      name: '', ruleset: rulesetOf(entry), cls: '', race: '', faction: '',
+      level: 0, ilvl: 0, guild: '', thumb: '', url: ''
     };
   }
 
   async function loadAll(force) {
     const entries = config.characters || [];
     rows = entries.map(function (entry) {
-      return entry.name && entry.realm ? null : pending(entry);
+      return entry.name ? null : pending(entry);
     });
 
     const queue = entries
       .map(function (entry, i) { return { entry: entry, i: i }; })
-      .filter(function (item) { return item.entry.name && item.entry.realm; });
+      .filter(function (item) { return item.entry.name; });
 
     let done = 0;
     const total = queue.length;
@@ -221,18 +220,17 @@
     const ra = a.ok ? 0 : 1, rb = b.ok ? 0 : 1;
     if (ra !== rb) return ra - rb;
     let va = a[sortKey], vb = b[sortKey];
-    if (sortKey === 'raid') { va = a.raidSummary; vb = b.raidSummary; }
-    if (sortKey === 'class') { va = a.cls + a.spec; vb = b.cls + b.spec; }
+    if (sortKey === 'class') { va = a.cls + a.race; vb = b.cls + b.race; }
     if (typeof va === 'number' && typeof vb === 'number') return (va - vb) * sortDir;
     return String(va).localeCompare(String(vb), 'pl') * sortDir;
   }
 
   function matches(row) {
     const q = el.search.value.trim().toLowerCase();
-    const role = el.role.value;
-    if (role && row.role !== role) return false;
+    const faction = el.faction.value;
+    if (faction && row.faction !== faction) return false;
     if (!q) return true;
-    const hay = [row.name, row.entry.label, row.realm, row.cls, row.spec, row.guild].join(' ').toLowerCase();
+    const hay = [row.name, row.entry.label, row.cls, row.race, row.guild, row.ruleset].join(' ').toLowerCase();
     return hay.indexOf(q) !== -1;
   }
 
@@ -290,7 +288,7 @@
       if (row.pending) {
         tr.className = 'pending';
         tr.appendChild(td('', charCell(row)));
-        const note = td('note', 'uzupełnij nazwę postaci i serwer w roster.json');
+        const note = td('note', 'uzupełnij nazwę postaci w roster.json');
         note.colSpan = 6;
         tr.appendChild(note);
         frag.appendChild(tr);
@@ -302,7 +300,7 @@
         const err = td('error', row.error);
         err.colSpan = 5;
         tr.appendChild(err);
-        tr.appendChild(td('', row.realm));
+        tr.appendChild(td('', RULESET_LABELS[row.ruleset] || row.ruleset));
         frag.appendChild(tr);
         return;
       }
@@ -313,33 +311,28 @@
       const clsName = document.createElement('div');
       clsName.textContent = row.cls;
       if (CLASS_COLORS[row.cls]) clsName.style.color = CLASS_COLORS[row.cls];
-      const spec = document.createElement('div');
-      spec.className = 'spec';
-      spec.textContent = row.spec + (row.role ? ' · ' + (ROLE_LABELS[row.role] || row.role) : '');
+      const race = document.createElement('div');
+      race.className = 'spec';
+      race.textContent = row.race;
       cls.appendChild(clsName);
-      cls.appendChild(spec);
+      cls.appendChild(race);
       tr.appendChild(td('', cls));
+
+      const level = document.createElement('span');
+      level.className = 'score';
+      level.textContent = row.level ? String(row.level) : '–';
+      level.style.color = levelColor(row.level);
+      tr.appendChild(td('num', level));
 
       tr.appendChild(td('num', row.ilvl ? String(row.ilvl) : '–'));
 
-      const score = document.createElement('span');
-      score.className = 'score';
-      score.textContent = row.score ? Math.round(row.score).toString() : '–';
-      score.style.color = scoreColor(row.score);
-      tr.appendChild(td('num', score));
-
-      const raid = document.createElement('span');
-      raid.className = 'raid';
-      raid.textContent = row.raidSummary || '–';
-      if (row.raidName) {
-        const small = document.createElement('small');
-        small.textContent = row.raidName;
-        raid.appendChild(small);
-      }
-      tr.appendChild(td('', raid));
+      const faction = document.createElement('span');
+      faction.className = 'faction faction-' + row.faction;
+      faction.textContent = FACTION_LABELS[row.faction] || row.faction || '–';
+      tr.appendChild(td('', faction));
 
       tr.appendChild(td('', row.guild || '–'));
-      tr.appendChild(td('', row.realm));
+      tr.appendChild(td('', RULESET_LABELS[row.ruleset] || row.ruleset));
       frag.appendChild(tr);
     });
 
@@ -356,13 +349,13 @@
       const vals = ok.map(function (r) { return r[key]; }).filter(function (v) { return v > 0; });
       return vals.length ? Math.round(vals.reduce(function (a, b) { return a + b; }, 0) / vals.length) : null;
     };
-    const roles = { TANK: 0, HEALING: 0, DPS: 0 };
-    ok.forEach(function (r) { if (roles[r.role] !== undefined) roles[r.role] += 1; });
+    const factions = { horde: 0, alliance: 0 };
+    ok.forEach(function (r) { if (factions[r.faction] !== undefined) factions[r.faction] += 1; });
 
     el.statCount.textContent = ok.length + ' / ' + rows.filter(Boolean).length;
+    el.statLevel.textContent = avg('level') !== null ? avg('level') : '–';
     el.statIlvl.textContent = avg('ilvl') !== null ? avg('ilvl') : '–';
-    el.statScore.textContent = avg('score') !== null ? avg('score') : '–';
-    el.statRoles.textContent = ok.length ? roles.TANK + ' / ' + roles.HEALING + ' / ' + roles.DPS : '–';
+    el.statFactions.textContent = ok.length ? factions.horde + ' / ' + factions.alliance : '–';
   }
 
   function renderHeader() {
@@ -383,12 +376,12 @@
 
   function bind() {
     el.search.addEventListener('input', render);
-    el.role.addEventListener('change', render);
+    el.faction.addEventListener('change', render);
     el.refresh.addEventListener('click', function () { cacheClear(); loadAll(true); });
     el.headers.forEach(function (th) {
       th.addEventListener('click', function () {
         const key = th.dataset.sort;
-        if (sortKey === key) { sortDir = -sortDir; } else { sortKey = key; sortDir = (key === 'ilvl' || key === 'score') ? -1 : 1; }
+        if (sortKey === key) { sortDir = -sortDir; } else { sortKey = key; sortDir = (key === 'level' || key === 'ilvl') ? -1 : 1; }
         render();
       });
     });

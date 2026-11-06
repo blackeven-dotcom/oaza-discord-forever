@@ -119,6 +119,8 @@ tbody tr:hover { background: var(--bg-row); }
 .note { color: var(--muted); font-style: italic; }
 .error { color: var(--danger); }
 .pending td { color: var(--muted); }
+.faction-horde { color: #c41e3a; }
+.faction-alliance { color: #3b82f6; }
 
 .footnote { color: var(--muted); font-size: 0.85rem; margin: 16px 0 40px; }
 

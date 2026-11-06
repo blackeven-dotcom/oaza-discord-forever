@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Roster Community</title>
-  <meta name="description" content="Lista postaci społeczności World of Warcraft, dane z Raider.IO">
-  <link rel="preconnect" href="https://raider.io">
+  <meta name="description" content="Lista postaci społeczności World of Warcraft: Forever, dane z Raider.IO">
+  <link rel="preconnect" href="https://forever.raider.io">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -20,18 +20,17 @@
   <main class="wrap">
     <section class="summary" id="summary" aria-live="polite">
       <div class="stat"><span class="stat-value" id="stat-count">–</span><span class="stat-label">postaci</span></div>
+      <div class="stat"><span class="stat-value" id="stat-level">–</span><span class="stat-label">średni poziom</span></div>
       <div class="stat"><span class="stat-value" id="stat-ilvl">–</span><span class="stat-label">średni ilvl</span></div>
-      <div class="stat"><span class="stat-value" id="stat-score">–</span><span class="stat-label">średni M+ score</span></div>
-      <div class="stat"><span class="stat-value" id="stat-roles">–</span><span class="stat-label">tank / heal / dps</span></div>
+      <div class="stat"><span class="stat-value" id="stat-factions">–</span><span class="stat-label">horda / przymierze</span></div>
     </section>
 
     <section class="controls">
-      <input id="search" type="search" placeholder="Szukaj postaci, klasy, serwera…" aria-label="Szukaj">
-      <select id="role-filter" aria-label="Filtr roli">
-        <option value="">Wszystkie role</option>
-        <option value="TANK">Tank</option>
-        <option value="HEALING">Healer</option>
-        <option value="DPS">DPS</option>
+      <input id="search" type="search" placeholder="Szukaj postaci, klasy, rasy, gildii…" aria-label="Szukaj">
+      <select id="faction-filter" aria-label="Filtr frakcji">
+        <option value="">Obie frakcje</option>
+        <option value="horde">Horda</option>
+        <option value="alliance">Przymierze</option>
       </select>
       <button id="refresh" type="button" title="Pomiń cache i pobierz ponownie">Odśwież</button>
       <span id="status" class="status"></span>
@@ -42,19 +41,19 @@
         <thead>
           <tr>
             <th data-sort="name" aria-sort="none">Postać</th>
-            <th data-sort="class">Klasa / spec</th>
+            <th data-sort="class">Klasa / rasa</th>
+            <th data-sort="level" class="num">Poziom</th>
             <th data-sort="ilvl" class="num">ilvl</th>
-            <th data-sort="score" class="num">M+ score</th>
-            <th data-sort="raid">Raid</th>
+            <th data-sort="faction">Frakcja</th>
             <th data-sort="guild">Gildia</th>
-            <th data-sort="realm">Serwer</th>
+            <th data-sort="ruleset">Ruleset</th>
           </tr>
         </thead>
         <tbody id="roster-body"></tbody>
       </table>
     </div>
 
-    <p class="footnote">Dane: <a href="https://raider.io" rel="noopener">Raider.IO</a>. Postać pojawia się po tym, jak Raider.IO ją zaindeksuje. Jeśli jest nieaktualna, wejdź na jej profil na Raider.IO i kliknij odświeżenie tam.</p>
+    <p class="footnote">Dane: <a href="https://forever.raider.io" rel="noopener">Raider.IO Forever</a>. Postać pojawia się po tym, jak Raider.IO ją zaindeksuje: wyszukaj ją raz na forever.raider.io. Jeśli dane są nieaktualne, odśwież jej profil tam.</p>
   </main>
 
   <script src="assets/app.js"></script>

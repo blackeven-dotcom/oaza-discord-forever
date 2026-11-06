@@ -1,21 +1,22 @@
 {
   "community": {
     "name": "Wow forever",
-    "tagline": "Lista postaci społeczności",
+    "tagline": "Lista postaci społeczności – World of Warcraft: Forever",
     "region": "eu",
+    "ruleset": "normal",
     "discord": ""
   },
   "cacheMinutes": 10,
   "characters": [
-    { "label": "Beeg Gobleen",          "name": "", "realm": "" },
-    { "label": "Beef Bong",             "name": "", "realm": "", "leader": true },
-    { "label": "Mogra Mokra",           "name": "", "realm": "" },
-    { "label": "Common Cfel",           "name": "", "realm": "" },
-    { "label": "Fea Rekt",              "name": "", "realm": "" },
-    { "label": "Borys Kylar",           "name": "", "realm": "" },
-    { "label": "Pain Keeller",          "name": "", "realm": "" },
-    { "label": "Zdzislaw Pirotechnik",  "name": "", "realm": "" },
-    { "label": "Covy Zugzug",           "name": "", "realm": "" },
-    { "label": "Fore Skeenwalker",      "name": "", "realm": "" }
+    { "label": "Beeg Gobleen",          "name": "Beeg Gobleen" },
+    { "label": "Beef Bong",             "name": "Beef Bong", "leader": true },
+    { "label": "Mogra Mokra",           "name": "Mogra Mokra" },
+    { "label": "Common Cfel",           "name": "Common Cfel" },
+    { "label": "Fea Rekt",              "name": "Fea Rekt" },
+    { "label": "Borys Kylar",           "name": "Borys Kylar" },
+    { "label": "Pain Keeller",          "name": "Pain Keeller" },
+    { "label": "Zdzislaw Pirotechnik",  "name": "Zdzislaw Pirotechnik" },
+    { "label": "Covy Zugzug",           "name": "Covy Zugzug" },
+    { "label": "Fore Skeenwalker",      "name": "Fore Skeenwalker" }
   ]
 }
