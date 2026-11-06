@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:41:48Z",
+  "generatedAt": "2026-11-06T20:52:15Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -22,6 +22,13 @@
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Protection",
+          "points": 5,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Mining",
@@ -50,10 +57,104 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": {
-        "tier": 0,
-        "value": 0
-      },
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 348
+        },
+        {
+          "slug": "rage",
+          "value": 100
+        },
+        {
+          "slug": "strength",
+          "value": 43
+        },
+        {
+          "slug": "intellect",
+          "value": 21
+        },
+        {
+          "slug": "agility",
+          "value": 28
+        },
+        {
+          "slug": "stamina",
+          "value": 40
+        },
+        {
+          "slug": "critical-strike",
+          "value": 4.4764
+        },
+        {
+          "slug": "spirit",
+          "value": 30
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Seasoned Fighter's Cloak",
+          "quality": "common"
+        },
+        {
+          "slot": "Chest",
+          "name": "Rough Copper Vest",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Lightweight Boots",
+          "quality": "common"
+        },
+        {
+          "slot": "Hands",
+          "name": "Lupine Handwraps of the Owl",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Depleted Ritual Band",
+          "quality": "common"
+        },
+        {
+          "slot": "Legs",
+          "name": "Raptorscale Pants",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Off Hand",
+          "name": "Wooden Buckler",
+          "quality": "poor"
+        },
+        {
+          "slot": "Ranged",
+          "name": "Rezlak's Spare Knife",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Brawler's Harness",
+          "quality": "common"
+        },
+        {
+          "slot": "Waist",
+          "name": "Copper Chain Belt",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Staunch Hammer of Spirit",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Brog's Friendship Bracelet",
+          "quality": "uncommon"
+        }
+      ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
@@ -81,6 +182,13 @@
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
       "role": "melee",
       "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Feral Combat",
+          "points": 6,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Leatherworking",
@@ -115,14 +223,88 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": {
-        "tier": 0,
-        "value": 0
-      },
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 391
+        },
+        {
+          "slug": "mana",
+          "value": 529
+        },
+        {
+          "slug": "strength",
+          "value": 37
+        },
+        {
+          "slug": "intellect",
+          "value": 38
+        },
+        {
+          "slug": "agility",
+          "value": 43
+        },
+        {
+          "slug": "stamina",
+          "value": 37
+        },
+        {
+          "slug": "critical-strike",
+          "value": 5.0581
+        },
+        {
+          "slug": "spirit",
+          "value": 42
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Willow Cape of the Owl",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Chest",
+          "name": "Tribal Vest",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Dark Leather Boots",
+          "quality": "rare"
+        },
+        {
+          "slot": "Hands",
+          "name": "Ceremonial Leather Gloves",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Legs",
+          "name": "Kodo Hunter's Leggings",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Waist",
+          "name": "Mystic's Belt",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Staff of Orgrimmar",
+          "quality": "rare"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Light Leather Bracers",
+          "quality": "uncommon"
+        }
+      ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-06T20:37:58Z",
+      "lastUpdated": "2026-11-06T20:43:58Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -146,6 +328,13 @@
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Arms",
+          "points": 7,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Skinning",
@@ -174,10 +363,104 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": {
-        "tier": 0,
-        "value": 0
-      },
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 521
+        },
+        {
+          "slug": "rage",
+          "value": 100
+        },
+        {
+          "slug": "strength",
+          "value": 48
+        },
+        {
+          "slug": "intellect",
+          "value": 19
+        },
+        {
+          "slug": "agility",
+          "value": 30
+        },
+        {
+          "slug": "stamina",
+          "value": 55
+        },
+        {
+          "slug": "critical-strike",
+          "value": 4.545
+        },
+        {
+          "slug": "spirit",
+          "value": 36
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Prospector's Cloak",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Chest",
+          "name": "Loose Chain Vest",
+          "quality": "poor"
+        },
+        {
+          "slot": "Feet",
+          "name": "Lightweight Boots",
+          "quality": "common"
+        },
+        {
+          "slot": "Hands",
+          "name": "War Paint Gloves",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Depleted Ritual Band",
+          "quality": "common"
+        },
+        {
+          "slot": "Legs",
+          "name": "Brackwater Leggings",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ranged",
+          "name": "Compact Shotgun",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Brawler's Harness",
+          "quality": "common"
+        },
+        {
+          "slot": "Shoulders",
+          "name": "Laced Mail Shoulderpads",
+          "quality": "poor"
+        },
+        {
+          "slot": "Waist",
+          "name": "Aggor's Refitted Belt",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Axe of Orgrimmar",
+          "quality": "rare"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Garrison Cuffs",
+          "quality": "uncommon"
+        }
+      ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
@@ -205,6 +488,13 @@
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132347.jpg",
       "role": "melee",
       "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Fury",
+          "points": 5,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132347.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Skinning",
@@ -239,10 +529,99 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": {
-        "tier": 0,
-        "value": 0
-      },
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 418
+        },
+        {
+          "slug": "rage",
+          "value": 100
+        },
+        {
+          "slug": "strength",
+          "value": 42
+        },
+        {
+          "slug": "intellect",
+          "value": 18
+        },
+        {
+          "slug": "agility",
+          "value": 35
+        },
+        {
+          "slug": "stamina",
+          "value": 47
+        },
+        {
+          "slug": "critical-strike",
+          "value": 10.3654995
+        },
+        {
+          "slug": "spirit",
+          "value": 31
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Satyrskin Cloak",
+          "quality": "rare"
+        },
+        {
+          "slot": "Chest",
+          "name": "Battle Chain Tunic",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Lightweight Boots",
+          "quality": "common"
+        },
+        {
+          "slot": "Hands",
+          "name": "Bloodspattered Gloves of Power",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Depleted Ritual Band",
+          "quality": "common"
+        },
+        {
+          "slot": "Legs",
+          "name": "Raptorscale Pants",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ranged",
+          "name": "Crude Throwing Axe",
+          "quality": "common"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Brawler's Harness",
+          "quality": "common"
+        },
+        {
+          "slot": "Waist",
+          "name": "Wide Metal Girdle",
+          "quality": "common"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Axe of Orgrimmar",
+          "quality": "rare"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Bloodspattered Wristbands of the Monkey",
+          "quality": "uncommon"
+        }
+      ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
@@ -278,6 +657,13 @@
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Beast Mastery",
+          "points": 10,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Leatherworking",
@@ -300,10 +686,99 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
-      "honorableKills": {
-        "tier": 0,
-        "value": 0
-      },
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 613
+        },
+        {
+          "slug": "mana",
+          "value": 628
+        },
+        {
+          "slug": "strength",
+          "value": 31
+        },
+        {
+          "slug": "intellect",
+          "value": 32
+        },
+        {
+          "slug": "agility",
+          "value": 61
+        },
+        {
+          "slug": "stamina",
+          "value": 60
+        },
+        {
+          "slug": "critical-strike",
+          "value": 1.8144001
+        },
+        {
+          "slug": "spirit",
+          "value": 35
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Barkeeper's Cloak",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Chest",
+          "name": "Fine Leather Tunic",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Dark Leather Boots",
+          "quality": "rare"
+        },
+        {
+          "slot": "Hands",
+          "name": "Adept's Gloves",
+          "quality": "rare"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Depleted Ritual Band",
+          "quality": "common"
+        },
+        {
+          "slot": "Legs",
+          "name": "Light Leather Pants",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ranged",
+          "name": "Fine Longbow",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Trapper's Shirt",
+          "quality": "common"
+        },
+        {
+          "slot": "Waist",
+          "name": "Fine Leather Belt",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Pointed Axe",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Prospector's Cuffs",
+          "quality": "uncommon"
+        }
+      ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
@@ -326,11 +801,23 @@
       "gender": "male",
       "ruleset": "pvp",
       "region": "eu",
-      "spec": "Discipline",
-      "specPoints": 2,
-      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
-      "role": "healer",
+      "spec": "Shadow Magic",
+      "specPoints": 5,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg",
+      "role": "range",
       "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Shadow Magic",
+          "points": 5,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg"
+        },
+        {
+          "name": "Discipline",
+          "points": 2,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Tailoring",
@@ -359,10 +846,99 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": {
-        "tier": 0,
-        "value": 0
-      },
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 317
+        },
+        {
+          "slug": "mana",
+          "value": 580
+        },
+        {
+          "slug": "strength",
+          "value": 25
+        },
+        {
+          "slug": "intellect",
+          "value": 37
+        },
+        {
+          "slug": "agility",
+          "value": 27
+        },
+        {
+          "slug": "stamina",
+          "value": 30
+        },
+        {
+          "slug": "critical-strike",
+          "value": 4.2891
+        },
+        {
+          "slug": "spirit",
+          "value": 45
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Long Draping Cape",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Chest",
+          "name": "Brown Linen Robe",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Reconnaissance Boots",
+          "quality": "common"
+        },
+        {
+          "slot": "Hands",
+          "name": "Frayed Gloves",
+          "quality": "poor"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Depleted Ritual Band",
+          "quality": "common"
+        },
+        {
+          "slot": "Legs",
+          "name": "Disciple's Pants of the Sorcerer",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ranged",
+          "name": "Greater Magic Wand",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Neophyte's Shirt",
+          "quality": "common"
+        },
+        {
+          "slot": "Waist",
+          "name": "Frayed Belt",
+          "quality": "poor"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Staunch Hammer of the Tiger",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Mogra's Friendship Bracelet",
+          "quality": "uncommon"
+        }
+      ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
@@ -390,6 +966,13 @@
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Frost",
+          "points": 5,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Tailoring",
@@ -412,10 +995,94 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
-      "honorableKills": {
-        "tier": 0,
-        "value": 0
-      },
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 377
+        },
+        {
+          "slug": "mana",
+          "value": 673
+        },
+        {
+          "slug": "strength",
+          "value": 21
+        },
+        {
+          "slug": "intellect",
+          "value": 46
+        },
+        {
+          "slug": "agility",
+          "value": 26
+        },
+        {
+          "slug": "stamina",
+          "value": 37
+        },
+        {
+          "slug": "critical-strike",
+          "value": 4.2868
+        },
+        {
+          "slug": "spirit",
+          "value": 43
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Reinforced Linen Cape",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Chest",
+          "name": "Barbaric Linen Vest",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Patchwork Shoes",
+          "quality": "poor"
+        },
+        {
+          "slot": "Hands",
+          "name": "Heavy Linen Gloves",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Legs",
+          "name": "Simple Kilt",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ranged",
+          "name": "Lesser Magic Wand",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Apprentice's Shirt",
+          "quality": "common"
+        },
+        {
+          "slot": "Waist",
+          "name": "Novice Arcanist's Sash",
+          "quality": "rare"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Staff of Orgrimmar",
+          "quality": "rare"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Patchwork Bracers",
+          "quality": "poor"
+        }
+      ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
@@ -443,6 +1110,7 @@
       "specIcon": null,
       "role": "melee",
       "roleSource": "class",
+      "specs": [],
       "professions": [
         {
           "name": "Alchemy",
@@ -471,10 +1139,99 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": {
-        "tier": 0,
-        "value": 0
-      },
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 230
+        },
+        {
+          "slug": "mana",
+          "value": 270
+        },
+        {
+          "slug": "strength",
+          "value": 31
+        },
+        {
+          "slug": "intellect",
+          "value": 25
+        },
+        {
+          "slug": "agility",
+          "value": 20
+        },
+        {
+          "slug": "stamina",
+          "value": 31
+        },
+        {
+          "slug": "critical-strike",
+          "value": 4.21
+        },
+        {
+          "slug": "spirit",
+          "value": 33
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Battleworn Cape",
+          "quality": "common"
+        },
+        {
+          "slot": "Chest",
+          "name": "Soft Wool Vest",
+          "quality": "common"
+        },
+        {
+          "slot": "Feet",
+          "name": "Ragged Leather Boots",
+          "quality": "poor"
+        },
+        {
+          "slot": "Hands",
+          "name": "Veiled Grips",
+          "quality": "common"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Depleted Ritual Band",
+          "quality": "common"
+        },
+        {
+          "slot": "Legs",
+          "name": "Dust-covered Leggings",
+          "quality": "common"
+        },
+        {
+          "slot": "Off Hand",
+          "name": "Worn Large Shield",
+          "quality": "poor"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Primitive Mantle",
+          "quality": "common"
+        },
+        {
+          "slot": "Waist",
+          "name": "Worn Leather Belt",
+          "quality": "poor"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Kolkar Hammer",
+          "quality": "common"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Heavy Cord Bracers",
+          "quality": "common"
+        }
+      ],
       "avatar": null,
       "render": null,
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
@@ -493,9 +1250,151 @@
     {
       "label": "Astral Mother",
       "name": "Astral Mother",
+      "slug": "astral-mother",
       "leader": false,
-      "ok": false,
-      "error": "brak w Armory (HTTP 500)",
+      "ok": true,
+      "level": 11,
+      "ilvl": 5,
+      "class": "Hunter",
+      "classSlug": "hunter",
+      "race": "Windshaper Skyborne",
+      "faction": "horde",
+      "gender": "female",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Beast Mastery",
+      "specPoints": 1,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
+      "role": "range",
+      "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Beast Mastery",
+          "points": 1,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
+        }
+      ],
+      "professions": [
+        {
+          "name": "Alchemy",
+          "skill": 60,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
+        },
+        {
+          "name": "Herbalism",
+          "skill": 50,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 9,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "Fishing",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
+        }
+      ],
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 276
+        },
+        {
+          "slug": "mana",
+          "value": 315
+        },
+        {
+          "slug": "strength",
+          "value": 21
+        },
+        {
+          "slug": "intellect",
+          "value": 24
+        },
+        {
+          "slug": "agility",
+          "value": 42
+        },
+        {
+          "slug": "stamina",
+          "value": 34
+        },
+        {
+          "slug": "critical-strike",
+          "value": 5.3142
+        },
+        {
+          "slug": "spirit",
+          "value": 30
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Windblown Short Cloak",
+          "quality": "common"
+        },
+        {
+          "slot": "Chest",
+          "name": "Handstitched Leather Vest",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Frayed Shoes",
+          "quality": "poor"
+        },
+        {
+          "slot": "Hands",
+          "name": "Embossed Leather Gloves",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Ancient Heirloom",
+          "quality": "common"
+        },
+        {
+          "slot": "Legs",
+          "name": "Handstitched Leather Pants",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ranged",
+          "name": "Hunting Bow",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Waist",
+          "name": "Wolfhide Belt",
+          "quality": "common"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Worn Dagger",
+          "quality": "common"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Light Leather Bracers",
+          "quality": "uncommon"
+        }
+      ],
+      "avatar": null,
+      "render": null,
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
+      "lastUpdated": "2026-11-06T20:51:40Z",
+      "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
   ]

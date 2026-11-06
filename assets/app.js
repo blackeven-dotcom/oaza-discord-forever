@@ -119,6 +119,12 @@
       ruleset: c.ruleset || '',
       professions: Array.isArray(c.professions) ? c.professions : [],
       secondary: Array.isArray(c.secondaryProfessions) ? c.secondaryProfessions : [],
+      specs: Array.isArray(c.specs) ? c.specs : [],
+      stats: Array.isArray(c.stats) ? c.stats : [],
+      gear: Array.isArray(c.gear) ? c.gear : [],
+      honorableKills: c.honorableKills,
+      pvpRank: c.pvpRank,
+      gender: c.gender || '',
       avatar: c.avatar || '',
       render: c.render || '',
       background: c.background || '',
@@ -187,8 +193,13 @@
     return card;
   }
 
+  function skillText(p) {
+    return p.skill != null ? p.skill + (p.max ? ' / ' + p.max : '') : '';
+  }
+
   function professionRow(p) {
     const line = h('div', 'prof');
+    line.title = (p.name || '') + (skillText(p) ? ': ' + skillText(p) : '');
     line.appendChild(p.icon ? img(p.icon, '', p.name) : h('span'));
     const mid = h('div');
     mid.appendChild(h('div', 'prof-name', p.name || ''));
@@ -200,14 +211,134 @@
       mid.appendChild(bar);
     }
     line.appendChild(mid);
-    line.appendChild(h('div', 'prof-skill', p.skill != null ? p.skill + (p.max ? ' / ' + p.max : '') : ''));
+    line.appendChild(h('div', 'prof-skill', skillText(p)));
     return line;
+  }
+
+  const STAT_LABELS = {
+    'health': 'Zdrowie', 'mana': 'Mana', 'rage': 'Furia', 'energy': 'Energia', 'focus': 'Skupienie',
+    'strength': 'Siła', 'agility': 'Zręczność', 'intellect': 'Intelekt', 'stamina': 'Wytrzymałość',
+    'spirit': 'Duch', 'armor': 'Pancerz', 'critical-strike': 'Kryt.', 'item-level': 'ilvl',
+    'movement-speed': 'Szybkość', 'haste': 'Pośpiech', 'mastery': 'Mistrzostwo', 'versatility': 'Wszechstr.'
+  };
+  const STAT_ORDER = ['health', 'mana', 'rage', 'energy', 'focus', 'strength', 'agility', 'intellect', 'stamina', 'spirit', 'armor', 'critical-strike'];
+  const QUALITY_COLORS = { poor: '#9d9d9d', common: '#ffffff', uncommon: '#1eff00', rare: '#0070dd', epic: '#a335ee', legendary: '#ff8000' };
+
+  function fmtStat(slug, v) {
+    if (typeof v !== 'number') return String(v);
+    if (slug === 'critical-strike' || slug === 'haste' || slug === 'mastery' || slug === 'versatility') return v.toFixed(1) + '%';
+    return Math.round(v).toLocaleString('pl-PL');
+  }
+
+  function section(title) {
+    const s = h('div', 'details-section');
+    s.appendChild(h('h4', '', title));
+    return s;
+  }
+
+  function detailsPanel(row) {
+    const panel = h('div', 'card-details');
+    const inner = h('div', 'details-inner');
+
+    const head = h('div', 'details-head');
+    head.appendChild(h('div', 'details-name', row.name));
+    head.appendChild(h('div', 'details-sub', [row.race, row.gender === 'female' ? '♀' : (row.gender === 'male' ? '♂' : ''), row.cls, 'poziom ' + row.level, 'ilvl ' + (row.ilvl || '–')].filter(Boolean).join(' · ')));
+    inner.appendChild(head);
+
+    if (row.specs.length) {
+      const s = section('Talenty');
+      const list = h('div', 'details-list');
+      row.specs.forEach(function (sp) {
+        const li = h('div', 'details-row');
+        if (sp.icon) li.appendChild(img(sp.icon, 'mini', sp.name));
+        li.appendChild(h('span', 'details-key', sp.name));
+        li.appendChild(h('span', 'details-val', sp.points + ' pkt'));
+        list.appendChild(li);
+      });
+      s.appendChild(list);
+      inner.appendChild(s);
+    }
+
+    const stats = row.stats.slice().sort(function (a, b) {
+      const ia = STAT_ORDER.indexOf(a.slug), ib = STAT_ORDER.indexOf(b.slug);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    }).filter(function (st) { return st.slug !== 'item-level' && st.slug !== 'movement-speed'; });
+    if (stats.length) {
+      const s = section('Statystyki');
+      const grid = h('div', 'details-grid');
+      stats.forEach(function (st) {
+        const cell = h('div', 'details-stat');
+        cell.appendChild(h('span', 'details-key', STAT_LABELS[st.slug] || st.slug));
+        cell.appendChild(h('span', 'details-val', fmtStat(st.slug, st.value)));
+        grid.appendChild(cell);
+      });
+      s.appendChild(grid);
+      inner.appendChild(s);
+    }
+
+    const allProfs = row.professions.concat(row.secondary);
+    if (allProfs.length) {
+      const s = section('Profesje');
+      const list = h('div', 'details-list');
+      allProfs.forEach(function (p) {
+        const li = h('div', 'details-row');
+        if (p.icon) li.appendChild(img(p.icon, 'mini', p.name));
+        li.appendChild(h('span', 'details-key', p.name));
+        li.appendChild(h('span', 'details-val', skillText(p)));
+        list.appendChild(li);
+      });
+      s.appendChild(list);
+      inner.appendChild(s);
+    }
+
+    if (row.honorableKills != null || row.pvpRank != null) {
+      const s = section('PvP');
+      const grid = h('div', 'details-grid');
+      const hk = h('div', 'details-stat');
+      hk.appendChild(h('span', 'details-key', 'Honorable kills'));
+      hk.appendChild(h('span', 'details-val', String(row.honorableKills != null ? row.honorableKills : '–')));
+      grid.appendChild(hk);
+      const rk = h('div', 'details-stat');
+      rk.appendChild(h('span', 'details-key', 'Ranga'));
+      rk.appendChild(h('span', 'details-val', String(row.pvpRank != null ? row.pvpRank : '–')));
+      grid.appendChild(rk);
+      s.appendChild(grid);
+      inner.appendChild(s);
+    }
+
+    if (row.gear.length) {
+      const s = section('Ekwipunek (' + row.gear.length + ')');
+      const list = h('div', 'details-list gear');
+      row.gear.forEach(function (g) {
+        const li = h('div', 'details-row');
+        li.appendChild(h('span', 'details-key', g.slot));
+        const v = h('span', 'details-val item', g.name);
+        if (QUALITY_COLORS[g.quality]) v.style.color = QUALITY_COLORS[g.quality];
+        li.appendChild(v);
+        list.appendChild(li);
+      });
+      s.appendChild(list);
+      inner.appendChild(s);
+    }
+
+    const foot = h('div', 'details-foot');
+    foot.appendChild(h('span', '', (RULESET_LABELS[row.ruleset] || row.ruleset || '') + (row.lastUpdated ? ' · Armory: ' + formatTime(row.lastUpdated) : '')));
+    if (row.url) {
+      const a = h('a', '', 'Otwórz w Armory ↗');
+      a.href = row.url; a.target = '_blank'; a.rel = 'noopener';
+      foot.appendChild(a);
+    }
+    inner.appendChild(foot);
+
+    panel.appendChild(inner);
+    return panel;
   }
 
   function card(row) {
     if (!row.ok) return missingCard(row);
 
     const card = h('article', 'card');
+    card.tabIndex = 0;
     const color = CLASS_COLORS[row.cls] || 'var(--text)';
     card.style.setProperty('--class-color', color);
 
@@ -298,6 +429,13 @@
     }
 
     card.appendChild(body);
+    card.appendChild(detailsPanel(row));
+
+    // Touch devices have no hover: a tap toggles the details panel.
+    card.addEventListener('click', function (e) {
+      if (e.target.closest('a')) return;
+      if (window.matchMedia('(hover: none)').matches) card.classList.toggle('open');
+    });
     return card;
   }
 

@@ -59,6 +59,7 @@ ROLE_BY_SPEC = {
     ("druid", "restoration"): "healer",
     ("druid", "balance"): "range",
     ("priest", "shadow"): "range",
+    ("priest", "shadow magic"): "range",
     ("priest", "holy"): "healer",
     ("priest", "discipline"): "healer",
     ("shaman", "enhancement"): "melee",
@@ -117,13 +118,43 @@ def profession_summary(prof):
     }
 
 
+def stat_value(stat):
+    v = (stat or {}).get("value")
+    if isinstance(v, dict):
+        v = v.get("value")
+    return v
+
+
+def stats_summary(stats):
+    out = []
+    for s in (stats or {}).get("overview") or []:
+        slug = s.get("slug")
+        if slug and stat_value(s) is not None:
+            out.append({"slug": slug, "value": stat_value(s)})
+    return out
+
+
+def gear_summary(gear):
+    out = []
+    for key, item in (gear or {}).items():
+        if not isinstance(item, dict) or not item.get("name"):
+            continue
+        out.append({
+            "slot": (item.get("slot") or {}).get("name") or key,
+            "name": item.get("name"),
+            "quality": ((item.get("quality") or {}).get("type") or "").lower(),
+        })
+    return out
+
+
 def summarize(entry, state, url):
     c = state["character"]
-    active = next((s for s in c.get("specs") or [] if s.get("active")), None)
+    specs = sorted(c.get("specs") or [], key=lambda s: s.get("spentPoints") or 0, reverse=True)
+    active = specs[0] if specs and (specs[0].get("spentPoints") or 0) > 0 else None
+    pvp = c.get("pvp") or {}
     professions = c.get("professions") or {}
     primaries = professions.get("primaries") or []
     secondaries = professions.get("secondaries") or []
-    pvp = c.get("pvp") or {}
     media = c.get("media") or {}
     render = c.get("render") or {}
     role, role_source = estimate_role((c.get("class") or {}).get("name"), active.get("name") if active else None)
@@ -147,9 +178,16 @@ def summarize(entry, state, url):
         "specIcon": ((active or {}).get("icon") or {}).get("url"),
         "role": role,
         "roleSource": role_source,
+        "specs": [
+            {"name": s.get("name"), "points": s.get("spentPoints") or 0, "icon": (s.get("icon") or {}).get("url")}
+            for s in specs
+        ],
         "professions": [profession_summary(p) for p in primaries],
         "secondaryProfessions": [profession_summary(p) for p in secondaries],
-        "honorableKills": pvp.get("honorableKills"),
+        "honorableKills": stat_value(pvp.get("honorableKills")),
+        "pvpRank": stat_value(pvp.get("rank")),
+        "stats": stats_summary(c.get("stats")),
+        "gear": gear_summary(c.get("gear")),
         "avatar": (c.get("avatar") or {}).get("url"),
         "render": (media.get("main-raw") or {}).get("url"),
         "background": (render.get("background") or {}).get("url"),

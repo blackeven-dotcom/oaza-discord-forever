@@ -344,6 +344,69 @@ a:hover { text-decoration: underline; }
 .profs-secondary { display: flex; gap: 4px; margin-left: auto; }
 .profs-secondary img { width: 20px; height: 20px; border-radius: 5px; border: 1px solid var(--border); opacity: 0.8; }
 
+/* ---------- details panel (hover / focus / tap) ---------- */
+
+.card-details {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: rgba(11, 13, 18, 0.97);
+  backdrop-filter: blur(8px);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0s linear 0.18s;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+.card:hover .card-details,
+.card:focus-within .card-details,
+.card.open .card-details {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0s;
+}
+.card:focus { outline: none; }
+.card:focus-visible { box-shadow: 0 0 0 2px var(--gold-dim); }
+.details-inner { padding: 14px 14px 12px; font-size: 0.8rem; }
+.details-head { margin-bottom: 8px; }
+.details-name { font-family: var(--font-display); font-weight: 700; font-size: 1rem; color: var(--gold); }
+.details-sub { color: var(--muted); font-size: 0.75rem; }
+.details-section { margin-top: 10px; }
+.details-section h4 {
+  margin: 0 0 5px;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 3px;
+}
+.details-list { display: flex; flex-direction: column; gap: 3px; }
+.details-row { display: flex; align-items: center; gap: 6px; }
+.details-row img.mini { width: 18px; height: 18px; border-radius: 4px; border: 1px solid var(--border-strong); }
+.details-key { color: var(--muted); }
+.details-row .details-key { flex: 1 1 auto; }
+.details-val { color: var(--text); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.details-val.item { white-space: normal; text-align: right; flex: 1 1 60%; }
+.details-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 3px 12px; }
+.details-stat { display: flex; justify-content: space-between; gap: 8px; }
+.details-foot {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
 .card.missing {
   min-height: 200px;
   justify-content: center;
