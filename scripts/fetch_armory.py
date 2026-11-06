@@ -52,14 +52,19 @@ def profession_summary(prof):
         "name": prof.get("name"),
         "skill": tier.get("skillPoints"),
         "max": tier.get("maxSkillPoints"),
+        "icon": (prof.get("icon") or {}).get("url"),
     }
 
 
 def summarize(entry, state, url):
     c = state["character"]
     active = next((s for s in c.get("specs") or [] if s.get("active")), None)
-    primaries = (c.get("professions") or {}).get("primaries") or []
+    professions = c.get("professions") or {}
+    primaries = professions.get("primaries") or []
+    secondaries = professions.get("secondaries") or []
     pvp = c.get("pvp") or {}
+    media = c.get("media") or {}
+    render = c.get("render") or {}
     return {
         "label": entry.get("label") or f"{c.get('name', '')} {c.get('surname', '')}".strip(),
         "name": f"{c.get('name', '')} {c.get('surname', '')}".strip(),
@@ -77,9 +82,13 @@ def summarize(entry, state, url):
         "region": c.get("region"),
         "spec": active.get("name") if active else None,
         "specPoints": active.get("spentPoints") if active else None,
+        "specIcon": ((active or {}).get("icon") or {}).get("url"),
         "professions": [profession_summary(p) for p in primaries],
+        "secondaryProfessions": [profession_summary(p) for p in secondaries],
         "honorableKills": pvp.get("honorableKills"),
         "avatar": (c.get("avatar") or {}).get("url"),
+        "render": (media.get("main-raw") or {}).get("url"),
+        "background": (render.get("background") or {}).get("url"),
         "lastUpdated": (c.get("lastUpdatedTimestamp") or {}).get("iso8601"),
         "outdated": bool(c.get("isOutdated")),
         "url": url,

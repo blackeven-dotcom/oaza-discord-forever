@@ -4,27 +4,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Roster Community</title>
-  <meta name="description" content="Lista postaci społeczności World of Warcraft: Forever, dane z Armory Blizzarda">
+  <meta name="description" content="Lista postaci społeczności World of Warcraft: Forever">
   <link rel="preconnect" href="https://render.worldofwarcraft.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
+  <header class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow">World of Warcraft: Forever</p>
       <h1 id="community-name">Roster</h1>
       <p id="community-tagline" class="tagline"></p>
       <nav id="community-links" class="links"></nav>
+
+      <section class="summary" id="summary" aria-live="polite">
+        <div class="stat"><span class="stat-value" id="stat-count">–</span><span class="stat-label">postaci</span></div>
+        <div class="stat"><span class="stat-value" id="stat-level">–</span><span class="stat-label">średni poziom</span></div>
+        <div class="stat"><span class="stat-value" id="stat-ilvl">–</span><span class="stat-label">średni ilvl</span></div>
+        <div class="stat stat-factions">
+          <span class="stat-value"><img class="faction-icon" src="https://render.worldofwarcraft.com/eu/icons/56/achievement_pvp_h_h.jpg" alt="Horda"><span id="stat-horde">–</span> <span class="stat-sep">/</span> <img class="faction-icon" src="https://render.worldofwarcraft.com/eu/icons/56/achievement_pvp_a_a.jpg" alt="Przymierze"><span id="stat-alliance">–</span></span>
+          <span class="stat-label">horda / przymierze</span>
+        </div>
+      </section>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="summary" id="summary" aria-live="polite">
-      <div class="stat"><span class="stat-value" id="stat-count">–</span><span class="stat-label">postaci</span></div>
-      <div class="stat"><span class="stat-value" id="stat-level">–</span><span class="stat-label">średni poziom</span></div>
-      <div class="stat"><span class="stat-value" id="stat-ilvl">–</span><span class="stat-label">średni ilvl</span></div>
-      <div class="stat"><span class="stat-value" id="stat-factions">–</span><span class="stat-label">horda / przymierze</span></div>
-    </section>
-
     <section class="controls">
       <input id="search" type="search" placeholder="Szukaj postaci, klasy, rasy, profesji…" aria-label="Szukaj">
       <select id="faction-filter" aria-label="Filtr frakcji">
@@ -32,28 +40,19 @@
         <option value="horde">Horda</option>
         <option value="alliance">Przymierze</option>
       </select>
-      <button id="refresh" type="button" title="Wczytaj ponownie dane">Odśwież</button>
+      <select id="sort" aria-label="Sortowanie">
+        <option value="level">Poziom</option>
+        <option value="ilvl">Item level</option>
+        <option value="name">Nazwa</option>
+        <option value="class">Klasa</option>
+      </select>
+      <button id="refresh" type="button" title="Wczytaj ponownie">↻</button>
       <span id="status" class="status"></span>
     </section>
 
-    <div class="table-wrap">
-      <table id="roster">
-        <thead>
-          <tr>
-            <th data-sort="name" aria-sort="none">Postać</th>
-            <th data-sort="class">Klasa / rasa</th>
-            <th data-sort="level" class="num">Poziom</th>
-            <th data-sort="ilvl" class="num">ilvl</th>
-            <th data-sort="faction">Frakcja</th>
-            <th data-sort="professions">Profesje</th>
-            <th data-sort="ruleset">Ruleset</th>
-          </tr>
-        </thead>
-        <tbody id="roster-body"></tbody>
-      </table>
-    </div>
+    <section id="cards" class="cards" aria-live="polite"></section>
 
-    <p class="footnote">Dane: <a href="https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory" rel="noopener">Armory Blizzarda</a>, odświeżane automatycznie co godzinę. Armory aktualizuje postać po wylogowaniu z gry. Postać, której Armory nie zna, pokazuje się jako „brak w Armory”.</p>
+    <p class="footnote">Dane z Armory Blizzarda, aktualizowane automatycznie co godzinę.</p>
   </main>
 
   <script src="assets/app.js"></script>

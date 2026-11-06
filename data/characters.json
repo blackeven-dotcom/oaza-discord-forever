@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:20:27Z",
+  "generatedAt": "2026-11-06T20:24:44Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -19,16 +19,33 @@
       "region": "eu",
       "spec": "Protection",
       "specPoints": 5,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "professions": [
         {
           "name": "Mining",
           "skill": 58,
-          "max": 150
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
           "skill": 51,
-          "max": 75
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 29,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 50,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
       "honorableKills": {
@@ -36,6 +53,8 @@
         "value": 0
       },
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
       "lastUpdated": "2026-11-05T23:16:53Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
@@ -57,16 +76,39 @@
       "region": "eu",
       "spec": "Feral Combat",
       "specPoints": 6,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
       "professions": [
         {
           "name": "Leatherworking",
           "skill": 50,
-          "max": 75
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
         },
         {
           "name": "Skinning",
           "skill": 109,
-          "max": 150
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 42,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "Fishing",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 49,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
       "honorableKills": {
@@ -74,6 +116,8 @@
         "value": 0
       },
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
       "lastUpdated": "2026-11-06T19:46:24Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
@@ -95,16 +139,33 @@
       "region": "eu",
       "spec": "Arms",
       "specPoints": 7,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "professions": [
         {
           "name": "Skinning",
           "skill": 105,
-          "max": 150
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
           "skill": 85,
-          "max": 150
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 82,
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 84,
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
       "honorableKills": {
@@ -112,6 +173,8 @@
         "value": 0
       },
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
       "lastUpdated": "2026-11-06T19:56:07Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
@@ -133,16 +196,39 @@
       "region": "eu",
       "spec": "Fury",
       "specPoints": 5,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132347.jpg",
       "professions": [
         {
           "name": "Skinning",
           "skill": 106,
-          "max": 150
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
           "skill": 44,
-          "max": 75
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 52,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "Fishing",
+          "skill": 52,
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 20,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
       "honorableKills": {
@@ -150,6 +236,8 @@
         "value": 0
       },
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
       "lastUpdated": "2026-11-06T20:12:51Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
@@ -179,16 +267,27 @@
       "region": "eu",
       "spec": "Beast Mastery",
       "specPoints": 10,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "professions": [
         {
           "name": "Leatherworking",
           "skill": 75,
-          "max": 150
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
         },
         {
           "name": "Skinning",
           "skill": 140,
-          "max": 150
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 26,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
       "honorableKills": {
@@ -196,6 +295,8 @@
         "value": 0
       },
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
       "lastUpdated": "2026-11-05T23:21:58Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
@@ -217,16 +318,33 @@
       "region": "eu",
       "spec": "Discipline",
       "specPoints": 2,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "professions": [
         {
           "name": "Tailoring",
           "skill": 61,
-          "max": 150
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
           "skill": 79,
-          "max": 150
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 16,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 31,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
       "honorableKills": {
@@ -234,6 +352,8 @@
         "value": 0
       },
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
       "lastUpdated": "2026-11-06T11:35:20Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
@@ -255,16 +375,27 @@
       "region": "eu",
       "spec": "Frost",
       "specPoints": 5,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "professions": [
         {
           "name": "Tailoring",
           "skill": 48,
-          "max": 75
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
           "skill": 23,
-          "max": 75
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 17,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
       "honorableKills": {
@@ -272,6 +403,8 @@
         "value": 0
       },
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
       "lastUpdated": "2026-11-06T19:29:03Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
@@ -293,16 +426,33 @@
       "region": "eu",
       "spec": null,
       "specPoints": null,
+      "specIcon": null,
       "professions": [
         {
           "name": "Alchemy",
           "skill": 41,
-          "max": 75
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
           "skill": 63,
-          "max": 75
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
       "honorableKills": {
@@ -310,6 +460,8 @@
         "value": 0
       },
       "avatar": null,
+      "render": null,
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
       "lastUpdated": "2026-11-06T17:39:29Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"

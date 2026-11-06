@@ -1,15 +1,17 @@
 /* Community roster for World of Warcraft: Forever.
- *
- * Character data comes from Blizzard's Armory. A GitHub Actions workflow
- * (.github/workflows/update-roster.yml) runs scripts/fetch_armory.py every
- * hour and commits data/characters.json; this page only reads that file.
- * No API keys, no backend. */
+ * Reads data/characters.json (generated hourly from Blizzard's Armory)
+ * and renders character cards. No API keys, no backend. */
 
 (function () {
   'use strict';
 
   const DATA_URL = 'data/characters.json';
   const MAX_LEVEL = 60;
+  const ICON_BASE = 'https://render.worldofwarcraft.com/eu/icons/56/';
+  const FACTION_ICONS = {
+    horde: ICON_BASE + 'achievement_pvp_h_h.jpg',
+    alliance: ICON_BASE + 'achievement_pvp_a_a.jpg'
+  };
 
   const CLASS_COLORS = {
     'Death Knight': '#C41E3A',
@@ -34,34 +36,24 @@
     name: document.getElementById('community-name'),
     tagline: document.getElementById('community-tagline'),
     links: document.getElementById('community-links'),
-    body: document.getElementById('roster-body'),
+    cards: document.getElementById('cards'),
     search: document.getElementById('search'),
     faction: document.getElementById('faction-filter'),
+    sort: document.getElementById('sort'),
     refresh: document.getElementById('refresh'),
     status: document.getElementById('status'),
     statCount: document.getElementById('stat-count'),
     statLevel: document.getElementById('stat-level'),
     statIlvl: document.getElementById('stat-ilvl'),
-    statFactions: document.getElementById('stat-factions'),
-    headers: Array.from(document.querySelectorAll('th[data-sort]'))
+    statHorde: document.getElementById('stat-horde'),
+    statAlliance: document.getElementById('stat-alliance')
   };
 
   let config = null;
   let rows = [];
   let generatedAt = null;
-  let sortKey = 'level';
-  let sortDir = -1;
 
   /* ---------- helpers ---------- */
-
-  function levelColor(level) {
-    if (level >= MAX_LEVEL) return 'var(--accent)';
-    if (level >= 50) return '#a335ee';
-    if (level >= 40) return '#0070dd';
-    if (level >= 20) return '#1eff00';
-    if (level > 0) return '#ffffff';
-    return 'var(--muted)';
-  }
 
   function formatTime(iso) {
     if (!iso) return '';
@@ -72,6 +64,27 @@
 
   function setStatus(text) {
     el.status.textContent = text;
+  }
+
+  function h(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+
+  function img(src, className, alt) {
+    const node = document.createElement('img');
+    node.src = src;
+    node.alt = alt || '';
+    node.loading = 'lazy';
+    node.decoding = 'async';
+    if (className) node.className = className;
+    return node;
+  }
+
+  function classIcon(slug) {
+    return slug ? ICON_BASE + 'classicon_' + slug + '.jpg' : '';
   }
 
   /* ---------- data ---------- */
@@ -85,16 +98,20 @@
       name: c.name || '',
       leader: !!c.leader,
       cls: c.class || '',
+      classSlug: c.classSlug || '',
       race: c.race || '',
       faction: c.faction || '',
       level: Number(c.level) || 0,
       ilvl: Number(c.ilvl) || 0,
       spec: c.spec || '',
+      specIcon: c.specIcon || '',
       ruleset: c.ruleset || '',
       professions: Array.isArray(c.professions) ? c.professions : [],
-      thumb: c.avatar || '',
+      secondary: Array.isArray(c.secondaryProfessions) ? c.secondaryProfessions : [],
+      avatar: c.avatar || '',
+      render: c.render || '',
+      background: c.background || '',
       lastUpdated: c.lastUpdated || '',
-      outdated: !!c.outdated,
       url: c.url || ''
     };
   }
@@ -108,10 +125,10 @@
       const data = await res.json();
       generatedAt = data.generatedAt || null;
       rows = (data.characters || []).map(normalize);
-      setStatus(generatedAt ? 'Dane z Armory: ' + formatTime(generatedAt) : 'Dane z Armory');
+      setStatus(generatedAt ? 'Stan na ' + formatTime(generatedAt) : '');
     } catch (e) {
       rows = [];
-      setStatus('Brak pliku data/characters.json (' + e.message + '). Uruchom workflow „Update roster from Armory”.');
+      setStatus('Nie udało się wczytać danych (' + e.message + ').');
     }
     el.refresh.disabled = false;
     render();
@@ -120,17 +137,18 @@
   /* ---------- rendering ---------- */
 
   function compare(a, b) {
-    // Pending/failed rows always sink to the bottom.
     const ra = a.ok ? 0 : 1, rb = b.ok ? 0 : 1;
     if (ra !== rb) return ra - rb;
-    let va = a[sortKey], vb = b[sortKey];
-    if (sortKey === 'class') { va = a.cls + a.spec; vb = b.cls + b.spec; }
-    if (sortKey === 'professions') {
-      va = a.professions.map(function (p) { return p.name; }).join(', ');
-      vb = b.professions.map(function (p) { return p.name; }).join(', ');
+    const key = el.sort.value;
+    if (key === 'level' || key === 'ilvl') {
+      if (b[key] !== a[key]) return b[key] - a[key];
+      return a.name.localeCompare(b.name, 'pl');
     }
-    if (typeof va === 'number' && typeof vb === 'number') return (va - vb) * sortDir;
-    return String(va).localeCompare(String(vb), 'pl') * sortDir;
+    if (key === 'class') {
+      const c = a.cls.localeCompare(b.cls, 'pl');
+      return c || b.level - a.level;
+    }
+    return (a.name || a.label).localeCompare(b.name || b.label, 'pl');
   }
 
   function matches(row) {
@@ -138,130 +156,134 @@
     const faction = el.faction.value;
     if (faction && row.faction !== faction) return false;
     if (!q) return true;
-    const profs = row.professions.map(function (p) { return p.name; }).join(' ');
+    const profs = row.professions.concat(row.secondary).map(function (p) { return p.name; }).join(' ');
     const hay = [row.name, row.label, row.cls, row.spec, row.race, profs, row.ruleset].join(' ').toLowerCase();
     return hay.indexOf(q) !== -1;
   }
 
-  function td(className, content) {
-    const cell = document.createElement('td');
-    if (className) cell.className = className;
-    if (content instanceof Node) cell.appendChild(content); else cell.textContent = content;
-    return cell;
+  function missingCard(row) {
+    const card = h('article', 'card missing');
+    card.appendChild(h('div', 'silhouette', '?'));
+    const name = h('div', 'card-name', row.name || row.label || '?');
+    if (row.leader) name.appendChild(h('span', 'leader', '♛'));
+    card.appendChild(name);
+    card.appendChild(h('div', 'reason', row.pending ? 'uzupełnij nazwę postaci w roster.json' : (row.error || 'brak w Armory')));
+    return card;
   }
 
-  function charCell(row) {
-    const box = document.createElement('div');
-    box.className = 'char';
+  function professionRow(p) {
+    const line = h('div', 'prof');
+    line.appendChild(p.icon ? img(p.icon, '', p.name) : h('span'));
+    const mid = h('div');
+    mid.appendChild(h('div', 'prof-name', p.name || ''));
+    if (p.skill != null && p.max) {
+      const bar = h('div', 'prof-bar');
+      const fill = h('i');
+      fill.style.width = Math.max(0, Math.min(100, Math.round(100 * p.skill / p.max))) + '%';
+      bar.appendChild(fill);
+      mid.appendChild(bar);
+    }
+    line.appendChild(mid);
+    line.appendChild(h('div', 'prof-skill', p.skill != null ? p.skill + (p.max ? ' / ' + p.max : '') : ''));
+    return line;
+  }
 
-    const img = document.createElement('img');
-    img.className = 'avatar';
-    img.alt = '';
-    img.loading = 'lazy';
-    if (row.thumb) img.src = row.thumb;
-    box.appendChild(img);
+  function card(row) {
+    if (!row.ok) return missingCard(row);
 
-    const text = document.createElement('div');
-    const nameEl = document.createElement(row.url ? 'a' : 'span');
-    nameEl.className = 'char-name';
-    nameEl.textContent = row.name || row.label || '?';
-    if (row.url) { nameEl.href = row.url; nameEl.target = '_blank'; nameEl.rel = 'noopener'; }
-    if (row.cls && CLASS_COLORS[row.cls]) nameEl.style.color = CLASS_COLORS[row.cls];
-    text.appendChild(nameEl);
+    const card = h('article', 'card');
+    const color = CLASS_COLORS[row.cls] || 'var(--text)';
+    card.style.setProperty('--class-color', color);
 
+    const bg = h('div', 'card-bg');
+    if (row.background) bg.style.backgroundImage = 'url("' + row.background + '")';
+    card.appendChild(bg);
+
+    if (row.render) card.appendChild(img(row.render, 'card-render', ''));
+
+    const level = h('div', 'badge-level' + (row.level >= MAX_LEVEL ? ' max' : ''), String(row.level || '–'));
+    level.appendChild(h('small', '', 'LVL'));
+    level.title = 'Poziom ' + row.level;
+    card.appendChild(level);
+
+    if (FACTION_ICONS[row.faction]) {
+      const f = img(FACTION_ICONS[row.faction], 'badge-faction ' + row.faction, FACTION_LABELS[row.faction]);
+      f.title = FACTION_LABELS[row.faction];
+      card.appendChild(f);
+    }
+
+    const body = h('div', 'card-body');
+
+    const title = h('div', 'card-title');
+    if (row.classSlug) {
+      const ci = img(classIcon(row.classSlug), 'class-icon', row.cls);
+      ci.title = row.cls;
+      title.appendChild(ci);
+    }
+    const text = h('div');
+    const name = h('div', 'card-name');
+    name.style.color = color;
+    const nameEl = row.url ? h('a', '', row.name) : h('span', '', row.name);
+    if (row.url) { nameEl.href = row.url; nameEl.target = '_blank'; nameEl.rel = 'noopener'; nameEl.title = 'Profil w Armory'; }
+    name.appendChild(nameEl);
     if (row.leader) {
-      const crown = document.createElement('span');
-      crown.className = 'leader';
+      const crown = h('span', 'leader', '♛');
       crown.title = 'Lider';
-      crown.textContent = '♛';
-      text.appendChild(crown);
+      name.appendChild(crown);
+    }
+    text.appendChild(name);
+    text.appendChild(h('div', 'card-sub', [row.race, row.cls].filter(Boolean).join(' · ')));
+    if (row.label && row.label !== row.name) text.appendChild(h('div', 'card-label', row.label));
+    title.appendChild(text);
+    body.appendChild(title);
+
+    const meta = h('div', 'card-meta');
+    if (row.spec) {
+      const chip = h('span', 'chip');
+      if (row.specIcon) chip.appendChild(img(row.specIcon, '', row.spec));
+      chip.appendChild(h('span', '', row.spec));
+      meta.appendChild(chip);
+    }
+    const ilvl = h('span', 'chip ilvl');
+    ilvl.appendChild(h('span', 'chip-label', 'ilvl'));
+    ilvl.appendChild(h('b', '', row.ilvl ? String(row.ilvl) : '–'));
+    meta.appendChild(ilvl);
+    if (row.ruleset) {
+      const rs = h('span', 'chip ilvl');
+      rs.appendChild(h('span', 'chip-label', RULESET_LABELS[row.ruleset] || row.ruleset));
+      meta.appendChild(rs);
+    }
+    body.appendChild(meta);
+
+    if (row.professions.length) {
+      const profs = h('div', 'profs');
+      row.professions.forEach(function (p) { profs.appendChild(professionRow(p)); });
+      body.appendChild(profs);
+    }
+    if (row.secondary.length) {
+      const sec = h('div', 'profs-secondary');
+      row.secondary.forEach(function (p) {
+        if (!p.icon) return;
+        const i = img(p.icon, '', p.name);
+        i.title = p.name + (p.skill != null ? ' ' + p.skill + (p.max ? '/' + p.max : '') : '');
+        sec.appendChild(i);
+      });
+      body.appendChild(sec);
     }
 
-    if (row.label && row.name && row.label !== row.name) {
-      const label = document.createElement('div');
-      label.className = 'char-label';
-      label.textContent = row.label;
-      text.appendChild(label);
-    }
-    box.appendChild(text);
-    return box;
-  }
-
-  function professionsCell(row) {
-    const box = document.createElement('div');
-    if (!row.professions.length) { box.textContent = '–'; return box; }
-    row.professions.forEach(function (p) {
-      const line = document.createElement('div');
-      line.className = 'prof';
-      line.textContent = p.name + (p.skill != null ? ' ' + p.skill + (p.max ? '/' + p.max : '') : '');
-      box.appendChild(line);
-    });
-    return box;
+    card.appendChild(body);
+    return card;
   }
 
   function render() {
     const visible = rows.filter(matches).sort(compare);
     const frag = document.createDocumentFragment();
-
-    visible.forEach(function (row) {
-      const tr = document.createElement('tr');
-
-      if (row.pending) {
-        tr.className = 'pending';
-        tr.appendChild(td('', charCell(row)));
-        const note = td('note', 'uzupełnij nazwę postaci w roster.json');
-        note.colSpan = 6;
-        tr.appendChild(note);
-        frag.appendChild(tr);
-        return;
-      }
-
-      if (!row.ok) {
-        tr.appendChild(td('', charCell(row)));
-        const err = td('error', row.error || 'błąd');
-        err.colSpan = 6;
-        tr.appendChild(err);
-        frag.appendChild(tr);
-        return;
-      }
-
-      tr.appendChild(td('', charCell(row)));
-
-      const cls = document.createElement('div');
-      const clsName = document.createElement('div');
-      clsName.textContent = row.cls;
-      if (CLASS_COLORS[row.cls]) clsName.style.color = CLASS_COLORS[row.cls];
-      const sub = document.createElement('div');
-      sub.className = 'spec';
-      sub.textContent = [row.race, row.spec].filter(Boolean).join(' · ');
-      cls.appendChild(clsName);
-      cls.appendChild(sub);
-      tr.appendChild(td('', cls));
-
-      const level = document.createElement('span');
-      level.className = 'score';
-      level.textContent = row.level ? String(row.level) : '–';
-      level.style.color = levelColor(row.level);
-      tr.appendChild(td('num', level));
-
-      tr.appendChild(td('num', row.ilvl ? String(row.ilvl) : '–'));
-
-      const faction = document.createElement('span');
-      faction.className = 'faction faction-' + row.faction;
-      faction.textContent = FACTION_LABELS[row.faction] || row.faction || '–';
-      tr.appendChild(td('', faction));
-
-      tr.appendChild(td('', professionsCell(row)));
-      tr.appendChild(td('', RULESET_LABELS[row.ruleset] || row.ruleset || '–'));
-      if (row.outdated) tr.title = 'Dane w Armory oznaczone jako nieaktualne';
-      frag.appendChild(tr);
-    });
-
-    el.body.replaceChildren(frag);
+    if (!visible.length) {
+      frag.appendChild(h('p', 'empty', rows.length ? 'Nic nie pasuje do filtra.' : 'Brak danych.'));
+    }
+    visible.forEach(function (row) { frag.appendChild(card(row)); });
+    el.cards.replaceChildren(frag);
     renderSummary();
-    el.headers.forEach(function (th) {
-      th.setAttribute('aria-sort', th.dataset.sort === sortKey ? (sortDir > 0 ? 'ascending' : 'descending') : 'none');
-    });
   }
 
   function renderSummary() {
@@ -276,7 +298,8 @@
     el.statCount.textContent = ok.length + ' / ' + rows.length;
     el.statLevel.textContent = avg('level') !== null ? avg('level') : '–';
     el.statIlvl.textContent = avg('ilvl') !== null ? avg('ilvl') : '–';
-    el.statFactions.textContent = ok.length ? factions.horde + ' / ' + factions.alliance : '–';
+    el.statHorde.textContent = ok.length ? factions.horde : '–';
+    el.statAlliance.textContent = ok.length ? factions.alliance : '–';
   }
 
   function renderHeader() {
@@ -286,9 +309,8 @@
     el.tagline.textContent = c.tagline || '';
     el.links.replaceChildren();
     if (c.discord) {
-      const a = document.createElement('a');
+      const a = h('a', '', 'Discord');
       a.href = c.discord; a.target = '_blank'; a.rel = 'noopener';
-      a.textContent = 'Discord';
       el.links.appendChild(a);
     }
   }
@@ -298,14 +320,8 @@
   function bind() {
     el.search.addEventListener('input', render);
     el.faction.addEventListener('change', render);
+    el.sort.addEventListener('change', render);
     el.refresh.addEventListener('click', function () { load(true); });
-    el.headers.forEach(function (th) {
-      th.addEventListener('click', function () {
-        const key = th.dataset.sort;
-        if (sortKey === key) { sortDir = -sortDir; } else { sortKey = key; sortDir = (key === 'level' || key === 'ilvl') ? -1 : 1; }
-        render();
-      });
-    });
   }
 
   async function boot() {
