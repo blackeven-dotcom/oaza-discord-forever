@@ -8,10 +8,7 @@
   const DATA_URL = 'data/characters.json';
   const MAX_LEVEL = 60;
   const ICON_BASE = 'https://render.worldofwarcraft.com/eu/icons/56/';
-  const FACTION_ICONS = {
-    horde: ICON_BASE + 'achievement_pvp_h_h.jpg',
-    alliance: ICON_BASE + 'achievement_pvp_a_a.jpg'
-  };
+  const HORDE_ICON = ICON_BASE + 'achievement_pvp_h_h.jpg';
 
   const CLASS_COLORS = {
     'Death Knight': '#C41E3A',
@@ -38,7 +35,6 @@
     melee: ICON_BASE + 'ability_dualwield.jpg'
   };
 
-  const FACTION_LABELS = { horde: 'Horda', alliance: 'Przymierze' };
   const RULESET_LABELS = { normal: 'Normal', pvp: 'PvP' };
 
   const el = {
@@ -47,7 +43,6 @@
     links: document.getElementById('community-links'),
     cards: document.getElementById('cards'),
     search: document.getElementById('search'),
-    faction: document.getElementById('faction-filter'),
     role: document.getElementById('role-filter'),
     sort: document.getElementById('sort'),
     refresh: document.getElementById('refresh'),
@@ -55,8 +50,6 @@
     statCount: document.getElementById('stat-count'),
     statLevel: document.getElementById('stat-level'),
     statIlvl: document.getElementById('stat-ilvl'),
-    statHorde: document.getElementById('stat-horde'),
-    statAlliance: document.getElementById('stat-alliance'),
     statRoles: {
       tank: document.getElementById('stat-tank'),
       healer: document.getElementById('stat-healer'),
@@ -176,9 +169,7 @@
 
   function matches(row) {
     const q = el.search.value.trim().toLowerCase();
-    const faction = el.faction.value;
     const role = el.role.value;
-    if (faction && row.faction !== faction) return false;
     if (role && row.role !== role) return false;
     if (!q) return true;
     const profs = row.professions.concat(row.secondary).map(function (p) { return p.name; }).join(' ');
@@ -239,9 +230,9 @@
       r.title = row.roleEstimated ? 'Rola oszacowana z klasy (brak specjalizacji)' : 'Rola na podstawie specjalizacji';
       badges.appendChild(r);
     }
-    if (FACTION_ICONS[row.faction]) {
-      const f = img(FACTION_ICONS[row.faction], 'badge-faction ' + row.faction, FACTION_LABELS[row.faction]);
-      f.title = FACTION_LABELS[row.faction];
+    if (row.faction === 'horde') {
+      const f = img(HORDE_ICON, 'badge-faction horde', 'Horda');
+      f.title = 'Horda';
       badges.appendChild(f);
     }
     card.appendChild(badges);
@@ -266,8 +257,9 @@
       name.appendChild(crown);
     }
     text.appendChild(name);
-    text.appendChild(h('div', 'card-sub', [row.race, row.cls].filter(Boolean).join(' · ')));
-    if (row.label && row.label !== row.name) text.appendChild(h('div', 'card-label', row.label));
+    const subParts = [row.race, row.cls];
+    if (row.label && row.label !== row.name) subParts.push(row.label);
+    text.appendChild(h('div', 'card-sub', subParts.filter(Boolean).join(' · ')));
     title.appendChild(text);
     body.appendChild(title);
 
@@ -289,20 +281,20 @@
     }
     body.appendChild(meta);
 
-    if (row.professions.length) {
+    if (row.professions.length || row.secondary.length) {
       const profs = h('div', 'profs');
       row.professions.forEach(function (p) { profs.appendChild(professionRow(p)); });
+      if (row.secondary.length) {
+        const sec = h('div', 'profs-secondary');
+        row.secondary.forEach(function (p) {
+          if (!p.icon) return;
+          const i = img(p.icon, '', p.name);
+          i.title = p.name + (p.skill != null ? ' ' + p.skill + (p.max ? '/' + p.max : '') : '');
+          sec.appendChild(i);
+        });
+        profs.appendChild(sec);
+      }
       body.appendChild(profs);
-    }
-    if (row.secondary.length) {
-      const sec = h('div', 'profs-secondary');
-      row.secondary.forEach(function (p) {
-        if (!p.icon) return;
-        const i = img(p.icon, '', p.name);
-        i.title = p.name + (p.skill != null ? ' ' + p.skill + (p.max ? '/' + p.max : '') : '');
-        sec.appendChild(i);
-      });
-      body.appendChild(sec);
     }
 
     card.appendChild(body);
@@ -326,14 +318,9 @@
       const vals = ok.map(function (r) { return r[key]; }).filter(function (v) { return v > 0; });
       return vals.length ? Math.round(vals.reduce(function (a, b) { return a + b; }, 0) / vals.length) : null;
     };
-    const factions = { horde: 0, alliance: 0 };
-    ok.forEach(function (r) { if (factions[r.faction] !== undefined) factions[r.faction] += 1; });
-
     el.statCount.textContent = ok.length + ' / ' + rows.length;
     el.statLevel.textContent = avg('level') !== null ? avg('level') : '–';
     el.statIlvl.textContent = avg('ilvl') !== null ? avg('ilvl') : '–';
-    el.statHorde.textContent = ok.length ? factions.horde : '–';
-    el.statAlliance.textContent = ok.length ? factions.alliance : '–';
     const roles = { tank: 0, healer: 0, range: 0, melee: 0 };
     ok.forEach(function (r) { if (roles[r.role] !== undefined) roles[r.role] += 1; });
     Object.keys(roles).forEach(function (k) { el.statRoles[k].textContent = ok.length ? roles[k] : '–'; });
@@ -356,7 +343,6 @@
 
   function bind() {
     el.search.addEventListener('input', render);
-    el.faction.addEventListener('change', render);
     el.role.addEventListener('change', render);
     el.sort.addEventListener('change', render);
     el.refresh.addEventListener('click', function () { load(true); });

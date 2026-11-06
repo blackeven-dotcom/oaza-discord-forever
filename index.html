@@ -15,7 +15,7 @@
   <header class="hero">
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="wrap hero-inner">
-      <p class="eyebrow">World of Warcraft: Forever</p>
+      <p class="eyebrow">Roster postaci</p>
       <h1 id="community-name">Roster</h1>
       <p id="community-tagline" class="tagline"></p>
       <nav id="community-links" class="links"></nav>
@@ -25,17 +25,12 @@
         <div class="stat"><span class="stat-value" id="stat-level">–</span><span class="stat-label">średni poziom</span></div>
         <div class="stat"><span class="stat-value" id="stat-ilvl">–</span><span class="stat-label">średni ilvl</span></div>
         <div class="stat stat-roles">
-          <span class="stat-value roles">
-            <span title="Tank"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/ability_warrior_defensivestance.jpg" alt="Tank"><span id="stat-tank">–</span></span>
-            <span title="Healer"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/spell_holy_flashheal.jpg" alt="Healer"><span id="stat-healer">–</span></span>
-            <span title="Range DPS"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/ability_marksmanship.jpg" alt="Range DPS"><span id="stat-range">–</span></span>
-            <span title="Melee DPS"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/ability_dualwield.jpg" alt="Melee DPS"><span id="stat-melee">–</span></span>
-          </span>
-          <span class="stat-label">tank / heal / range / melee</span>
-        </div>
-        <div class="stat stat-factions">
-          <span class="stat-value"><img class="faction-icon" src="https://render.worldofwarcraft.com/eu/icons/56/achievement_pvp_h_h.jpg" alt="Horda"><span id="stat-horde">–</span> <span class="stat-sep">/</span> <img class="faction-icon" src="https://render.worldofwarcraft.com/eu/icons/56/achievement_pvp_a_a.jpg" alt="Przymierze"><span id="stat-alliance">–</span></span>
-          <span class="stat-label">horda / przymierze</span>
+          <div class="roles">
+            <div class="role" title="Tank"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/ability_warrior_defensivestance.jpg" alt=""><span class="role-count" id="stat-tank">–</span><span class="role-name">tank</span></div>
+            <div class="role" title="Healer"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/spell_holy_flashheal.jpg" alt=""><span class="role-count" id="stat-healer">–</span><span class="role-name">heal</span></div>
+            <div class="role" title="Range DPS"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/ability_marksmanship.jpg" alt=""><span class="role-count" id="stat-range">–</span><span class="role-name">range</span></div>
+            <div class="role" title="Melee DPS"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/ability_dualwield.jpg" alt=""><span class="role-count" id="stat-melee">–</span><span class="role-name">melee</span></div>
+          </div>
         </div>
       </section>
     </div>
@@ -44,11 +39,6 @@
   <main class="wrap">
     <section class="controls">
       <input id="search" type="search" placeholder="Szukaj postaci, klasy, rasy, profesji…" aria-label="Szukaj">
-      <select id="faction-filter" aria-label="Filtr frakcji">
-        <option value="">Obie frakcje</option>
-        <option value="horde">Horda</option>
-        <option value="alliance">Przymierze</option>
-      </select>
       <select id="role-filter" aria-label="Filtr roli">
         <option value="">Wszystkie role</option>
         <option value="tank">Tank</option>
