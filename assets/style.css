@@ -115,6 +115,15 @@ a:hover { text-decoration: underline; }
 .stat-sep { color: var(--muted); font-weight: 400; }
 .stat-label { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.12em; }
 .faction-icon { width: 26px; height: 26px; border-radius: 6px; border: 1px solid var(--border-strong); }
+.stat-value.roles { gap: 10px; font-size: 1.3rem; }
+.stat-value.roles > span { display: inline-flex; align-items: center; gap: 4px; }
+.role-icon { width: 22px; height: 22px; border-radius: 5px; border: 1px solid var(--border-strong); }
+.chip.role { border-color: var(--border-strong); }
+.chip.role.tank img { border-color: #4f8cff; }
+.chip.role.healer img { border-color: #3ddc84; }
+.chip.role.range img, .chip.role.melee img { border-color: var(--horde); }
+.chip.role.estimated { opacity: 0.85; }
+.chip.role.estimated span::after { content: " ?"; color: var(--muted); }
 
 /* ---------- controls ---------- */
 

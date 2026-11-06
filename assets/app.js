@@ -29,6 +29,15 @@
     'Warrior': '#C69B3A'
   };
 
+  const ROLE_LABELS = { tank: 'Tank', healer: 'Healer', range: 'Range DPS', melee: 'Melee DPS' };
+  const ROLE_ORDER = { tank: 0, healer: 1, range: 2, melee: 3 };
+  const ROLE_ICONS = {
+    tank: ICON_BASE + 'ability_warrior_defensivestance.jpg',
+    healer: ICON_BASE + 'spell_holy_flashheal.jpg',
+    range: ICON_BASE + 'ability_marksmanship.jpg',
+    melee: ICON_BASE + 'ability_dualwield.jpg'
+  };
+
   const FACTION_LABELS = { horde: 'Horda', alliance: 'Przymierze' };
   const RULESET_LABELS = { normal: 'Normal', pvp: 'PvP' };
 
@@ -39,6 +48,7 @@
     cards: document.getElementById('cards'),
     search: document.getElementById('search'),
     faction: document.getElementById('faction-filter'),
+    role: document.getElementById('role-filter'),
     sort: document.getElementById('sort'),
     refresh: document.getElementById('refresh'),
     status: document.getElementById('status'),
@@ -46,7 +56,13 @@
     statLevel: document.getElementById('stat-level'),
     statIlvl: document.getElementById('stat-ilvl'),
     statHorde: document.getElementById('stat-horde'),
-    statAlliance: document.getElementById('stat-alliance')
+    statAlliance: document.getElementById('stat-alliance'),
+    statRoles: {
+      tank: document.getElementById('stat-tank'),
+      healer: document.getElementById('stat-healer'),
+      range: document.getElementById('stat-range'),
+      melee: document.getElementById('stat-melee')
+    }
   };
 
   let config = null;
@@ -105,6 +121,8 @@
       ilvl: Number(c.ilvl) || 0,
       spec: c.spec || '',
       specIcon: c.specIcon || '',
+      role: c.role || '',
+      roleEstimated: c.roleSource === 'class',
       ruleset: c.ruleset || '',
       professions: Array.isArray(c.professions) ? c.professions : [],
       secondary: Array.isArray(c.secondaryProfessions) ? c.secondaryProfessions : [],
@@ -148,16 +166,23 @@
       const c = a.cls.localeCompare(b.cls, 'pl');
       return c || b.level - a.level;
     }
+    if (key === 'role') {
+      const oa = ROLE_ORDER[a.role] != null ? ROLE_ORDER[a.role] : 9;
+      const ob = ROLE_ORDER[b.role] != null ? ROLE_ORDER[b.role] : 9;
+      return (oa - ob) || (b.level - a.level);
+    }
     return (a.name || a.label).localeCompare(b.name || b.label, 'pl');
   }
 
   function matches(row) {
     const q = el.search.value.trim().toLowerCase();
     const faction = el.faction.value;
+    const role = el.role.value;
     if (faction && row.faction !== faction) return false;
+    if (role && row.role !== role) return false;
     if (!q) return true;
     const profs = row.professions.concat(row.secondary).map(function (p) { return p.name; }).join(' ');
-    const hay = [row.name, row.label, row.cls, row.spec, row.race, profs, row.ruleset].join(' ').toLowerCase();
+    const hay = [row.name, row.label, row.cls, row.spec, row.race, profs, row.ruleset, ROLE_LABELS[row.role] || ''].join(' ').toLowerCase();
     return hay.indexOf(q) !== -1;
   }
 
@@ -238,6 +263,13 @@
     body.appendChild(title);
 
     const meta = h('div', 'card-meta');
+    if (row.role && ROLE_LABELS[row.role]) {
+      const chip = h('span', 'chip role ' + row.role + (row.roleEstimated ? ' estimated' : ''));
+      chip.appendChild(img(ROLE_ICONS[row.role], '', ROLE_LABELS[row.role]));
+      chip.appendChild(h('span', '', ROLE_LABELS[row.role]));
+      chip.title = row.roleEstimated ? 'Rola oszacowana z klasy (brak specjalizacji)' : 'Rola na podstawie specjalizacji';
+      meta.appendChild(chip);
+    }
     if (row.spec) {
       const chip = h('span', 'chip');
       if (row.specIcon) chip.appendChild(img(row.specIcon, '', row.spec));
@@ -300,6 +332,9 @@
     el.statIlvl.textContent = avg('ilvl') !== null ? avg('ilvl') : '–';
     el.statHorde.textContent = ok.length ? factions.horde : '–';
     el.statAlliance.textContent = ok.length ? factions.alliance : '–';
+    const roles = { tank: 0, healer: 0, range: 0, melee: 0 };
+    ok.forEach(function (r) { if (roles[r.role] !== undefined) roles[r.role] += 1; });
+    Object.keys(roles).forEach(function (k) { el.statRoles[k].textContent = ok.length ? roles[k] : '–'; });
   }
 
   function renderHeader() {
@@ -320,6 +355,7 @@
   function bind() {
     el.search.addEventListener('input', render);
     el.faction.addEventListener('change', render);
+    el.role.addEventListener('change', render);
     el.sort.addEventListener('change', render);
     el.refresh.addEventListener('click', function () { load(true); });
   }

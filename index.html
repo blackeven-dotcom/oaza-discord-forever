@@ -24,6 +24,15 @@
         <div class="stat"><span class="stat-value" id="stat-count">–</span><span class="stat-label">postaci</span></div>
         <div class="stat"><span class="stat-value" id="stat-level">–</span><span class="stat-label">średni poziom</span></div>
         <div class="stat"><span class="stat-value" id="stat-ilvl">–</span><span class="stat-label">średni ilvl</span></div>
+        <div class="stat stat-roles">
+          <span class="stat-value roles">
+            <span title="Tank"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/ability_warrior_defensivestance.jpg" alt="Tank"><span id="stat-tank">–</span></span>
+            <span title="Healer"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/spell_holy_flashheal.jpg" alt="Healer"><span id="stat-healer">–</span></span>
+            <span title="Range DPS"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/ability_marksmanship.jpg" alt="Range DPS"><span id="stat-range">–</span></span>
+            <span title="Melee DPS"><img class="role-icon" src="https://render.worldofwarcraft.com/eu/icons/56/ability_dualwield.jpg" alt="Melee DPS"><span id="stat-melee">–</span></span>
+          </span>
+          <span class="stat-label">tank / heal / range / melee</span>
+        </div>
         <div class="stat stat-factions">
           <span class="stat-value"><img class="faction-icon" src="https://render.worldofwarcraft.com/eu/icons/56/achievement_pvp_h_h.jpg" alt="Horda"><span id="stat-horde">–</span> <span class="stat-sep">/</span> <img class="faction-icon" src="https://render.worldofwarcraft.com/eu/icons/56/achievement_pvp_a_a.jpg" alt="Przymierze"><span id="stat-alliance">–</span></span>
           <span class="stat-label">horda / przymierze</span>
@@ -40,11 +49,19 @@
         <option value="horde">Horda</option>
         <option value="alliance">Przymierze</option>
       </select>
+      <select id="role-filter" aria-label="Filtr roli">
+        <option value="">Wszystkie role</option>
+        <option value="tank">Tank</option>
+        <option value="healer">Healer</option>
+        <option value="range">Range DPS</option>
+        <option value="melee">Melee DPS</option>
+      </select>
       <select id="sort" aria-label="Sortowanie">
         <option value="level">Poziom</option>
         <option value="ilvl">Item level</option>
         <option value="name">Nazwa</option>
         <option value="class">Klasa</option>
+        <option value="role">Rola</option>
       </select>
       <button id="refresh" type="button" title="Wczytaj ponownie">↻</button>
       <span id="status" class="status"></span>

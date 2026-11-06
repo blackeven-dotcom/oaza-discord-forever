@@ -45,6 +45,67 @@ def fetch(url, retries=3):
     raise RuntimeError(f"{url}: {last}")
 
 
+# Role estimate: active spec first, class default when no spec is known.
+ROLE_BY_SPEC = {
+    ("warrior", "protection"): "tank",
+    ("warrior", "arms"): "melee",
+    ("warrior", "fury"): "melee",
+    ("paladin", "protection"): "tank",
+    ("paladin", "holy"): "healer",
+    ("paladin", "retribution"): "melee",
+    ("druid", "feral combat"): "melee",
+    ("druid", "feral"): "melee",
+    ("druid", "guardian"): "tank",
+    ("druid", "restoration"): "healer",
+    ("druid", "balance"): "range",
+    ("priest", "shadow"): "range",
+    ("priest", "holy"): "healer",
+    ("priest", "discipline"): "healer",
+    ("shaman", "enhancement"): "melee",
+    ("shaman", "elemental"): "range",
+    ("shaman", "restoration"): "healer",
+    ("hunter", "beast mastery"): "range",
+    ("hunter", "marksmanship"): "range",
+    ("hunter", "survival"): "range",
+    ("rogue", "assassination"): "melee",
+    ("rogue", "combat"): "melee",
+    ("rogue", "subtlety"): "melee",
+    ("mage", "arcane"): "range",
+    ("mage", "fire"): "range",
+    ("mage", "frost"): "range",
+    ("warlock", "affliction"): "range",
+    ("warlock", "demonology"): "range",
+    ("warlock", "destruction"): "range",
+    ("death knight", "blood"): "tank",
+    ("death knight", "frost"): "melee",
+    ("death knight", "unholy"): "melee",
+    ("monk", "brewmaster"): "tank",
+    ("monk", "mistweaver"): "healer",
+    ("monk", "windwalker"): "melee",
+    ("demon hunter", "vengeance"): "tank",
+    ("demon hunter", "havoc"): "melee",
+    ("evoker", "preservation"): "healer",
+    ("evoker", "devastation"): "range",
+    ("evoker", "augmentation"): "range",
+}
+ROLE_BY_CLASS = {
+    "warrior": "melee", "paladin": "melee", "rogue": "melee", "shaman": "melee",
+    "death knight": "melee", "monk": "melee", "demon hunter": "melee",
+    "hunter": "range", "mage": "range", "warlock": "range", "evoker": "range",
+    "druid": "range", "priest": "healer",
+}
+
+
+def estimate_role(class_name, spec_name):
+    cls = (class_name or "").strip().lower()
+    spec = (spec_name or "").strip().lower()
+    if cls and spec and (cls, spec) in ROLE_BY_SPEC:
+        return ROLE_BY_SPEC[(cls, spec)], "spec"
+    if cls in ROLE_BY_CLASS:
+        return ROLE_BY_CLASS[cls], "class"
+    return None, None
+
+
 def profession_summary(prof):
     tiers = prof.get("tiers") or []
     tier = tiers[0] if tiers else {}
@@ -65,6 +126,7 @@ def summarize(entry, state, url):
     pvp = c.get("pvp") or {}
     media = c.get("media") or {}
     render = c.get("render") or {}
+    role, role_source = estimate_role((c.get("class") or {}).get("name"), active.get("name") if active else None)
     return {
         "label": entry.get("label") or f"{c.get('name', '')} {c.get('surname', '')}".strip(),
         "name": f"{c.get('name', '')} {c.get('surname', '')}".strip(),
@@ -83,6 +145,8 @@ def summarize(entry, state, url):
         "spec": active.get("name") if active else None,
         "specPoints": active.get("spentPoints") if active else None,
         "specIcon": ((active or {}).get("icon") or {}).get("url"),
+        "role": role,
+        "roleSource": role_source,
         "professions": [profession_summary(p) for p in primaries],
         "secondaryProfessions": [profession_summary(p) for p in secondaries],
         "honorableKills": pvp.get("honorableKills"),

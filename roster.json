@@ -7,15 +7,50 @@
   },
   "cacheMinutes": 10,
   "characters": [
-    { "label": "Beeg Gobleen",          "name": "Beeg Gobleen" },
-    { "label": "Beef Bong",             "name": "Beef Bong", "leader": true },
-    { "label": "Mogra Mokra",           "name": "Mogra Mokra" },
-    { "label": "Common Cfel",           "name": "Common Cfel" },
-    { "label": "Fea Rekt",              "name": "Fea Rekt" },
-    { "label": "Borys Kylar",           "name": "Borys Kylar" },
-    { "label": "Pain Keeller",          "name": "Pain Keeller" },
-    { "label": "Zdzislaw Pirotechnik",  "name": "Zdzislaw Pirotechnik" },
-    { "label": "Covy Zugzug",           "name": "Covy Zugzug" },
-    { "label": "Fore Skeenwalker",      "name": "Fore Skeenwalker" }
+    {
+      "label": "Beeg Gobleen",
+      "name": "Beeg Gobleen"
+    },
+    {
+      "label": "Beef Bong",
+      "name": "Beef Bong",
+      "leader": true
+    },
+    {
+      "label": "Mogra Mokra",
+      "name": "Mogra Mokra"
+    },
+    {
+      "label": "Common Cfel",
+      "name": "Common Cfel"
+    },
+    {
+      "label": "Fea Rekt",
+      "name": "Fea Rekt"
+    },
+    {
+      "label": "Borys Kylar",
+      "name": "Borys Kylar"
+    },
+    {
+      "label": "Pain Keeller",
+      "name": "Pain Keeller"
+    },
+    {
+      "label": "Zdzislaw Pirotechnik",
+      "name": "Zdzislaw Pirotechnik"
+    },
+    {
+      "label": "Covy Zugzug",
+      "name": "Covy Zugzug"
+    },
+    {
+      "label": "Fore Skeenwalker",
+      "name": "Fore Skeenwalker"
+    },
+    {
+      "label": "Astral Mother",
+      "name": "Astral Mother"
+    }
   ]
 }

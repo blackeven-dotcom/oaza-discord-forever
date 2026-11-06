@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:28:37Z",
+  "generatedAt": "2026-11-06T20:32:21Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -20,6 +20,8 @@
       "spec": "Protection",
       "specPoints": 5,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
+      "role": "tank",
+      "roleSource": "spec",
       "professions": [
         {
           "name": "Mining",
@@ -77,6 +79,8 @@
       "spec": "Feral Combat",
       "specPoints": 6,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
+      "role": "melee",
+      "roleSource": "spec",
       "professions": [
         {
           "name": "Leatherworking",
@@ -140,6 +144,8 @@
       "spec": "Arms",
       "specPoints": 7,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
+      "role": "melee",
+      "roleSource": "spec",
       "professions": [
         {
           "name": "Skinning",
@@ -197,6 +203,8 @@
       "spec": "Fury",
       "specPoints": 5,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132347.jpg",
+      "role": "melee",
+      "roleSource": "spec",
       "professions": [
         {
           "name": "Skinning",
@@ -268,6 +276,8 @@
       "spec": "Beast Mastery",
       "specPoints": 10,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
+      "role": "range",
+      "roleSource": "spec",
       "professions": [
         {
           "name": "Leatherworking",
@@ -319,6 +329,8 @@
       "spec": "Discipline",
       "specPoints": 2,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
+      "role": "healer",
+      "roleSource": "spec",
       "professions": [
         {
           "name": "Tailoring",
@@ -376,6 +388,8 @@
       "spec": "Frost",
       "specPoints": 5,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
+      "role": "range",
+      "roleSource": "spec",
       "professions": [
         {
           "name": "Tailoring",
@@ -427,6 +441,8 @@
       "spec": null,
       "specPoints": null,
       "specIcon": null,
+      "role": "melee",
+      "roleSource": "class",
       "professions": [
         {
           "name": "Alchemy",
@@ -473,6 +489,14 @@
       "ok": false,
       "error": "brak w Armory (HTTP 500)",
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
+    },
+    {
+      "label": "Astral Mother",
+      "name": "Astral Mother",
+      "leader": false,
+      "ok": false,
+      "error": "brak w Armory (HTTP 500)",
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
   ]
 }
