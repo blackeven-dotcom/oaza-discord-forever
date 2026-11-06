@@ -1,0 +1,21 @@
+{
+  "community": {
+    "name": "Wow forever",
+    "tagline": "Lista postaci społeczności",
+    "region": "eu",
+    "discord": ""
+  },
+  "cacheMinutes": 10,
+  "characters": [
+    { "label": "Beeg Gobleen",          "name": "", "realm": "" },
+    { "label": "Beef Bong",             "name": "", "realm": "", "leader": true },
+    { "label": "Mogra Mokra",           "name": "", "realm": "" },
+    { "label": "Common Cfel",           "name": "", "realm": "" },
+    { "label": "Fea Rekt",              "name": "", "realm": "" },
+    { "label": "Borys Kylar",           "name": "", "realm": "" },
+    { "label": "Pain Keeller",          "name": "", "realm": "" },
+    { "label": "Zdzislaw Pirotechnik",  "name": "", "realm": "" },
+    { "label": "Covy Zugzug",           "name": "", "realm": "" },
+    { "label": "Fore Skeenwalker",      "name": "", "realm": "" }
+  ]
+}
