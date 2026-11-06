@@ -1,17 +1,14 @@
-/* Community roster for World of Warcraft: Forever, powered by the public
- * Raider.IO API (forever.raider.io). Configuration lives in roster.json.
- * No build step, no secrets.
+/* Community roster for World of Warcraft: Forever.
  *
- * Forever has no realms: Raider.IO identifies a character by region, ruleset
- * ("normal" or "pvp") and its full two-word name, e.g. "Jokerd Prime". */
+ * Character data comes from Blizzard's Armory. A GitHub Actions workflow
+ * (.github/workflows/update-roster.yml) runs scripts/fetch_armory.py every
+ * hour and commits data/characters.json; this page only reads that file.
+ * No API keys, no backend. */
 
 (function () {
   'use strict';
 
-  const API_URL = 'https://forever.raider.io/api/v1/characters/profile';
-  const API_FIELDS = 'gear,guild';
-  const CONCURRENCY = 4;
-  const CACHE_PREFIX = 'rio-forever:';
+  const DATA_URL = 'data/characters.json';
   const MAX_LEVEL = 60;
 
   const CLASS_COLORS = {
@@ -51,18 +48,11 @@
 
   let config = null;
   let rows = [];
+  let generatedAt = null;
   let sortKey = 'level';
   let sortDir = -1;
 
   /* ---------- helpers ---------- */
-
-  function rulesetOf(entry) {
-    return String(entry.ruleset || config.community.ruleset || 'normal').trim().toLowerCase();
-  }
-
-  function regionOf() {
-    return config.community.region || 'eu';
-  }
 
   function levelColor(level) {
     if (level >= MAX_LEVEL) return 'var(--accent)';
@@ -73,35 +63,11 @@
     return 'var(--muted)';
   }
 
-  function cacheKey(entry) {
-    return CACHE_PREFIX + regionOf() + ':' + rulesetOf(entry) + ':' + entry.name.trim().toLowerCase();
-  }
-
-  function cacheGet(entry) {
-    try {
-      const raw = localStorage.getItem(cacheKey(entry));
-      if (!raw) return null;
-      const parsed = JSON.parse(raw);
-      const ttl = (config.cacheMinutes || 10) * 60 * 1000;
-      if (Date.now() - parsed.t > ttl) return null;
-      return parsed.data;
-    } catch (e) {
-      return null;
-    }
-  }
-
-  function cacheSet(entry, data) {
-    try {
-      localStorage.setItem(cacheKey(entry), JSON.stringify({ t: Date.now(), data: data }));
-    } catch (e) { /* storage may be unavailable; ignore */ }
-  }
-
-  function cacheClear() {
-    try {
-      Object.keys(localStorage)
-        .filter(function (k) { return k.indexOf(CACHE_PREFIX) === 0; })
-        .forEach(function (k) { localStorage.removeItem(k); });
-    } catch (e) { /* ignore */ }
+  function formatTime(iso) {
+    if (!iso) return '';
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return iso;
+    return d.toLocaleString('pl-PL', { dateStyle: 'short', timeStyle: 'short' });
   }
 
   function setStatus(text) {
@@ -110,106 +76,44 @@
 
   /* ---------- data ---------- */
 
-  function buildUrl(entry) {
-    const params = new URLSearchParams({
-      region: regionOf(),
-      realm: rulesetOf(entry),
-      name: entry.name.trim(),
-      fields: API_FIELDS
-    });
-    return API_URL + '?' + params.toString();
-  }
-
-  function profileUrl(entry) {
-    return 'https://forever.raider.io/characters/' + regionOf() + '/' + rulesetOf(entry) + '/' + encodeURIComponent(entry.name.trim());
-  }
-
-  async function fetchCharacter(entry, force) {
-    if (!force) {
-      const cached = cacheGet(entry);
-      if (cached) return cached;
-    }
-    const res = await fetch(buildUrl(entry), { headers: { Accept: 'application/json' } });
-    if (res.status === 404 || res.status === 400) {
-      throw new Error('nie znaleziono na Raider.IO');
-    }
-    if (res.status === 429) {
-      throw new Error('limit zapytań, spróbuj za chwilę');
-    }
-    if (!res.ok) {
-      throw new Error('błąd ' + res.status);
-    }
-    const data = await res.json();
-    cacheSet(entry, data);
-    return data;
-  }
-
-  function normalize(entry, data) {
+  function normalize(c) {
     return {
-      entry: entry,
-      ok: true,
-      name: data.name || entry.name,
-      ruleset: rulesetOf(entry),
-      cls: data.class || '',
-      race: data.race || '',
-      faction: data.faction || '',
-      level: Number(data.level) || 0,
-      ilvl: data.gear ? Number(data.gear.item_level_equipped) || 0 : 0,
-      guild: data.guild && data.guild.name ? data.guild.name : '',
-      thumb: data.thumbnail_url || '',
-      url: data.profile_url || profileUrl(entry)
+      ok: !!c.ok,
+      pending: !c.name,
+      error: c.error || '',
+      label: c.label || '',
+      name: c.name || '',
+      leader: !!c.leader,
+      cls: c.class || '',
+      race: c.race || '',
+      faction: c.faction || '',
+      level: Number(c.level) || 0,
+      ilvl: Number(c.ilvl) || 0,
+      spec: c.spec || '',
+      ruleset: c.ruleset || '',
+      professions: Array.isArray(c.professions) ? c.professions : [],
+      thumb: c.avatar || '',
+      lastUpdated: c.lastUpdated || '',
+      outdated: !!c.outdated,
+      url: c.url || ''
     };
   }
 
-  function failed(entry, message) {
-    return {
-      entry: entry, ok: false, error: message,
-      name: entry.name, ruleset: rulesetOf(entry), cls: '', race: '', faction: '',
-      level: 0, ilvl: 0, guild: '', thumb: '', url: profileUrl(entry)
-    };
-  }
-
-  function pending(entry) {
-    return {
-      entry: entry, ok: false, pending: true,
-      name: '', ruleset: rulesetOf(entry), cls: '', race: '', faction: '',
-      level: 0, ilvl: 0, guild: '', thumb: '', url: ''
-    };
-  }
-
-  async function loadAll(force) {
-    const entries = config.characters || [];
-    rows = entries.map(function (entry) {
-      return entry.name ? null : pending(entry);
-    });
-
-    const queue = entries
-      .map(function (entry, i) { return { entry: entry, i: i }; })
-      .filter(function (item) { return item.entry.name; });
-
-    let done = 0;
-    const total = queue.length;
+  async function load(force) {
     el.refresh.disabled = true;
-    setStatus(total ? 'Pobieranie 0/' + total + '…' : '');
-
-    async function worker() {
-      while (queue.length) {
-        const item = queue.shift();
-        try {
-          const data = await fetchCharacter(item.entry, force);
-          rows[item.i] = normalize(item.entry, data);
-        } catch (e) {
-          rows[item.i] = failed(item.entry, e.message || 'błąd');
-        }
-        done += 1;
-        setStatus('Pobieranie ' + done + '/' + total + '…');
-        render();
-      }
+    setStatus('Wczytywanie…');
+    try {
+      const res = await fetch(DATA_URL + (force ? '?t=' + Date.now() : ''), { cache: force ? 'reload' : 'no-cache' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      generatedAt = data.generatedAt || null;
+      rows = (data.characters || []).map(normalize);
+      setStatus(generatedAt ? 'Dane z Armory: ' + formatTime(generatedAt) : 'Dane z Armory');
+    } catch (e) {
+      rows = [];
+      setStatus('Brak pliku data/characters.json (' + e.message + '). Uruchom workflow „Update roster from Armory”.');
     }
-
-    await Promise.all(Array.from({ length: Math.min(CONCURRENCY, total || 1) }, worker));
     el.refresh.disabled = false;
-    setStatus(total ? 'Zaktualizowano ' + new Date().toLocaleTimeString('pl-PL') : 'Brak postaci w roster.json');
     render();
   }
 
@@ -220,7 +124,11 @@
     const ra = a.ok ? 0 : 1, rb = b.ok ? 0 : 1;
     if (ra !== rb) return ra - rb;
     let va = a[sortKey], vb = b[sortKey];
-    if (sortKey === 'class') { va = a.cls + a.race; vb = b.cls + b.race; }
+    if (sortKey === 'class') { va = a.cls + a.spec; vb = b.cls + b.spec; }
+    if (sortKey === 'professions') {
+      va = a.professions.map(function (p) { return p.name; }).join(', ');
+      vb = b.professions.map(function (p) { return p.name; }).join(', ');
+    }
     if (typeof va === 'number' && typeof vb === 'number') return (va - vb) * sortDir;
     return String(va).localeCompare(String(vb), 'pl') * sortDir;
   }
@@ -230,7 +138,8 @@
     const faction = el.faction.value;
     if (faction && row.faction !== faction) return false;
     if (!q) return true;
-    const hay = [row.name, row.entry.label, row.cls, row.race, row.guild, row.ruleset].join(' ').toLowerCase();
+    const profs = row.professions.map(function (p) { return p.name; }).join(' ');
+    const hay = [row.name, row.label, row.cls, row.spec, row.race, profs, row.ruleset].join(' ').toLowerCase();
     return hay.indexOf(q) !== -1;
   }
 
@@ -255,12 +164,12 @@
     const text = document.createElement('div');
     const nameEl = document.createElement(row.url ? 'a' : 'span');
     nameEl.className = 'char-name';
-    nameEl.textContent = row.name || row.entry.label || '?';
+    nameEl.textContent = row.name || row.label || '?';
     if (row.url) { nameEl.href = row.url; nameEl.target = '_blank'; nameEl.rel = 'noopener'; }
     if (row.cls && CLASS_COLORS[row.cls]) nameEl.style.color = CLASS_COLORS[row.cls];
     text.appendChild(nameEl);
 
-    if (row.entry.leader) {
+    if (row.leader) {
       const crown = document.createElement('span');
       crown.className = 'leader';
       crown.title = 'Lider';
@@ -268,18 +177,30 @@
       text.appendChild(crown);
     }
 
-    if (row.entry.label && row.name && row.entry.label !== row.name) {
+    if (row.label && row.name && row.label !== row.name) {
       const label = document.createElement('div');
       label.className = 'char-label';
-      label.textContent = row.entry.label;
+      label.textContent = row.label;
       text.appendChild(label);
     }
     box.appendChild(text);
     return box;
   }
 
+  function professionsCell(row) {
+    const box = document.createElement('div');
+    if (!row.professions.length) { box.textContent = '–'; return box; }
+    row.professions.forEach(function (p) {
+      const line = document.createElement('div');
+      line.className = 'prof';
+      line.textContent = p.name + (p.skill != null ? ' ' + p.skill + (p.max ? '/' + p.max : '') : '');
+      box.appendChild(line);
+    });
+    return box;
+  }
+
   function render() {
-    const visible = rows.filter(Boolean).filter(matches).sort(compare);
+    const visible = rows.filter(matches).sort(compare);
     const frag = document.createDocumentFragment();
 
     visible.forEach(function (row) {
@@ -297,10 +218,9 @@
 
       if (!row.ok) {
         tr.appendChild(td('', charCell(row)));
-        const err = td('error', row.error);
-        err.colSpan = 5;
+        const err = td('error', row.error || 'błąd');
+        err.colSpan = 6;
         tr.appendChild(err);
-        tr.appendChild(td('', RULESET_LABELS[row.ruleset] || row.ruleset));
         frag.appendChild(tr);
         return;
       }
@@ -311,11 +231,11 @@
       const clsName = document.createElement('div');
       clsName.textContent = row.cls;
       if (CLASS_COLORS[row.cls]) clsName.style.color = CLASS_COLORS[row.cls];
-      const race = document.createElement('div');
-      race.className = 'spec';
-      race.textContent = row.race;
+      const sub = document.createElement('div');
+      sub.className = 'spec';
+      sub.textContent = [row.race, row.spec].filter(Boolean).join(' · ');
       cls.appendChild(clsName);
-      cls.appendChild(race);
+      cls.appendChild(sub);
       tr.appendChild(td('', cls));
 
       const level = document.createElement('span');
@@ -331,8 +251,9 @@
       faction.textContent = FACTION_LABELS[row.faction] || row.faction || '–';
       tr.appendChild(td('', faction));
 
-      tr.appendChild(td('', row.guild || '–'));
-      tr.appendChild(td('', RULESET_LABELS[row.ruleset] || row.ruleset));
+      tr.appendChild(td('', professionsCell(row)));
+      tr.appendChild(td('', RULESET_LABELS[row.ruleset] || row.ruleset || '–'));
+      if (row.outdated) tr.title = 'Dane w Armory oznaczone jako nieaktualne';
       frag.appendChild(tr);
     });
 
@@ -344,7 +265,7 @@
   }
 
   function renderSummary() {
-    const ok = rows.filter(function (r) { return r && r.ok; });
+    const ok = rows.filter(function (r) { return r.ok; });
     const avg = function (key) {
       const vals = ok.map(function (r) { return r[key]; }).filter(function (v) { return v > 0; });
       return vals.length ? Math.round(vals.reduce(function (a, b) { return a + b; }, 0) / vals.length) : null;
@@ -352,14 +273,14 @@
     const factions = { horde: 0, alliance: 0 };
     ok.forEach(function (r) { if (factions[r.faction] !== undefined) factions[r.faction] += 1; });
 
-    el.statCount.textContent = ok.length + ' / ' + rows.filter(Boolean).length;
+    el.statCount.textContent = ok.length + ' / ' + rows.length;
     el.statLevel.textContent = avg('level') !== null ? avg('level') : '–';
     el.statIlvl.textContent = avg('ilvl') !== null ? avg('ilvl') : '–';
     el.statFactions.textContent = ok.length ? factions.horde + ' / ' + factions.alliance : '–';
   }
 
   function renderHeader() {
-    const c = config.community || {};
+    const c = (config && config.community) || {};
     el.name.textContent = c.name || 'Roster';
     document.title = (c.name ? c.name + ' – ' : '') + 'Roster';
     el.tagline.textContent = c.tagline || '';
@@ -377,7 +298,7 @@
   function bind() {
     el.search.addEventListener('input', render);
     el.faction.addEventListener('change', render);
-    el.refresh.addEventListener('click', function () { cacheClear(); loadAll(true); });
+    el.refresh.addEventListener('click', function () { load(true); });
     el.headers.forEach(function (th) {
       th.addEventListener('click', function () {
         const key = th.dataset.sort;
@@ -390,15 +311,11 @@
   async function boot() {
     try {
       const res = await fetch('roster.json', { cache: 'no-cache' });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      config = await res.json();
-    } catch (e) {
-      setStatus('Nie udało się wczytać roster.json: ' + e.message);
-      return;
-    }
+      if (res.ok) config = await res.json();
+    } catch (e) { /* header falls back to defaults */ }
     renderHeader();
     bind();
-    await loadAll(false);
+    await load(false);
   }
 
   boot();

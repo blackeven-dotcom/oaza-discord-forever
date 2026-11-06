@@ -1,0 +1,326 @@
+{
+  "generatedAt": "2026-11-06T20:18:49Z",
+  "source": "Blizzard Armory (World of Warcraft: Forever)",
+  "characters": [
+    {
+      "label": "Beeg Gobleen",
+      "name": "Beeg Gobleen",
+      "slug": "beeg-gobleen",
+      "leader": false,
+      "ok": true,
+      "level": 14,
+      "ilvl": 6,
+      "class": "Warrior",
+      "classSlug": "warrior",
+      "race": "Orc",
+      "faction": "horde",
+      "gender": "male",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Protection",
+      "specPoints": 5,
+      "professions": [
+        {
+          "name": "Mining",
+          "skill": 58,
+          "max": 150
+        },
+        {
+          "name": "Blacksmithing",
+          "skill": 51,
+          "max": 75
+        }
+      ],
+      "honorableKills": {
+        "tier": 0,
+        "value": 0
+      },
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
+      "lastUpdated": "2026-11-05T23:16:53Z",
+      "outdated": false,
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
+    },
+    {
+      "label": "Beef Bong",
+      "name": "Beef Bong",
+      "slug": "beef-bong",
+      "leader": true,
+      "ok": true,
+      "level": 15,
+      "ilvl": 8,
+      "class": "Druid",
+      "classSlug": "druid",
+      "race": "Tauren",
+      "faction": "horde",
+      "gender": "male",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Feral Combat",
+      "specPoints": 6,
+      "professions": [
+        {
+          "name": "Leatherworking",
+          "skill": 50,
+          "max": 75
+        },
+        {
+          "name": "Skinning",
+          "skill": 109,
+          "max": 150
+        }
+      ],
+      "honorableKills": {
+        "tier": 0,
+        "value": 0
+      },
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
+      "lastUpdated": "2026-11-06T19:46:24Z",
+      "outdated": false,
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
+    },
+    {
+      "label": "Mogra Mokra",
+      "name": "Mogra Mokra",
+      "slug": "mogra-mokra",
+      "leader": false,
+      "ok": true,
+      "level": 16,
+      "ilvl": 8,
+      "class": "Warrior",
+      "classSlug": "warrior",
+      "race": "Orc",
+      "faction": "horde",
+      "gender": "female",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Arms",
+      "specPoints": 7,
+      "professions": [
+        {
+          "name": "Skinning",
+          "skill": 105,
+          "max": 150
+        },
+        {
+          "name": "Herbalism",
+          "skill": 85,
+          "max": 150
+        }
+      ],
+      "honorableKills": {
+        "tier": 0,
+        "value": 0
+      },
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
+      "lastUpdated": "2026-11-06T19:56:07Z",
+      "outdated": false,
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
+    },
+    {
+      "label": "Common Cfel",
+      "name": "Common Cfel",
+      "slug": "common-cfel",
+      "leader": false,
+      "ok": true,
+      "level": 14,
+      "ilvl": 8,
+      "class": "Warrior",
+      "classSlug": "warrior",
+      "race": "Troll",
+      "faction": "horde",
+      "gender": "male",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Fury",
+      "specPoints": 5,
+      "professions": [
+        {
+          "name": "Skinning",
+          "skill": 106,
+          "max": 150
+        },
+        {
+          "name": "Mining",
+          "skill": 44,
+          "max": 75
+        }
+      ],
+      "honorableKills": {
+        "tier": 0,
+        "value": 0
+      },
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
+      "lastUpdated": "2026-11-06T20:12:51Z",
+      "outdated": false,
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
+    },
+    {
+      "label": "Fea Rekt",
+      "name": "Fea Rekt",
+      "leader": false,
+      "ok": false,
+      "error": "brak w Armory (HTTP 500)",
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
+    },
+    {
+      "label": "Borys Kylar",
+      "name": "Borys Kylar",
+      "slug": "borys-kylar",
+      "leader": false,
+      "ok": true,
+      "level": 19,
+      "ilvl": 10,
+      "class": "Hunter",
+      "classSlug": "hunter",
+      "race": "Orc",
+      "faction": "horde",
+      "gender": "male",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Beast Mastery",
+      "specPoints": 10,
+      "professions": [
+        {
+          "name": "Leatherworking",
+          "skill": 75,
+          "max": 150
+        },
+        {
+          "name": "Skinning",
+          "skill": 140,
+          "max": 150
+        }
+      ],
+      "honorableKills": {
+        "tier": 0,
+        "value": 0
+      },
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
+      "lastUpdated": "2026-11-05T23:21:58Z",
+      "outdated": false,
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
+    },
+    {
+      "label": "Pain Keeller",
+      "name": "Pain Keeller",
+      "slug": "pain-keeller",
+      "leader": false,
+      "ok": true,
+      "level": 16,
+      "ilvl": 5,
+      "class": "Priest",
+      "classSlug": "priest",
+      "race": "Troll",
+      "faction": "horde",
+      "gender": "male",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Discipline",
+      "specPoints": 2,
+      "professions": [
+        {
+          "name": "Tailoring",
+          "skill": 61,
+          "max": 150
+        },
+        {
+          "name": "Enchanting",
+          "skill": 79,
+          "max": 150
+        }
+      ],
+      "honorableKills": {
+        "tier": 0,
+        "value": 0
+      },
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
+      "lastUpdated": "2026-11-06T11:35:20Z",
+      "outdated": false,
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
+    },
+    {
+      "label": "Zdzislaw Pirotechnik",
+      "name": "Zdzislaw Pirotechnik",
+      "slug": "zdzislaw-pirotechnik",
+      "leader": false,
+      "ok": true,
+      "level": 14,
+      "ilvl": 6,
+      "class": "Mage",
+      "classSlug": "mage",
+      "race": "Undead",
+      "faction": "horde",
+      "gender": "male",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Frost",
+      "specPoints": 5,
+      "professions": [
+        {
+          "name": "Tailoring",
+          "skill": 48,
+          "max": 75
+        },
+        {
+          "name": "Enchanting",
+          "skill": 23,
+          "max": 75
+        }
+      ],
+      "honorableKills": {
+        "tier": 0,
+        "value": 0
+      },
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
+      "lastUpdated": "2026-11-06T19:29:03Z",
+      "outdated": false,
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
+    },
+    {
+      "label": "Covy Zugzug",
+      "name": "Covy Zugzug",
+      "slug": "covy-zugzug",
+      "leader": false,
+      "ok": true,
+      "level": 10,
+      "ilvl": 3,
+      "class": "Shaman",
+      "classSlug": "shaman",
+      "race": "Orc",
+      "faction": "horde",
+      "gender": "female",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": null,
+      "specPoints": null,
+      "professions": [
+        {
+          "name": "Alchemy",
+          "skill": 41,
+          "max": 75
+        },
+        {
+          "name": "Herbalism",
+          "skill": 63,
+          "max": 75
+        }
+      ],
+      "honorableKills": {
+        "tier": 0,
+        "value": 0
+      },
+      "avatar": null,
+      "lastUpdated": "2026-11-06T17:39:29Z",
+      "outdated": false,
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
+    },
+    {
+      "label": "Fore Skeenwalker",
+      "name": "Fore Skeenwalker",
+      "leader": false,
+      "ok": false,
+      "error": "brak w Armory (HTTP 500)",
+      "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
+    }
+  ]
+}
