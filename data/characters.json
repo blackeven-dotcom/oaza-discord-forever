@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:33:40Z",
+  "generatedAt": "2026-11-06T20:41:48Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -90,7 +90,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 109,
+          "skill": 113,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -122,7 +122,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-06T19:46:24Z",
+      "lastUpdated": "2026-11-06T20:37:58Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -419,7 +419,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-06T19:29:03Z",
+      "lastUpdated": "2026-11-06T20:40:23Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
