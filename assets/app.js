@@ -231,11 +231,20 @@
     level.title = 'Poziom ' + row.level;
     card.appendChild(level);
 
+    const badges = h('div', 'badges');
+    if (row.role && ROLE_LABELS[row.role]) {
+      const r = h('span', 'badge-role ' + row.role + (row.roleEstimated ? ' estimated' : ''));
+      r.appendChild(img(ROLE_ICONS[row.role], '', ROLE_LABELS[row.role]));
+      r.appendChild(h('span', '', ROLE_LABELS[row.role] + (row.roleEstimated ? ' ?' : '')));
+      r.title = row.roleEstimated ? 'Rola oszacowana z klasy (brak specjalizacji)' : 'Rola na podstawie specjalizacji';
+      badges.appendChild(r);
+    }
     if (FACTION_ICONS[row.faction]) {
       const f = img(FACTION_ICONS[row.faction], 'badge-faction ' + row.faction, FACTION_LABELS[row.faction]);
       f.title = FACTION_LABELS[row.faction];
-      card.appendChild(f);
+      badges.appendChild(f);
     }
+    card.appendChild(badges);
 
     const body = h('div', 'card-body');
 
@@ -263,13 +272,6 @@
     body.appendChild(title);
 
     const meta = h('div', 'card-meta');
-    if (row.role && ROLE_LABELS[row.role]) {
-      const chip = h('span', 'chip role ' + row.role + (row.roleEstimated ? ' estimated' : ''));
-      chip.appendChild(img(ROLE_ICONS[row.role], '', ROLE_LABELS[row.role]));
-      chip.appendChild(h('span', '', ROLE_LABELS[row.role]));
-      chip.title = row.roleEstimated ? 'Rola oszacowana z klasy (brak specjalizacji)' : 'Rola na podstawie specjalizacji';
-      meta.appendChild(chip);
-    }
     if (row.spec) {
       const chip = h('span', 'chip');
       if (row.specIcon) chip.appendChild(img(row.specIcon, '', row.spec));

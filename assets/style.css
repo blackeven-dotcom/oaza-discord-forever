@@ -118,12 +118,6 @@ a:hover { text-decoration: underline; }
 .stat-value.roles { gap: 10px; font-size: 1.3rem; }
 .stat-value.roles > span { display: inline-flex; align-items: center; gap: 4px; }
 .role-icon { width: 22px; height: 22px; border-radius: 5px; border: 1px solid var(--border-strong); }
-.chip.role { border-color: var(--border-strong); }
-.chip.role.tank img { border-color: #4f8cff; }
-.chip.role.healer img { border-color: #3ddc84; }
-.chip.role.range img, .chip.role.melee img { border-color: var(--horde); }
-.chip.role.estimated { opacity: 0.85; }
-.chip.role.estimated span::after { content: " ?"; color: var(--muted); }
 
 /* ---------- controls ---------- */
 
@@ -233,10 +227,36 @@ a:hover { text-decoration: underline; }
 .badge-level small { font-family: var(--font-body); font-size: 0.55rem; font-weight: 600; letter-spacing: 0.1em; color: var(--muted); margin-top: 2px; }
 .badge-level.max { border-color: var(--gold); box-shadow: 0 0 26px var(--gold), inset 0 0 10px rgba(0, 0, 0, 0.8); }
 
-.badge-faction {
+.badges {
   position: absolute;
   top: 12px;
   right: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.badge-role {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 40px;
+  padding: 0 10px 0 4px;
+  border-radius: 10px;
+  background: rgba(11, 13, 18, 0.82);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--text);
+  backdrop-filter: blur(4px);
+}
+.badge-role img { width: 30px; height: 30px; border-radius: 7px; border: 1px solid var(--border-strong); }
+.badge-role.tank img { border-color: #4f8cff; }
+.badge-role.healer img { border-color: #3ddc84; }
+.badge-role.range img, .badge-role.melee img { border-color: var(--horde); }
+.badge-role.estimated { opacity: 0.85; }
+.badge-faction {
   width: 40px;
   height: 40px;
   border-radius: 10px;
