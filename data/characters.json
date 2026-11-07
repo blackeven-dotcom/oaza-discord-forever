@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:55:54Z",
+  "generatedAt": "2026-11-07T00:58:52Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -168,7 +168,7 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 15,
+      "level": 16,
       "ilvl": 8,
       "class": "Druid",
       "classSlug": "druid",
@@ -178,14 +178,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Feral Combat",
-      "specPoints": 6,
+      "specPoints": 7,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Feral Combat",
-          "points": 6,
+          "points": 7,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
         }
       ],
@@ -198,7 +198,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 113,
+          "skill": 130,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -228,11 +228,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 391
+          "value": 408
         },
         {
           "slug": "mana",
-          "value": 529
+          "value": 565
         },
         {
           "slug": "strength",
@@ -240,7 +240,7 @@
         },
         {
           "slug": "intellect",
-          "value": 38
+          "value": 39
         },
         {
           "slug": "agility",
@@ -252,11 +252,11 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.0581
+          "value": 4.8981004
         },
         {
           "slug": "spirit",
-          "value": 42
+          "value": 43
         }
       ],
       "gear": [
@@ -304,7 +304,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-06T20:43:58Z",
+      "lastUpdated": "2026-11-06T23:37:08Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -314,8 +314,8 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 16,
-      "ilvl": 8,
+      "level": 17,
+      "ilvl": 10,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -324,27 +324,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 7,
+      "specPoints": 8,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 7,
+          "points": 8,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 105,
+          "skill": 107,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 85,
+          "skill": 87,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -358,7 +358,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 84,
+          "skill": 88,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -368,7 +368,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 521
+          "value": 584
         },
         {
           "slug": "rage",
@@ -376,7 +376,7 @@
         },
         {
           "slug": "strength",
-          "value": 48
+          "value": 54
         },
         {
           "slug": "intellect",
@@ -384,15 +384,15 @@
         },
         {
           "slug": "agility",
-          "value": 30
+          "value": 31
         },
         {
           "slug": "stamina",
-          "value": 55
+          "value": 61
         },
         {
           "slug": "critical-strike",
-          "value": 4.545
+          "value": 4.3601
         },
         {
           "slug": "spirit",
@@ -407,7 +407,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Loose Chain Vest",
+          "name": "Laced Mail Vest",
           "quality": "poor"
         },
         {
@@ -442,12 +442,12 @@
         },
         {
           "slot": "Shoulders",
-          "name": "Laced Mail Shoulderpads",
-          "quality": "poor"
+          "name": "Rough Bronze Shoulders",
+          "quality": "uncommon"
         },
         {
           "slot": "Waist",
-          "name": "Aggor's Refitted Belt",
+          "name": "Cinched Belt",
           "quality": "uncommon"
         },
         {
@@ -464,7 +464,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-06T19:56:07Z",
+      "lastUpdated": "2026-11-07T00:26:40Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -474,7 +474,7 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 14,
+      "level": 16,
       "ilvl": 8,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -493,19 +493,24 @@
           "name": "Fury",
           "points": 5,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132347.jpg"
+        },
+        {
+          "name": "Arms",
+          "points": 1,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 106,
+          "skill": 115,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 44,
-          "max": 75,
+          "skill": 64,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
       ],
@@ -513,12 +518,12 @@
         {
           "name": "Cooking",
           "skill": 52,
-          "max": 75,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 52,
+          "skill": 58,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -534,7 +539,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 418
+          "value": 461
         },
         {
           "slug": "rage",
@@ -542,7 +547,7 @@
         },
         {
           "slug": "strength",
-          "value": 42
+          "value": 44
         },
         {
           "slug": "intellect",
@@ -550,19 +555,19 @@
         },
         {
           "slug": "agility",
-          "value": 35
+          "value": 36
         },
         {
           "slug": "stamina",
-          "value": 47
+          "value": 49
         },
         {
           "slug": "critical-strike",
-          "value": 10.3654995
+          "value": 10.374
         },
         {
           "slug": "spirit",
-          "value": 31
+          "value": 32
         }
       ],
       "gear": [
@@ -625,16 +630,153 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-06T20:12:51Z",
+      "lastUpdated": "2026-11-06T23:13:49Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
     {
       "label": "Fea Rekt",
       "name": "Fea Rekt",
+      "slug": "fea-rekt",
       "leader": false,
-      "ok": false,
-      "error": "brak w Armory (HTTP 500)",
+      "ok": true,
+      "level": 11,
+      "ilvl": 4,
+      "class": "Paladin",
+      "classSlug": "paladin",
+      "race": "Undead",
+      "faction": "horde",
+      "gender": "male",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Retribution",
+      "specPoints": 2,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg",
+      "role": "melee",
+      "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Retribution",
+          "points": 2,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
+        }
+      ],
+      "professions": [
+        {
+          "name": "Mining",
+          "skill": 31,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
+        },
+        {
+          "name": "Blacksmithing",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 20,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
+        }
+      ],
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 248
+        },
+        {
+          "slug": "mana",
+          "value": 285
+        },
+        {
+          "slug": "strength",
+          "value": 35
+        },
+        {
+          "slug": "intellect",
+          "value": 24
+        },
+        {
+          "slug": "agility",
+          "value": 23
+        },
+        {
+          "slug": "stamina",
+          "value": 32
+        },
+        {
+          "slug": "critical-strike",
+          "value": 3.416
+        },
+        {
+          "slug": "spirit",
+          "value": 33
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Adept's Cloak",
+          "quality": "common"
+        },
+        {
+          "slot": "Chest",
+          "name": "Rugged Mail Vest",
+          "quality": "common"
+        },
+        {
+          "slot": "Feet",
+          "name": "Finscale Soles",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Hands",
+          "name": "Cold Steel Gauntlets",
+          "quality": "common"
+        },
+        {
+          "slot": "Legs",
+          "name": "Brass Scale Pants",
+          "quality": "common"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Brawler's Harness",
+          "quality": "common"
+        },
+        {
+          "slot": "Waist",
+          "name": "Loose Chain Belt",
+          "quality": "poor"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Bonecracker",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Loose Chain Bracers",
+          "quality": "poor"
+        }
+      ],
+      "avatar": null,
+      "render": null,
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
+      "lastUpdated": "2026-11-06T21:11:47Z",
+      "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
     {
@@ -1086,7 +1228,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-06T20:40:23Z",
+      "lastUpdated": "2026-11-06T23:37:20Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
@@ -1096,8 +1238,8 @@
       "slug": "covy-zugzug",
       "leader": false,
       "ok": true,
-      "level": 10,
-      "ilvl": 3,
+      "level": 15,
+      "ilvl": 8,
       "class": "Shaman",
       "classSlug": "shaman",
       "race": "Orc",
@@ -1105,23 +1247,29 @@
       "gender": "female",
       "ruleset": "pvp",
       "region": "eu",
-      "spec": null,
-      "specPoints": null,
-      "specIcon": null,
+      "spec": "Enhancement",
+      "specPoints": 6,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg",
       "role": "melee",
-      "roleSource": "class",
-      "specs": [],
+      "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Enhancement",
+          "points": 6,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Alchemy",
-          "skill": 41,
-          "max": 75,
+          "skill": 75,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 63,
-          "max": 75,
+          "skill": 82,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
       ],
@@ -1134,7 +1282,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 1,
+          "skill": 52,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -1144,57 +1292,57 @@
       "stats": [
         {
           "slug": "health",
-          "value": 230
+          "value": 435
         },
         {
           "slug": "mana",
-          "value": 270
+          "value": 430
         },
         {
           "slug": "strength",
-          "value": 31
+          "value": 37
         },
         {
           "slug": "intellect",
-          "value": 25
+          "value": 30
         },
         {
           "slug": "agility",
-          "value": 20
+          "value": 32
         },
         {
           "slug": "stamina",
-          "value": 31
+          "value": 48
         },
         {
           "slug": "critical-strike",
-          "value": 4.21
+          "value": 10.2504
         },
         {
           "slug": "spirit",
-          "value": 33
+          "value": 45
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Battleworn Cape",
-          "quality": "common"
+          "name": "Feral Cloak of the Falcon",
+          "quality": "uncommon"
         },
         {
           "slot": "Chest",
-          "name": "Soft Wool Vest",
-          "quality": "common"
+          "name": "Handstitched Leather Vest",
+          "quality": "uncommon"
         },
         {
           "slot": "Feet",
-          "name": "Ragged Leather Boots",
-          "quality": "poor"
+          "name": "Gray Leather Boots",
+          "quality": "uncommon"
         },
         {
           "slot": "Hands",
-          "name": "Veiled Grips",
-          "quality": "common"
+          "name": "Embossed Leather Gloves",
+          "quality": "uncommon"
         },
         {
           "slot": "Ring 1",
@@ -1203,13 +1351,13 @@
         },
         {
           "slot": "Legs",
-          "name": "Dust-covered Leggings",
-          "quality": "common"
+          "name": "Handstitched Leather Pants",
+          "quality": "uncommon"
         },
         {
-          "slot": "Off Hand",
-          "name": "Worn Large Shield",
-          "quality": "poor"
+          "slot": "Ranged",
+          "name": "Totem of Charged Flames",
+          "quality": "uncommon"
         },
         {
           "slot": "Shirt",
@@ -1218,24 +1366,24 @@
         },
         {
           "slot": "Waist",
-          "name": "Worn Leather Belt",
-          "quality": "poor"
+          "name": "Handstitched Leather Belt",
+          "quality": "uncommon"
         },
         {
           "slot": "Main Hand",
-          "name": "Kolkar Hammer",
-          "quality": "common"
+          "name": "Axe of Orgrimmar",
+          "quality": "rare"
         },
         {
           "slot": "Wrist",
-          "name": "Heavy Cord Bracers",
-          "quality": "common"
+          "name": "Savannah Bracers",
+          "quality": "uncommon"
         }
       ],
       "avatar": null,
       "render": null,
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-06T17:39:29Z",
+      "lastUpdated": "2026-11-07T00:28:14Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
