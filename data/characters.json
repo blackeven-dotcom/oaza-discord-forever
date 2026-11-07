@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:01:40Z",
+  "generatedAt": "2026-11-07T17:31:27Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1307,7 +1307,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 99,
+          "skill": 102,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1355,7 +1355,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 10.1416
+          "value": 10.2216
         },
         {
           "slug": "spirit",
@@ -1422,7 +1422,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T16:52:28Z",
+      "lastUpdated": "2026-11-07T17:21:23Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
