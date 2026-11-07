@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T22:01:40Z",
+  "generatedAt": "2026-11-07T22:31:34Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1282,8 +1282,8 @@
       "slug": "covy-zugzug",
       "leader": false,
       "ok": true,
-      "level": 18,
-      "ilvl": 10,
+      "level": 20,
+      "ilvl": 12,
       "class": "Shaman",
       "classSlug": "shaman",
       "race": "Orc",
@@ -1292,27 +1292,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Enhancement",
-      "specPoints": 9,
+      "specPoints": 11,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Enhancement",
-          "points": 9,
+          "points": 11,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
         }
       ],
       "professions": [
         {
           "name": "Alchemy",
-          "skill": 85,
+          "skill": 90,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 102,
+          "skill": 106,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1336,41 +1336,41 @@
       "stats": [
         {
           "slug": "health",
-          "value": 529
+          "value": 600
         },
         {
           "slug": "mana",
-          "value": 643
+          "value": 720
         },
         {
           "slug": "strength",
-          "value": 40
+          "value": 42
         },
         {
           "slug": "intellect",
-          "value": 40
+          "value": 42
         },
         {
           "slug": "agility",
-          "value": 32
+          "value": 38
         },
         {
           "slug": "stamina",
-          "value": 55
+          "value": 60
         },
         {
           "slug": "critical-strike",
-          "value": 10.2216
+          "value": 10.627
         },
         {
           "slug": "spirit",
-          "value": 51
+          "value": 50
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Feral Cloak of the Falcon",
+          "name": "Boar Hunter's Cape",
           "quality": "uncommon"
         },
         {
@@ -1395,12 +1395,17 @@
         },
         {
           "slot": "Legs",
-          "name": "Dredgemire Leggings",
+          "name": "Embroidered Leggings",
           "quality": "uncommon"
         },
         {
           "slot": "Ranged",
           "name": "Totem of Charged Flames",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Bounty Hunter's Ring",
           "quality": "uncommon"
         },
         {
@@ -1427,7 +1432,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T17:21:23Z",
+      "lastUpdated": "2026-11-07T22:16:04Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
