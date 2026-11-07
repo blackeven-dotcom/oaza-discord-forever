@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T18:49:34Z",
+  "generatedAt": "2026-11-07T19:01:40Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -656,7 +656,7 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 12,
+      "level": 13,
       "ilvl": 5,
       "class": "Paladin",
       "classSlug": "paladin",
@@ -666,21 +666,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Retribution",
-      "specPoints": 3,
+      "specPoints": 4,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Retribution",
-          "points": 3,
+          "points": 4,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 61,
+          "skill": 62,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -716,15 +716,15 @@
       "stats": [
         {
           "slug": "health",
-          "value": 296
-        },
-        {
-          "slug": "mana",
           "value": 314
         },
         {
+          "slug": "mana",
+          "value": 344
+        },
+        {
           "slug": "strength",
-          "value": 36
+          "value": 37
         },
         {
           "slug": "intellect",
@@ -732,19 +732,19 @@
         },
         {
           "slug": "agility",
-          "value": 25
+          "value": 26
         },
         {
           "slug": "stamina",
-          "value": 36
+          "value": 37
         },
         {
           "slug": "critical-strike",
-          "value": 4.795
+          "value": 4.6536
         },
         {
           "slug": "spirit",
-          "value": 33
+          "value": 34
         }
       ],
       "gear": [
@@ -765,7 +765,7 @@
         },
         {
           "slot": "Hands",
-          "name": "Cold Steel Gauntlets",
+          "name": "Warrior's Gloves",
           "quality": "common"
         },
         {
@@ -797,7 +797,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-07T15:47:25Z",
+      "lastUpdated": "2026-11-07T18:56:16Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
