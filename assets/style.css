@@ -73,6 +73,17 @@ a:hover { text-decoration: underline; }
   text-shadow: 0 0 24px var(--gold-glow), 0 2px 0 rgba(0, 0, 0, 0.6);
 }
 .tagline { margin: 8px 0 0; color: var(--muted); font-size: 1.05rem; }
+.hero-meme {
+  margin: 18px auto 0;
+  max-width: 560px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+  background: #fff;
+}
+.hero-meme img { display: block; width: 100%; height: auto; }
+
 .links { margin-top: 12px; display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 .links:empty { display: none; }
 .links a {
