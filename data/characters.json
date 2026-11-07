@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T15:31:35Z",
+  "generatedAt": "2026-11-07T16:01:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -656,7 +656,7 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 11,
+      "level": 12,
       "ilvl": 5,
       "class": "Paladin",
       "classSlug": "paladin",
@@ -666,21 +666,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Retribution",
-      "specPoints": 2,
+      "specPoints": 3,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Retribution",
-          "points": 2,
+          "points": 3,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 58,
+          "skill": 61,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -716,23 +716,23 @@
       "stats": [
         {
           "slug": "health",
-          "value": 288
+          "value": 296
         },
         {
           "slug": "mana",
-          "value": 285
+          "value": 314
         },
         {
           "slug": "strength",
-          "value": 34
+          "value": 36
         },
         {
           "slug": "intellect",
-          "value": 24
+          "value": 25
         },
         {
           "slug": "agility",
-          "value": 23
+          "value": 25
         },
         {
           "slug": "stamina",
@@ -740,7 +740,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 3.416
+          "value": 4.795
         },
         {
           "slug": "spirit",
@@ -750,8 +750,8 @@
       "gear": [
         {
           "slot": "Back",
-          "name": "Adept's Cloak",
-          "quality": "common"
+          "name": "Thrice-Stitched Flesh",
+          "quality": "uncommon"
         },
         {
           "slot": "Chest",
@@ -760,7 +760,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Copper Chain Boots",
+          "name": "Finscale Soles",
           "quality": "uncommon"
         },
         {
@@ -797,7 +797,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-07T13:41:58Z",
+      "lastUpdated": "2026-11-07T15:47:25Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -807,8 +807,8 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 19,
-      "ilvl": 10,
+      "level": 22,
+      "ilvl": 11,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Orc",
@@ -817,14 +817,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 10,
+      "specPoints": 13,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 10,
+          "points": 13,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -837,7 +837,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 140,
+          "skill": 150,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -850,46 +850,46 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
-      "honorableKills": 2,
+      "honorableKills": 4,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 613
+          "value": 638
         },
         {
           "slug": "mana",
-          "value": 628
+          "value": 700
         },
         {
           "slug": "strength",
-          "value": 31
+          "value": 33
         },
         {
           "slug": "intellect",
-          "value": 32
+          "value": 31
         },
         {
           "slug": "agility",
-          "value": 61
+          "value": 77
         },
         {
           "slug": "stamina",
-          "value": 60
+          "value": 58
         },
         {
           "slug": "critical-strike",
-          "value": 2.7344
+          "value": 3.9814997
         },
         {
           "slug": "spirit",
-          "value": 35
+          "value": 37
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Barkeeper's Cloak",
+          "name": "Boar Hunter's Cape",
           "quality": "uncommon"
         },
         {
@@ -904,8 +904,8 @@
         },
         {
           "slot": "Hands",
-          "name": "Adept's Gloves",
-          "quality": "rare"
+          "name": "Gloves of the Moon",
+          "quality": "uncommon"
         },
         {
           "slot": "Ring 1",
@@ -919,7 +919,12 @@
         },
         {
           "slot": "Ranged",
-          "name": "Fine Longbow",
+          "name": "Heavy Recurve Bow",
+          "quality": "common"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Bounty Hunter's Ring",
           "quality": "uncommon"
         },
         {
@@ -929,7 +934,7 @@
         },
         {
           "slot": "Waist",
-          "name": "Fine Leather Belt",
+          "name": "Rigid Belt of the Falcon",
           "quality": "uncommon"
         },
         {
@@ -939,14 +944,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Prospector's Cuffs",
+          "name": "Wolf Bracers",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T10:18:10Z",
+      "lastUpdated": "2026-11-07T15:48:29Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
