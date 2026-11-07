@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T20:31:28Z",
+  "generatedAt": "2026-11-07T21:01:41Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1440,8 +1440,8 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 11,
-      "ilvl": 5,
+      "level": 15,
+      "ilvl": 6,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Windshaper Skyborne",
@@ -1450,28 +1450,28 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 2,
+      "specPoints": 6,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 2,
+          "points": 6,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
       "professions": [
         {
           "name": "Alchemy",
-          "skill": 60,
-          "max": 75,
+          "skill": 65,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 55,
-          "max": 75,
+          "skill": 66,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
       ],
@@ -1484,7 +1484,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 1,
+          "skill": 6,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
@@ -1494,42 +1494,42 @@
       "stats": [
         {
           "slug": "health",
-          "value": 276
+          "value": 387
         },
         {
           "slug": "mana",
-          "value": 315
+          "value": 426
         },
         {
           "slug": "strength",
-          "value": 21
+          "value": 23
         },
         {
           "slug": "intellect",
-          "value": 24
+          "value": 26
         },
         {
           "slug": "agility",
-          "value": 42
+          "value": 51
         },
         {
           "slug": "stamina",
-          "value": 34
+          "value": 42
         },
         {
           "slug": "critical-strike",
-          "value": 5.4342003
+          "value": 2.7559
         },
         {
           "slug": "spirit",
-          "value": 30
+          "value": 33
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Windblown Short Cloak",
-          "quality": "common"
+          "name": "Mystic's Cape",
+          "quality": "uncommon"
         },
         {
           "slot": "Chest",
@@ -1538,8 +1538,8 @@
         },
         {
           "slot": "Feet",
-          "name": "Frayed Shoes",
-          "quality": "poor"
+          "name": "Rambling Boots",
+          "quality": "uncommon"
         },
         {
           "slot": "Hands",
@@ -1563,12 +1563,12 @@
         },
         {
           "slot": "Waist",
-          "name": "Wolfhide Belt",
+          "name": "Grizzly Belt",
           "quality": "common"
         },
         {
           "slot": "Main Hand",
-          "name": "Worn Dagger",
+          "name": "Fishing Pole",
           "quality": "common"
         },
         {
@@ -1580,7 +1580,7 @@
       "avatar": null,
       "render": null,
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-07T16:22:29Z",
+      "lastUpdated": "2026-11-07T20:42:19Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
