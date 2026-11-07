@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T11:31:32Z",
+  "generatedAt": "2026-11-07T12:01:40Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -525,7 +525,7 @@
         },
         {
           "name": "Mining",
-          "skill": 80,
+          "skill": 93,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -646,7 +646,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-07T11:02:04Z",
+      "lastUpdated": "2026-11-07T11:34:58Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
@@ -1260,8 +1260,8 @@
       "slug": "covy-zugzug",
       "leader": false,
       "ok": true,
-      "level": 15,
-      "ilvl": 8,
+      "level": 16,
+      "ilvl": 9,
       "class": "Shaman",
       "classSlug": "shaman",
       "race": "Orc",
@@ -1270,14 +1270,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Enhancement",
-      "specPoints": 6,
+      "specPoints": 7,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Enhancement",
-          "points": 6,
+          "points": 7,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
         }
       ],
@@ -1290,7 +1290,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 82,
+          "skill": 85,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1314,11 +1314,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 435
+          "value": 452
         },
         {
           "slug": "mana",
-          "value": 430
+          "value": 510
         },
         {
           "slug": "strength",
@@ -1326,7 +1326,7 @@
         },
         {
           "slug": "intellect",
-          "value": 30
+          "value": 34
         },
         {
           "slug": "agility",
@@ -1334,15 +1334,15 @@
         },
         {
           "slug": "stamina",
-          "value": 48
+          "value": 49
         },
         {
           "slug": "critical-strike",
-          "value": 10.2504
+          "value": 10.3128
         },
         {
           "slug": "spirit",
-          "value": 45
+          "value": 46
         }
       ],
       "gear": [
@@ -1388,7 +1388,7 @@
         },
         {
           "slot": "Waist",
-          "name": "Handstitched Leather Belt",
+          "name": "Binding Girdle",
           "quality": "uncommon"
         },
         {
@@ -1405,7 +1405,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T00:28:14Z",
+      "lastUpdated": "2026-11-07T11:41:03Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
