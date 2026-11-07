@@ -2,13 +2,15 @@ name: Update roster from Armory
 
 on:
   schedule:
-    - cron: "17 * * * *"   # co godzinę
+    # GitHub pomija część zaplanowanych uruchomień, więc próbujemy dwa razy na godzinę.
+    - cron: "17,47 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - roster.json
       - scripts/fetch_armory.py
+      - .github/workflows/update-roster.yml
 
 permissions:
   contents: write
