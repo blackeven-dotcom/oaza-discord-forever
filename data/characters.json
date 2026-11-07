@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:01:39Z",
+  "generatedAt": "2026-11-07T16:31:29Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -490,8 +490,8 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 17,
-      "ilvl": 8,
+      "level": 18,
+      "ilvl": 7,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -512,20 +512,20 @@
         },
         {
           "name": "Arms",
-          "points": 3,
+          "points": 4,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 132,
+          "skill": 136,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 93,
+          "skill": 96,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -555,7 +555,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 484
+          "value": 508
         },
         {
           "slug": "rage",
@@ -563,7 +563,7 @@
         },
         {
           "slug": "strength",
-          "value": 45
+          "value": 47
         },
         {
           "slug": "intellect",
@@ -571,15 +571,15 @@
         },
         {
           "slug": "agility",
-          "value": 37
+          "value": 38
         },
         {
           "slug": "stamina",
-          "value": 51
+          "value": 52
         },
         {
           "slug": "critical-strike",
-          "value": 10.3626995
+          "value": 10.078199
         },
         {
           "slug": "spirit",
@@ -629,8 +629,8 @@
         },
         {
           "slot": "Waist",
-          "name": "Wide Metal Girdle",
-          "quality": "common"
+          "name": "Laced Mail Belt",
+          "quality": "poor"
         },
         {
           "slot": "Main Hand",
@@ -646,7 +646,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-07T11:34:58Z",
+      "lastUpdated": "2026-11-07T16:11:17Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
@@ -1450,14 +1450,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 1,
+      "specPoints": 2,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 1,
+          "points": 2,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -1470,7 +1470,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 50,
+          "skill": 55,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1518,7 +1518,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.3142
+          "value": 5.4342003
         },
         {
           "slug": "spirit",
@@ -1580,7 +1580,7 @@
       "avatar": null,
       "render": null,
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-06T20:51:40Z",
+      "lastUpdated": "2026-11-07T16:22:29Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
