@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T13:31:30Z",
+  "generatedAt": "2026-11-07T14:01:43Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -209,7 +209,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 138,
+          "skill": 142,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -263,7 +263,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 4.4564
+          "value": 4.4964
         },
         {
           "slug": "spirit",
@@ -320,7 +320,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-07T11:00:14Z",
+      "lastUpdated": "2026-11-07T13:33:53Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -797,7 +797,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-07T13:30:46Z",
+      "lastUpdated": "2026-11-07T13:41:58Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -1123,7 +1123,7 @@
       "leader": false,
       "ok": true,
       "level": 14,
-      "ilvl": 6,
+      "ilvl": 5,
       "class": "Mage",
       "classSlug": "mage",
       "race": "Undead",
@@ -1146,13 +1146,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 48,
+          "skill": 59,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 23,
+          "skill": 55,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1160,9 +1160,15 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 17,
-          "max": 75,
+          "skill": 58,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "Fishing",
+          "skill": 90,
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
       ],
       "honorableKills": 0,
@@ -1174,7 +1180,7 @@
         },
         {
           "slug": "mana",
-          "value": 673
+          "value": 583
         },
         {
           "slug": "strength",
@@ -1182,11 +1188,11 @@
         },
         {
           "slug": "intellect",
-          "value": 46
+          "value": 40
         },
         {
           "slug": "agility",
-          "value": 26
+          "value": 20
         },
         {
           "slug": "stamina",
@@ -1194,7 +1200,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 4.2868
+          "value": 5.5160003
         },
         {
           "slug": "spirit",
@@ -1244,8 +1250,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Staff of Orgrimmar",
-          "quality": "rare"
+          "name": "Fishing Pole",
+          "quality": "common"
         },
         {
           "slot": "Wrist",
@@ -1256,7 +1262,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-06T23:37:20Z",
+      "lastUpdated": "2026-11-07T13:45:40Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
