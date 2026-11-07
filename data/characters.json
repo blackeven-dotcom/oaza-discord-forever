@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T14:31:32Z",
+  "generatedAt": "2026-11-07T15:01:43Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -956,7 +956,7 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 21,
+      "level": 22,
       "ilvl": 11,
       "class": "Priest",
       "classSlug": "priest",
@@ -978,14 +978,14 @@
         },
         {
           "name": "Discipline",
-          "points": 5,
+          "points": 6,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         }
       ],
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 62,
+          "skill": 64,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
@@ -999,14 +999,14 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 106,
+          "skill": 118,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 112,
-          "max": 150,
+          "skill": 140,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
@@ -1021,11 +1021,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 492
+          "value": 508
         },
         {
           "slug": "mana",
-          "value": 845
+          "value": 904
         },
         {
           "slug": "strength",
@@ -1033,7 +1033,7 @@
         },
         {
           "slug": "intellect",
-          "value": 48
+          "value": 50
         },
         {
           "slug": "agility",
@@ -1045,11 +1045,11 @@
         },
         {
           "slug": "critical-strike",
-          "value": 1.04
+          "value": 0.83999985
         },
         {
           "slug": "spirit",
-          "value": 77
+          "value": 79
         }
       ],
       "gear": [
@@ -1112,7 +1112,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-07T01:57:07Z",
+      "lastUpdated": "2026-11-07T14:50:40Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
