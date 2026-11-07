@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T10:31:29Z",
+  "generatedAt": "2026-11-07T11:01:40Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -179,8 +179,8 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 17,
-      "ilvl": 8,
+      "level": 18,
+      "ilvl": 9,
       "class": "Druid",
       "classSlug": "druid",
       "race": "Tauren",
@@ -189,14 +189,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Feral Combat",
-      "specPoints": 7,
+      "specPoints": 8,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Feral Combat",
-          "points": 7,
+          "points": 8,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
         }
       ],
@@ -239,15 +239,15 @@
       "stats": [
         {
           "slug": "health",
-          "value": 426
+          "value": 477
         },
         {
           "slug": "mana",
-          "value": 602
+          "value": 625
         },
         {
           "slug": "strength",
-          "value": 38
+          "value": 41
         },
         {
           "slug": "intellect",
@@ -259,11 +259,11 @@
         },
         {
           "slug": "stamina",
-          "value": 38
+          "value": 42
         },
         {
           "slug": "critical-strike",
-          "value": 4.6812
+          "value": 4.4564
         },
         {
           "slug": "spirit",
@@ -273,7 +273,7 @@
       "gear": [
         {
           "slot": "Back",
-          "name": "Willow Cape of the Owl",
+          "name": "Barkeeper's Cloak",
           "quality": "uncommon"
         },
         {
@@ -293,8 +293,13 @@
         },
         {
           "slot": "Legs",
-          "name": "Kodo Hunter's Leggings",
+          "name": "Greasy Tinker's Pants",
           "quality": "uncommon"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Deckhand's Shirt",
+          "quality": "common"
         },
         {
           "slot": "Waist",
@@ -315,7 +320,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-07T08:14:15Z",
+      "lastUpdated": "2026-11-07T11:00:14Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
