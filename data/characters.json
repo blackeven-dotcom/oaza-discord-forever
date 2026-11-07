@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T23:01:45Z",
+  "generatedAt": "2026-11-07T23:31:32Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -661,7 +661,7 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 13,
+      "level": 14,
       "ilvl": 5,
       "class": "Paladin",
       "classSlug": "paladin",
@@ -671,14 +671,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Retribution",
-      "specPoints": 4,
+      "specPoints": 5,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Retribution",
-          "points": 4,
+          "points": 5,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
         }
       ],
@@ -721,19 +721,19 @@
       "stats": [
         {
           "slug": "health",
-          "value": 314
+          "value": 352
         },
         {
           "slug": "mana",
-          "value": 344
+          "value": 375
         },
         {
           "slug": "strength",
-          "value": 37
+          "value": 35
         },
         {
           "slug": "intellect",
-          "value": 25
+          "value": 26
         },
         {
           "slug": "agility",
@@ -741,15 +741,15 @@
         },
         {
           "slug": "stamina",
-          "value": 37
+          "value": 40
         },
         {
           "slug": "critical-strike",
-          "value": 4.6536
+          "value": 4.0936003
         },
         {
           "slug": "spirit",
-          "value": 34
+          "value": 35
         }
       ],
       "gear": [
@@ -779,6 +779,11 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Off Hand",
+          "name": "Salvaged Wooden Tower Shield",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Shirt",
           "name": "Brawler's Harness",
           "quality": "common"
@@ -790,7 +795,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Bonecracker",
+          "name": "Skullthumper",
           "quality": "uncommon"
         },
         {
@@ -802,7 +807,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-07T19:49:59Z",
+      "lastUpdated": "2026-11-07T23:02:49Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -1132,8 +1137,8 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 15,
-      "ilvl": 7,
+      "level": 16,
+      "ilvl": 8,
       "class": "Mage",
       "classSlug": "mage",
       "race": "Undead",
@@ -1142,27 +1147,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 6,
+      "specPoints": 7,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 6,
+          "points": 7,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 68,
+          "skill": 70,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 70,
+          "skill": 71,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1186,11 +1191,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 412
+          "value": 407
         },
         {
           "slug": "mana",
-          "value": 711
+          "value": 795
         },
         {
           "slug": "strength",
@@ -1198,7 +1203,7 @@
         },
         {
           "slug": "intellect",
-          "value": 48
+          "value": 52
         },
         {
           "slug": "agility",
@@ -1206,15 +1211,15 @@
         },
         {
           "slug": "stamina",
-          "value": 39
+          "value": 38
         },
         {
           "slug": "critical-strike",
-          "value": 4.1141005
+          "value": 3.9141004
         },
         {
           "slug": "spirit",
-          "value": 44
+          "value": 45
         }
       ],
       "gear": [
@@ -1265,14 +1270,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Patchwork Bracers",
-          "quality": "poor"
+          "name": "Featherbead Bracers",
+          "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-07T19:32:42Z",
+      "lastUpdated": "2026-11-07T23:29:06Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
