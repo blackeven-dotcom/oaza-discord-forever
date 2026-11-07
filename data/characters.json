@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:31:29Z",
+  "generatedAt": "2026-11-07T17:01:40Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1277,8 +1277,8 @@
       "slug": "covy-zugzug",
       "leader": false,
       "ok": true,
-      "level": 16,
-      "ilvl": 9,
+      "level": 18,
+      "ilvl": 10,
       "class": "Shaman",
       "classSlug": "shaman",
       "race": "Orc",
@@ -1287,27 +1287,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Enhancement",
-      "specPoints": 7,
+      "specPoints": 9,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Enhancement",
-          "points": 7,
+          "points": 9,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
         }
       ],
       "professions": [
         {
           "name": "Alchemy",
-          "skill": 75,
+          "skill": 85,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 85,
+          "skill": 99,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1315,7 +1315,7 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 1,
+          "skill": 9,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
@@ -1331,19 +1331,19 @@
       "stats": [
         {
           "slug": "health",
-          "value": 452
+          "value": 529
         },
         {
           "slug": "mana",
-          "value": 510
+          "value": 643
         },
         {
           "slug": "strength",
-          "value": 37
+          "value": 40
         },
         {
           "slug": "intellect",
-          "value": 34
+          "value": 40
         },
         {
           "slug": "agility",
@@ -1351,15 +1351,15 @@
         },
         {
           "slug": "stamina",
-          "value": 49
+          "value": 55
         },
         {
           "slug": "critical-strike",
-          "value": 10.3128
+          "value": 10.1416
         },
         {
           "slug": "spirit",
-          "value": 46
+          "value": 51
         }
       ],
       "gear": [
@@ -1370,7 +1370,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Handstitched Leather Vest",
+          "name": "Lupine Vest of the Eagle",
           "quality": "uncommon"
         },
         {
@@ -1380,7 +1380,7 @@
         },
         {
           "slot": "Hands",
-          "name": "Embossed Leather Gloves",
+          "name": "Ceremonial Leather Gloves",
           "quality": "uncommon"
         },
         {
@@ -1390,7 +1390,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Handstitched Leather Pants",
+          "name": "Dredgemire Leggings",
           "quality": "uncommon"
         },
         {
@@ -1422,7 +1422,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T11:41:03Z",
+      "lastUpdated": "2026-11-07T16:52:28Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
