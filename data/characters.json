@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T07:11:56Z",
+  "generatedAt": "2026-11-07T09:47:38Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -179,7 +179,7 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 16,
+      "level": 17,
       "ilvl": 8,
       "class": "Druid",
       "classSlug": "druid",
@@ -209,7 +209,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 130,
+          "skill": 138,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -239,35 +239,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 408
+          "value": 426
         },
         {
           "slug": "mana",
-          "value": 565
+          "value": 602
         },
         {
           "slug": "strength",
-          "value": 37
+          "value": 38
         },
         {
           "slug": "intellect",
-          "value": 39
+          "value": 40
         },
         {
           "slug": "agility",
-          "value": 43
+          "value": 44
         },
         {
           "slug": "stamina",
-          "value": 37
+          "value": 38
         },
         {
           "slug": "critical-strike",
-          "value": 4.8981004
+          "value": 4.6812
         },
         {
           "slug": "spirit",
-          "value": 43
+          "value": 45
         }
       ],
       "gear": [
@@ -315,7 +315,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-06T23:37:08Z",
+      "lastUpdated": "2026-11-07T08:14:15Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -507,7 +507,7 @@
         },
         {
           "name": "Arms",
-          "points": 1,
+          "points": 2,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
@@ -520,7 +520,7 @@
         },
         {
           "name": "Mining",
-          "skill": 64,
+          "skill": 68,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -540,7 +540,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 20,
+          "skill": 53,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -574,7 +574,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 10.374
+          "value": 10.414
         },
         {
           "slug": "spirit",
@@ -641,7 +641,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-06T23:13:49Z",
+      "lastUpdated": "2026-11-07T08:21:09Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
@@ -827,7 +827,7 @@
         {
           "name": "Skinning",
           "skill": 140,
-          "max": 150,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
       ],
@@ -839,7 +839,7 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
-      "honorableKills": 0,
+      "honorableKills": 2,
       "pvpRank": 0,
       "stats": [
         {
@@ -868,7 +868,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 1.8144001
+          "value": 2.7344
         },
         {
           "slug": "spirit",
@@ -935,7 +935,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-05T23:21:58Z",
+      "lastUpdated": "2026-11-07T09:15:54Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
