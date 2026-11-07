@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T00:58:52Z",
+  "generatedAt": "2026-11-07T07:11:56Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,8 +8,8 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 14,
-      "ilvl": 6,
+      "level": 19,
+      "ilvl": 10,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -18,42 +18,48 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 5,
+      "specPoints": 10,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 5,
+          "points": 10,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 58,
+          "skill": 68,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
           "skill": 51,
-          "max": 75,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
       ],
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 29,
-          "max": 75,
+          "skill": 89,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
+          "name": "Fishing",
+          "skill": 75,
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
+        },
+        {
           "name": "First Aid",
-          "skill": 50,
-          "max": 75,
+          "skill": 76,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
@@ -62,7 +68,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 348
+          "value": 553
         },
         {
           "slug": "rage",
@@ -70,34 +76,34 @@
         },
         {
           "slug": "strength",
-          "value": 43
+          "value": 58
         },
         {
           "slug": "intellect",
-          "value": 21
+          "value": 19
         },
         {
           "slug": "agility",
-          "value": 28
+          "value": 36
         },
         {
           "slug": "stamina",
-          "value": 40
+          "value": 55
         },
         {
           "slug": "critical-strike",
-          "value": 4.4764
+          "value": 4.7036
         },
         {
           "slug": "spirit",
-          "value": 30
+          "value": 35
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Seasoned Fighter's Cloak",
-          "quality": "common"
+          "name": "Satyrskin Cloak",
+          "quality": "rare"
         },
         {
           "slot": "Chest",
@@ -111,7 +117,7 @@
         },
         {
           "slot": "Hands",
-          "name": "Lupine Handwraps of the Owl",
+          "name": "Ceremonial Leather Gloves",
           "quality": "uncommon"
         },
         {
@@ -121,17 +127,22 @@
         },
         {
           "slot": "Legs",
-          "name": "Raptorscale Pants",
+          "name": "Gargoyle Leggings",
           "quality": "uncommon"
         },
         {
           "slot": "Off Hand",
-          "name": "Wooden Buckler",
-          "quality": "poor"
+          "name": "Faerleia's Shield",
+          "quality": "uncommon"
         },
         {
           "slot": "Ranged",
           "name": "Rezlak's Spare Knife",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Slain Baron's Signet",
           "quality": "uncommon"
         },
         {
@@ -146,19 +157,19 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Staunch Hammer of Spirit",
-          "quality": "uncommon"
+          "name": "Hammer of Orgrimmar",
+          "quality": "rare"
         },
         {
           "slot": "Wrist",
-          "name": "Brog's Friendship Bracelet",
+          "name": "Spare Part Bindings",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-05T23:16:53Z",
+      "lastUpdated": "2026-11-07T01:23:29Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -338,13 +349,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 107,
+          "skill": 116,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 87,
+          "skill": 93,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -358,7 +369,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 88,
+          "skill": 89,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -368,7 +379,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 584
+          "value": 624
         },
         {
           "slug": "rage",
@@ -388,11 +399,11 @@
         },
         {
           "slug": "stamina",
-          "value": 61
+          "value": 65
         },
         {
           "slug": "critical-strike",
-          "value": 4.3601
+          "value": 4.5601
         },
         {
           "slug": "spirit",
@@ -464,7 +475,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T00:26:40Z",
+      "lastUpdated": "2026-11-07T03:36:34Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -772,8 +783,8 @@
           "quality": "poor"
         }
       ],
-      "avatar": null,
-      "render": null,
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
       "lastUpdated": "2026-11-06T21:11:47Z",
       "outdated": false,
@@ -934,8 +945,8 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 16,
-      "ilvl": 5,
+      "level": 21,
+      "ilvl": 11,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -944,32 +955,32 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Shadow Magic",
-      "specPoints": 5,
+      "specPoints": 7,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Shadow Magic",
-          "points": 5,
+          "points": 7,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg"
         },
         {
           "name": "Discipline",
-          "points": 2,
+          "points": 5,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         }
       ],
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 61,
+          "skill": 62,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 79,
+          "skill": 95,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -977,14 +988,20 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 16,
-          "max": 75,
+          "skill": 106,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
+          "name": "Fishing",
+          "skill": 112,
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
+        },
+        {
           "name": "First Aid",
-          "skill": 31,
-          "max": 75,
+          "skill": 80,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
@@ -993,11 +1010,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 317
+          "value": 492
         },
         {
           "slug": "mana",
-          "value": 580
+          "value": 845
         },
         {
           "slug": "strength",
@@ -1005,7 +1022,7 @@
         },
         {
           "slug": "intellect",
-          "value": 37
+          "value": 48
         },
         {
           "slug": "agility",
@@ -1013,37 +1030,37 @@
         },
         {
           "slug": "stamina",
-          "value": 30
+          "value": 42
         },
         {
           "slug": "critical-strike",
-          "value": 4.2891
+          "value": 1.04
         },
         {
           "slug": "spirit",
-          "value": 45
+          "value": 77
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Long Draping Cape",
+          "name": "Mystic Shawl",
           "quality": "uncommon"
         },
         {
           "slot": "Chest",
-          "name": "Brown Linen Robe",
-          "quality": "uncommon"
+          "name": "Leftover Abomination Skin",
+          "quality": "rare"
         },
         {
           "slot": "Feet",
-          "name": "Reconnaissance Boots",
-          "quality": "common"
+          "name": "Rotmender's Treads",
+          "quality": "rare"
         },
         {
           "slot": "Hands",
-          "name": "Frayed Gloves",
-          "quality": "poor"
+          "name": "Willow Gloves of the Sorcerer",
+          "quality": "uncommon"
         },
         {
           "slot": "Ring 1",
@@ -1052,7 +1069,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Disciple's Pants of the Sorcerer",
+          "name": "Ghastly Trousers",
           "quality": "uncommon"
         },
         {
@@ -1067,24 +1084,24 @@
         },
         {
           "slot": "Waist",
-          "name": "Frayed Belt",
-          "quality": "poor"
+          "name": "Tuskwrap Belt",
+          "quality": "rare"
         },
         {
           "slot": "Main Hand",
-          "name": "Staunch Hammer of the Tiger",
-          "quality": "uncommon"
+          "name": "Gnarled Necromancer's Staff",
+          "quality": "rare"
         },
         {
           "slot": "Wrist",
-          "name": "Mogra's Friendship Bracelet",
-          "quality": "uncommon"
+          "name": "Crystalline Cuffs",
+          "quality": "rare"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-06T11:35:20Z",
+      "lastUpdated": "2026-11-07T01:57:07Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
@@ -1380,8 +1397,8 @@
           "quality": "uncommon"
         }
       ],
-      "avatar": null,
-      "render": null,
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
       "lastUpdated": "2026-11-07T00:28:14Z",
       "outdated": false,
