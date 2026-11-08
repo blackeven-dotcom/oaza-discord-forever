@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:01:51Z",
+  "generatedAt": "2026-11-08T15:31:36Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -364,14 +364,14 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 137,
+          "skill": 146,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 127,
-          "max": 150,
+          "skill": 146,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
       ],
@@ -384,7 +384,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 129,
+          "skill": 137,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -418,7 +418,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 4.5752
+          "value": 4.6152
         },
         {
           "slug": "spirit",
@@ -495,7 +495,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T04:42:08Z",
+      "lastUpdated": "2026-11-08T15:19:13Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -1621,7 +1621,7 @@
       "avatar": null,
       "render": null,
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T11:16:32Z",
+      "lastUpdated": "2026-11-08T15:28:05Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
