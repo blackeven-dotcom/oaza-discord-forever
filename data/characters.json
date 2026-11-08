@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T09:31:34Z",
+  "generatedAt": "2026-11-08T10:01:43Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -179,8 +179,8 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 19,
-      "ilvl": 9,
+      "level": 20,
+      "ilvl": 11,
       "class": "Druid",
       "classSlug": "druid",
       "race": "Tauren",
@@ -189,14 +189,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Feral Combat",
-      "specPoints": 10,
+      "specPoints": 11,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Feral Combat",
-          "points": 10,
+          "points": 11,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
         }
       ],
@@ -210,7 +210,7 @@
         {
           "name": "Skinning",
           "skill": 142,
-          "max": 150,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
       ],
@@ -239,11 +239,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 455
+          "value": 539
         },
         {
           "slug": "mana",
-          "value": 664
+          "value": 704
         },
         {
           "slug": "strength",
@@ -251,23 +251,23 @@
         },
         {
           "slug": "intellect",
-          "value": 41
+          "value": 42
         },
         {
           "slug": "agility",
-          "value": 47
+          "value": 50
         },
         {
           "slug": "stamina",
-          "value": 38
+          "value": 45
         },
         {
           "slug": "critical-strike",
-          "value": 4.6807
+          "value": 4.1550007
         },
         {
           "slug": "spirit",
-          "value": 48
+          "value": 49
         }
       ],
       "gear": [
@@ -289,6 +289,11 @@
         {
           "slot": "Hands",
           "name": "Ceremonial Leather Gloves",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Slain Baron's Signet",
           "quality": "uncommon"
         },
         {
@@ -318,14 +323,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Light Leather Bracers",
+          "name": "Spare Part Bindings",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-08T00:46:04Z",
+      "lastUpdated": "2026-11-08T09:39:02Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -667,7 +672,7 @@
       "leader": false,
       "ok": true,
       "level": 14,
-      "ilvl": 5,
+      "ilvl": 4,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -710,7 +715,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 1,
+          "skill": 3,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -726,7 +731,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 402
+          "value": 382
         },
         {
           "slug": "mana",
@@ -746,11 +751,11 @@
         },
         {
           "slug": "stamina",
-          "value": 45
+          "value": 43
         },
         {
           "slug": "critical-strike",
-          "value": 4.0936003
+          "value": 2.0136003
         },
         {
           "slug": "spirit",
@@ -784,11 +789,6 @@
           "quality": "uncommon"
         },
         {
-          "slot": "Off Hand",
-          "name": "Salvaged Wooden Tower Shield",
-          "quality": "uncommon"
-        },
-        {
           "slot": "Shirt",
           "name": "Brawler's Harness",
           "quality": "common"
@@ -800,8 +800,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Skullthumper",
-          "quality": "uncommon"
+          "name": "Fishing Pole",
+          "quality": "common"
         },
         {
           "slot": "Wrist",
@@ -812,7 +812,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T09:26:25Z",
+      "lastUpdated": "2026-11-08T09:49:15Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
