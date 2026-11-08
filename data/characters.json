@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T19:31:34Z",
+  "generatedAt": "2026-11-08T20:01:41Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -505,8 +505,8 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 21,
-      "ilvl": 12,
+      "level": 22,
+      "ilvl": 14,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -515,14 +515,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 7,
+      "specPoints": 8,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 7,
+          "points": 8,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         },
         {
@@ -534,13 +534,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 154,
+          "skill": 165,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 106,
+          "skill": 110,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -548,29 +548,29 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 52,
+          "skill": 63,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 120,
+          "skill": 122,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
           "name": "First Aid",
-          "skill": 53,
+          "skill": 68,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 0,
+      "honorableKills": 6,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 676
+          "value": 694
         },
         {
           "slug": "rage",
@@ -578,7 +578,7 @@
         },
         {
           "slug": "strength",
-          "value": 65
+          "value": 81
         },
         {
           "slug": "intellect",
@@ -586,7 +586,7 @@
         },
         {
           "slug": "agility",
-          "value": 42
+          "value": 48
         },
         {
           "slug": "stamina",
@@ -594,7 +594,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 10.344399
+          "value": 10.959999
         },
         {
           "slug": "spirit",
@@ -609,8 +609,8 @@
         },
         {
           "slot": "Chest",
-          "name": "Violet Scale Armor",
-          "quality": "uncommon"
+          "name": "Mutant Scale Breastplate",
+          "quality": "rare"
         },
         {
           "slot": "Feet",
@@ -619,13 +619,13 @@
         },
         {
           "slot": "Hands",
-          "name": "Bloodspattered Gloves of Power",
+          "name": "Dagmire Gauntlets",
           "quality": "uncommon"
         },
         {
           "slot": "Ring 1",
-          "name": "Depleted Ritual Band",
-          "quality": "common"
+          "name": "Bounty Hunter's Ring",
+          "quality": "uncommon"
         },
         {
           "slot": "Legs",
@@ -671,7 +671,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-08T17:30:29Z",
+      "lastUpdated": "2026-11-08T19:37:38Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
