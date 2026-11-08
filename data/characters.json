@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T18:01:46Z",
+  "generatedAt": "2026-11-08T18:31:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1167,8 +1167,8 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 17,
-      "ilvl": 8,
+      "level": 19,
+      "ilvl": 9,
       "class": "Mage",
       "classSlug": "mage",
       "race": "Undead",
@@ -1177,27 +1177,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 8,
+      "specPoints": 10,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 8,
+          "points": 10,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 70,
+          "skill": 91,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 71,
+          "skill": 95,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1211,7 +1211,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 100,
+          "skill": 105,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
@@ -1221,11 +1221,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 422
+          "value": 552
         },
         {
           "slug": "mana",
-          "value": 820
+          "value": 918
         },
         {
           "slug": "strength",
@@ -1233,23 +1233,23 @@
         },
         {
           "slug": "intellect",
-          "value": 53
+          "value": 57
         },
         {
           "slug": "agility",
-          "value": 27
+          "value": 28
         },
         {
           "slug": "stamina",
-          "value": 38
+          "value": 49
         },
         {
           "slug": "critical-strike",
-          "value": 3.8741004
+          "value": 4.0324
         },
         {
           "slug": "spirit",
-          "value": 47
+          "value": 49
         }
       ],
       "gear": [
@@ -1280,7 +1280,7 @@
         },
         {
           "slot": "Ranged",
-          "name": "Lesser Magic Wand",
+          "name": "Greater Magic Wand",
           "quality": "uncommon"
         },
         {
@@ -1289,13 +1289,18 @@
           "quality": "common"
         },
         {
+          "slot": "Shoulders",
+          "name": "Canvas Shoulderpads",
+          "quality": "poor"
+        },
+        {
           "slot": "Waist",
           "name": "Novice Arcanist's Sash",
           "quality": "rare"
         },
         {
           "slot": "Main Hand",
-          "name": "Staff of Orgrimmar",
+          "name": "Crescent Staff",
           "quality": "rare"
         },
         {
@@ -1307,7 +1312,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T11:22:34Z",
+      "lastUpdated": "2026-11-08T18:14:28Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
@@ -1618,8 +1623,8 @@
           "quality": "common"
         }
       ],
-      "avatar": null,
-      "render": null,
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
       "lastUpdated": "2026-11-08T15:28:05Z",
       "outdated": false,
