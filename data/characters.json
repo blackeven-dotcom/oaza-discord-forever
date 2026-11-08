@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T01:01:45Z",
+  "generatedAt": "2026-11-08T01:31:28Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -976,8 +976,8 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 22,
-      "ilvl": 11,
+      "level": 23,
+      "ilvl": 12,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -985,21 +985,21 @@
       "gender": "male",
       "ruleset": "pvp",
       "region": "eu",
-      "spec": "Shadow Magic",
+      "spec": "Discipline",
       "specPoints": 7,
-      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg",
-      "role": "range",
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
+      "role": "healer",
       "roleSource": "spec",
       "specs": [
+        {
+          "name": "Discipline",
+          "points": 7,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
+        },
         {
           "name": "Shadow Magic",
           "points": 7,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg"
-        },
-        {
-          "name": "Discipline",
-          "points": 6,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         }
       ],
       "professions": [
@@ -1041,11 +1041,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 508
+          "value": 535
         },
         {
           "slug": "mana",
-          "value": 904
+          "value": 1204
         },
         {
           "slug": "strength",
@@ -1053,19 +1053,19 @@
         },
         {
           "slug": "intellect",
-          "value": 50
+          "value": 69
         },
         {
           "slug": "agility",
-          "value": 27
+          "value": 28
         },
         {
           "slug": "stamina",
-          "value": 42
+          "value": 44
         },
         {
           "slug": "critical-strike",
-          "value": 0.83999985
+          "value": 0.67320013
         },
         {
           "slug": "spirit",
@@ -1080,7 +1080,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Leftover Abomination Skin",
+          "name": "Rotmender's Garb",
           "quality": "rare"
         },
         {
@@ -1090,8 +1090,8 @@
         },
         {
           "slot": "Hands",
-          "name": "Willow Gloves of the Sorcerer",
-          "quality": "uncommon"
+          "name": "Rotmender's Gloves",
+          "quality": "rare"
         },
         {
           "slot": "Ring 1",
@@ -1100,8 +1100,8 @@
         },
         {
           "slot": "Legs",
-          "name": "Ghastly Trousers",
-          "quality": "uncommon"
+          "name": "Rotmender's Leggings",
+          "quality": "rare"
         },
         {
           "slot": "Ranged",
@@ -1132,7 +1132,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-07T23:32:03Z",
+      "lastUpdated": "2026-11-08T01:09:38Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
