@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T00:31:29Z",
+  "generatedAt": "2026-11-08T01:01:45Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -179,7 +179,7 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 18,
+      "level": 19,
       "ilvl": 9,
       "class": "Druid",
       "classSlug": "druid",
@@ -189,14 +189,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Feral Combat",
-      "specPoints": 8,
+      "specPoints": 10,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Feral Combat",
-          "points": 8,
+          "points": 10,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
         }
       ],
@@ -239,46 +239,46 @@
       "stats": [
         {
           "slug": "health",
-          "value": 477
+          "value": 455
         },
         {
           "slug": "mana",
-          "value": 625
+          "value": 664
         },
         {
           "slug": "strength",
-          "value": 41
+          "value": 45
         },
         {
           "slug": "intellect",
-          "value": 40
+          "value": 41
         },
         {
           "slug": "agility",
-          "value": 44
+          "value": 47
         },
         {
           "slug": "stamina",
-          "value": 42
+          "value": 38
         },
         {
           "slug": "critical-strike",
-          "value": 4.4964
+          "value": 4.6807
         },
         {
           "slug": "spirit",
-          "value": 45
+          "value": 48
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Barkeeper's Cloak",
+          "name": "Bandit Cloak of the Wolf",
           "quality": "uncommon"
         },
         {
           "slot": "Chest",
-          "name": "Tribal Vest",
+          "name": "Nomad Tunic of the Tiger",
           "quality": "uncommon"
         },
         {
@@ -302,6 +302,11 @@
           "quality": "common"
         },
         {
+          "slot": "Shoulders",
+          "name": "Patched Leather Shoulderpads",
+          "quality": "poor"
+        },
+        {
           "slot": "Waist",
           "name": "Mystic's Belt",
           "quality": "uncommon"
@@ -320,7 +325,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-07T13:33:53Z",
+      "lastUpdated": "2026-11-08T00:46:04Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -330,7 +335,7 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 18,
+      "level": 19,
       "ilvl": 13,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -340,27 +345,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 9,
+      "specPoints": 10,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 9,
+          "points": 10,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 121,
+          "skill": 122,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 103,
+          "skill": 118,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -374,7 +379,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 92,
+          "skill": 126,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -384,7 +389,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 778
+          "value": 803
         },
         {
           "slug": "rage",
@@ -392,7 +397,7 @@
         },
         {
           "slug": "strength",
-          "value": 62
+          "value": 63
         },
         {
           "slug": "intellect",
@@ -400,19 +405,19 @@
         },
         {
           "slug": "agility",
-          "value": 34
+          "value": 35
         },
         {
           "slug": "stamina",
-          "value": 79
+          "value": 80
         },
         {
           "slug": "critical-strike",
-          "value": 4.6826
+          "value": 4.7285004
         },
         {
           "slug": "spirit",
-          "value": 36
+          "value": 37
         }
       ],
       "gear": [
@@ -485,7 +490,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T21:24:37Z",
+      "lastUpdated": "2026-11-08T00:39:38Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -496,7 +501,7 @@
       "leader": false,
       "ok": true,
       "level": 18,
-      "ilvl": 7,
+      "ilvl": 8,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -524,7 +529,7 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 136,
+          "skill": 138,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -544,7 +549,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 58,
+          "skill": 62,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -560,7 +565,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 508
+          "value": 498
         },
         {
           "slug": "rage",
@@ -568,7 +573,7 @@
         },
         {
           "slug": "strength",
-          "value": 47
+          "value": 55
         },
         {
           "slug": "intellect",
@@ -576,19 +581,19 @@
         },
         {
           "slug": "agility",
-          "value": 38
+          "value": 36
         },
         {
           "slug": "stamina",
-          "value": 52
+          "value": 51
         },
         {
           "slug": "critical-strike",
-          "value": 10.078199
+          "value": 10.0004
         },
         {
           "slug": "spirit",
-          "value": 32
+          "value": 37
         }
       ],
       "gear": [
@@ -619,7 +624,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Raptorscale Pants",
+          "name": "Gargoyle Leggings",
           "quality": "uncommon"
         },
         {
@@ -644,14 +649,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Bloodspattered Wristbands of the Monkey",
-          "quality": "uncommon"
+          "name": "Death Bindings",
+          "quality": "rare"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-07T16:11:17Z",
+      "lastUpdated": "2026-11-08T00:46:17Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
