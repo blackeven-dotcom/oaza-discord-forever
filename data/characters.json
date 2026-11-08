@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T08:01:39Z",
+  "generatedAt": "2026-11-08T08:31:35Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1515,7 +1515,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 6,
+          "skill": 36,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
@@ -1549,7 +1549,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 2.7559
+          "value": 3.0758998
         },
         {
           "slug": "spirit",
@@ -1611,7 +1611,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-07T20:42:19Z",
+      "lastUpdated": "2026-11-08T08:22:15Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
