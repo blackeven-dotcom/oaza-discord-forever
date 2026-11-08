@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:01:48Z",
+  "generatedAt": "2026-11-08T17:31:31Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -32,7 +32,7 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 77,
+          "skill": 79,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -68,7 +68,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 854
+          "value": 834
         },
         {
           "slug": "rage",
@@ -76,7 +76,7 @@
         },
         {
           "slug": "strength",
-          "value": 61
+          "value": 74
         },
         {
           "slug": "intellect",
@@ -84,15 +84,15 @@
         },
         {
           "slug": "agility",
-          "value": 50
+          "value": 48
         },
         {
           "slug": "stamina",
-          "value": 81
+          "value": 79
         },
         {
           "slug": "critical-strike",
-          "value": 6.01
+          "value": 5.96
         },
         {
           "slug": "spirit",
@@ -107,12 +107,12 @@
         },
         {
           "slot": "Chest",
-          "name": "Hunting Tunic",
-          "quality": "uncommon"
+          "name": "Mutant Scale Breastplate",
+          "quality": "rare"
         },
         {
           "slot": "Feet",
-          "name": "Padded Lamellar Boots",
+          "name": "Outrunner's Slippers of Strength",
           "quality": "uncommon"
         },
         {
@@ -169,7 +169,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T02:07:54Z",
+      "lastUpdated": "2026-11-08T17:21:30Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -534,13 +534,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 144,
+          "skill": 154,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 103,
+          "skill": 106,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -554,7 +554,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 71,
+          "skill": 120,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -570,7 +570,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 616
+          "value": 676
         },
         {
           "slug": "rage",
@@ -578,7 +578,7 @@
         },
         {
           "slug": "strength",
-          "value": 67
+          "value": 65
         },
         {
           "slug": "intellect",
@@ -586,19 +586,19 @@
         },
         {
           "slug": "agility",
-          "value": 43
+          "value": 42
         },
         {
           "slug": "stamina",
-          "value": 59
+          "value": 65
         },
         {
           "slug": "critical-strike",
-          "value": 10.3526
+          "value": 10.344399
         },
         {
           "slug": "spirit",
-          "value": 32
+          "value": 33
         }
       ],
       "gear": [
@@ -609,7 +609,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Battle Chain Tunic",
+          "name": "Violet Scale Armor",
           "quality": "uncommon"
         },
         {
@@ -671,7 +671,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-08T15:51:09Z",
+      "lastUpdated": "2026-11-08T17:30:29Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
