@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T03:31:32Z",
+  "generatedAt": "2026-11-08T04:01:54Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -335,7 +335,7 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 19,
+      "level": 20,
       "ilvl": 13,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -345,27 +345,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 10,
+      "specPoints": 11,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 10,
+          "points": 11,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 122,
-          "max": 150,
+          "skill": 137,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 118,
+          "skill": 127,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -379,7 +379,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 126,
+          "skill": 129,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -389,7 +389,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 803
+          "value": 829
         },
         {
           "slug": "rage",
@@ -397,7 +397,7 @@
         },
         {
           "slug": "strength",
-          "value": 63
+          "value": 65
         },
         {
           "slug": "intellect",
@@ -405,15 +405,15 @@
         },
         {
           "slug": "agility",
-          "value": 35
+          "value": 36
         },
         {
           "slug": "stamina",
-          "value": 80
+          "value": 81
         },
         {
           "slug": "critical-strike",
-          "value": 4.7285004
+          "value": 4.5752
         },
         {
           "slug": "spirit",
@@ -490,7 +490,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T00:39:38Z",
+      "lastUpdated": "2026-11-08T03:38:30Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -809,8 +809,8 @@
           "quality": "poor"
         }
       ],
-      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
-      "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
+      "avatar": null,
+      "render": null,
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
       "lastUpdated": "2026-11-07T23:02:49Z",
       "outdated": false,
