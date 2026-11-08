@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:31:34Z",
+  "generatedAt": "2026-11-08T22:01:45Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,8 +8,8 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 22,
-      "ilvl": 13,
+      "level": 24,
+      "ilvl": 16,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -18,27 +18,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 13,
+      "specPoints": 15,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 13,
+          "points": 15,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 79,
+          "skill": 86,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
-          "skill": 59,
+          "skill": 63,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
@@ -52,23 +52,23 @@
         },
         {
           "name": "Fishing",
-          "skill": 105,
+          "skill": 108,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
           "name": "First Aid",
-          "skill": 76,
+          "skill": 77,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 0,
+      "honorableKills": 4,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 834
+          "value": 833
         },
         {
           "slug": "rage",
@@ -76,27 +76,27 @@
         },
         {
           "slug": "strength",
-          "value": 74
+          "value": 85
         },
         {
           "slug": "intellect",
-          "value": 20
+          "value": 26
         },
         {
           "slug": "agility",
-          "value": 48
+          "value": 55
         },
         {
           "slug": "stamina",
-          "value": 79
+          "value": 76
         },
         {
           "slug": "critical-strike",
-          "value": 5.96
+          "value": 5.9965
         },
         {
           "slug": "spirit",
-          "value": 30
+          "value": 32
         }
       ],
       "gear": [
@@ -112,18 +112,18 @@
         },
         {
           "slot": "Feet",
-          "name": "Outrunner's Slippers of Strength",
+          "name": "Safety Boots",
           "quality": "uncommon"
         },
         {
           "slot": "Hands",
-          "name": "Gloves of the Moon",
+          "name": "Dagmire Gauntlets",
           "quality": "uncommon"
         },
         {
           "slot": "Ring 1",
-          "name": "Depleted Ritual Band",
-          "quality": "common"
+          "name": "Loop of Sacrifice",
+          "quality": "uncommon"
         },
         {
           "slot": "Legs",
@@ -131,9 +131,14 @@
           "quality": "rare"
         },
         {
+          "slot": "Neck",
+          "name": "Snake Eye Kaleidoscope",
+          "quality": "rare"
+        },
+        {
           "slot": "Off Hand",
-          "name": "Cobalt Buckler",
-          "quality": "uncommon"
+          "name": "Kresh's Back",
+          "quality": "rare"
         },
         {
           "slot": "Ranged",
@@ -157,7 +162,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Meathook Slicer",
+          "name": "Wingblade",
           "quality": "rare"
         },
         {
@@ -169,7 +174,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T17:40:15Z",
+      "lastUpdated": "2026-11-08T21:55:08Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
