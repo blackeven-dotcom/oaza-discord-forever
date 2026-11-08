@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:31:39Z",
+  "generatedAt": "2026-11-08T12:01:46Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -827,8 +827,8 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 22,
-      "ilvl": 11,
+      "level": 23,
+      "ilvl": 16,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Orc",
@@ -837,27 +837,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 13,
+      "specPoints": 14,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 13,
+          "points": 14,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
       "professions": [
         {
           "name": "Leatherworking",
-          "skill": 75,
+          "skill": 145,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
         },
         {
           "name": "Skinning",
-          "skill": 150,
+          "skill": 152,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -870,40 +870,40 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
-      "honorableKills": 4,
+      "honorableKills": 8,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 638
+          "value": 805
         },
         {
           "slug": "mana",
-          "value": 700
+          "value": 696
         },
         {
           "slug": "strength",
-          "value": 33
+          "value": 39
         },
         {
           "slug": "intellect",
-          "value": 31
+          "value": 29
         },
         {
           "slug": "agility",
-          "value": 77
+          "value": 84
         },
         {
           "slug": "stamina",
-          "value": 58
+          "value": 73
         },
         {
           "slug": "critical-strike",
-          "value": 3.9814997
+          "value": 4.0512004
         },
         {
           "slug": "spirit",
-          "value": 37
+          "value": 43
         }
       ],
       "gear": [
@@ -924,13 +924,13 @@
         },
         {
           "slot": "Hands",
-          "name": "Gloves of the Moon",
-          "quality": "uncommon"
+          "name": "Toughened Leather Gloves",
+          "quality": "rare"
         },
         {
           "slot": "Ring 1",
-          "name": "Depleted Ritual Band",
-          "quality": "common"
+          "name": "Horn Ring",
+          "quality": "uncommon"
         },
         {
           "slot": "Legs",
@@ -938,9 +938,14 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Off Hand",
+          "name": "Harpy Skinner",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Ranged",
-          "name": "Heavy Recurve Bow",
-          "quality": "common"
+          "name": "Precision Bow",
+          "quality": "uncommon"
         },
         {
           "slot": "Ring 2",
@@ -953,13 +958,18 @@
           "quality": "common"
         },
         {
+          "slot": "Shoulders",
+          "name": "Hillman's Shoulders",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Waist",
-          "name": "Rigid Belt of the Falcon",
+          "name": "Dark Leather Belt",
           "quality": "uncommon"
         },
         {
           "slot": "Main Hand",
-          "name": "Pointed Axe",
+          "name": "Grunt Axe of Nature Protection",
           "quality": "uncommon"
         },
         {
@@ -971,7 +981,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T15:48:29Z",
+      "lastUpdated": "2026-11-08T11:52:48Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
