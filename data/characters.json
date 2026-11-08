@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T23:31:32Z",
+  "generatedAt": "2026-11-08T00:01:40Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1127,7 +1127,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-07T14:50:40Z",
+      "lastUpdated": "2026-11-07T23:32:03Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
@@ -1592,8 +1592,8 @@
           "quality": "uncommon"
         }
       ],
-      "avatar": null,
-      "render": null,
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
       "lastUpdated": "2026-11-07T20:42:19Z",
       "outdated": false,
