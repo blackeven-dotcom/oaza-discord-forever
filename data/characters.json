@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T13:01:45Z",
+  "generatedAt": "2026-11-08T13:31:33Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1631,7 +1631,7 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 16,
+      "level": 17,
       "ilvl": 8,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -1641,27 +1641,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 7,
+      "specPoints": 8,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 7,
+          "points": 8,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
       "professions": [
         {
           "name": "Alchemy",
-          "skill": 65,
+          "skill": 80,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 79,
+          "skill": 82,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1669,13 +1669,13 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 90,
+          "skill": 109,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 92,
+          "skill": 117,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
@@ -1685,15 +1685,15 @@
       "stats": [
         {
           "slug": "health",
-          "value": 437
+          "value": 458
         },
         {
           "slug": "mana",
-          "value": 475
+          "value": 495
         },
         {
           "slug": "strength",
-          "value": 27
+          "value": 28
         },
         {
           "slug": "intellect",
@@ -1701,19 +1701,19 @@
         },
         {
           "slug": "agility",
-          "value": 57
+          "value": 58
         },
         {
           "slug": "stamina",
-          "value": 46
+          "value": 47
         },
         {
           "slug": "critical-strike",
-          "value": 4.2734
+          "value": 4.1148
         },
         {
           "slug": "spirit",
-          "value": 36
+          "value": 37
         }
       ],
       "gear": [
@@ -1749,7 +1749,7 @@
         },
         {
           "slot": "Ranged",
-          "name": "Hunting Bow",
+          "name": "Orcish Battle Bow",
           "quality": "uncommon"
         },
         {
@@ -1771,7 +1771,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-08T11:22:13Z",
+      "lastUpdated": "2026-11-08T13:24:36Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
