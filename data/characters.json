@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T12:01:46Z",
+  "generatedAt": "2026-11-08T12:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -505,8 +505,8 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 18,
-      "ilvl": 8,
+      "level": 21,
+      "ilvl": 12,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -514,33 +514,33 @@
       "gender": "male",
       "ruleset": "pvp",
       "region": "eu",
-      "spec": "Fury",
-      "specPoints": 5,
-      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132347.jpg",
+      "spec": "Arms",
+      "specPoints": 7,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
+          "name": "Arms",
+          "points": 7,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
+        },
+        {
           "name": "Fury",
           "points": 5,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132347.jpg"
-        },
-        {
-          "name": "Arms",
-          "points": 4,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 138,
-          "max": 150,
+          "skill": 144,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 96,
+          "skill": 103,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -554,14 +554,14 @@
         },
         {
           "name": "Fishing",
-          "skill": 62,
+          "skill": 71,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
           "name": "First Aid",
           "skill": 53,
-          "max": 75,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
@@ -570,7 +570,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 498
+          "value": 616
         },
         {
           "slug": "rage",
@@ -578,27 +578,27 @@
         },
         {
           "slug": "strength",
-          "value": 55
+          "value": 67
         },
         {
           "slug": "intellect",
-          "value": 18
+          "value": 19
         },
         {
           "slug": "agility",
-          "value": 36
+          "value": 43
         },
         {
           "slug": "stamina",
-          "value": 51
+          "value": 59
         },
         {
           "slug": "critical-strike",
-          "value": 10.0004
+          "value": 10.3526
         },
         {
           "slug": "spirit",
-          "value": 37
+          "value": 32
         }
       ],
       "gear": [
@@ -614,8 +614,8 @@
         },
         {
           "slot": "Feet",
-          "name": "Lightweight Boots",
-          "quality": "common"
+          "name": "Rambling Boots",
+          "quality": "uncommon"
         },
         {
           "slot": "Hands",
@@ -638,18 +638,28 @@
           "quality": "common"
         },
         {
+          "slot": "Ring 2",
+          "name": "Slain Baron's Signet",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Shirt",
           "name": "Brawler's Harness",
           "quality": "common"
         },
         {
-          "slot": "Waist",
-          "name": "Laced Mail Belt",
+          "slot": "Shoulders",
+          "name": "Laced Mail Shoulderpads",
           "quality": "poor"
         },
         {
+          "slot": "Waist",
+          "name": "Lupine Cord of the Monkey",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Main Hand",
-          "name": "Axe of Orgrimmar",
+          "name": "Forsaken Greataxe",
           "quality": "rare"
         },
         {
@@ -661,7 +671,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-08T00:46:17Z",
+      "lastUpdated": "2026-11-08T12:12:28Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
