@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:31:39Z",
+  "generatedAt": "2026-11-08T23:01:50Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1011,8 +1011,8 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 23,
-      "ilvl": 12,
+      "level": 25,
+      "ilvl": 18,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -1021,14 +1021,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 7,
+      "specPoints": 9,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 7,
+          "points": 9,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1040,13 +1040,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 74,
+          "skill": 97,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 96,
+          "skill": 107,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1060,7 +1060,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 140,
+          "skill": 142,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -1071,47 +1071,47 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 0,
+      "honorableKills": 6,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 555
+          "value": 682
         },
         {
           "slug": "mana",
-          "value": 1054
+          "value": 1357
         },
         {
           "slug": "strength",
-          "value": 28
+          "value": 33
         },
         {
           "slug": "intellect",
-          "value": 59
+          "value": 76
         },
         {
           "slug": "agility",
-          "value": 28
+          "value": 32
         },
         {
           "slug": "stamina",
-          "value": 46
+          "value": 56
         },
         {
           "slug": "critical-strike",
-          "value": 0.91320014
+          "value": 1.3008
         },
         {
           "slug": "spirit",
-          "value": 84
+          "value": 88
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Mystic Shawl",
-          "quality": "uncommon"
+          "name": "Feyscale Cloak",
+          "quality": "rare"
         },
         {
           "slot": "Chest",
@@ -1130,8 +1130,8 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Depleted Ritual Band",
-          "quality": "common"
+          "name": "Loop of Sacrifice",
+          "quality": "uncommon"
         },
         {
           "slot": "Legs",
@@ -1139,14 +1139,29 @@
           "quality": "rare"
         },
         {
+          "slot": "Neck",
+          "name": "Snake Eye Kaleidoscope",
+          "quality": "rare"
+        },
+        {
           "slot": "Ranged",
-          "name": "Greater Magic Wand",
+          "name": "Branding Rod",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Bounty Hunter's Ring",
           "quality": "uncommon"
         },
         {
           "slot": "Shirt",
           "name": "Neophyte's Shirt",
           "quality": "common"
+        },
+        {
+          "slot": "Shoulders",
+          "name": "Talbar Mantle",
+          "quality": "uncommon"
         },
         {
           "slot": "Waist",
@@ -1167,7 +1182,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-08T17:40:27Z",
+      "lastUpdated": "2026-11-08T22:56:09Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
