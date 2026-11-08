@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:01:44Z",
+  "generatedAt": "2026-11-08T11:31:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1147,7 +1147,7 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 16,
+      "level": 17,
       "ilvl": 8,
       "class": "Mage",
       "classSlug": "mage",
@@ -1157,14 +1157,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 7,
+      "specPoints": 8,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 7,
+          "points": 8,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
@@ -1201,11 +1201,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 407
+          "value": 422
         },
         {
           "slug": "mana",
-          "value": 795
+          "value": 820
         },
         {
           "slug": "strength",
@@ -1213,7 +1213,7 @@
         },
         {
           "slug": "intellect",
-          "value": 52
+          "value": 53
         },
         {
           "slug": "agility",
@@ -1225,11 +1225,11 @@
         },
         {
           "slug": "critical-strike",
-          "value": 3.9141004
+          "value": 3.8741004
         },
         {
           "slug": "spirit",
-          "value": 45
+          "value": 47
         }
       ],
       "gear": [
@@ -1287,7 +1287,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-07T23:29:06Z",
+      "lastUpdated": "2026-11-08T11:22:34Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
@@ -1505,7 +1505,7 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
       ],
-      "honorableKills": 0,
+      "honorableKills": 1,
       "pvpRank": 0,
       "stats": [
         {
@@ -1534,7 +1534,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 8.990399
+          "value": 9.2304
         },
         {
           "slug": "spirit",
@@ -1544,7 +1544,7 @@
       "gear": [
         {
           "slot": "Back",
-          "name": "Loose Chain Cloak",
+          "name": "Calico Cloak",
           "quality": "poor"
         },
         {
@@ -1601,7 +1601,7 @@
       "avatar": null,
       "render": null,
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T10:44:04Z",
+      "lastUpdated": "2026-11-08T11:16:32Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
@@ -1611,8 +1611,8 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 15,
-      "ilvl": 6,
+      "level": 16,
+      "ilvl": 8,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Windshaper Skyborne",
@@ -1621,14 +1621,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 6,
+      "specPoints": 7,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 6,
+          "points": 7,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -1641,7 +1641,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 66,
+          "skill": 79,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1649,14 +1649,14 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 9,
-          "max": 75,
+          "skill": 90,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 36,
-          "max": 75,
+          "skill": 92,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
       ],
@@ -1665,35 +1665,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 387
+          "value": 437
         },
         {
           "slug": "mana",
-          "value": 426
+          "value": 475
         },
         {
           "slug": "strength",
-          "value": 23
+          "value": 27
         },
         {
           "slug": "intellect",
-          "value": 26
+          "value": 27
         },
         {
           "slug": "agility",
-          "value": 51
+          "value": 57
         },
         {
           "slug": "stamina",
-          "value": 42
+          "value": 46
         },
         {
           "slug": "critical-strike",
-          "value": 3.0758998
+          "value": 4.2734
         },
         {
           "slug": "spirit",
-          "value": 33
+          "value": 36
         }
       ],
       "gear": [
@@ -1724,7 +1724,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Handstitched Leather Pants",
+          "name": "Greasy Tinker's Pants",
           "quality": "uncommon"
         },
         {
@@ -1734,13 +1734,13 @@
         },
         {
           "slot": "Waist",
-          "name": "Grizzly Belt",
-          "quality": "common"
+          "name": "Mystic's Belt",
+          "quality": "uncommon"
         },
         {
           "slot": "Main Hand",
-          "name": "Fishing Pole",
-          "quality": "common"
+          "name": "Cauldron Stirrer",
+          "quality": "uncommon"
         },
         {
           "slot": "Wrist",
@@ -1751,7 +1751,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-08T08:22:15Z",
+      "lastUpdated": "2026-11-08T11:22:13Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
