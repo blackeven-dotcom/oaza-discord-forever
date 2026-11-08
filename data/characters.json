@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:31:30Z",
+  "generatedAt": "2026-11-08T11:01:44Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -209,7 +209,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 142,
+          "skill": 143,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -263,7 +263,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 4.1550007
+          "value": 4.1950006
         },
         {
           "slug": "spirit",
@@ -330,7 +330,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-08T09:39:02Z",
+      "lastUpdated": "2026-11-08T10:54:33Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -672,7 +672,7 @@
       "leader": false,
       "ok": true,
       "level": 14,
-      "ilvl": 4,
+      "ilvl": 5,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -731,7 +731,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 382
+          "value": 402
         },
         {
           "slug": "mana",
@@ -751,11 +751,11 @@
         },
         {
           "slug": "stamina",
-          "value": 43
+          "value": 45
         },
         {
           "slug": "critical-strike",
-          "value": 3.3736002
+          "value": 4.3736005
         },
         {
           "slug": "spirit",
@@ -789,6 +789,11 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Off Hand",
+          "name": "Salvaged Wooden Tower Shield",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Shirt",
           "name": "Brawler's Harness",
           "quality": "common"
@@ -800,8 +805,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Fishing Pole",
-          "quality": "common"
+          "name": "Skullthumper",
+          "quality": "uncommon"
         },
         {
           "slot": "Wrist",
@@ -812,7 +817,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T10:28:46Z",
+      "lastUpdated": "2026-11-08T10:50:46Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -1460,9 +1465,144 @@
     {
       "label": "Fore Skeenwalker",
       "name": "Fore Skeenwalker",
+      "slug": "fore-skeenwalker",
       "leader": false,
-      "ok": false,
-      "error": "brak w Armory (HTTP 500)",
+      "ok": true,
+      "level": 11,
+      "ilvl": 2,
+      "class": "Rogue",
+      "classSlug": "rogue",
+      "race": "Undead",
+      "faction": "horde",
+      "gender": "male",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Combat",
+      "specPoints": 1,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg",
+      "role": "melee",
+      "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Combat",
+          "points": 1,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg"
+        }
+      ],
+      "professions": [
+        {
+          "name": "Mining",
+          "skill": 4,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Fishing",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
+        }
+      ],
+      "honorableKills": 0,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 235
+        },
+        {
+          "slug": "energy",
+          "value": 100
+        },
+        {
+          "slug": "strength",
+          "value": 27
+        },
+        {
+          "slug": "intellect",
+          "value": 20
+        },
+        {
+          "slug": "agility",
+          "value": 36
+        },
+        {
+          "slug": "stamina",
+          "value": 29
+        },
+        {
+          "slug": "critical-strike",
+          "value": 8.990399
+        },
+        {
+          "slug": "spirit",
+          "value": 29
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Loose Chain Cloak",
+          "quality": "poor"
+        },
+        {
+          "slot": "Chest",
+          "name": "Howlhide Vest",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Zombie Skin Boots",
+          "quality": "common"
+        },
+        {
+          "slot": "Hands",
+          "name": "Patchwork Gloves",
+          "quality": "poor"
+        },
+        {
+          "slot": "Legs",
+          "name": "Worn Leather Pants",
+          "quality": "poor"
+        },
+        {
+          "slot": "Off Hand",
+          "name": "Stiletto",
+          "quality": "common"
+        },
+        {
+          "slot": "Ranged",
+          "name": "Small Throwing Knife",
+          "quality": "common"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Thug Shirt",
+          "quality": "common"
+        },
+        {
+          "slot": "Waist",
+          "name": "Old Leather Belt",
+          "quality": "common"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Stiletto",
+          "quality": "common"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Zombie Skin Bracers",
+          "quality": "common"
+        }
+      ],
+      "avatar": null,
+      "render": null,
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
+      "lastUpdated": "2026-11-08T10:44:04Z",
+      "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
     {
