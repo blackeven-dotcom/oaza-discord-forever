@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T02:01:42Z",
+  "generatedAt": "2026-11-08T02:31:33Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,8 +8,8 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 19,
-      "ilvl": 10,
+      "level": 22,
+      "ilvl": 13,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -18,27 +18,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 10,
+      "specPoints": 13,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 10,
+          "points": 13,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 68,
+          "skill": 77,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
-          "skill": 51,
+          "skill": 59,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
@@ -46,13 +46,13 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 89,
+          "skill": 130,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 75,
+          "skill": 105,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -68,7 +68,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 553
+          "value": 854
         },
         {
           "slug": "rage",
@@ -76,27 +76,27 @@
         },
         {
           "slug": "strength",
-          "value": 58
+          "value": 61
         },
         {
           "slug": "intellect",
-          "value": 19
+          "value": 20
         },
         {
           "slug": "agility",
-          "value": 36
+          "value": 50
         },
         {
           "slug": "stamina",
-          "value": 55
+          "value": 81
         },
         {
           "slug": "critical-strike",
-          "value": 4.7036
+          "value": 6.01
         },
         {
           "slug": "spirit",
-          "value": 35
+          "value": 30
         }
       ],
       "gear": [
@@ -107,17 +107,17 @@
         },
         {
           "slot": "Chest",
-          "name": "Rough Copper Vest",
+          "name": "Hunting Tunic",
           "quality": "uncommon"
         },
         {
           "slot": "Feet",
-          "name": "Lightweight Boots",
-          "quality": "common"
+          "name": "Padded Lamellar Boots",
+          "quality": "uncommon"
         },
         {
           "slot": "Hands",
-          "name": "Ceremonial Leather Gloves",
+          "name": "Gloves of the Moon",
           "quality": "uncommon"
         },
         {
@@ -127,12 +127,12 @@
         },
         {
           "slot": "Legs",
-          "name": "Gargoyle Leggings",
-          "quality": "uncommon"
+          "name": "Bonerust Leggings",
+          "quality": "rare"
         },
         {
           "slot": "Off Hand",
-          "name": "Faerleia's Shield",
+          "name": "Cobalt Buckler",
           "quality": "uncommon"
         },
         {
@@ -147,17 +147,17 @@
         },
         {
           "slot": "Shirt",
-          "name": "Brawler's Harness",
+          "name": "Deckhand's Shirt",
           "quality": "common"
         },
         {
           "slot": "Waist",
-          "name": "Copper Chain Belt",
-          "quality": "uncommon"
+          "name": "Atrophic Girdle",
+          "quality": "rare"
         },
         {
           "slot": "Main Hand",
-          "name": "Hammer of Orgrimmar",
+          "name": "Meathook Slicer",
           "quality": "rare"
         },
         {
@@ -169,7 +169,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T01:23:29Z",
+      "lastUpdated": "2026-11-08T02:07:54Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
