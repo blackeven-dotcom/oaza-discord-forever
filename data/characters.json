@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T20:01:41Z",
+  "generatedAt": "2026-11-08T20:29:47Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1167,8 +1167,8 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 19,
-      "ilvl": 9,
+      "level": 20,
+      "ilvl": 14,
       "class": "Mage",
       "classSlug": "mage",
       "race": "Undead",
@@ -1177,14 +1177,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 10,
+      "specPoints": 11,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 10,
+          "points": 11,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
@@ -1221,11 +1221,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 552
+          "value": 557
         },
         {
           "slug": "mana",
-          "value": 918
+          "value": 1036
         },
         {
           "slug": "strength",
@@ -1233,34 +1233,34 @@
         },
         {
           "slug": "intellect",
-          "value": 57
+          "value": 63
         },
         {
           "slug": "agility",
-          "value": 28
+          "value": 32
         },
         {
           "slug": "stamina",
-          "value": 49
+          "value": 48
         },
         {
           "slug": "critical-strike",
-          "value": 4.0324
+          "value": 4.0400004
         },
         {
           "slug": "spirit",
-          "value": 49
+          "value": 51
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Reinforced Linen Cape",
+          "name": "Fortified Cloak of Frozen Wrath",
           "quality": "uncommon"
         },
         {
           "slot": "Chest",
-          "name": "Barbaric Linen Vest",
+          "name": "Ritual Tunic of Frozen Wrath",
           "quality": "uncommon"
         },
         {
@@ -1270,7 +1270,12 @@
         },
         {
           "slot": "Hands",
-          "name": "Heavy Linen Gloves",
+          "name": "Buccaneer's Gloves of Frozen Wrath",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Bounty Hunter's Ring",
           "quality": "uncommon"
         },
         {
@@ -1290,8 +1295,8 @@
         },
         {
           "slot": "Shoulders",
-          "name": "Canvas Shoulderpads",
-          "quality": "poor"
+          "name": "Talbar Mantle",
+          "quality": "uncommon"
         },
         {
           "slot": "Waist",
@@ -1312,7 +1317,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T18:14:28Z",
+      "lastUpdated": "2026-11-08T20:19:01Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
