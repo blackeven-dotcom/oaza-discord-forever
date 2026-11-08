@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T09:01:39Z",
+  "generatedAt": "2026-11-08T09:31:34Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -690,13 +690,13 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 62,
-          "max": 75,
+          "skill": 65,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
-          "skill": 35,
+          "skill": 47,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
@@ -726,7 +726,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 352
+          "value": 402
         },
         {
           "slug": "mana",
@@ -734,7 +734,7 @@
         },
         {
           "slug": "strength",
-          "value": 35
+          "value": 37
         },
         {
           "slug": "intellect",
@@ -746,7 +746,7 @@
         },
         {
           "slug": "stamina",
-          "value": 40
+          "value": 45
         },
         {
           "slug": "critical-strike",
@@ -770,8 +770,8 @@
         },
         {
           "slot": "Feet",
-          "name": "Finscale Soles",
-          "quality": "uncommon"
+          "name": "Strange Copper Boots",
+          "quality": "rare"
         },
         {
           "slot": "Hands",
@@ -795,7 +795,7 @@
         },
         {
           "slot": "Waist",
-          "name": "Copper Chain Belt",
+          "name": "Runed Copper Belt",
           "quality": "uncommon"
         },
         {
@@ -812,7 +812,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-07T23:02:49Z",
+      "lastUpdated": "2026-11-08T09:26:25Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
