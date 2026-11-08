@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:01:45Z",
+  "generatedAt": "2026-11-08T22:31:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -184,8 +184,8 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 20,
-      "ilvl": 11,
+      "level": 23,
+      "ilvl": 17,
       "class": "Druid",
       "classSlug": "druid",
       "race": "Tauren",
@@ -194,27 +194,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Feral Combat",
-      "specPoints": 11,
+      "specPoints": 14,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Feral Combat",
-          "points": 11,
+          "points": 14,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
         }
       ],
       "professions": [
         {
           "name": "Leatherworking",
-          "skill": 50,
-          "max": 75,
+          "skill": 110,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
         },
         {
           "name": "Skinning",
-          "skill": 143,
+          "skill": 168,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -239,71 +239,76 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 0,
+      "honorableKills": 7,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 539
+          "value": 776
         },
         {
           "slug": "mana",
-          "value": 704
+          "value": 1130
         },
         {
           "slug": "strength",
-          "value": 45
+          "value": 49
         },
         {
           "slug": "intellect",
-          "value": 42
+          "value": 66
         },
         {
           "slug": "agility",
-          "value": 50
+          "value": 73
         },
         {
           "slug": "stamina",
-          "value": 45
+          "value": 63
         },
         {
           "slug": "critical-strike",
-          "value": 4.1950006
+          "value": 6.3367
         },
         {
           "slug": "spirit",
-          "value": 49
+          "value": 59
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Bandit Cloak of the Wolf",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Chest",
-          "name": "Nomad Tunic of the Tiger",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Feet",
-          "name": "Dark Leather Boots",
+          "name": "Glowing Lizardscale Cloak",
           "quality": "rare"
         },
         {
-          "slot": "Hands",
-          "name": "Ceremonial Leather Gloves",
+          "slot": "Chest",
+          "name": "Armor of the Fang",
+          "quality": "rare"
+        },
+        {
+          "slot": "Feet",
+          "name": "Gray Leather Boots",
           "quality": "uncommon"
         },
         {
+          "slot": "Hands",
+          "name": "Gloves of the Fang",
+          "quality": "rare"
+        },
+        {
           "slot": "Ring 1",
-          "name": "Slain Baron's Signet",
+          "name": "Bounty Hunter's Ring",
           "quality": "uncommon"
         },
         {
           "slot": "Legs",
-          "name": "Greasy Tinker's Pants",
+          "name": "Dark Leather Pants",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Zircon Band of the Falcon",
           "quality": "uncommon"
         },
         {
@@ -313,17 +318,17 @@
         },
         {
           "slot": "Shoulders",
-          "name": "Patched Leather Shoulderpads",
-          "quality": "poor"
-        },
-        {
-          "slot": "Waist",
-          "name": "Mystic's Belt",
+          "name": "Talbar Mantle",
           "quality": "uncommon"
         },
         {
+          "slot": "Waist",
+          "name": "Deviate Scale Belt",
+          "quality": "rare"
+        },
+        {
           "slot": "Main Hand",
-          "name": "Staff of Orgrimmar",
+          "name": "Crescent Staff",
           "quality": "rare"
         },
         {
@@ -335,7 +340,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-08T10:54:33Z",
+      "lastUpdated": "2026-11-08T22:27:58Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -1332,8 +1337,8 @@
       "slug": "covy-zugzug",
       "leader": false,
       "ok": true,
-      "level": 22,
-      "ilvl": 14,
+      "level": 24,
+      "ilvl": 15,
       "class": "Shaman",
       "classSlug": "shaman",
       "race": "Orc",
@@ -1342,27 +1347,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Enhancement",
-      "specPoints": 13,
+      "specPoints": 15,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Enhancement",
-          "points": 13,
+          "points": 15,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
         }
       ],
       "professions": [
         {
           "name": "Alchemy",
-          "skill": 124,
+          "skill": 139,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 130,
+          "skill": 143,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1370,57 +1375,57 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 50,
+          "skill": 90,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 103,
+          "skill": 150,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
           "name": "First Aid",
-          "skill": 52,
+          "skill": 58,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 0,
+      "honorableKills": 1,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 705
+          "value": 674
         },
         {
           "slug": "mana",
-          "value": 801
+          "value": 1171
         },
         {
           "slug": "strength",
-          "value": 50
+          "value": 59
         },
         {
           "slug": "intellect",
-          "value": 44
+          "value": 65
         },
         {
           "slug": "agility",
-          "value": 40
+          "value": 46
         },
         {
           "slug": "stamina",
-          "value": 68
+          "value": 62
         },
         {
           "slug": "critical-strike",
-          "value": 10.624001
+          "value": 11.1
         },
         {
           "slug": "spirit",
-          "value": 49
+          "value": 62
         }
       ],
       "gear": [
@@ -1431,17 +1436,17 @@
         },
         {
           "slot": "Chest",
-          "name": "Lupine Vest of the Eagle",
-          "quality": "uncommon"
+          "name": "Armor of the Fang",
+          "quality": "rare"
         },
         {
           "slot": "Feet",
-          "name": "Gray Leather Boots",
-          "quality": "uncommon"
+          "name": "Footpads of the Fang",
+          "quality": "rare"
         },
         {
           "slot": "Hands",
-          "name": "Gloves of the Moon",
+          "name": "Heat Resistant Mitts",
           "quality": "uncommon"
         },
         {
@@ -1451,7 +1456,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Embroidered Leggings",
+          "name": "Feral Leggings of the Gorilla",
           "quality": "uncommon"
         },
         {
@@ -1486,14 +1491,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Savannah Bracers",
+          "name": "Ratchet Wristwraps",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T13:00:06Z",
+      "lastUpdated": "2026-11-08T22:30:31Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
