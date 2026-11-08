@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:31:31Z",
+  "generatedAt": "2026-11-08T18:01:46Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -169,7 +169,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T17:21:30Z",
+      "lastUpdated": "2026-11-08T17:40:15Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -1030,13 +1030,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 64,
+          "skill": 74,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 95,
+          "skill": 96,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1066,19 +1066,19 @@
       "stats": [
         {
           "slug": "health",
-          "value": 535
+          "value": 555
         },
         {
           "slug": "mana",
-          "value": 1204
+          "value": 1054
         },
         {
           "slug": "strength",
-          "value": 25
+          "value": 28
         },
         {
           "slug": "intellect",
-          "value": 69
+          "value": 59
         },
         {
           "slug": "agility",
@@ -1086,15 +1086,15 @@
         },
         {
           "slug": "stamina",
-          "value": 44
+          "value": 46
         },
         {
           "slug": "critical-strike",
-          "value": 0.67320013
+          "value": 0.91320014
         },
         {
           "slug": "spirit",
-          "value": 79
+          "value": 84
         }
       ],
       "gear": [
@@ -1105,7 +1105,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Rotmender's Garb",
+          "name": "Robe of the Moccasin",
           "quality": "rare"
         },
         {
@@ -1145,7 +1145,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Gnarled Necromancer's Staff",
+          "name": "Living Root",
           "quality": "rare"
         },
         {
@@ -1157,7 +1157,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-08T01:09:38Z",
+      "lastUpdated": "2026-11-08T17:40:27Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
