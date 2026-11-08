@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T01:31:28Z",
+  "generatedAt": "2026-11-08T01:54:01Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1292,8 +1292,8 @@
       "slug": "covy-zugzug",
       "leader": false,
       "ok": true,
-      "level": 20,
-      "ilvl": 12,
+      "level": 21,
+      "ilvl": 14,
       "class": "Shaman",
       "classSlug": "shaman",
       "race": "Orc",
@@ -1302,27 +1302,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Enhancement",
-      "specPoints": 11,
+      "specPoints": 12,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Enhancement",
-          "points": 11,
+          "points": 12,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
         }
       ],
       "professions": [
         {
           "name": "Alchemy",
-          "skill": 90,
+          "skill": 103,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 106,
+          "skill": 108,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1333,6 +1333,12 @@
           "skill": 9,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "Fishing",
+          "skill": 103,
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
           "name": "First Aid",
@@ -1346,19 +1352,19 @@
       "stats": [
         {
           "slug": "health",
-          "value": 600
+          "value": 652
         },
         {
           "slug": "mana",
-          "value": 720
+          "value": 760
         },
         {
           "slug": "strength",
-          "value": 42
+          "value": 51
         },
         {
           "slug": "intellect",
-          "value": 42
+          "value": 43
         },
         {
           "slug": "agility",
@@ -1366,15 +1372,15 @@
         },
         {
           "slug": "stamina",
-          "value": 60
+          "value": 64
         },
         {
           "slug": "critical-strike",
-          "value": 10.627
+          "value": 10.547
         },
         {
           "slug": "spirit",
-          "value": 50
+          "value": 48
         }
       ],
       "gear": [
@@ -1424,13 +1430,18 @@
           "quality": "common"
         },
         {
+          "slot": "Shoulders",
+          "name": "Hillman's Shoulders",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Waist",
           "name": "Binding Girdle",
           "quality": "uncommon"
         },
         {
           "slot": "Main Hand",
-          "name": "Axe of Orgrimmar",
+          "name": "Forsaken Greataxe",
           "quality": "rare"
         },
         {
@@ -1442,7 +1453,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-07T22:16:04Z",
+      "lastUpdated": "2026-11-08T01:45:18Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
