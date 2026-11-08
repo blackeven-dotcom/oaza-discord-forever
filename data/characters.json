@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T14:01:44Z",
+  "generatedAt": "2026-11-08T14:31:35Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -837,7 +837,7 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 23,
+      "level": 24,
       "ilvl": 16,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -885,35 +885,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 805
+          "value": 833
         },
         {
           "slug": "mana",
-          "value": 696
+          "value": 738
         },
         {
           "slug": "strength",
-          "value": 39
+          "value": 40
         },
         {
           "slug": "intellect",
-          "value": 29
+          "value": 30
         },
         {
           "slug": "agility",
-          "value": 84
+          "value": 86
         },
         {
           "slug": "stamina",
-          "value": 73
+          "value": 74
         },
         {
           "slug": "critical-strike",
-          "value": 4.0512004
+          "value": 3.8668003
         },
         {
           "slug": "spirit",
-          "value": 43
+          "value": 44
         }
       ],
       "gear": [
@@ -991,7 +991,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T11:52:48Z",
+      "lastUpdated": "2026-11-08T14:26:30Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
