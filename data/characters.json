@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T23:01:50Z",
+  "generatedAt": "2026-11-08T23:31:32Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -848,7 +848,7 @@
       "leader": false,
       "ok": true,
       "level": 24,
-      "ilvl": 16,
+      "ilvl": 18,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Orc",
@@ -857,14 +857,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 14,
+      "specPoints": 15,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 14,
+          "points": 15,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -877,7 +877,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 152,
+          "skill": 176,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -895,7 +895,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 833
+          "value": 723
         },
         {
           "slug": "mana",
@@ -911,19 +911,19 @@
         },
         {
           "slug": "agility",
-          "value": 86
+          "value": 99
         },
         {
           "slug": "stamina",
-          "value": 74
+          "value": 63
         },
         {
           "slug": "critical-strike",
-          "value": 3.8668003
+          "value": 4.9662004
         },
         {
           "slug": "spirit",
-          "value": 44
+          "value": 51
         }
       ],
       "gear": [
@@ -934,7 +934,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Fine Leather Tunic",
+          "name": "Wrangler's Wraps of the Wolf",
           "quality": "uncommon"
         },
         {
@@ -954,7 +954,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Light Leather Pants",
+          "name": "Bristlebark Britches",
           "quality": "uncommon"
         },
         {
@@ -979,7 +979,7 @@
         },
         {
           "slot": "Shoulders",
-          "name": "Hillman's Shoulders",
+          "name": "Dark Leather Shoulders",
           "quality": "uncommon"
         },
         {
@@ -1001,7 +1001,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T14:26:30Z",
+      "lastUpdated": "2026-11-08T23:08:50Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
