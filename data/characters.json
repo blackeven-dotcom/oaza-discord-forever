@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:01:43Z",
+  "generatedAt": "2026-11-08T10:31:30Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -715,7 +715,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 3,
+          "skill": 37,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -755,7 +755,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 2.0136003
+          "value": 3.3736002
         },
         {
           "slug": "spirit",
@@ -812,7 +812,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T09:49:15Z",
+      "lastUpdated": "2026-11-08T10:28:46Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
