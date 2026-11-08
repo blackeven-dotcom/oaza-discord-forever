@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T16:31:33Z",
+  "generatedAt": "2026-11-08T17:01:48Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1631,8 +1631,8 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 17,
-      "ilvl": 8,
+      "level": 18,
+      "ilvl": 9,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Windshaper Skyborne",
@@ -1641,14 +1641,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 8,
+      "specPoints": 9,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 8,
+          "points": 9,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -1661,7 +1661,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 82,
+          "skill": 84,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1685,46 +1685,46 @@
       "stats": [
         {
           "slug": "health",
-          "value": 458
+          "value": 490
         },
         {
           "slug": "mana",
-          "value": 495
+          "value": 681
         },
         {
           "slug": "strength",
-          "value": 28
+          "value": 33
         },
         {
           "slug": "intellect",
-          "value": 27
+          "value": 38
         },
         {
           "slug": "agility",
-          "value": 58
+          "value": 67
         },
         {
           "slug": "stamina",
-          "value": 47
+          "value": 49
         },
         {
           "slug": "critical-strike",
-          "value": 4.1148
+          "value": 4.4782
         },
         {
           "slug": "spirit",
-          "value": 37
+          "value": 38
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Mystic's Cape",
+          "name": "Greenweave Cloak of Power",
           "quality": "uncommon"
         },
         {
           "slot": "Chest",
-          "name": "Handstitched Leather Vest",
+          "name": "Ceremonial Leather Harness",
           "quality": "uncommon"
         },
         {
@@ -1734,8 +1734,8 @@
         },
         {
           "slot": "Hands",
-          "name": "Embossed Leather Gloves",
-          "quality": "uncommon"
+          "name": "Gloves of the Fang",
+          "quality": "rare"
         },
         {
           "slot": "Ring 1",
@@ -1753,9 +1753,14 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Shoulders",
+          "name": "Patched Leather Shoulderpads",
+          "quality": "poor"
+        },
+        {
           "slot": "Waist",
-          "name": "Mystic's Belt",
-          "quality": "uncommon"
+          "name": "Belt of the Fang",
+          "quality": "rare"
         },
         {
           "slot": "Main Hand",
@@ -1771,7 +1776,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-08T13:24:36Z",
+      "lastUpdated": "2026-11-08T16:55:01Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
