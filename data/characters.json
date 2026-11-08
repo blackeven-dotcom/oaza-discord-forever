@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:01:43Z",
+  "generatedAt": "2026-11-08T21:31:34Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1498,8 +1498,8 @@
       "slug": "fore-skeenwalker",
       "leader": false,
       "ok": true,
-      "level": 11,
-      "ilvl": 2,
+      "level": 13,
+      "ilvl": 3,
       "class": "Rogue",
       "classSlug": "rogue",
       "race": "Undead",
@@ -1508,21 +1508,26 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Combat",
-      "specPoints": 1,
+      "specPoints": 2,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Combat",
-          "points": 1,
+          "points": 2,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg"
+        },
+        {
+          "name": "Subtlety",
+          "points": 1,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132320.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 4,
+          "skill": 5,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -1540,7 +1545,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 235
+          "value": 269
         },
         {
           "slug": "energy",
@@ -1548,7 +1553,7 @@
         },
         {
           "slug": "strength",
-          "value": 27
+          "value": 29
         },
         {
           "slug": "intellect",
@@ -1556,15 +1561,15 @@
         },
         {
           "slug": "agility",
-          "value": 36
+          "value": 40
         },
         {
           "slug": "stamina",
-          "value": 29
+          "value": 30
         },
         {
           "slug": "critical-strike",
-          "value": 9.2304
+          "value": 8.292
         },
         {
           "slug": "spirit",
@@ -1574,8 +1579,8 @@
       "gear": [
         {
           "slot": "Back",
-          "name": "Calico Cloak",
-          "quality": "poor"
+          "name": "Thrice-Stitched Flesh",
+          "quality": "uncommon"
         },
         {
           "slot": "Chest",
@@ -1604,7 +1609,7 @@
         },
         {
           "slot": "Ranged",
-          "name": "Small Throwing Knife",
+          "name": "Balanced Throwing Dagger",
           "quality": "common"
         },
         {
@@ -1619,7 +1624,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Stiletto",
+          "name": "Ceremonial Knife",
           "quality": "common"
         },
         {
@@ -1631,7 +1636,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T15:28:05Z",
+      "lastUpdated": "2026-11-08T21:08:35Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
