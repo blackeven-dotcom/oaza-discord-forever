@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T18:31:39Z",
+  "generatedAt": "2026-11-08T19:01:44Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1636,8 +1636,8 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 18,
-      "ilvl": 9,
+      "level": 19,
+      "ilvl": 12,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Windshaper Skyborne",
@@ -1646,14 +1646,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 9,
+      "specPoints": 10,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 9,
+          "points": 10,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -1690,31 +1690,31 @@
       "stats": [
         {
           "slug": "health",
-          "value": 490
+          "value": 563
         },
         {
           "slug": "mana",
-          "value": 681
+          "value": 898
         },
         {
           "slug": "strength",
-          "value": 33
+          "value": 32
         },
         {
           "slug": "intellect",
-          "value": 38
+          "value": 50
         },
         {
           "slug": "agility",
-          "value": 67
+          "value": 76
         },
         {
           "slug": "stamina",
-          "value": 49
+          "value": 55
         },
         {
           "slug": "critical-strike",
-          "value": 4.4782
+          "value": 4.6304
         },
         {
           "slug": "spirit",
@@ -1754,13 +1754,13 @@
         },
         {
           "slot": "Ranged",
-          "name": "Orcish Battle Bow",
-          "quality": "uncommon"
+          "name": "Venomstrike",
+          "quality": "rare"
         },
         {
           "slot": "Shoulders",
-          "name": "Patched Leather Shoulderpads",
-          "quality": "poor"
+          "name": "Talbar Mantle",
+          "quality": "uncommon"
         },
         {
           "slot": "Waist",
@@ -1769,8 +1769,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Cauldron Stirrer",
-          "quality": "uncommon"
+          "name": "Crescent Staff",
+          "quality": "rare"
         },
         {
           "slot": "Wrist",
@@ -1781,7 +1781,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-08T16:55:01Z",
+      "lastUpdated": "2026-11-08T18:35:37Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
