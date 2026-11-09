@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T21:31:35Z",
+  "generatedAt": "2026-11-09T22:01:52Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -219,7 +219,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 176,
+          "skill": 185,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -244,7 +244,7 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 7,
+      "honorableKills": 9,
       "pvpRank": 0,
       "stats": [
         {
@@ -273,7 +273,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 6.1366997
+          "value": 6.2166996
         },
         {
           "slug": "spirit",
@@ -350,7 +350,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-09T17:56:14Z",
+      "lastUpdated": "2026-11-09T21:52:53Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -515,7 +515,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-09T02:19:53Z",
+      "lastUpdated": "2026-11-09T21:52:07Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
