@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T11:02:08Z",
+  "generatedAt": "2026-11-09T11:31:38Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -857,8 +857,8 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 24,
-      "ilvl": 18,
+      "level": 25,
+      "ilvl": 19,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Orc",
@@ -867,14 +867,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 15,
+      "specPoints": 16,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 15,
+          "points": 16,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -887,7 +887,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 176,
+          "skill": 205,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -900,46 +900,46 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
-      "honorableKills": 8,
+      "honorableKills": 12,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 723
+          "value": 732
         },
         {
           "slug": "mana",
-          "value": 738
+          "value": 856
         },
         {
           "slug": "strength",
-          "value": 40
+          "value": 43
         },
         {
           "slug": "intellect",
-          "value": 30
+          "value": 35
         },
         {
           "slug": "agility",
-          "value": 99
+          "value": 103
         },
         {
           "slug": "stamina",
-          "value": 63
+          "value": 62
         },
         {
           "slug": "critical-strike",
-          "value": 4.9662004
+          "value": 5.0645003
         },
         {
           "slug": "spirit",
-          "value": 51
+          "value": 50
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Boar Hunter's Cape",
+          "name": "Elder's Cloak of Agility",
           "quality": "uncommon"
         },
         {
@@ -959,7 +959,7 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Horn Ring",
+          "name": "Loop of Sacrifice",
           "quality": "uncommon"
         },
         {
@@ -1011,7 +1011,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T23:08:50Z",
+      "lastUpdated": "2026-11-09T11:23:55Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
