@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T19:01:49Z",
+  "generatedAt": "2026-11-09T19:31:32Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,7 +8,7 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 25,
+      "level": 26,
       "ilvl": 18,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -32,7 +32,7 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 89,
+          "skill": 91,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -58,17 +58,17 @@
         },
         {
           "name": "First Aid",
-          "skill": 77,
+          "skill": 80,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 4,
+      "honorableKills": 5,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 884
+          "value": 916
         },
         {
           "slug": "rage",
@@ -76,7 +76,7 @@
         },
         {
           "slug": "strength",
-          "value": 87
+          "value": 88
         },
         {
           "slug": "intellect",
@@ -84,15 +84,15 @@
         },
         {
           "slug": "agility",
-          "value": 56
+          "value": 60
         },
         {
           "slug": "stamina",
-          "value": 79
+          "value": 80
         },
         {
           "slug": "critical-strike",
-          "value": 6.1816
+          "value": 6.322
         },
         {
           "slug": "spirit",
@@ -147,7 +147,7 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Slain Baron's Signet",
+          "name": "Zircon Band of the Monkey",
           "quality": "uncommon"
         },
         {
@@ -179,7 +179,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-09T00:27:55Z",
+      "lastUpdated": "2026-11-09T19:09:45Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -701,7 +701,7 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 14,
+      "level": 15,
       "ilvl": 5,
       "class": "Paladin",
       "classSlug": "paladin",
@@ -725,13 +725,13 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 65,
+          "skill": 75,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
-          "skill": 47,
+          "skill": 64,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
@@ -745,7 +745,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 37,
+          "skill": 75,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -761,31 +761,31 @@
       "stats": [
         {
           "slug": "health",
-          "value": 402
+          "value": 421
         },
         {
           "slug": "mana",
-          "value": 375
+          "value": 407
         },
         {
           "slug": "strength",
-          "value": 37
+          "value": 38
         },
         {
           "slug": "intellect",
-          "value": 26
+          "value": 27
         },
         {
           "slug": "agility",
-          "value": 26
+          "value": 27
         },
         {
           "slug": "stamina",
-          "value": 45
+          "value": 47
         },
         {
           "slug": "critical-strike",
-          "value": 4.3736005
+          "value": 4.2891
         },
         {
           "slug": "spirit",
@@ -847,7 +847,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-09T16:55:04Z",
+      "lastUpdated": "2026-11-09T19:18:51Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -1021,7 +1021,7 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 25,
+      "level": 26,
       "ilvl": 18,
       "class": "Priest",
       "classSlug": "priest",
@@ -1031,14 +1031,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 9,
+      "specPoints": 10,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 9,
+          "points": 10,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1050,13 +1050,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 97,
+          "skill": 100,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 107,
+          "skill": 109,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1064,7 +1064,7 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 118,
+          "skill": 140,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
@@ -1081,24 +1081,24 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 6,
+      "honorableKills": 7,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 682
+          "value": 702
         },
         {
           "slug": "mana",
-          "value": 1357
+          "value": 1435
         },
         {
           "slug": "strength",
-          "value": 33
+          "value": 32
         },
         {
           "slug": "intellect",
-          "value": 76
+          "value": 79
         },
         {
           "slug": "agility",
@@ -1110,11 +1110,11 @@
         },
         {
           "slug": "critical-strike",
-          "value": 1.3808
+          "value": 1.0912
         },
         {
           "slug": "spirit",
-          "value": 88
+          "value": 92
         }
       ],
       "gear": [
@@ -1150,8 +1150,8 @@
         },
         {
           "slot": "Neck",
-          "name": "Snake Eye Kaleidoscope",
-          "quality": "rare"
+          "name": "Roadwatcher's Confidence",
+          "quality": "uncommon"
         },
         {
           "slot": "Ranged",
@@ -1185,14 +1185,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Crystalline Cuffs",
-          "quality": "rare"
+          "name": "Ivycloth Bracelets of the Whale",
+          "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-09T00:26:39Z",
+      "lastUpdated": "2026-11-09T19:18Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
@@ -1711,7 +1711,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 85,
+          "skill": 86,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1719,7 +1719,7 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 109,
+          "skill": 125,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
@@ -1759,7 +1759,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 4.8304005
+          "value": 4.9104
         },
         {
           "slug": "spirit",
@@ -1826,7 +1826,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-09T17:59:12Z",
+      "lastUpdated": "2026-11-09T19:15:54Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
