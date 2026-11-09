@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T17:31:42Z",
+  "generatedAt": "2026-11-09T18:01:51Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -350,7 +350,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-09T00:21:54Z",
+      "lastUpdated": "2026-11-09T17:56:14Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -1711,7 +1711,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 84,
+          "skill": 85,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1759,7 +1759,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 4.6304
+          "value": 4.8304005
         },
         {
           "slug": "spirit",
@@ -1826,7 +1826,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-09T16:03:07Z",
+      "lastUpdated": "2026-11-09T17:59:12Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
