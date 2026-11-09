@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T17:01:56Z",
+  "generatedAt": "2026-11-09T17:31:42Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -882,7 +882,7 @@
         {
           "name": "Leatherworking",
           "skill": 145,
-          "max": 150,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
         },
         {
@@ -895,8 +895,8 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 26,
-          "max": 75,
+          "skill": 174,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
@@ -1011,7 +1011,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-09T14:38:34Z",
+      "lastUpdated": "2026-11-09T17:16:21Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
