@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T14:31:39Z",
+  "generatedAt": "2026-11-09T15:01:56Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -857,7 +857,7 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 25,
+      "level": 26,
       "ilvl": 19,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -867,14 +867,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 16,
+      "specPoints": 17,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 16,
+          "points": 17,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -887,7 +887,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 205,
+          "skill": 213,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -900,36 +900,36 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
-      "honorableKills": 12,
+      "honorableKills": 13,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 732
+          "value": 742
         },
         {
           "slug": "mana",
-          "value": 856
+          "value": 900
         },
         {
           "slug": "strength",
-          "value": 43
+          "value": 44
         },
         {
           "slug": "intellect",
-          "value": 35
+          "value": 36
         },
         {
           "slug": "agility",
-          "value": 103
+          "value": 106
         },
         {
           "slug": "stamina",
-          "value": 62
+          "value": 61
         },
         {
           "slug": "critical-strike",
-          "value": 5.0645003
+          "value": 4.967
         },
         {
           "slug": "spirit",
@@ -1004,14 +1004,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Wolf Bracers",
+          "name": "Forest Leather Bracers",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-09T11:23:55Z",
+      "lastUpdated": "2026-11-09T14:38:34Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
