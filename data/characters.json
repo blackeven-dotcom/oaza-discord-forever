@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T23:01:54Z",
+  "generatedAt": "2026-11-09T23:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -405,7 +405,7 @@
         {
           "name": "First Aid",
           "skill": 150,
-          "max": 150,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
@@ -515,7 +515,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-09T21:52:07Z",
+      "lastUpdated": "2026-11-09T23:05:27Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
