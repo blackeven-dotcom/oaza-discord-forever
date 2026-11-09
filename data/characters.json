@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T20:01:50Z",
+  "generatedAt": "2026-11-09T20:31:35Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -525,7 +525,7 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 22,
+      "level": 23,
       "ilvl": 16,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -535,14 +535,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 8,
+      "specPoints": 9,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 8,
+          "points": 9,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         },
         {
@@ -560,7 +560,7 @@
         },
         {
           "name": "Mining",
-          "skill": 110,
+          "skill": 114,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -568,19 +568,19 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 63,
+          "skill": 64,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 122,
+          "skill": 125,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
           "name": "First Aid",
-          "skill": 68,
+          "skill": 74,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -590,7 +590,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 754
+          "value": 783
         },
         {
           "slug": "rage",
@@ -598,7 +598,7 @@
         },
         {
           "slug": "strength",
-          "value": 93
+          "value": 95
         },
         {
           "slug": "intellect",
@@ -606,15 +606,15 @@
         },
         {
           "slug": "agility",
-          "value": 48
+          "value": 49
         },
         {
           "slug": "stamina",
-          "value": 71
+          "value": 72
         },
         {
           "slug": "critical-strike",
-          "value": 11
+          "value": 10.7109995
         },
         {
           "slug": "spirit",
@@ -691,7 +691,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-09T16:49:19Z",
+      "lastUpdated": "2026-11-09T20:16:40Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
@@ -1523,7 +1523,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T22:30:31Z",
+      "lastUpdated": "2026-11-09T20:17:14Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
@@ -1533,8 +1533,8 @@
       "slug": "fore-skeenwalker",
       "leader": false,
       "ok": true,
-      "level": 13,
-      "ilvl": 3,
+      "level": 15,
+      "ilvl": 6,
       "class": "Rogue",
       "classSlug": "rogue",
       "race": "Undead",
@@ -1562,7 +1562,7 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 5,
+          "skill": 7,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -1580,7 +1580,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 269
+          "value": 383
         },
         {
           "slug": "energy",
@@ -1588,27 +1588,27 @@
         },
         {
           "slug": "strength",
-          "value": 29
+          "value": 31
         },
         {
           "slug": "intellect",
-          "value": 20
+          "value": 21
         },
         {
           "slug": "agility",
-          "value": 40
+          "value": 51
         },
         {
           "slug": "stamina",
-          "value": 30
+          "value": 39
         },
         {
           "slug": "critical-strike",
-          "value": 8.292
+          "value": 8.5924
         },
         {
           "slug": "spirit",
-          "value": 29
+          "value": 30
         }
       ],
       "gear": [
@@ -1619,7 +1619,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Howlhide Vest",
+          "name": "Fine Leather Tunic",
           "quality": "uncommon"
         },
         {
@@ -1629,8 +1629,8 @@
         },
         {
           "slot": "Hands",
-          "name": "Patchwork Gloves",
-          "quality": "poor"
+          "name": "Embossed Leather Gloves",
+          "quality": "uncommon"
         },
         {
           "slot": "Legs",
@@ -1639,7 +1639,7 @@
         },
         {
           "slot": "Off Hand",
-          "name": "Stiletto",
+          "name": "Ceremonial Knife",
           "quality": "common"
         },
         {
@@ -1654,24 +1654,24 @@
         },
         {
           "slot": "Waist",
-          "name": "Old Leather Belt",
-          "quality": "common"
+          "name": "Fine Leather Belt",
+          "quality": "uncommon"
         },
         {
           "slot": "Main Hand",
-          "name": "Ceremonial Knife",
-          "quality": "common"
+          "name": "Blade of Cunning",
+          "quality": "uncommon"
         },
         {
           "slot": "Wrist",
-          "name": "Zombie Skin Bracers",
-          "quality": "common"
+          "name": "Light Leather Bracers",
+          "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T21:08:35Z",
+      "lastUpdated": "2026-11-09T20:26:24Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
