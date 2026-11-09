@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T16:31:44Z",
+  "generatedAt": "2026-11-09T16:53:10Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -526,7 +526,7 @@
       "leader": false,
       "ok": true,
       "level": 22,
-      "ilvl": 14,
+      "ilvl": 16,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -554,7 +554,7 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 165,
+          "skill": 166,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -590,7 +590,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 694
+          "value": 754
         },
         {
           "slug": "rage",
@@ -598,7 +598,7 @@
         },
         {
           "slug": "strength",
-          "value": 81
+          "value": 93
         },
         {
           "slug": "intellect",
@@ -610,15 +610,15 @@
         },
         {
           "slug": "stamina",
-          "value": 65
+          "value": 71
         },
         {
           "slug": "critical-strike",
-          "value": 10.959999
+          "value": 11
         },
         {
           "slug": "spirit",
-          "value": 33
+          "value": 36
         }
       ],
       "gear": [
@@ -634,7 +634,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Rambling Boots",
+          "name": "Silvered Bronze Boots",
           "quality": "uncommon"
         },
         {
@@ -649,7 +649,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Gargoyle Leggings",
+          "name": "Hulking Leggings",
           "quality": "uncommon"
         },
         {
@@ -669,8 +669,8 @@
         },
         {
           "slot": "Shoulders",
-          "name": "Laced Mail Shoulderpads",
-          "quality": "poor"
+          "name": "Silvered Bronze Shoulders",
+          "quality": "uncommon"
         },
         {
           "slot": "Waist",
@@ -691,7 +691,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-08T19:37:38Z",
+      "lastUpdated": "2026-11-09T16:49:19Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
