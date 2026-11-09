@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:01:43Z",
+  "generatedAt": "2026-11-09T02:31:34Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -360,8 +360,8 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 21,
-      "ilvl": 13,
+      "level": 23,
+      "ilvl": 16,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -370,14 +370,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 12,
+      "specPoints": 14,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 12,
+          "points": 14,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
@@ -390,7 +390,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 148,
+          "skill": 152,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -404,7 +404,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 137,
+          "skill": 150,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -414,7 +414,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 856
+          "value": 933
         },
         {
           "slug": "rage",
@@ -422,27 +422,27 @@
         },
         {
           "slug": "strength",
-          "value": 66
-        },
-        {
-          "slug": "intellect",
-          "value": 20
-        },
-        {
-          "slug": "agility",
-          "value": 36
-        },
-        {
-          "slug": "stamina",
           "value": 83
         },
         {
+          "slug": "intellect",
+          "value": 26
+        },
+        {
+          "slug": "agility",
+          "value": 46
+        },
+        {
+          "slug": "stamina",
+          "value": 87
+        },
+        {
           "slug": "critical-strike",
-          "value": 4.4151998
+          "value": 5.274
         },
         {
           "slug": "spirit",
-          "value": 37
+          "value": 30
         }
       ],
       "gear": [
@@ -463,18 +463,18 @@
         },
         {
           "slot": "Hands",
-          "name": "Dagmire Gauntlets",
-          "quality": "uncommon"
+          "name": "Grip of Fear",
+          "quality": "rare"
         },
         {
           "slot": "Ring 1",
-          "name": "Depleted Ritual Band",
-          "quality": "common"
+          "name": "Slain Baron's Signet",
+          "quality": "uncommon"
         },
         {
           "slot": "Legs",
-          "name": "Brackwater Leggings",
-          "quality": "uncommon"
+          "name": "Bonerust Leggings",
+          "quality": "rare"
         },
         {
           "slot": "Ranged",
@@ -498,24 +498,24 @@
         },
         {
           "slot": "Waist",
-          "name": "Cinched Belt",
-          "quality": "uncommon"
+          "name": "Atrophic Girdle",
+          "quality": "rare"
         },
         {
           "slot": "Main Hand",
-          "name": "Axe of Orgrimmar",
+          "name": "Forsaken Greataxe",
           "quality": "rare"
         },
         {
           "slot": "Wrist",
-          "name": "Garrison Cuffs",
+          "name": "Spare Part Bindings",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-08T16:29:50Z",
+      "lastUpdated": "2026-11-09T02:19:53Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
