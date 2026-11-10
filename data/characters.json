@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:01:53Z",
+  "generatedAt": "2026-11-10T23:31:34Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1169,8 +1169,8 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 20,
-      "ilvl": 12,
+      "level": 21,
+      "ilvl": 14,
       "class": "Mage",
       "classSlug": "mage",
       "race": "Undead",
@@ -1193,13 +1193,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 92,
+          "skill": 94,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 95,
+          "skill": 111,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1207,7 +1207,7 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 96,
+          "skill": 112,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
@@ -1223,35 +1223,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 487
+          "value": 572
         },
         {
           "slug": "mana",
-          "value": 931
+          "value": 1065
         },
         {
           "slug": "strength",
-          "value": 21
+          "value": 22
         },
         {
           "slug": "intellect",
-          "value": 56
+          "value": 64
         },
         {
           "slug": "agility",
-          "value": 25
+          "value": 32
         },
         {
           "slug": "stamina",
-          "value": 41
+          "value": 48
         },
         {
           "slug": "critical-strike",
-          "value": 6.3550005
+          "value": 3.8400002
         },
         {
           "slug": "spirit",
-          "value": 51
+          "value": 52
         }
       ],
       "gear": [
@@ -1307,8 +1307,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Fishing Pole",
-          "quality": "common"
+          "name": "Crescent Staff",
+          "quality": "rare"
         },
         {
           "slot": "Wrist",
@@ -1319,7 +1319,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-10T18:33:56Z",
+      "lastUpdated": "2026-11-10T23:19:42Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
