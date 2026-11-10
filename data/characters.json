@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T10:31:37Z",
+  "generatedAt": "2026-11-10T11:01:51Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -857,7 +857,7 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 26,
+      "level": 28,
       "ilvl": 19,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -867,14 +867,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 17,
+      "specPoints": 19,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 17,
+          "points": 19,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -887,7 +887,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 213,
+          "skill": 215,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -900,40 +900,40 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         }
       ],
-      "honorableKills": 13,
+      "honorableKills": 16,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 742
+          "value": 805
         },
         {
           "slug": "mana",
-          "value": 900
+          "value": 1050
         },
         {
           "slug": "strength",
-          "value": 44
+          "value": 45
         },
         {
           "slug": "intellect",
-          "value": 36
+          "value": 41
         },
         {
           "slug": "agility",
-          "value": 106
+          "value": 109
         },
         {
           "slug": "stamina",
-          "value": 61
+          "value": 63
         },
         {
           "slug": "critical-strike",
-          "value": 4.967
+          "value": 4.5994997
         },
         {
           "slug": "spirit",
-          "value": 50
+          "value": 52
         }
       ],
       "gear": [
@@ -974,8 +974,8 @@
         },
         {
           "slot": "Ranged",
-          "name": "Precision Bow",
-          "quality": "uncommon"
+          "name": "Harpyclaw Short Bow",
+          "quality": "rare"
         },
         {
           "slot": "Ring 2",
@@ -1011,7 +1011,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-09T18:19:39Z",
+      "lastUpdated": "2026-11-10T10:58:16Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
