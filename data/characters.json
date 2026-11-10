@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T21:01:47Z",
+  "generatedAt": "2026-11-10T21:31:36Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -360,8 +360,8 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 23,
-      "ilvl": 16,
+      "level": 24,
+      "ilvl": 17,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -370,21 +370,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 14,
+      "specPoints": 15,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 14,
+          "points": 15,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 152,
+          "skill": 156,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -404,52 +404,19 @@
         },
         {
           "name": "First Aid",
-          "skill": 150,
+          "skill": 157,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
       "honorableKills": 0,
       "pvpRank": 0,
-      "stats": [
-        {
-          "slug": "health",
-          "value": 933
-        },
-        {
-          "slug": "rage",
-          "value": 100
-        },
-        {
-          "slug": "strength",
-          "value": 83
-        },
-        {
-          "slug": "intellect",
-          "value": 26
-        },
-        {
-          "slug": "agility",
-          "value": 46
-        },
-        {
-          "slug": "stamina",
-          "value": 87
-        },
-        {
-          "slug": "critical-strike",
-          "value": 5.474
-        },
-        {
-          "slug": "spirit",
-          "value": 30
-        }
-      ],
+      "stats": [],
       "gear": [
         {
           "slot": "Back",
-          "name": "Prospector's Cloak",
-          "quality": "uncommon"
+          "name": "Wolfmaster Cape",
+          "quality": "rare"
         },
         {
           "slot": "Chest",
@@ -458,7 +425,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Savage Trodders",
+          "name": "Half-Eaten Boots",
           "quality": "rare"
         },
         {
@@ -515,7 +482,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-10T01:13:35Z",
+      "lastUpdated": "2026-11-10T21:22:38Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -525,8 +492,8 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 26,
-      "ilvl": 17,
+      "level": 27,
+      "ilvl": 18,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -535,14 +502,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 12,
+      "specPoints": 13,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 12,
+          "points": 13,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         },
         {
@@ -554,13 +521,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 184,
+          "skill": 189,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 131,
+          "skill": 137,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -590,7 +557,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 876
+          "value": 1029
         },
         {
           "slug": "rage",
@@ -598,27 +565,27 @@
         },
         {
           "slug": "strength",
-          "value": 106
+          "value": 109
         },
         {
           "slug": "intellect",
-          "value": 10
+          "value": 19
         },
         {
           "slug": "agility",
-          "value": 50
+          "value": 48
         },
         {
           "slug": "stamina",
-          "value": 76
+          "value": 90
         },
         {
           "slug": "critical-strike",
-          "value": 10.3550005
+          "value": 9.8672
         },
         {
           "slug": "spirit",
-          "value": 28
+          "value": 38
         }
       ],
       "gear": [
@@ -644,8 +611,8 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Bounty Hunter's Ring",
-          "quality": "uncommon"
+          "name": "Seal of Sylvanas",
+          "quality": "rare"
         },
         {
           "slot": "Legs",
@@ -679,7 +646,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Forsaken Greataxe",
+          "name": "Arced War Axe",
           "quality": "rare"
         },
         {
@@ -691,7 +658,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-10T17:41:43Z",
+      "lastUpdated": "2026-11-10T21:24:50Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
@@ -701,8 +668,8 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 16,
-      "ilvl": 5,
+      "level": 18,
+      "ilvl": 10,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -711,14 +678,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Retribution",
-      "specPoints": 7,
+      "specPoints": 9,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Retribution",
-          "points": 7,
+          "points": 9,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
         }
       ],
@@ -761,51 +728,51 @@
       "stats": [
         {
           "slug": "health",
-          "value": 431
+          "value": 604
         },
         {
           "slug": "mana",
-          "value": 440
+          "value": 509
         },
         {
           "slug": "strength",
-          "value": 42
+          "value": 64
         },
         {
           "slug": "intellect",
-          "value": 27
+          "value": 29
         },
         {
           "slug": "agility",
-          "value": 27
+          "value": 37
         },
         {
           "slug": "stamina",
-          "value": 47
+          "value": 62
         },
         {
           "slug": "critical-strike",
-          "value": 8.569099
+          "value": 11.3611
         },
         {
           "slug": "spirit",
-          "value": 36
+          "value": 40
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Thrice-Stitched Flesh",
+          "name": "Grave Shroud",
           "quality": "uncommon"
         },
         {
           "slot": "Chest",
-          "name": "Warrior's Tunic",
+          "name": "Veteran Armor",
           "quality": "uncommon"
         },
         {
           "slot": "Feet",
-          "name": "Strange Copper Boots",
+          "name": "Vilewalkers",
           "quality": "rare"
         },
         {
@@ -815,8 +782,8 @@
         },
         {
           "slot": "Legs",
-          "name": "Copper Chain Pants",
-          "quality": "uncommon"
+          "name": "Bonerust Leggings",
+          "quality": "rare"
         },
         {
           "slot": "Off Hand",
@@ -830,24 +797,24 @@
         },
         {
           "slot": "Waist",
-          "name": "Runed Copper Belt",
-          "quality": "uncommon"
+          "name": "Atrophic Girdle",
+          "quality": "rare"
         },
         {
           "slot": "Main Hand",
-          "name": "Skullthumper",
+          "name": "The Stitcher",
           "quality": "uncommon"
         },
         {
           "slot": "Wrist",
-          "name": "Loose Chain Bracers",
-          "quality": "poor"
+          "name": "Death Bindings",
+          "quality": "rare"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-10T18:06:23Z",
+      "lastUpdated": "2026-11-10T21:18:48Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -1681,8 +1648,8 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 19,
-      "ilvl": 12,
+      "level": 21,
+      "ilvl": 14,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Windshaper Skyborne",
@@ -1691,27 +1658,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 10,
+      "specPoints": 12,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 10,
+          "points": 12,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
       "professions": [
         {
           "name": "Alchemy",
-          "skill": 80,
+          "skill": 107,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 86,
+          "skill": 107,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1735,35 +1702,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 563
+          "value": 582
         },
         {
           "slug": "mana",
-          "value": 898
+          "value": 960
         },
         {
           "slug": "strength",
-          "value": 32
+          "value": 33
         },
         {
           "slug": "intellect",
-          "value": 50
+          "value": 51
         },
         {
           "slug": "agility",
-          "value": 76
+          "value": 82
         },
         {
           "slug": "stamina",
-          "value": 55
+          "value": 54
         },
         {
           "slug": "critical-strike",
-          "value": 4.9104
+          "value": 4.7506
         },
         {
           "slug": "spirit",
-          "value": 38
+          "value": 40
         }
       ],
       "gear": [
@@ -1803,6 +1770,11 @@
           "quality": "rare"
         },
         {
+          "slot": "Ring 2",
+          "name": "Clay Ring of Power",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Shoulders",
           "name": "Talbar Mantle",
           "quality": "uncommon"
@@ -1826,7 +1798,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-09T19:15:54Z",
+      "lastUpdated": "2026-11-10T21:01:54Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
