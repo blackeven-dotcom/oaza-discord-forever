@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T18:31:36Z",
+  "generatedAt": "2026-11-10T19:01:48Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1203,7 +1203,7 @@
       "leader": false,
       "ok": true,
       "level": 20,
-      "ilvl": 14,
+      "ilvl": 12,
       "class": "Mage",
       "classSlug": "mage",
       "race": "Undead",
@@ -1226,7 +1226,7 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 91,
+          "skill": 92,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
@@ -1246,7 +1246,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 105,
+          "skill": 132,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
@@ -1256,11 +1256,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 557
+          "value": 487
         },
         {
           "slug": "mana",
-          "value": 1036
+          "value": 931
         },
         {
           "slug": "strength",
@@ -1268,19 +1268,19 @@
         },
         {
           "slug": "intellect",
-          "value": 63
+          "value": 56
         },
         {
           "slug": "agility",
-          "value": 32
+          "value": 25
         },
         {
           "slug": "stamina",
-          "value": 48
+          "value": 41
         },
         {
           "slug": "critical-strike",
-          "value": 4.0400004
+          "value": 6.3550005
         },
         {
           "slug": "spirit",
@@ -1340,8 +1340,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Crescent Staff",
-          "quality": "rare"
+          "name": "Fishing Pole",
+          "quality": "common"
         },
         {
           "slot": "Wrist",
@@ -1352,7 +1352,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-08T20:19:01Z",
+      "lastUpdated": "2026-11-10T18:33:56Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
