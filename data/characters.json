@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T13:31:34Z",
+  "generatedAt": "2026-11-10T14:01:52Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -525,8 +525,8 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 23,
-      "ilvl": 16,
+      "level": 25,
+      "ilvl": 17,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -535,14 +535,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 9,
+      "specPoints": 11,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 9,
+          "points": 11,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         },
         {
@@ -554,14 +554,14 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 166,
+          "skill": 183,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 114,
-          "max": 150,
+          "skill": 125,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
       ],
@@ -574,23 +574,23 @@
         },
         {
           "name": "Fishing",
-          "skill": 125,
-          "max": 150,
+          "skill": 136,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
           "name": "First Aid",
-          "skill": 74,
+          "skill": 76,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 6,
+      "honorableKills": 8,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 783
+          "value": 844
         },
         {
           "slug": "rage",
@@ -598,7 +598,7 @@
         },
         {
           "slug": "strength",
-          "value": 95
+          "value": 105
         },
         {
           "slug": "intellect",
@@ -610,15 +610,15 @@
         },
         {
           "slug": "stamina",
-          "value": 72
+          "value": 75
         },
         {
           "slug": "critical-strike",
-          "value": 10.7109995
+          "value": 10.4039
         },
         {
           "slug": "spirit",
-          "value": 36
+          "value": 37
         }
       ],
       "gear": [
@@ -674,7 +674,7 @@
         },
         {
           "slot": "Waist",
-          "name": "Lupine Cord of the Monkey",
+          "name": "Glimmering Mail Girdle",
           "quality": "uncommon"
         },
         {
@@ -691,7 +691,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-09T20:16:40Z",
+      "lastUpdated": "2026-11-10T13:35:27Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
