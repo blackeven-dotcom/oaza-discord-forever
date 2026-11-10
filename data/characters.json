@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T00:01:56Z",
+  "generatedAt": "2026-11-10T00:31:33Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -189,7 +189,7 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 24,
+      "level": 25,
       "ilvl": 18,
       "class": "Druid",
       "classSlug": "druid",
@@ -249,11 +249,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 801
+          "value": 838
         },
         {
           "slug": "mana",
-          "value": 1189
+          "value": 1039
         },
         {
           "slug": "strength",
@@ -261,23 +261,23 @@
         },
         {
           "slug": "intellect",
-          "value": 68
+          "value": 56
         },
         {
           "slug": "agility",
-          "value": 73
+          "value": 80
         },
         {
           "slug": "stamina",
-          "value": 64
+          "value": 66
         },
         {
           "slug": "critical-strike",
-          "value": 6.2166996
+          "value": 6.38
         },
         {
           "slug": "spirit",
-          "value": 61
+          "value": 52
         }
       ],
       "gear": [
@@ -288,8 +288,8 @@
         },
         {
           "slot": "Chest",
-          "name": "Armor of the Fang",
-          "quality": "rare"
+          "name": "Prospector's Chestpiece",
+          "quality": "uncommon"
         },
         {
           "slot": "Feet",
@@ -350,7 +350,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-09T21:52:53Z",
+      "lastUpdated": "2026-11-10T00:19:16Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
