@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T22:31:40Z",
+  "generatedAt": "2026-11-10T23:01:53Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1501,7 +1501,7 @@
       "leader": false,
       "ok": true,
       "level": 18,
-      "ilvl": 9,
+      "ilvl": 12,
       "class": "Rogue",
       "classSlug": "rogue",
       "race": "Undead",
@@ -1547,7 +1547,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 470
+          "value": 510
         },
         {
           "slug": "energy",
@@ -1559,19 +1559,19 @@
         },
         {
           "slug": "intellect",
-          "value": 23
+          "value": 21
         },
         {
           "slug": "agility",
-          "value": 59
+          "value": 62
         },
         {
           "slug": "stamina",
-          "value": 45
+          "value": 49
         },
         {
           "slug": "critical-strike",
-          "value": 8.2672
+          "value": 8.6896
         },
         {
           "slug": "spirit",
@@ -1596,7 +1596,7 @@
         },
         {
           "slot": "Hands",
-          "name": "Embossed Leather Gloves",
+          "name": "Hunting Gloves",
           "quality": "uncommon"
         },
         {
@@ -1610,6 +1610,11 @@
           "quality": "poor"
         },
         {
+          "slot": "Neck",
+          "name": "Roadwatcher's Confidence",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Off Hand",
           "name": "Hook Dagger of Defense",
           "quality": "uncommon"
@@ -1618,6 +1623,11 @@
           "slot": "Ranged",
           "name": "Balanced Throwing Dagger",
           "quality": "common"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Ring of Scorn",
+          "quality": "uncommon"
         },
         {
           "slot": "Shirt",
@@ -1636,14 +1646,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Bandit Bracers of the Falcon",
+          "name": "Scouting Bracers of Agility",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-10T22:05:21Z",
+      "lastUpdated": "2026-11-10T22:53:16Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
