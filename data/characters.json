@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:01:44Z",
+  "generatedAt": "2026-11-10T20:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -63,7 +63,7 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 5,
+      "honorableKills": 7,
       "pvpRank": 0,
       "stats": [
         {
@@ -179,7 +179,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-09T19:53:06Z",
+      "lastUpdated": "2026-11-10T20:05:34Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
