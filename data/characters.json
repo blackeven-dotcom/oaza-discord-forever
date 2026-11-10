@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T01:01:47Z",
+  "generatedAt": "2026-11-10T01:31:35Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -390,7 +390,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 152,
+          "skill": 153,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -398,7 +398,7 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 85,
+          "skill": 130,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
@@ -438,7 +438,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.274
+          "value": 5.474
         },
         {
           "slug": "spirit",
@@ -515,7 +515,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-09T23:05:27Z",
+      "lastUpdated": "2026-11-10T01:13:35Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
