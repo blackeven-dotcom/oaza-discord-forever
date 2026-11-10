@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T22:01:50Z",
+  "generatedAt": "2026-11-10T22:31:40Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -189,8 +189,8 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 25,
-      "ilvl": 18,
+      "level": 26,
+      "ilvl": 19,
       "class": "Druid",
       "classSlug": "druid",
       "race": "Tauren",
@@ -219,7 +219,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 185,
+          "skill": 188,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -249,15 +249,15 @@
       "stats": [
         {
           "slug": "health",
-          "value": 838
+          "value": 939
         },
         {
           "slug": "mana",
-          "value": 1039
+          "value": 1069
         },
         {
           "slug": "strength",
-          "value": 49
+          "value": 58
         },
         {
           "slug": "intellect",
@@ -265,19 +265,19 @@
         },
         {
           "slug": "agility",
-          "value": 80
+          "value": 74
         },
         {
           "slug": "stamina",
-          "value": 66
+          "value": 74
         },
         {
           "slug": "critical-strike",
-          "value": 6.38
+          "value": 5.805
         },
         {
           "slug": "spirit",
-          "value": 52
+          "value": 53
         }
       ],
       "gear": [
@@ -308,8 +308,8 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Bounty Hunter's Ring",
-          "quality": "uncommon"
+          "name": "Seal of Sylvanas",
+          "quality": "rare"
         },
         {
           "slot": "Legs",
@@ -318,8 +318,8 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Zircon Band of the Falcon",
-          "quality": "uncommon"
+          "name": "Silverlaine's Family Seal",
+          "quality": "rare"
         },
         {
           "slot": "Shirt",
@@ -328,7 +328,7 @@
         },
         {
           "slot": "Shoulders",
-          "name": "Talbar Mantle",
+          "name": "Tanned Shoulderpads",
           "quality": "uncommon"
         },
         {
@@ -350,7 +350,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-10T00:19:16Z",
+      "lastUpdated": "2026-11-10T22:14:03Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -482,7 +482,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-10T21:22:38Z",
+      "lastUpdated": "2026-11-10T22:13:02Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -493,7 +493,7 @@
       "leader": false,
       "ok": true,
       "level": 27,
-      "ilvl": 18,
+      "ilvl": 15,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -527,7 +527,7 @@
         },
         {
           "name": "Mining",
-          "skill": 137,
+          "skill": 139,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -541,7 +541,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 140,
+          "skill": 150,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -557,7 +557,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1029
+          "value": 939
         },
         {
           "slug": "rage",
@@ -565,7 +565,7 @@
         },
         {
           "slug": "strength",
-          "value": 109
+          "value": 100
         },
         {
           "slug": "intellect",
@@ -577,11 +577,11 @@
         },
         {
           "slug": "stamina",
-          "value": 90
+          "value": 81
         },
         {
           "slug": "critical-strike",
-          "value": 9.8672
+          "value": 5.7072
         },
         {
           "slug": "spirit",
@@ -646,8 +646,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Arced War Axe",
-          "quality": "rare"
+          "name": "Fishing Pole",
+          "quality": "common"
         },
         {
           "slot": "Wrist",
@@ -658,7 +658,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-10T21:24:50Z",
+      "lastUpdated": "2026-11-10T22:20:41Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
@@ -1500,8 +1500,8 @@
       "slug": "fore-skeenwalker",
       "leader": false,
       "ok": true,
-      "level": 15,
-      "ilvl": 6,
+      "level": 18,
+      "ilvl": 9,
       "class": "Rogue",
       "classSlug": "rogue",
       "race": "Undead",
@@ -1510,19 +1510,19 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Combat",
-      "specPoints": 2,
+      "specPoints": 6,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Combat",
-          "points": 2,
+          "points": 6,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg"
         },
         {
           "name": "Subtlety",
-          "points": 1,
+          "points": 3,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132320.jpg"
         }
       ],
@@ -1547,7 +1547,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 383
+          "value": 470
         },
         {
           "slug": "energy",
@@ -1555,27 +1555,27 @@
         },
         {
           "slug": "strength",
-          "value": 31
+          "value": 35
         },
         {
           "slug": "intellect",
-          "value": 21
+          "value": 23
         },
         {
           "slug": "agility",
-          "value": 51
+          "value": 59
         },
         {
           "slug": "stamina",
-          "value": 39
+          "value": 45
         },
         {
           "slug": "critical-strike",
-          "value": 8.5924
+          "value": 8.2672
         },
         {
           "slug": "spirit",
-          "value": 30
+          "value": 31
         }
       ],
       "gear": [
@@ -1591,8 +1591,8 @@
         },
         {
           "slot": "Feet",
-          "name": "Zombie Skin Boots",
-          "quality": "common"
+          "name": "Agile Boots",
+          "quality": "uncommon"
         },
         {
           "slot": "Hands",
@@ -1600,14 +1600,19 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Ring 1",
+          "name": "Slain Baron's Signet",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Legs",
-          "name": "Worn Leather Pants",
+          "name": "Patched Leather Pants",
           "quality": "poor"
         },
         {
           "slot": "Off Hand",
-          "name": "Ceremonial Knife",
-          "quality": "common"
+          "name": "Hook Dagger of Defense",
+          "quality": "uncommon"
         },
         {
           "slot": "Ranged",
@@ -1626,19 +1631,19 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Blade of Cunning",
+          "name": "Northern Shortsword of Strength",
           "quality": "uncommon"
         },
         {
           "slot": "Wrist",
-          "name": "Light Leather Bracers",
+          "name": "Bandit Bracers of the Falcon",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-09T20:26:24Z",
+      "lastUpdated": "2026-11-10T22:05:21Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
