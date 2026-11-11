@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T01:01:44Z",
+  "generatedAt": "2026-11-11T01:31:33Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1301,8 +1301,8 @@
       "slug": "covy-zugzug",
       "leader": false,
       "ok": true,
-      "level": 24,
-      "ilvl": 15,
+      "level": 26,
+      "ilvl": 19,
       "class": "Shaman",
       "classSlug": "shaman",
       "race": "Orc",
@@ -1311,14 +1311,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Enhancement",
-      "specPoints": 15,
+      "specPoints": 17,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Enhancement",
-          "points": 15,
+          "points": 17,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
         }
       ],
@@ -1331,7 +1331,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 143,
+          "skill": 150,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1345,51 +1345,51 @@
         },
         {
           "name": "Fishing",
-          "skill": 150,
-          "max": 150,
+          "skill": 155,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
           "name": "First Aid",
-          "skill": 58,
+          "skill": 64,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 1,
+      "honorableKills": 4,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 674
+          "value": 877
         },
         {
           "slug": "mana",
-          "value": 1171
+          "value": 945
         },
         {
           "slug": "strength",
-          "value": 59
+          "value": 60
         },
         {
           "slug": "intellect",
-          "value": 65
-        },
-        {
-          "slug": "agility",
           "value": 46
         },
         {
+          "slug": "agility",
+          "value": 51
+        },
+        {
           "slug": "stamina",
-          "value": 62
+          "value": 80
         },
         {
           "slug": "critical-strike",
-          "value": 11.1
+          "value": 11.1893
         },
         {
           "slug": "spirit",
-          "value": 62
+          "value": 65
         }
       ],
       "gear": [
@@ -1400,7 +1400,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Armor of the Fang",
+          "name": "Dreamer's Chestguard",
           "quality": "rare"
         },
         {
@@ -1415,13 +1415,13 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Depleted Ritual Band",
-          "quality": "common"
+          "name": "Band of the Fist",
+          "quality": "uncommon"
         },
         {
           "slot": "Legs",
-          "name": "Feral Leggings of the Gorilla",
-          "quality": "uncommon"
+          "name": "Dark Ritual Leggings",
+          "quality": "rare"
         },
         {
           "slot": "Ranged",
@@ -1445,12 +1445,12 @@
         },
         {
           "slot": "Waist",
-          "name": "Binding Girdle",
-          "quality": "uncommon"
+          "name": "Moss Cinch",
+          "quality": "rare"
         },
         {
           "slot": "Main Hand",
-          "name": "Forsaken Greataxe",
+          "name": "Twilight Maul",
           "quality": "rare"
         },
         {
@@ -1462,7 +1462,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-09T20:17:14Z",
+      "lastUpdated": "2026-11-11T01:30:43Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
