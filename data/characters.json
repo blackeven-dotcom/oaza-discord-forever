@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T13:31:38Z",
+  "generatedAt": "2026-11-11T14:01:49Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -993,7 +993,7 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 28,
+      "level": 29,
       "ilvl": 19,
       "class": "Priest",
       "classSlug": "priest",
@@ -1003,14 +1003,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 12,
+      "specPoints": 13,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 12,
+          "points": 13,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1022,14 +1022,14 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 100,
+          "skill": 102,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 145,
-          "max": 150,
+          "skill": 150,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
       ],
@@ -1042,7 +1042,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 142,
+          "skill": 143,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -1058,35 +1058,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 855
+          "value": 798
         },
         {
           "slug": "mana",
-          "value": 1444
+          "value": 1525
         },
         {
           "slug": "strength",
-          "value": 32
+          "value": 33
         },
         {
           "slug": "intellect",
-          "value": 76
+          "value": 80
         },
         {
           "slug": "agility",
-          "value": 29
+          "value": 30
         },
         {
           "slug": "stamina",
-          "value": 68
+          "value": 60
         },
         {
           "slug": "critical-strike",
-          "value": 0.54890007
+          "value": 0.38200006
         },
         {
           "slug": "spirit",
-          "value": 111
+          "value": 116
         }
       ],
       "gear": [
@@ -1132,8 +1132,8 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Seal of Sylvanas",
-          "quality": "rare"
+          "name": "Totemic Clan Ring",
+          "quality": "uncommon"
         },
         {
           "slot": "Shirt",
@@ -1164,7 +1164,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-11T00:51:25Z",
+      "lastUpdated": "2026-11-11T13:33:36Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
