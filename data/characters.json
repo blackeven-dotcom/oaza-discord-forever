@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T16:01:45Z",
+  "generatedAt": "2026-11-11T16:31:34Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -993,7 +993,7 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 29,
+      "level": 30,
       "ilvl": 19,
       "class": "Priest",
       "classSlug": "priest",
@@ -1003,14 +1003,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 13,
+      "specPoints": 14,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 13,
+          "points": 14,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1022,7 +1022,7 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 102,
+          "skill": 103,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
@@ -1058,11 +1058,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 798
+          "value": 822
         },
         {
           "slug": "mana",
-          "value": 1525
+          "value": 1532
         },
         {
           "slug": "strength",
@@ -1070,7 +1070,7 @@
         },
         {
           "slug": "intellect",
-          "value": 80
+          "value": 79
         },
         {
           "slug": "agility",
@@ -1078,15 +1078,15 @@
         },
         {
           "slug": "stamina",
-          "value": 60
+          "value": 61
         },
         {
           "slug": "critical-strike",
-          "value": 0.38200006
+          "value": 0.22200006
         },
         {
           "slug": "spirit",
-          "value": 116
+          "value": 121
         }
       ],
       "gear": [
@@ -1132,7 +1132,7 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Totemic Clan Ring",
+          "name": "Band of Thorns",
           "quality": "uncommon"
         },
         {
@@ -1164,7 +1164,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-11T13:33:36Z",
+      "lastUpdated": "2026-11-11T16:10:55Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
@@ -1495,7 +1495,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-11T15:49:11Z",
+      "lastUpdated": "2026-11-11T16:23:11Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
