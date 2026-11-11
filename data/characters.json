@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T21:01:55Z",
+  "generatedAt": "2026-11-11T21:31:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -365,7 +365,7 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 24,
+      "level": 25,
       "ilvl": 17,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -375,14 +375,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 15,
+      "specPoints": 16,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 15,
+          "points": 16,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
@@ -403,8 +403,8 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 130,
-          "max": 150,
+          "skill": 180,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
@@ -440,7 +440,7 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Slain Baron's Signet",
+          "name": "Band of the Fist",
           "quality": "uncommon"
         },
         {
@@ -487,7 +487,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-10T23:53:21Z",
+      "lastUpdated": "2026-11-11T21:06:51Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
