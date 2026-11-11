@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T00:31:33Z",
+  "generatedAt": "2026-11-11T01:01:44Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -189,8 +189,8 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 26,
-      "ilvl": 19,
+      "level": 27,
+      "ilvl": 22,
       "class": "Druid",
       "classSlug": "druid",
       "race": "Tauren",
@@ -199,21 +199,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Feral Combat",
-      "specPoints": 14,
+      "specPoints": 18,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Feral Combat",
-          "points": 14,
+          "points": 18,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
         }
       ],
       "professions": [
         {
           "name": "Leatherworking",
-          "skill": 110,
+          "skill": 143,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
         },
@@ -244,40 +244,40 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 9,
+      "honorableKills": 12,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 939
+          "value": 1030
         },
         {
           "slug": "mana",
-          "value": 1069
+          "value": 1099
         },
         {
           "slug": "strength",
-          "value": 58
+          "value": 59
         },
         {
           "slug": "intellect",
-          "value": 56
+          "value": 57
         },
         {
           "slug": "agility",
-          "value": 74
+          "value": 76
         },
         {
           "slug": "stamina",
-          "value": 74
+          "value": 80
         },
         {
           "slug": "critical-strike",
-          "value": 5.805
+          "value": 5.82
         },
         {
           "slug": "spirit",
-          "value": 53
+          "value": 55
         }
       ],
       "gear": [
@@ -298,7 +298,7 @@
         },
         {
           "slot": "Hands",
-          "name": "Gloves of the Fang",
+          "name": "Toughened Leather Gloves",
           "quality": "rare"
         },
         {
@@ -308,7 +308,12 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Seal of Sylvanas",
+          "name": "Band of the Fist",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Trinket 1",
+          "name": "Cursed Murloc Eye",
           "quality": "rare"
         },
         {
@@ -318,7 +323,7 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Silverlaine's Family Seal",
+          "name": "Seal of Sylvanas",
           "quality": "rare"
         },
         {
@@ -343,14 +348,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Spare Part Bindings",
-          "quality": "uncommon"
+          "name": "Cultist's Armguards",
+          "quality": "rare"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-10T22:14:03Z",
+      "lastUpdated": "2026-11-11T00:40:28Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -988,8 +993,8 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 26,
-      "ilvl": 18,
+      "level": 28,
+      "ilvl": 19,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -998,14 +1003,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 10,
+      "specPoints": 12,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 10,
+          "points": 12,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1023,7 +1028,7 @@
         },
         {
           "name": "Enchanting",
-          "skill": 109,
+          "skill": 145,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1048,16 +1053,16 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 7,
+      "honorableKills": 10,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 702
+          "value": 855
         },
         {
           "slug": "mana",
-          "value": 1435
+          "value": 1444
         },
         {
           "slug": "strength",
@@ -1065,23 +1070,23 @@
         },
         {
           "slug": "intellect",
-          "value": 79
+          "value": 76
         },
         {
           "slug": "agility",
-          "value": 32
+          "value": 29
         },
         {
           "slug": "stamina",
-          "value": 56
+          "value": 68
         },
         {
           "slug": "critical-strike",
-          "value": 1.0912
+          "value": 0.54890007
         },
         {
           "slug": "spirit",
-          "value": 92
+          "value": 111
         }
       ],
       "gear": [
@@ -1122,13 +1127,13 @@
         },
         {
           "slot": "Ranged",
-          "name": "Branding Rod",
-          "quality": "uncommon"
+          "name": "Gravestone Scepter",
+          "quality": "rare"
         },
         {
           "slot": "Ring 2",
-          "name": "Bounty Hunter's Ring",
-          "quality": "uncommon"
+          "name": "Seal of Sylvanas",
+          "quality": "rare"
         },
         {
           "slot": "Shirt",
@@ -1137,7 +1142,7 @@
         },
         {
           "slot": "Shoulders",
-          "name": "Talbar Mantle",
+          "name": "Ghostly Mantle",
           "quality": "uncommon"
         },
         {
@@ -1147,7 +1152,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Living Root",
+          "name": "Odo's Ley Staff",
           "quality": "rare"
         },
         {
@@ -1159,7 +1164,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-10T19:57:44Z",
+      "lastUpdated": "2026-11-11T00:51:25Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
