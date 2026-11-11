@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:31:38Z",
+  "generatedAt": "2026-11-11T10:01:45Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1472,8 +1472,8 @@
       "slug": "fore-skeenwalker",
       "leader": false,
       "ok": true,
-      "level": 18,
-      "ilvl": 12,
+      "level": 19,
+      "ilvl": 15,
       "class": "Rogue",
       "classSlug": "rogue",
       "race": "Undead",
@@ -1482,14 +1482,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Combat",
-      "specPoints": 6,
+      "specPoints": 7,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Combat",
-          "points": 6,
+          "points": 7,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg"
         },
         {
@@ -1519,7 +1519,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 510
+          "value": 581
         },
         {
           "slug": "energy",
@@ -1527,7 +1527,7 @@
         },
         {
           "slug": "strength",
-          "value": 35
+          "value": 34
         },
         {
           "slug": "intellect",
@@ -1535,25 +1535,25 @@
         },
         {
           "slug": "agility",
-          "value": 62
+          "value": 74
         },
         {
           "slug": "stamina",
-          "value": 49
+          "value": 54
         },
         {
           "slug": "critical-strike",
-          "value": 8.6896
+          "value": 9.6984
         },
         {
           "slug": "spirit",
-          "value": 31
+          "value": 32
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Thrice-Stitched Flesh",
+          "name": "Superior Cloak of Fire Protection",
           "quality": "uncommon"
         },
         {
@@ -1578,8 +1578,8 @@
         },
         {
           "slot": "Legs",
-          "name": "Patched Leather Pants",
-          "quality": "poor"
+          "name": "Dark Leather Pants",
+          "quality": "uncommon"
         },
         {
           "slot": "Neck",
@@ -1613,7 +1613,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Northern Shortsword of Strength",
+          "name": "Talonstrike",
           "quality": "uncommon"
         },
         {
@@ -1625,7 +1625,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-10T23:46:31Z",
+      "lastUpdated": "2026-11-11T09:57:39Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
