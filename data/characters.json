@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T20:01:44Z",
+  "generatedAt": "2026-11-11T21:01:55Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -189,7 +189,7 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 27,
+      "level": 28,
       "ilvl": 22,
       "class": "Druid",
       "classSlug": "druid",
@@ -249,35 +249,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1030
+          "value": 1059
         },
         {
           "slug": "mana",
-          "value": 1099
+          "value": 1144
         },
         {
           "slug": "strength",
-          "value": 59
+          "value": 60
         },
         {
           "slug": "intellect",
-          "value": 57
+          "value": 58
         },
         {
           "slug": "agility",
-          "value": 76
+          "value": 77
         },
         {
           "slug": "stamina",
-          "value": 80
+          "value": 81
         },
         {
           "slug": "critical-strike",
-          "value": 5.82
+          "value": 5.6552
         },
         {
           "slug": "spirit",
-          "value": 55
+          "value": 56
         }
       ],
       "gear": [
@@ -355,7 +355,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-11T17:38:23Z",
+      "lastUpdated": "2026-11-11T20:38:19Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -829,7 +829,7 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 32,
+      "level": 34,
       "ilvl": 25,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -839,27 +839,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 23,
+      "specPoints": 25,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 23,
+          "points": 25,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
       "professions": [
         {
           "name": "Leatherworking",
-          "skill": 156,
+          "skill": 170,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
         },
         {
           "name": "Skinning",
-          "skill": 220,
+          "skill": 225,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -870,42 +870,48 @@
           "skill": 174,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 24,
+      "honorableKills": 28,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1193
+          "value": 1268
         },
         {
           "slug": "mana",
-          "value": 1230
+          "value": 1320
         },
         {
           "slug": "strength",
-          "value": 58
+          "value": 59
         },
         {
           "slug": "intellect",
-          "value": 44
+          "value": 46
         },
         {
           "slug": "agility",
-          "value": 145
+          "value": 148
         },
         {
           "slug": "stamina",
-          "value": 93
+          "value": 95
         },
         {
           "slug": "critical-strike",
-          "value": 5.3095
+          "value": 5.0820003
         },
         {
           "slug": "spirit",
-          "value": 49
+          "value": 51
         }
       ],
       "gear": [
@@ -983,7 +989,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-11T14:06:29Z",
+      "lastUpdated": "2026-11-11T20:56:33Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
@@ -1174,7 +1180,7 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 22,
+      "level": 23,
       "ilvl": 14,
       "class": "Mage",
       "classSlug": "mage",
@@ -1184,14 +1190,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 13,
+      "specPoints": 14,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 13,
+          "points": 14,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
@@ -1228,11 +1234,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 607
+          "value": 622
         },
         {
           "slug": "mana",
-          "value": 1125
+          "value": 1186
         },
         {
           "slug": "strength",
@@ -1240,7 +1246,7 @@
         },
         {
           "slug": "intellect",
-          "value": 66
+          "value": 69
         },
         {
           "slug": "agility",
@@ -1252,11 +1258,11 @@
         },
         {
           "slug": "critical-strike",
-          "value": 3.64
+          "value": 3.44
         },
         {
           "slug": "spirit",
-          "value": 54
+          "value": 55
         }
       ],
       "gear": [
@@ -1292,7 +1298,7 @@
         },
         {
           "slot": "Ranged",
-          "name": "Greater Magic Wand",
+          "name": "Branding Rod",
           "quality": "uncommon"
         },
         {
@@ -1324,7 +1330,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-11T13:31:15Z",
+      "lastUpdated": "2026-11-11T20:08:02Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
