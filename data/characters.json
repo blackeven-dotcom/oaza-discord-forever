@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T14:01:49Z",
+  "generatedAt": "2026-11-11T14:31:34Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -507,14 +507,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 13,
+      "specPoints": 14,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 13,
+          "points": 14,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         },
         {
@@ -526,7 +526,7 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 191,
+          "skill": 193,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -586,7 +586,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 9.918
+          "value": 9.958
         },
         {
           "slug": "spirit",
@@ -663,7 +663,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-11T12:55:12Z",
+      "lastUpdated": "2026-11-11T14:27:50Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
@@ -673,8 +673,8 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 18,
-      "ilvl": 10,
+      "level": 19,
+      "ilvl": 11,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -683,21 +683,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Retribution",
-      "specPoints": 9,
+      "specPoints": 10,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Retribution",
-          "points": 9,
+          "points": 10,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 78,
+          "skill": 81,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -733,15 +733,15 @@
       "stats": [
         {
           "slug": "health",
-          "value": 604
+          "value": 617
         },
         {
           "slug": "mana",
-          "value": 509
+          "value": 545
         },
         {
           "slug": "strength",
-          "value": 64
+          "value": 73
         },
         {
           "slug": "intellect",
@@ -757,11 +757,11 @@
         },
         {
           "slug": "critical-strike",
-          "value": 11.3611
+          "value": 11.4811
         },
         {
           "slug": "spirit",
-          "value": 40
+          "value": 43
         }
       ],
       "gear": [
@@ -791,8 +791,8 @@
           "quality": "rare"
         },
         {
-          "slot": "Off Hand",
-          "name": "Salvaged Wooden Tower Shield",
+          "slot": "Neck",
+          "name": "Roadwatcher's Confidence",
           "quality": "uncommon"
         },
         {
@@ -807,8 +807,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "The Stitcher",
-          "quality": "uncommon"
+          "name": "Forsaken Greataxe",
+          "quality": "rare"
         },
         {
           "slot": "Wrist",
@@ -819,7 +819,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-11T11:37:36Z",
+      "lastUpdated": "2026-11-11T14:24:32Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -829,7 +829,7 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 31,
+      "level": 32,
       "ilvl": 25,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -839,14 +839,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 22,
+      "specPoints": 23,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 22,
+          "points": 23,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -859,7 +859,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 218,
+          "skill": 220,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -877,35 +877,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1147
+          "value": 1193
         },
         {
           "slug": "mana",
-          "value": 1170
+          "value": 1230
         },
         {
           "slug": "strength",
-          "value": 57
+          "value": 58
         },
         {
           "slug": "intellect",
-          "value": 43
+          "value": 44
         },
         {
           "slug": "agility",
-          "value": 143
+          "value": 145
         },
         {
           "slug": "stamina",
-          "value": 91
+          "value": 93
         },
         {
           "slug": "critical-strike",
-          "value": 5.1001005
+          "value": 5.3095
         },
         {
           "slug": "spirit",
-          "value": 48
+          "value": 49
         }
       ],
       "gear": [
@@ -983,7 +983,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-11T11:18:53Z",
+      "lastUpdated": "2026-11-11T14:06:29Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
