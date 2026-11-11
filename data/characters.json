@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T15:31:38Z",
+  "generatedAt": "2026-11-11T16:01:45Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1384,7 +1384,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 64,
+          "skill": 66,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -1398,19 +1398,19 @@
         },
         {
           "slug": "mana",
-          "value": 945
+          "value": 975
         },
         {
           "slug": "strength",
-          "value": 60
+          "value": 65
         },
         {
           "slug": "intellect",
-          "value": 46
+          "value": 48
         },
         {
           "slug": "agility",
-          "value": 51
+          "value": 53
         },
         {
           "slug": "stamina",
@@ -1418,17 +1418,17 @@
         },
         {
           "slug": "critical-strike",
-          "value": 11.1893
+          "value": 11.417899
         },
         {
           "slug": "spirit",
-          "value": 65
+          "value": 62
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Boar Hunter's Cape",
+          "name": "Engineer's Cloak",
           "quality": "uncommon"
         },
         {
@@ -1473,7 +1473,7 @@
         },
         {
           "slot": "Shoulders",
-          "name": "Hillman's Shoulders",
+          "name": "Wrangler's Mantle of the Tiger",
           "quality": "uncommon"
         },
         {
@@ -1495,7 +1495,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-11T01:30:43Z",
+      "lastUpdated": "2026-11-11T15:49:11Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
