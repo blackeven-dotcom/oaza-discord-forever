@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T11:31:33Z",
+  "generatedAt": "2026-11-11T12:01:50Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -703,22 +703,22 @@
         },
         {
           "name": "Blacksmithing",
-          "skill": 64,
-          "max": 75,
+          "skill": 75,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
       ],
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 1,
-          "max": 75,
+          "skill": 53,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 75,
-          "max": 75,
+          "skill": 110,
+          "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
@@ -819,7 +819,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-10T21:18:48Z",
+      "lastUpdated": "2026-11-11T11:37:36Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
