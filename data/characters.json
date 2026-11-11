@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T08:31:34Z",
+  "generatedAt": "2026-11-11T09:01:50Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -498,7 +498,7 @@
       "leader": false,
       "ok": true,
       "level": 27,
-      "ilvl": 15,
+      "ilvl": 18,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -540,13 +540,13 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 64,
+          "skill": 102,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 150,
+          "skill": 161,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -557,12 +557,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 8,
+      "honorableKills": 11,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 939
+          "value": 1029
         },
         {
           "slug": "rage",
@@ -570,7 +570,7 @@
         },
         {
           "slug": "strength",
-          "value": 100
+          "value": 109
         },
         {
           "slug": "intellect",
@@ -582,11 +582,11 @@
         },
         {
           "slug": "stamina",
-          "value": 81
+          "value": 90
         },
         {
           "slug": "critical-strike",
-          "value": 5.7072
+          "value": 10.067199
         },
         {
           "slug": "spirit",
@@ -651,8 +651,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Fishing Pole",
-          "quality": "common"
+          "name": "Arced War Axe",
+          "quality": "rare"
         },
         {
           "slot": "Wrist",
@@ -663,7 +663,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-10T22:20:41Z",
+      "lastUpdated": "2026-11-11T08:35:31Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
