@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T10:01:45Z",
+  "generatedAt": "2026-11-11T10:31:35Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -829,8 +829,8 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 30,
-      "ilvl": 20,
+      "level": 31,
+      "ilvl": 25,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Orc",
@@ -839,27 +839,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 21,
+      "specPoints": 22,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 21,
+          "points": 22,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
       "professions": [
         {
           "name": "Leatherworking",
-          "skill": 150,
+          "skill": 156,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
         },
         {
           "name": "Skinning",
-          "skill": 217,
+          "skill": 218,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -877,56 +877,61 @@
       "stats": [
         {
           "slug": "health",
-          "value": 852
+          "value": 1147
         },
         {
           "slug": "mana",
-          "value": 1215
+          "value": 1170
         },
         {
           "slug": "strength",
-          "value": 46
+          "value": 57
         },
         {
           "slug": "intellect",
-          "value": 48
+          "value": 43
         },
         {
           "slug": "agility",
-          "value": 111
+          "value": 143
         },
         {
           "slug": "stamina",
-          "value": 63
+          "value": 91
         },
         {
           "slug": "critical-strike",
-          "value": 4.3487
+          "value": 5.1001005
         },
         {
           "slug": "spirit",
-          "value": 55
+          "value": 48
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Elder's Cloak of Agility",
+          "name": "Wildhunter Cloak",
           "quality": "uncommon"
         },
         {
           "slot": "Chest",
-          "name": "Wrangler's Wraps of the Wolf",
+          "name": "Dusky Leather Armor",
           "quality": "uncommon"
         },
         {
           "slot": "Feet",
-          "name": "Trailblazer Boots",
-          "quality": "uncommon"
+          "name": "Warsong Boots",
+          "quality": "rare"
         },
         {
           "slot": "Hands",
           "name": "Toughened Leather Gloves",
+          "quality": "rare"
+        },
+        {
+          "slot": "Head",
+          "name": "Brawler's Leather Helm",
           "quality": "rare"
         },
         {
@@ -936,12 +941,12 @@
         },
         {
           "slot": "Legs",
-          "name": "Bristlebark Britches",
+          "name": "Dusky Leather Leggings",
           "quality": "uncommon"
         },
         {
           "slot": "Off Hand",
-          "name": "Harpy Skinner",
+          "name": "Jade Serpentblade",
           "quality": "uncommon"
         },
         {
@@ -955,35 +960,30 @@
           "quality": "uncommon"
         },
         {
-          "slot": "Shirt",
-          "name": "Trapper's Shirt",
-          "quality": "common"
-        },
-        {
           "slot": "Shoulders",
-          "name": "Dark Leather Shoulders",
+          "name": "Barbaric Shoulders",
           "quality": "uncommon"
         },
         {
           "slot": "Waist",
-          "name": "Screecher Belt",
-          "quality": "uncommon"
+          "name": "Skulker's Leather Belt",
+          "quality": "rare"
         },
         {
           "slot": "Main Hand",
-          "name": "Grunt Axe of Nature Protection",
+          "name": "Jade Serpentblade",
           "quality": "uncommon"
         },
         {
           "slot": "Wrist",
-          "name": "Forest Leather Bracers",
+          "name": "Insignia Bracers",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-11T00:28:44Z",
+      "lastUpdated": "2026-11-11T10:18:28Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
