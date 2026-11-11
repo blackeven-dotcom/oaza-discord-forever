@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T17:01:46Z",
+  "generatedAt": "2026-11-11T17:28:59Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -179,7 +179,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-11T16:41:37Z",
+      "lastUpdated": "2026-11-11T17:05:25Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -673,8 +673,8 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 19,
-      "ilvl": 11,
+      "level": 20,
+      "ilvl": 13,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -717,7 +717,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 110,
+          "skill": 111,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -733,35 +733,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 617
+          "value": 641
         },
         {
           "slug": "mana",
-          "value": 545
+          "value": 582
         },
         {
           "slug": "strength",
-          "value": 73
+          "value": 74
         },
         {
           "slug": "intellect",
-          "value": 29
+          "value": 30
         },
         {
           "slug": "agility",
-          "value": 37
+          "value": 38
         },
         {
           "slug": "stamina",
-          "value": 62
+          "value": 63
         },
         {
           "slug": "critical-strike",
-          "value": 11.4811
+          "value": 11.170199
         },
         {
           "slug": "spirit",
-          "value": 43
+          "value": 48
         }
       ],
       "gear": [
@@ -782,8 +782,8 @@
         },
         {
           "slot": "Hands",
-          "name": "Warrior's Gloves",
-          "quality": "common"
+          "name": "Wise Gauntlets",
+          "quality": "uncommon"
         },
         {
           "slot": "Legs",
@@ -819,7 +819,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-11T14:24:32Z",
+      "lastUpdated": "2026-11-11T17:22Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
