@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T13:01:49Z",
+  "generatedAt": "2026-11-11T13:31:38Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -355,7 +355,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-11T00:40:28Z",
+      "lastUpdated": "2026-11-11T13:27:30Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -1174,7 +1174,7 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 21,
+      "level": 22,
       "ilvl": 14,
       "class": "Mage",
       "classSlug": "mage",
@@ -1184,14 +1184,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 12,
+      "specPoints": 13,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 12,
+          "points": 13,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
@@ -1223,9 +1223,42 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
       ],
-      "honorableKills": 0,
+      "honorableKills": 1,
       "pvpRank": 0,
-      "stats": [],
+      "stats": [
+        {
+          "slug": "health",
+          "value": 607
+        },
+        {
+          "slug": "mana",
+          "value": 1125
+        },
+        {
+          "slug": "strength",
+          "value": 22
+        },
+        {
+          "slug": "intellect",
+          "value": 66
+        },
+        {
+          "slug": "agility",
+          "value": 32
+        },
+        {
+          "slug": "stamina",
+          "value": 51
+        },
+        {
+          "slug": "critical-strike",
+          "value": 3.64
+        },
+        {
+          "slug": "spirit",
+          "value": 54
+        }
+      ],
       "gear": [
         {
           "slot": "Back",
@@ -1291,7 +1324,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-11T00:00:31Z",
+      "lastUpdated": "2026-11-11T13:31:15Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
