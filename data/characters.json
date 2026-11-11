@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:31:34Z",
+  "generatedAt": "2026-11-11T00:01:52Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -384,7 +384,7 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 156,
+          "skill": 158,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -482,7 +482,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-10T22:13:02Z",
+      "lastUpdated": "2026-11-10T23:53:21Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -1179,14 +1179,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 11,
+      "specPoints": 12,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 11,
+          "points": 12,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
@@ -1220,40 +1220,7 @@
       ],
       "honorableKills": 0,
       "pvpRank": 0,
-      "stats": [
-        {
-          "slug": "health",
-          "value": 572
-        },
-        {
-          "slug": "mana",
-          "value": 1065
-        },
-        {
-          "slug": "strength",
-          "value": 22
-        },
-        {
-          "slug": "intellect",
-          "value": 64
-        },
-        {
-          "slug": "agility",
-          "value": 32
-        },
-        {
-          "slug": "stamina",
-          "value": 48
-        },
-        {
-          "slug": "critical-strike",
-          "value": 3.8400002
-        },
-        {
-          "slug": "spirit",
-          "value": 52
-        }
-      ],
+      "stats": [],
       "gear": [
         {
           "slot": "Back",
@@ -1282,7 +1249,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Simple Kilt",
+          "name": "Embroidered Leggings",
           "quality": "uncommon"
         },
         {
@@ -1319,7 +1286,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-10T23:19:42Z",
+      "lastUpdated": "2026-11-11T00:00:31Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
@@ -1653,7 +1620,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-10T22:53:16Z",
+      "lastUpdated": "2026-11-10T23:46:31Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
