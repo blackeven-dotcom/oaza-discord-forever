@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T19:31:37Z",
+  "generatedAt": "2026-11-11T20:01:44Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -993,8 +993,8 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 30,
-      "ilvl": 19,
+      "level": 31,
+      "ilvl": 20,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -1003,14 +1003,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 14,
+      "specPoints": 15,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 14,
+          "points": 15,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1022,7 +1022,7 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 103,
+          "skill": 110,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
@@ -1058,19 +1058,19 @@
       "stats": [
         {
           "slug": "health",
-          "value": 822
+          "value": 837
         },
         {
           "slug": "mana",
-          "value": 1532
+          "value": 1525
         },
         {
           "slug": "strength",
-          "value": 33
+          "value": 30
         },
         {
           "slug": "intellect",
-          "value": 79
+          "value": 76
         },
         {
           "slug": "agility",
@@ -1078,22 +1078,22 @@
         },
         {
           "slug": "stamina",
-          "value": 61
+          "value": 60
         },
         {
           "slug": "critical-strike",
-          "value": 0.22200006
+          "value": 0.14200006
         },
         {
           "slug": "spirit",
-          "value": 121
+          "value": 130
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Feyscale Cloak",
-          "quality": "rare"
+          "name": "Windsong Drape",
+          "quality": "uncommon"
         },
         {
           "slot": "Chest",
@@ -1112,7 +1112,7 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Loop of Sacrifice",
+          "name": "Inventor's League Ring",
           "quality": "uncommon"
         },
         {
@@ -1164,7 +1164,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-11T16:10:55Z",
+      "lastUpdated": "2026-11-11T19:44:14Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
