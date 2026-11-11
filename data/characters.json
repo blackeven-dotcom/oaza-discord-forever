@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T12:31:35Z",
+  "generatedAt": "2026-11-11T13:01:49Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -497,7 +497,7 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 27,
+      "level": 28,
       "ilvl": 18,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -526,13 +526,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 189,
+          "skill": 191,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 139,
+          "skill": 143,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -540,7 +540,7 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 102,
+          "skill": 145,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
@@ -557,12 +557,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 11,
+      "honorableKills": 13,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1029
+          "value": 1063
         },
         {
           "slug": "rage",
@@ -570,23 +570,23 @@
         },
         {
           "slug": "strength",
-          "value": 109
+          "value": 110
         },
         {
           "slug": "intellect",
-          "value": 19
+          "value": 20
         },
         {
           "slug": "agility",
-          "value": 48
+          "value": 49
         },
         {
           "slug": "stamina",
-          "value": 90
+          "value": 91
         },
         {
           "slug": "critical-strike",
-          "value": 10.067199
+          "value": 9.918
         },
         {
           "slug": "spirit",
@@ -663,7 +663,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-11T08:35:31Z",
+      "lastUpdated": "2026-11-11T12:55:12Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
