@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T20:31:39Z",
+  "generatedAt": "2026-11-12T21:01:46Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -395,7 +395,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 154,
+          "skill": 155,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -409,12 +409,12 @@
         },
         {
           "name": "First Aid",
-          "skill": 164,
+          "skill": 165,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 0,
+      "honorableKills": 3,
       "pvpRank": 0,
       "stats": [],
       "gear": [
@@ -487,7 +487,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-12T19:59:13Z",
+      "lastUpdated": "2026-11-12T20:47:37Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -497,7 +497,7 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 29,
+      "level": 30,
       "ilvl": 18,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -507,14 +507,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 15,
+      "specPoints": 16,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 15,
+          "points": 16,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         },
         {
@@ -526,13 +526,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 204,
+          "skill": 208,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 158,
+          "skill": 162,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -540,7 +540,7 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 145,
+          "skill": 150,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
@@ -562,7 +562,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1098
+          "value": 1104
         },
         {
           "slug": "rage",
@@ -570,27 +570,27 @@
         },
         {
           "slug": "strength",
-          "value": 112
+          "value": 119
         },
         {
           "slug": "intellect",
-          "value": 20
+          "value": 5
         },
         {
           "slug": "agility",
-          "value": 50
+          "value": 51
         },
         {
           "slug": "stamina",
-          "value": 93
+          "value": 91
         },
         {
           "slug": "critical-strike",
-          "value": 9.96
+          "value": 9.7462
         },
         {
           "slug": "spirit",
-          "value": 39
+          "value": 44
         }
       ],
       "gear": [
@@ -631,7 +631,7 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Slain Baron's Signet",
+          "name": "Tiger Band",
           "quality": "uncommon"
         },
         {
@@ -663,7 +663,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-12T19:28:30Z",
+      "lastUpdated": "2026-11-12T20:50:51Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
