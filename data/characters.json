@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T07:01:50Z",
+  "generatedAt": "2026-11-12T07:31:49Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,8 +8,8 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 28,
-      "ilvl": 20,
+      "level": 31,
+      "ilvl": 22,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -18,21 +18,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 19,
+      "specPoints": 22,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 19,
+          "points": 22,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 116,
+          "skill": 124,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -58,19 +58,52 @@
         },
         {
           "name": "First Aid",
-          "skill": 137,
+          "skill": 150,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
       "honorableKills": 10,
       "pvpRank": 0,
-      "stats": [],
+      "stats": [
+        {
+          "slug": "health",
+          "value": 1281
+        },
+        {
+          "slug": "rage",
+          "value": 100
+        },
+        {
+          "slug": "strength",
+          "value": 106
+        },
+        {
+          "slug": "intellect",
+          "value": 22
+        },
+        {
+          "slug": "agility",
+          "value": 47
+        },
+        {
+          "slug": "stamina",
+          "value": 106
+        },
+        {
+          "slug": "critical-strike",
+          "value": 4.3521004
+        },
+        {
+          "slug": "spirit",
+          "value": 42
+        }
+      ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Satyrskin Cloak",
-          "quality": "rare"
+          "name": "Wildhunter Cloak",
+          "quality": "uncommon"
         },
         {
           "slot": "Chest",
@@ -84,7 +117,7 @@
         },
         {
           "slot": "Hands",
-          "name": "Dagmire Gauntlets",
+          "name": "Palestrider Gloves",
           "quality": "uncommon"
         },
         {
@@ -94,8 +127,8 @@
         },
         {
           "slot": "Legs",
-          "name": "Bonerust Leggings",
-          "quality": "rare"
+          "name": "Plainsguard Leggings",
+          "quality": "uncommon"
         },
         {
           "slot": "Neck",
@@ -104,7 +137,7 @@
         },
         {
           "slot": "Off Hand",
-          "name": "Kresh's Back",
+          "name": "Arctic Buckler",
           "quality": "rare"
         },
         {
@@ -139,14 +172,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Steel-clasped Bracers",
+          "name": "Grimtoll Wristguards",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-12T01:46:02Z",
+      "lastUpdated": "2026-11-12T07:27:02Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
