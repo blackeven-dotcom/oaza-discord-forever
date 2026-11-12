@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T16:01:48Z",
+  "generatedAt": "2026-11-12T16:31:35Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -189,7 +189,7 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 28,
+      "level": 29,
       "ilvl": 22,
       "class": "Druid",
       "classSlug": "druid",
@@ -249,19 +249,19 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1059
+          "value": 1090
         },
         {
           "slug": "mana",
-          "value": 1144
+          "value": 1204
         },
         {
           "slug": "strength",
-          "value": 60
+          "value": 61
         },
         {
           "slug": "intellect",
-          "value": 58
+          "value": 60
         },
         {
           "slug": "agility",
@@ -269,15 +269,15 @@
         },
         {
           "slug": "stamina",
-          "value": 81
+          "value": 82
         },
         {
           "slug": "critical-strike",
-          "value": 5.6552
+          "value": 5.5351996
         },
         {
           "slug": "spirit",
-          "value": 56
+          "value": 58
         }
       ],
       "gear": [
@@ -355,7 +355,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-12T00:19:21Z",
+      "lastUpdated": "2026-11-12T16:24:18Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -907,7 +907,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.122
+          "value": 5.162
         },
         {
           "slug": "spirit",
@@ -989,7 +989,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-12T06:56:29Z",
+      "lastUpdated": "2026-11-12T16:27:56Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
