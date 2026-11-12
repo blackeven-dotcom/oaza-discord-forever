@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T17:01:49Z",
+  "generatedAt": "2026-11-12T17:31:34Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -355,7 +355,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-12T16:24:18Z",
+      "lastUpdated": "2026-11-12T17:05:09Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -1340,7 +1340,7 @@
       "slug": "covy-zugzug",
       "leader": false,
       "ok": true,
-      "level": 26,
+      "level": 27,
       "ilvl": 19,
       "class": "Shaman",
       "classSlug": "shaman",
@@ -1350,14 +1350,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Enhancement",
-      "specPoints": 17,
+      "specPoints": 18,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Enhancement",
-          "points": 17,
+          "points": 18,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
         }
       ],
@@ -1384,7 +1384,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 155,
+          "skill": 156,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -1400,19 +1400,19 @@
       "stats": [
         {
           "slug": "health",
-          "value": 877
+          "value": 905
         },
         {
           "slug": "mana",
-          "value": 975
+          "value": 1021
         },
         {
           "slug": "strength",
-          "value": 65
+          "value": 66
         },
         {
           "slug": "intellect",
-          "value": 48
+          "value": 49
         },
         {
           "slug": "agility",
@@ -1420,7 +1420,7 @@
         },
         {
           "slug": "stamina",
-          "value": 80
+          "value": 81
         },
         {
           "slug": "critical-strike",
@@ -1428,7 +1428,7 @@
         },
         {
           "slug": "spirit",
-          "value": 62
+          "value": 63
         }
       ],
       "gear": [
@@ -1501,7 +1501,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-11T16:23:11Z",
+      "lastUpdated": "2026-11-12T17:20:47Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
