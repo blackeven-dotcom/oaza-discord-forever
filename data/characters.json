@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T21:08:19Z",
+  "generatedAt": "2026-11-12T21:31:38Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,8 +8,8 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 31,
-      "ilvl": 22,
+      "level": 32,
+      "ilvl": 24,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -18,14 +18,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 22,
+      "specPoints": 23,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 22,
+          "points": 23,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
@@ -52,7 +52,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 108,
+          "skill": 111,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -68,7 +68,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1281
+          "value": 1329
         },
         {
           "slug": "rage",
@@ -76,7 +76,7 @@
         },
         {
           "slug": "strength",
-          "value": 106
+          "value": 125
         },
         {
           "slug": "intellect",
@@ -84,25 +84,25 @@
         },
         {
           "slug": "agility",
-          "value": 47
+          "value": 48
         },
         {
           "slug": "stamina",
-          "value": 106
+          "value": 109
         },
         {
           "slug": "critical-strike",
-          "value": 4.3521004
+          "value": 4.2848
         },
         {
           "slug": "spirit",
-          "value": 42
+          "value": 43
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Wildhunter Cloak",
+          "name": "Slayer's Cape",
           "quality": "uncommon"
         },
         {
@@ -119,6 +119,11 @@
           "slot": "Hands",
           "name": "Palestrider Gloves",
           "quality": "uncommon"
+        },
+        {
+          "slot": "Head",
+          "name": "Tusken Helm",
+          "quality": "rare"
         },
         {
           "slot": "Ring 1",
@@ -147,8 +152,8 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Spiked Shell Band",
-          "quality": "rare"
+          "name": "Boar Signet",
+          "quality": "uncommon"
         },
         {
           "slot": "Shirt",
@@ -179,7 +184,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-12T07:38:20Z",
+      "lastUpdated": "2026-11-12T21:27:44Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
