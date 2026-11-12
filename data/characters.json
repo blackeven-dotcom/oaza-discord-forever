@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T20:01:48Z",
+  "generatedAt": "2026-11-12T20:31:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -673,8 +673,8 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 20,
-      "ilvl": 13,
+      "level": 22,
+      "ilvl": 18,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -683,27 +683,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Retribution",
-      "specPoints": 10,
+      "specPoints": 12,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Retribution",
-          "points": 10,
+          "points": 12,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 81,
+          "skill": 91,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
-          "skill": 75,
+          "skill": 80,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
@@ -711,19 +711,19 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 53,
+          "skill": 96,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 111,
+          "skill": 123,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
         {
           "name": "First Aid",
-          "skill": 20,
+          "skill": 57,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -733,35 +733,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 641
+          "value": 812
         },
         {
           "slug": "mana",
-          "value": 582
+          "value": 734
         },
         {
           "slug": "strength",
-          "value": 74
+          "value": 80
         },
         {
           "slug": "intellect",
-          "value": 30
+          "value": 37
         },
         {
           "slug": "agility",
-          "value": 38
+          "value": 39
         },
         {
           "slug": "stamina",
-          "value": 63
+          "value": 77
         },
         {
           "slug": "critical-strike",
-          "value": 11.2102
+          "value": 11.1566
         },
         {
           "slug": "spirit",
-          "value": 48
+          "value": 51
         }
       ],
       "gear": [
@@ -782,7 +782,12 @@
         },
         {
           "slot": "Hands",
-          "name": "Wise Gauntlets",
+          "name": "Rugged Mail Gloves",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Loop of Sacrifice",
           "quality": "uncommon"
         },
         {
@@ -796,9 +801,24 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Off Hand",
+          "name": "Commander's Crest",
+          "quality": "rare"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Seal of Sylvanas",
+          "quality": "rare"
+        },
+        {
           "slot": "Shirt",
           "name": "Brawler's Harness",
           "quality": "common"
+        },
+        {
+          "slot": "Shoulders",
+          "name": "Bronzed Shoulderguards",
+          "quality": "uncommon"
         },
         {
           "slot": "Waist",
@@ -807,7 +827,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Forsaken Greataxe",
+          "name": "Blade of Silverlaine",
           "quality": "rare"
         },
         {
@@ -819,7 +839,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-12T09:14:27Z",
+      "lastUpdated": "2026-11-12T20:19:05Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -1511,8 +1531,8 @@
       "slug": "fore-skeenwalker",
       "leader": false,
       "ok": true,
-      "level": 20,
-      "ilvl": 15,
+      "level": 21,
+      "ilvl": 17,
       "class": "Rogue",
       "classSlug": "rogue",
       "race": "Undead",
@@ -1533,14 +1553,14 @@
         },
         {
           "name": "Subtlety",
-          "points": 3,
+          "points": 4,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132320.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 7,
+          "skill": 8,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -1558,7 +1578,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 603
+          "value": 666
         },
         {
           "slug": "energy",
@@ -1566,27 +1586,27 @@
         },
         {
           "slug": "strength",
-          "value": 34
+          "value": 41
         },
         {
           "slug": "intellect",
-          "value": 22
+          "value": 33
         },
         {
           "slug": "agility",
-          "value": 75
+          "value": 74
         },
         {
           "slug": "stamina",
-          "value": 55
+          "value": 60
         },
         {
           "slug": "critical-strike",
-          "value": 9.0625
+          "value": 8.4062
         },
         {
           "slug": "spirit",
-          "value": 32
+          "value": 36
         }
       ],
       "gear": [
@@ -1612,8 +1632,8 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Slain Baron's Signet",
-          "quality": "uncommon"
+          "name": "Seal of Sylvanas",
+          "quality": "rare"
         },
         {
           "slot": "Legs",
@@ -1637,7 +1657,7 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Ring of Scorn",
+          "name": "Loop of Sacrifice",
           "quality": "uncommon"
         },
         {
@@ -1646,14 +1666,19 @@
           "quality": "common"
         },
         {
+          "slot": "Shoulders",
+          "name": "Tanned Shoulderpads",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Waist",
           "name": "Fine Leather Belt",
           "quality": "uncommon"
         },
         {
           "slot": "Main Hand",
-          "name": "Talonstrike",
-          "quality": "uncommon"
+          "name": "Butcher's Slicer",
+          "quality": "rare"
         },
         {
           "slot": "Wrist",
@@ -1664,7 +1689,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-12T18:01:14Z",
+      "lastUpdated": "2026-11-12T20:27:43Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
