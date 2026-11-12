@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T22:31:33Z",
+  "generatedAt": "2026-11-12T23:01:56Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -194,8 +194,8 @@
       "slug": "beef-bong",
       "leader": true,
       "ok": true,
-      "level": 29,
-      "ilvl": 22,
+      "level": 30,
+      "ilvl": 23,
       "class": "Druid",
       "classSlug": "druid",
       "race": "Tauren",
@@ -204,14 +204,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Feral Combat",
-      "specPoints": 18,
+      "specPoints": 21,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Feral Combat",
-          "points": 18,
+          "points": 21,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
         }
       ],
@@ -224,7 +224,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 191,
+          "skill": 196,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -254,11 +254,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1090
+          "value": 974
         },
         {
           "slug": "mana",
-          "value": 1204
+          "value": 1144
         },
         {
           "slug": "strength",
@@ -266,23 +266,23 @@
         },
         {
           "slug": "intellect",
-          "value": 60
+          "value": 54
         },
         {
           "slug": "agility",
-          "value": 77
+          "value": 89
         },
         {
           "slug": "stamina",
-          "value": 82
+          "value": 69
         },
         {
           "slug": "critical-strike",
-          "value": 5.5351996
+          "value": 2.8699
         },
         {
           "slug": "spirit",
-          "value": 58
+          "value": 64
         }
       ],
       "gear": [
@@ -298,7 +298,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Gray Leather Boots",
+          "name": "Trailblazer Boots",
           "quality": "uncommon"
         },
         {
@@ -313,7 +313,7 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Band of the Fist",
+          "name": "Monkey Ring",
           "quality": "uncommon"
         },
         {
@@ -328,8 +328,8 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Seal of Sylvanas",
-          "quality": "rare"
+          "name": "Band of the Fist",
+          "quality": "uncommon"
         },
         {
           "slot": "Shirt",
@@ -348,8 +348,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Crescent Staff",
-          "quality": "rare"
+          "name": "Armor Piercer",
+          "quality": "uncommon"
         },
         {
           "slot": "Wrist",
@@ -360,7 +360,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-12T17:54:09Z",
+      "lastUpdated": "2026-11-12T22:39:34Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
