@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T00:01:46Z",
+  "generatedAt": "2026-11-12T00:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -219,7 +219,7 @@
         },
         {
           "name": "Skinning",
-          "skill": 188,
+          "skill": 191,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         }
@@ -244,7 +244,7 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 12,
+      "honorableKills": 14,
       "pvpRank": 0,
       "stats": [
         {
@@ -355,7 +355,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-11T20:38:19Z",
+      "lastUpdated": "2026-11-12T00:19:21Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
