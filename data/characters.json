@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T21:31:38Z",
+  "generatedAt": "2026-11-12T22:01:50Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -400,7 +400,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 155,
+          "skill": 156,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -408,13 +408,13 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 180,
+          "skill": 196,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "First Aid",
-          "skill": 165,
+          "skill": 168,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -492,7 +492,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-12T20:47:37Z",
+      "lastUpdated": "2026-11-12T21:58:51Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -1365,8 +1365,8 @@
       "slug": "covy-zugzug",
       "leader": false,
       "ok": true,
-      "level": 27,
-      "ilvl": 19,
+      "level": 28,
+      "ilvl": 24,
       "class": "Shaman",
       "classSlug": "shaman",
       "race": "Orc",
@@ -1375,28 +1375,28 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Enhancement",
-      "specPoints": 18,
+      "specPoints": 19,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Enhancement",
-          "points": 18,
+          "points": 19,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
         }
       ],
       "professions": [
         {
           "name": "Alchemy",
-          "skill": 139,
-          "max": 150,
+          "skill": 156,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
         },
         {
           "name": "Herbalism",
           "skill": 150,
-          "max": 150,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
       ],
@@ -1425,41 +1425,41 @@
       "stats": [
         {
           "slug": "health",
-          "value": 905
+          "value": 874
         },
         {
           "slug": "mana",
-          "value": 1021
+          "value": 1203
         },
         {
           "slug": "strength",
-          "value": 66
+          "value": 70
         },
         {
           "slug": "intellect",
-          "value": 49
+          "value": 59
         },
         {
           "slug": "agility",
-          "value": 53
+          "value": 59
         },
         {
           "slug": "stamina",
-          "value": 81
+          "value": 76
         },
         {
           "slug": "critical-strike",
-          "value": 11.417899
+          "value": 11.870299
         },
         {
           "slug": "spirit",
-          "value": 63
+          "value": 78
         }
       ],
       "gear": [
         {
           "slot": "Back",
-          "name": "Engineer's Cloak",
+          "name": "Watcher's Cape of the Tiger",
           "quality": "uncommon"
         },
         {
@@ -1478,6 +1478,11 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Head",
+          "name": "Geomancer Headdress",
+          "quality": "rare"
+        },
+        {
           "slot": "Ring 1",
           "name": "Band of the Fist",
           "quality": "uncommon"
@@ -1488,13 +1493,18 @@
           "quality": "rare"
         },
         {
+          "slot": "Neck",
+          "name": "Cerulean Talisman of the Falcon",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Ranged",
           "name": "Totem of Charged Flames",
           "quality": "uncommon"
         },
         {
           "slot": "Ring 2",
-          "name": "Bounty Hunter's Ring",
+          "name": "Snake Hoop",
           "quality": "uncommon"
         },
         {
@@ -1526,7 +1536,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/242/12103922-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-12T17:20:47Z",
+      "lastUpdated": "2026-11-12T21:39:33Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/covy-zugzug"
     },
