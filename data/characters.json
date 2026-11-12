@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T01:31:31Z",
+  "generatedAt": "2026-11-12T02:01:46Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -65,40 +65,7 @@
       ],
       "honorableKills": 10,
       "pvpRank": 0,
-      "stats": [
-        {
-          "slug": "health",
-          "value": 1023
-        },
-        {
-          "slug": "rage",
-          "value": 100
-        },
-        {
-          "slug": "strength",
-          "value": 93
-        },
-        {
-          "slug": "intellect",
-          "value": 22
-        },
-        {
-          "slug": "agility",
-          "value": 54
-        },
-        {
-          "slug": "stamina",
-          "value": 87
-        },
-        {
-          "slug": "critical-strike",
-          "value": 5.428
-        },
-        {
-          "slug": "spirit",
-          "value": 42
-        }
-      ],
+      "stats": [],
       "gear": [
         {
           "slot": "Back",
@@ -179,7 +146,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-12T00:34:18Z",
+      "lastUpdated": "2026-11-12T01:46:02Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
