@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T22:01:50Z",
+  "generatedAt": "2026-11-12T22:31:33Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1024,8 +1024,8 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 31,
-      "ilvl": 20,
+      "level": 32,
+      "ilvl": 21,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -1053,13 +1053,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 110,
-          "max": 150,
+          "skill": 133,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 150,
+          "skill": 172,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1073,7 +1073,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 143,
+          "skill": 144,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -1089,35 +1089,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 837
+          "value": 883
         },
         {
           "slug": "mana",
-          "value": 1525
+          "value": 1819
         },
         {
           "slug": "strength",
-          "value": 30
+          "value": 27
         },
         {
           "slug": "intellect",
-          "value": 76
+          "value": 94
         },
         {
           "slug": "agility",
-          "value": 30
+          "value": 35
         },
         {
           "slug": "stamina",
-          "value": 60
+          "value": 63
         },
         {
           "slug": "critical-strike",
-          "value": 0.14200006
+          "value": 0.33500016
         },
         {
           "slug": "spirit",
-          "value": 130
+          "value": 118
         }
       ],
       "gear": [
@@ -1128,7 +1128,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Robe of the Moccasin",
+          "name": "Death Speaker Robes",
           "quality": "rare"
         },
         {
@@ -1143,7 +1143,7 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Inventor's League Ring",
+          "name": "Snake Hoop",
           "quality": "uncommon"
         },
         {
@@ -1163,8 +1163,8 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Band of Thorns",
-          "quality": "uncommon"
+          "name": "Agamaggan's Clutch",
+          "quality": "rare"
         },
         {
           "slot": "Shirt",
@@ -1195,7 +1195,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-12T19:21:15Z",
+      "lastUpdated": "2026-11-12T22:18:35Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
