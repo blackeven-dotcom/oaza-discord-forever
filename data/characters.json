@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T09:01:52Z",
+  "generatedAt": "2026-11-12T09:31:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -757,7 +757,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 11.170199
+          "value": 11.2102
         },
         {
           "slug": "spirit",
@@ -819,7 +819,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-11T17:22Z",
+      "lastUpdated": "2026-11-12T09:14:27Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
