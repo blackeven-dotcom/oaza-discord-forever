@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T17:31:34Z",
+  "generatedAt": "2026-11-12T18:01:57Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -355,7 +355,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-12T17:05:09Z",
+      "lastUpdated": "2026-11-12T17:54:09Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -1511,7 +1511,7 @@
       "slug": "fore-skeenwalker",
       "leader": false,
       "ok": true,
-      "level": 19,
+      "level": 20,
       "ilvl": 15,
       "class": "Rogue",
       "classSlug": "rogue",
@@ -1521,14 +1521,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Combat",
-      "specPoints": 7,
+      "specPoints": 8,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Combat",
-          "points": 7,
+          "points": 8,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg"
         },
         {
@@ -1558,7 +1558,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 581
+          "value": 603
         },
         {
           "slug": "energy",
@@ -1570,19 +1570,19 @@
         },
         {
           "slug": "intellect",
-          "value": 21
+          "value": 22
         },
         {
           "slug": "agility",
-          "value": 74
+          "value": 75
         },
         {
           "slug": "stamina",
-          "value": 54
+          "value": 55
         },
         {
           "slug": "critical-strike",
-          "value": 9.6984
+          "value": 9.0625
         },
         {
           "slug": "spirit",
@@ -1664,7 +1664,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-11T09:57:39Z",
+      "lastUpdated": "2026-11-12T18:01:14Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
