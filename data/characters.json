@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T12:01:52Z",
+  "generatedAt": "2026-11-13T12:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -679,7 +679,7 @@
       "leader": false,
       "ok": true,
       "level": 23,
-      "ilvl": 19,
+      "ilvl": 20,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -707,13 +707,13 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 96,
+          "skill": 101,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
-          "skill": 101,
+          "skill": 102,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
@@ -727,7 +727,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 123,
+          "skill": 128,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -743,7 +743,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 949
+          "value": 1039
         },
         {
           "slug": "mana",
@@ -751,7 +751,7 @@
         },
         {
           "slug": "strength",
-          "value": 85
+          "value": 95
         },
         {
           "slug": "intellect",
@@ -763,11 +763,11 @@
         },
         {
           "slug": "stamina",
-          "value": 89
+          "value": 98
         },
         {
           "slug": "critical-strike",
-          "value": 10.009199
+          "value": 10.1692
         },
         {
           "slug": "spirit",
@@ -793,6 +793,11 @@
         {
           "slot": "Hands",
           "name": "Grip of Fear",
+          "quality": "rare"
+        },
+        {
+          "slot": "Head",
+          "name": "Veteran's Silvered Chain Helm",
           "quality": "rare"
         },
         {
@@ -849,7 +854,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-13T09:40:50Z",
+      "lastUpdated": "2026-11-13T12:07:03Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
