@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T09:31:35Z",
+  "generatedAt": "2026-11-13T10:01:46Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -707,7 +707,7 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 95,
+          "skill": 96,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -849,7 +849,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-12T23:50:25Z",
+      "lastUpdated": "2026-11-13T09:40:50Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -1622,7 +1622,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 8.4062
+          "value": 8.5262
         },
         {
           "slug": "spirit",
@@ -1709,7 +1709,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-12T20:27:43Z",
+      "lastUpdated": "2026-11-13T09:55:27Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
