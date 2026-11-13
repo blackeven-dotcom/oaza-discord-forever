@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T14:01:50Z",
+  "generatedAt": "2026-11-13T14:31:45Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -678,8 +678,8 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 23,
-      "ilvl": 20,
+      "level": 24,
+      "ilvl": 21,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -700,14 +700,14 @@
         },
         {
           "name": "Protection",
-          "points": 2,
+          "points": 3,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135893.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 101,
+          "skill": 104,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -727,7 +727,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 128,
+          "skill": 130,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -743,31 +743,31 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1039
+          "value": 1097
         },
         {
           "slug": "mana",
-          "value": 864
+          "value": 905
         },
         {
           "slug": "strength",
-          "value": 95
+          "value": 99
         },
         {
           "slug": "intellect",
-          "value": 43
+          "value": 44
         },
         {
           "slug": "agility",
-          "value": 31
+          "value": 32
         },
         {
           "slug": "stamina",
-          "value": 98
+          "value": 103
         },
         {
           "slug": "critical-strike",
-          "value": 10.1692
+          "value": 10.1896
         },
         {
           "slug": "spirit",
@@ -782,7 +782,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Veteran Armor",
+          "name": "Orcish War Chain",
           "quality": "uncommon"
         },
         {
@@ -854,7 +854,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-13T12:44:33Z",
+      "lastUpdated": "2026-11-13T14:10:27Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
