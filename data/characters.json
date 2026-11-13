@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T23:31:50Z",
+  "generatedAt": "2026-11-13T00:01:50Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -678,8 +678,8 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 22,
-      "ilvl": 18,
+      "level": 23,
+      "ilvl": 19,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -697,18 +697,23 @@
           "name": "Retribution",
           "points": 12,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
+        },
+        {
+          "name": "Protection",
+          "points": 2,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135893.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 91,
+          "skill": 95,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
-          "skill": 80,
+          "skill": 101,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
@@ -738,35 +743,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 812
+          "value": 949
         },
         {
           "slug": "mana",
-          "value": 734
+          "value": 864
         },
         {
           "slug": "strength",
-          "value": 80
+          "value": 85
         },
         {
           "slug": "intellect",
-          "value": 37
+          "value": 43
         },
         {
           "slug": "agility",
-          "value": 39
+          "value": 31
         },
         {
           "slug": "stamina",
-          "value": 77
+          "value": 89
         },
         {
           "slug": "critical-strike",
-          "value": 11.1566
+          "value": 10.009199
         },
         {
           "slug": "spirit",
-          "value": 51
+          "value": 52
         }
       ],
       "gear": [
@@ -787,8 +792,8 @@
         },
         {
           "slot": "Hands",
-          "name": "Rugged Mail Gloves",
-          "quality": "uncommon"
+          "name": "Grip of Fear",
+          "quality": "rare"
         },
         {
           "slot": "Ring 1",
@@ -797,7 +802,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Bonerust Leggings",
+          "name": "Guard's Chain Leggings",
           "quality": "rare"
         },
         {
@@ -832,8 +837,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Blade of Silverlaine",
-          "quality": "rare"
+          "name": "Fighter Broadsword of the Defender",
+          "quality": "uncommon"
         },
         {
           "slot": "Wrist",
@@ -844,7 +849,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-12T20:19:05Z",
+      "lastUpdated": "2026-11-12T23:50:25Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
