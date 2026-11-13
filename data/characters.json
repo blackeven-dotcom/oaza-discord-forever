@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T20:01:45Z",
+  "generatedAt": "2026-11-13T20:31:36Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -503,7 +503,7 @@
       "leader": false,
       "ok": true,
       "level": 30,
-      "ilvl": 18,
+      "ilvl": 19,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -567,7 +567,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1104
+          "value": 1234
         },
         {
           "slug": "rage",
@@ -575,11 +575,11 @@
         },
         {
           "slug": "strength",
-          "value": 119
+          "value": 113
         },
         {
           "slug": "intellect",
-          "value": 5
+          "value": 20
         },
         {
           "slug": "agility",
@@ -587,11 +587,11 @@
         },
         {
           "slug": "stamina",
-          "value": 91
+          "value": 104
         },
         {
           "slug": "critical-strike",
-          "value": 9.7462
+          "value": 9.786199
         },
         {
           "slug": "spirit",
@@ -606,7 +606,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Mutant Scale Breastplate",
+          "name": "Brutal Hauberk",
           "quality": "rare"
         },
         {
@@ -651,8 +651,8 @@
         },
         {
           "slot": "Waist",
-          "name": "Glimmering Mail Girdle",
-          "quality": "uncommon"
+          "name": "Stonefist Girdle",
+          "quality": "rare"
         },
         {
           "slot": "Main Hand",
@@ -668,7 +668,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-12T20:50:51Z",
+      "lastUpdated": "2026-11-13T20:11:32Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
