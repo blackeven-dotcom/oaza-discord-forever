@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T21:31:39Z",
+  "generatedAt": "2026-11-13T22:01:52Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -360,7 +360,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
-      "lastUpdated": "2026-11-12T22:39:34Z",
+      "lastUpdated": "2026-11-13T21:45:43Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
@@ -502,8 +502,8 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 30,
-      "ilvl": 19,
+      "level": 31,
+      "ilvl": 23,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -512,14 +512,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 16,
+      "specPoints": 17,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 16,
+          "points": 17,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         },
         {
@@ -537,7 +537,7 @@
         },
         {
           "name": "Mining",
-          "skill": 162,
+          "skill": 163,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -567,7 +567,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1234
+          "value": 1351
         },
         {
           "slug": "rage",
@@ -575,7 +575,7 @@
         },
         {
           "slug": "strength",
-          "value": 113
+          "value": 122
         },
         {
           "slug": "intellect",
@@ -583,15 +583,15 @@
         },
         {
           "slug": "agility",
-          "value": 51
+          "value": 52
         },
         {
           "slug": "stamina",
-          "value": 104
+          "value": 113
         },
         {
           "slug": "critical-strike",
-          "value": 9.786199
+          "value": 9.6636
         },
         {
           "slug": "spirit",
@@ -620,9 +620,19 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Head",
+          "name": "Sentry's Headdress of the Bear",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Ring 1",
           "name": "Seal of Sylvanas",
           "quality": "rare"
+        },
+        {
+          "slot": "Trinket 1",
+          "name": "Transformative Cocoon",
+          "quality": "uncommon"
         },
         {
           "slot": "Legs",
@@ -668,7 +678,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-13T20:11:32Z",
+      "lastUpdated": "2026-11-13T21:36:21Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
