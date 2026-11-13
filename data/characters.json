@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T17:31:35Z",
+  "generatedAt": "2026-11-13T18:01:52Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1724,7 +1724,7 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 22,
+      "level": 23,
       "ilvl": 15,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -1734,14 +1734,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 13,
+      "specPoints": 14,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 13,
+          "points": 14,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -1754,7 +1754,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 113,
+          "skill": 117,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1778,11 +1778,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 678
+          "value": 705
         },
         {
           "slug": "mana",
-          "value": 850
+          "value": 891
         },
         {
           "slug": "strength",
@@ -1790,23 +1790,23 @@
         },
         {
           "slug": "intellect",
-          "value": 41
+          "value": 42
         },
         {
           "slug": "agility",
-          "value": 86
+          "value": 87
         },
         {
           "slug": "stamina",
-          "value": 62
+          "value": 63
         },
         {
           "slug": "critical-strike",
-          "value": 4.717
+          "value": 4.3816
         },
         {
           "slug": "spirit",
-          "value": 40
+          "value": 41
         }
       ],
       "gear": [
@@ -1874,7 +1874,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-12T15:37:51Z",
+      "lastUpdated": "2026-11-13T17:35:48Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
