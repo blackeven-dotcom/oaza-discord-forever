@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T12:31:37Z",
+  "generatedAt": "2026-11-13T13:01:50Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -854,7 +854,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-13T12:07:03Z",
+      "lastUpdated": "2026-11-13T12:44:33Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
@@ -1556,8 +1556,8 @@
       "slug": "fore-skeenwalker",
       "leader": false,
       "ok": true,
-      "level": 21,
-      "ilvl": 17,
+      "level": 22,
+      "ilvl": 18,
       "class": "Rogue",
       "classSlug": "rogue",
       "race": "Undead",
@@ -1566,14 +1566,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Combat",
-      "specPoints": 8,
+      "specPoints": 9,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Combat",
-          "points": 8,
+          "points": 9,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg"
         },
         {
@@ -1585,7 +1585,7 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 8,
+          "skill": 9,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -1603,7 +1603,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 666
+          "value": 720
         },
         {
           "slug": "energy",
@@ -1611,7 +1611,7 @@
         },
         {
           "slug": "strength",
-          "value": 41
+          "value": 45
         },
         {
           "slug": "intellect",
@@ -1619,15 +1619,15 @@
         },
         {
           "slug": "agility",
-          "value": 74
-        },
-        {
-          "slug": "stamina",
           "value": 60
         },
         {
+          "slug": "stamina",
+          "value": 64
+        },
+        {
           "slug": "critical-strike",
-          "value": 8.5262
+          "value": 6.425999
         },
         {
           "slug": "spirit",
@@ -1672,8 +1672,8 @@
         },
         {
           "slot": "Off Hand",
-          "name": "Hook Dagger of Defense",
-          "quality": "uncommon"
+          "name": "Doomspike",
+          "quality": "rare"
         },
         {
           "slot": "Ranged",
@@ -1714,7 +1714,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-13T09:55:27Z",
+      "lastUpdated": "2026-11-13T12:42:42Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
