@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T14:01:45Z",
+  "generatedAt": "2026-11-14T14:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -959,78 +959,7 @@
           "value": 51
         }
       ],
-      "gear": [
-        {
-          "slot": "Back",
-          "name": "Wildhunter Cloak",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Chest",
-          "name": "Dusky Leather Armor",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Feet",
-          "name": "Warsong Boots",
-          "quality": "rare"
-        },
-        {
-          "slot": "Hands",
-          "name": "Toughened Leather Gloves",
-          "quality": "rare"
-        },
-        {
-          "slot": "Head",
-          "name": "Brawler's Leather Helm",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ring 1",
-          "name": "Loop of Sacrifice",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Legs",
-          "name": "Dusky Leather Leggings",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Off Hand",
-          "name": "Jade Serpentblade",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Ranged",
-          "name": "Harpyclaw Short Bow",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ring 2",
-          "name": "Bounty Hunter's Ring",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Shoulders",
-          "name": "Barbaric Shoulders",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Waist",
-          "name": "Skulker's Leather Belt",
-          "quality": "rare"
-        },
-        {
-          "slot": "Main Hand",
-          "name": "Jade Serpentblade",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Wrist",
-          "name": "Insignia Bracers",
-          "quality": "uncommon"
-        }
-      ],
+      "gear": [],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
