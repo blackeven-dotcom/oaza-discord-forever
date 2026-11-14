@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T09:01:57Z",
+  "generatedAt": "2026-11-14T09:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -952,7 +952,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.162
+          "value": 5.242
         },
         {
           "slug": "spirit",
@@ -1034,7 +1034,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-12T16:27:56Z",
+      "lastUpdated": "2026-11-14T09:20:26Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
