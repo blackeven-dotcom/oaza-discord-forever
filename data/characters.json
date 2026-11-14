@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T09:31:37Z",
+  "generatedAt": "2026-11-14T10:01:43Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1764,7 +1764,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 117,
+          "skill": 123,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1812,7 +1812,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 4.3816
+          "value": 4.5416
         },
         {
           "slug": "spirit",
@@ -1884,7 +1884,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-13T17:35:48Z",
+      "lastUpdated": "2026-11-14T09:33:08Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
