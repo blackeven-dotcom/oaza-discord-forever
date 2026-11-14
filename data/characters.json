@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T12:31:36Z",
+  "generatedAt": "2026-11-14T13:01:50Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1734,7 +1734,7 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 23,
+      "level": 24,
       "ilvl": 15,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -1744,14 +1744,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 14,
+      "specPoints": 15,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 14,
+          "points": 15,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -1788,35 +1788,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 705
+          "value": 773
         },
         {
           "slug": "mana",
-          "value": 891
+          "value": 933
         },
         {
           "slug": "strength",
-          "value": 36
+          "value": 34
         },
         {
           "slug": "intellect",
-          "value": 42
+          "value": 43
         },
         {
           "slug": "agility",
-          "value": 87
+          "value": 90
         },
         {
           "slug": "stamina",
-          "value": 63
+          "value": 68
         },
         {
           "slug": "critical-strike",
-          "value": 4.6216
+          "value": 4.402
         },
         {
           "slug": "spirit",
-          "value": 41
+          "value": 42
         }
       ],
       "gear": [
@@ -1847,7 +1847,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Greasy Tinker's Pants",
+          "name": "Slick Deviate Leggings",
           "quality": "uncommon"
         },
         {
@@ -1884,7 +1884,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-14T11:29:57Z",
+      "lastUpdated": "2026-11-14T12:32:26Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
