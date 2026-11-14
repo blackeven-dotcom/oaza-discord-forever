@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T14:31:37Z",
+  "generatedAt": "2026-11-14T15:01:45Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -959,7 +959,78 @@
           "value": 51
         }
       ],
-      "gear": [],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Wildhunter Cloak",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Chest",
+          "name": "Dusky Leather Armor",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Warsong Boots",
+          "quality": "rare"
+        },
+        {
+          "slot": "Hands",
+          "name": "Toughened Leather Gloves",
+          "quality": "rare"
+        },
+        {
+          "slot": "Head",
+          "name": "Brawler's Leather Helm",
+          "quality": "rare"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Loop of Sacrifice",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Legs",
+          "name": "Dusky Leather Leggings",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Off Hand",
+          "name": "Jade Serpentblade",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ranged",
+          "name": "Harpyclaw Short Bow",
+          "quality": "rare"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Bounty Hunter's Ring",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Shoulders",
+          "name": "Barbaric Shoulders",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Waist",
+          "name": "Skulker's Leather Belt",
+          "quality": "rare"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Jade Serpentblade",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Insignia Bracers",
+          "quality": "uncommon"
+        }
+      ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
@@ -1154,7 +1225,7 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 23,
+      "level": 24,
       "ilvl": 14,
       "class": "Mage",
       "classSlug": "mage",
@@ -1164,14 +1235,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 14,
+      "specPoints": 15,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 14,
+          "points": 15,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
@@ -1208,11 +1279,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 622
+          "value": 638
         },
         {
           "slug": "mana",
-          "value": 1186
+          "value": 1248
         },
         {
           "slug": "strength",
@@ -1220,23 +1291,23 @@
         },
         {
           "slug": "intellect",
-          "value": 69
+          "value": 71
         },
         {
           "slug": "agility",
-          "value": 32
+          "value": 33
         },
         {
           "slug": "stamina",
-          "value": 51
+          "value": 52
         },
         {
           "slug": "critical-strike",
-          "value": 3.44
+          "value": 3.2560005
         },
         {
           "slug": "spirit",
-          "value": 55
+          "value": 57
         }
       ],
       "gear": [
@@ -1304,7 +1375,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-11T20:08:02Z",
+      "lastUpdated": "2026-11-14T14:34:47Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
