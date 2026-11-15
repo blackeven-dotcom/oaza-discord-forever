@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T10:01:42Z",
+  "generatedAt": "2026-11-15T10:31:33Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1226,7 +1226,7 @@
       "leader": false,
       "ok": true,
       "level": 24,
-      "ilvl": 14,
+      "ilvl": 16,
       "class": "Mage",
       "classSlug": "mage",
       "race": "Undead",
@@ -1249,13 +1249,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 94,
+          "skill": 100,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 111,
+          "skill": 121,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1279,11 +1279,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 638
+          "value": 738
         },
         {
           "slug": "mana",
-          "value": 1248
+          "value": 1143
         },
         {
           "slug": "strength",
@@ -1291,7 +1291,7 @@
         },
         {
           "slug": "intellect",
-          "value": 71
+          "value": 64
         },
         {
           "slug": "agility",
@@ -1299,7 +1299,7 @@
         },
         {
           "slug": "stamina",
-          "value": 52
+          "value": 62
         },
         {
           "slug": "critical-strike",
@@ -1307,7 +1307,7 @@
         },
         {
           "slug": "spirit",
-          "value": 57
+          "value": 61
         }
       ],
       "gear": [
@@ -1347,13 +1347,18 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Ring 2",
+          "name": "Chrome Ring of the Channeler",
+          "quality": "uncommon"
+        },
+        {
           "slot": "Shirt",
           "name": "Apprentice's Shirt",
           "quality": "common"
         },
         {
           "slot": "Shoulders",
-          "name": "Talbar Mantle",
+          "name": "Double-Stitched Woolen Shoulders",
           "quality": "uncommon"
         },
         {
@@ -1368,14 +1373,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Featherbead Bracers",
+          "name": "Watcher's Cuffs of the Channeler",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-14T14:34:47Z",
+      "lastUpdated": "2026-11-15T10:13:04Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
