@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T11:31:32Z",
+  "generatedAt": "2026-11-15T12:01:52Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -531,13 +531,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 208,
-          "max": 225,
+          "skill": 212,
+          "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 163,
+          "skill": 171,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -545,13 +545,13 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 150,
-          "max": 150,
+          "skill": 189,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 162,
+          "skill": 187,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -591,7 +591,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 9.6636
+          "value": 9.8236
         },
         {
           "slug": "spirit",
@@ -678,7 +678,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-13T21:36:21Z",
+      "lastUpdated": "2026-11-15T11:31:39Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
