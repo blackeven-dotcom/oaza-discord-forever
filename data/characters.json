@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T18:31:33Z",
+  "generatedAt": "2026-11-15T19:01:42Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -394,13 +394,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 183,
+          "skill": 197,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 166,
+          "skill": 177,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -414,12 +414,12 @@
         },
         {
           "name": "First Aid",
-          "skill": 184,
+          "skill": 186,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 3,
+      "honorableKills": 4,
       "pvpRank": 0,
       "stats": [],
       "gear": [
@@ -492,7 +492,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-14T00:16:49Z",
+      "lastUpdated": "2026-11-15T18:51:07Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -1079,7 +1079,7 @@
         },
         {
           "name": "Enchanting",
-          "skill": 172,
+          "skill": 180,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1104,12 +1104,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 10,
+      "honorableKills": 13,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 883
+          "value": 853
         },
         {
           "slug": "mana",
@@ -1129,7 +1129,7 @@
         },
         {
           "slug": "stamina",
-          "value": 63
+          "value": 60
         },
         {
           "slug": "critical-strike",
@@ -1137,7 +1137,7 @@
         },
         {
           "slug": "spirit",
-          "value": 118
+          "value": 115
         }
       ],
       "gear": [
@@ -1208,14 +1208,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Ivycloth Bracelets of the Whale",
-          "quality": "uncommon"
+          "name": "Spidertank Oilrag",
+          "quality": "rare"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-12T22:18:35Z",
+      "lastUpdated": "2026-11-15T18:59:46Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
