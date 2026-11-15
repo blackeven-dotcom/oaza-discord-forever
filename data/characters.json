@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T23:01:53Z",
+  "generatedAt": "2026-11-15T23:31:33Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1268,7 +1268,7 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 24,
+      "level": 25,
       "ilvl": 16,
       "class": "Mage",
       "classSlug": "mage",
@@ -1278,14 +1278,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 15,
+      "specPoints": 16,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 15,
+          "points": 16,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
@@ -1322,11 +1322,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 738
+          "value": 755
         },
         {
           "slug": "mana",
-          "value": 1143
+          "value": 1176
         },
         {
           "slug": "strength",
@@ -1334,7 +1334,7 @@
         },
         {
           "slug": "intellect",
-          "value": 64
+          "value": 65
         },
         {
           "slug": "agility",
@@ -1346,11 +1346,11 @@
         },
         {
           "slug": "critical-strike",
-          "value": 3.2560005
+          "value": 3.0560005
         },
         {
           "slug": "spirit",
-          "value": 61
+          "value": 62
         }
       ],
       "gear": [
@@ -1423,7 +1423,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-15T10:13:04Z",
+      "lastUpdated": "2026-11-15T23:04:56Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
