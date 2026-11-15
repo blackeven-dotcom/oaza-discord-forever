@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T21:03:37Z",
+  "generatedAt": "2026-11-15T21:31:40Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,8 +8,8 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 32,
-      "ilvl": 24,
+      "level": 33,
+      "ilvl": 25,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -18,27 +18,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 23,
+      "specPoints": 24,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 23,
+          "points": 24,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 124,
-          "max": 150,
+          "skill": 140,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
         {
           "name": "Blacksmithing",
-          "skill": 170,
+          "skill": 175,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136241.jpg"
         }
@@ -63,12 +63,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 10,
+      "honorableKills": 14,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1329
+          "value": 1448
         },
         {
           "slug": "rage",
@@ -76,7 +76,7 @@
         },
         {
           "slug": "strength",
-          "value": 125
+          "value": 134
         },
         {
           "slug": "intellect",
@@ -84,19 +84,19 @@
         },
         {
           "slug": "agility",
-          "value": 48
+          "value": 60
         },
         {
           "slug": "stamina",
-          "value": 109
+          "value": 118
         },
         {
           "slug": "critical-strike",
-          "value": 4.2848
+          "value": 5.3180003
         },
         {
           "slug": "spirit",
-          "value": 43
+          "value": 52
         }
       ],
       "gear": [
@@ -117,8 +117,8 @@
         },
         {
           "slot": "Hands",
-          "name": "Palestrider Gloves",
-          "quality": "uncommon"
+          "name": "Grubbis Paws",
+          "quality": "rare"
         },
         {
           "slot": "Head",
@@ -127,13 +127,13 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Seal of Sylvanas",
+          "name": "Nogg's Gold Ring",
           "quality": "rare"
         },
         {
           "slot": "Legs",
-          "name": "Plainsguard Leggings",
-          "quality": "uncommon"
+          "name": "Dual Reinforced Leggings",
+          "quality": "rare"
         },
         {
           "slot": "Neck",
@@ -152,8 +152,8 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Boar Signet",
-          "quality": "uncommon"
+          "name": "Seal of Sylvanas",
+          "quality": "rare"
         },
         {
           "slot": "Shirt",
@@ -167,7 +167,7 @@
         },
         {
           "slot": "Waist",
-          "name": "Twilight Lord Girdle",
+          "name": "Officer's Belt",
           "quality": "rare"
         },
         {
@@ -184,7 +184,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-15T16:31:23Z",
+      "lastUpdated": "2026-11-15T21:26:36Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -370,8 +370,8 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 28,
-      "ilvl": 18,
+      "level": 29,
+      "ilvl": 24,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -380,27 +380,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 19,
+      "specPoints": 20,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 19,
+          "points": 20,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 197,
+          "skill": 200,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 177,
+          "skill": 178,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -414,14 +414,47 @@
         },
         {
           "name": "First Aid",
-          "skill": 186,
+          "skill": 191,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
       "honorableKills": 4,
       "pvpRank": 0,
-      "stats": [],
+      "stats": [
+        {
+          "slug": "health",
+          "value": 1138
+        },
+        {
+          "slug": "rage",
+          "value": 100
+        },
+        {
+          "slug": "strength",
+          "value": 139
+        },
+        {
+          "slug": "intellect",
+          "value": 27
+        },
+        {
+          "slug": "agility",
+          "value": 56
+        },
+        {
+          "slug": "stamina",
+          "value": 97
+        },
+        {
+          "slug": "critical-strike",
+          "value": 5.44
+        },
+        {
+          "slug": "spirit",
+          "value": 44
+        }
+      ],
       "gear": [
         {
           "slot": "Back",
@@ -444,6 +477,11 @@
           "quality": "rare"
         },
         {
+          "slot": "Head",
+          "name": "Tusken Helm",
+          "quality": "rare"
+        },
+        {
           "slot": "Ring 1",
           "name": "Band of the Fist",
           "quality": "uncommon"
@@ -452,6 +490,11 @@
           "slot": "Legs",
           "name": "Bonerust Leggings",
           "quality": "rare"
+        },
+        {
+          "slot": "Neck",
+          "name": "Glowing Green Talisman",
+          "quality": "uncommon"
         },
         {
           "slot": "Ranged",
@@ -480,7 +523,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Forsaken Greataxe",
+          "name": "Corpsemaker",
           "quality": "rare"
         },
         {
@@ -492,7 +535,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-15T18:51:07Z",
+      "lastUpdated": "2026-11-15T21:26:34Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
