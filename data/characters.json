@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T16:01:47Z",
+  "generatedAt": "2026-11-15T16:31:32Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -502,7 +502,7 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 31,
+      "level": 32,
       "ilvl": 24,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -512,14 +512,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 17,
+      "specPoints": 18,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 17,
+          "points": 18,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         },
         {
@@ -531,13 +531,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 217,
+          "skill": 219,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 173,
+          "skill": 175,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -567,7 +567,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1541
+          "value": 1579
         },
         {
           "slug": "rage",
@@ -575,7 +575,7 @@
         },
         {
           "slug": "strength",
-          "value": 126
+          "value": 128
         },
         {
           "slug": "intellect",
@@ -583,19 +583,19 @@
         },
         {
           "slug": "agility",
-          "value": 48
+          "value": 49
         },
         {
           "slug": "stamina",
-          "value": 132
+          "value": 134
         },
         {
           "slug": "critical-strike",
-          "value": 9.4864
+          "value": 9.497399
         },
         {
           "slug": "spirit",
-          "value": 42
+          "value": 43
         }
       ],
       "gear": [
@@ -678,7 +678,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-15T14:05:11Z",
+      "lastUpdated": "2026-11-15T16:17:43Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
