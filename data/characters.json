@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T19:01:42Z",
+  "generatedAt": "2026-11-15T19:31:32Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -503,7 +503,7 @@
       "leader": false,
       "ok": true,
       "level": 32,
-      "ilvl": 24,
+      "ilvl": 26,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -537,7 +537,7 @@
         },
         {
           "name": "Mining",
-          "skill": 175,
+          "skill": 178,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -545,13 +545,13 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 189,
+          "skill": 215,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "Fishing",
-          "skill": 187,
+          "skill": 189,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         },
@@ -562,12 +562,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 13,
+      "honorableKills": 16,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1579
+          "value": 1639
         },
         {
           "slug": "rage",
@@ -575,27 +575,27 @@
         },
         {
           "slug": "strength",
-          "value": 128
+          "value": 131
         },
         {
           "slug": "intellect",
-          "value": 20
+          "value": 24
         },
         {
           "slug": "agility",
-          "value": 49
+          "value": 53
         },
         {
           "slug": "stamina",
-          "value": 134
+          "value": 140
         },
         {
           "slug": "critical-strike",
-          "value": 9.497399
+          "value": 9.9078
         },
         {
           "slug": "spirit",
-          "value": 43
+          "value": 38
         }
       ],
       "gear": [
@@ -646,8 +646,8 @@
         },
         {
           "slot": "Ring 2",
-          "name": "Tiger Band",
-          "quality": "uncommon"
+          "name": "Nogg's Gold Ring",
+          "quality": "rare"
         },
         {
           "slot": "Shirt",
@@ -666,7 +666,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Arced War Axe",
+          "name": "Thermaplugg's Left Arm",
           "quality": "rare"
         },
         {
@@ -678,7 +678,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-15T16:17:43Z",
+      "lastUpdated": "2026-11-15T19:13:48Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
@@ -1215,7 +1215,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-15T18:59:46Z",
+      "lastUpdated": "2026-11-15T19:01:26Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
