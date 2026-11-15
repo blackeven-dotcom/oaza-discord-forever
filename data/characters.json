@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T14:01:50Z",
+  "generatedAt": "2026-11-15T14:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -503,7 +503,7 @@
       "leader": false,
       "ok": true,
       "level": 31,
-      "ilvl": 23,
+      "ilvl": 24,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Troll",
@@ -531,13 +531,13 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 212,
+          "skill": 217,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Mining",
-          "skill": 171,
+          "skill": 173,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -567,7 +567,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1351
+          "value": 1541
         },
         {
           "slug": "rage",
@@ -575,7 +575,7 @@
         },
         {
           "slug": "strength",
-          "value": 122
+          "value": 126
         },
         {
           "slug": "intellect",
@@ -583,19 +583,19 @@
         },
         {
           "slug": "agility",
-          "value": 52
+          "value": 48
         },
         {
           "slug": "stamina",
-          "value": 113
+          "value": 132
         },
         {
           "slug": "critical-strike",
-          "value": 9.8236
+          "value": 9.4864
         },
         {
           "slug": "spirit",
-          "value": 44
+          "value": 42
         }
       ],
       "gear": [
@@ -616,8 +616,8 @@
         },
         {
           "slot": "Hands",
-          "name": "Dagmire Gauntlets",
-          "quality": "uncommon"
+          "name": "Warsong Gauntlets",
+          "quality": "rare"
         },
         {
           "slot": "Head",
@@ -636,7 +636,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Hulking Leggings",
+          "name": "Plainsguard Leggings",
           "quality": "uncommon"
         },
         {
@@ -671,14 +671,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Death Bindings",
-          "quality": "rare"
+          "name": "Grimtoll Wristguards",
+          "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-15T11:31:39Z",
+      "lastUpdated": "2026-11-15T14:05:11Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
