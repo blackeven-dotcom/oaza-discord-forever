@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:01:56Z",
+  "generatedAt": "2026-11-16T16:02:10Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1097,14 +1097,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 16,
+      "specPoints": 17,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 16,
+          "points": 17,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1142,7 +1142,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 99,
+          "skill": 103,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -1176,7 +1176,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 0.13500015
+          "value": 0.21500015
         },
         {
           "slug": "spirit",
@@ -1258,7 +1258,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-16T14:50:07Z",
+      "lastUpdated": "2026-11-16T15:34:56Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
