@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T06:31:36Z",
+  "generatedAt": "2026-11-16T07:01:46Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -191,9 +191,177 @@
     {
       "label": "Beef Bong",
       "name": "Beef Bong",
+      "slug": "beef-bong",
       "leader": true,
-      "ok": false,
-      "error": "brak w Armory (HTTP 500)",
+      "ok": true,
+      "level": 30,
+      "ilvl": 23,
+      "class": "Druid",
+      "classSlug": "druid",
+      "race": "Tauren",
+      "faction": "horde",
+      "gender": "male",
+      "ruleset": "pvp",
+      "region": "eu",
+      "spec": "Feral Combat",
+      "specPoints": 21,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg",
+      "role": "melee",
+      "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Feral Combat",
+          "points": 21,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
+        }
+      ],
+      "professions": [
+        {
+          "name": "Leatherworking",
+          "skill": 143,
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
+        },
+        {
+          "name": "Skinning",
+          "skill": 196,
+          "max": 225,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 42,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "Fishing",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 49,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
+        }
+      ],
+      "honorableKills": 14,
+      "pvpRank": 0,
+      "stats": [
+        {
+          "slug": "health",
+          "value": 974
+        },
+        {
+          "slug": "mana",
+          "value": 1144
+        },
+        {
+          "slug": "strength",
+          "value": 61
+        },
+        {
+          "slug": "intellect",
+          "value": 54
+        },
+        {
+          "slug": "agility",
+          "value": 89
+        },
+        {
+          "slug": "stamina",
+          "value": 69
+        },
+        {
+          "slug": "critical-strike",
+          "value": 2.8699
+        },
+        {
+          "slug": "spirit",
+          "value": 64
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Back",
+          "name": "Glowing Lizardscale Cloak",
+          "quality": "rare"
+        },
+        {
+          "slot": "Chest",
+          "name": "Prospector's Chestpiece",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Feet",
+          "name": "Trailblazer Boots",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Hands",
+          "name": "Toughened Leather Gloves",
+          "quality": "rare"
+        },
+        {
+          "slot": "Head",
+          "name": "Taurajo Headband",
+          "quality": "common"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Monkey Ring",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Trinket 1",
+          "name": "Cursed Murloc Eye",
+          "quality": "rare"
+        },
+        {
+          "slot": "Legs",
+          "name": "Dark Leather Pants",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Band of the Fist",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Shirt",
+          "name": "Deckhand's Shirt",
+          "quality": "common"
+        },
+        {
+          "slot": "Shoulders",
+          "name": "Tanned Shoulderpads",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Waist",
+          "name": "Deviate Scale Belt",
+          "quality": "rare"
+        },
+        {
+          "slot": "Main Hand",
+          "name": "Armor Piercer",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Wrist",
+          "name": "Cultist's Armguards",
+          "quality": "rare"
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-avatar.jpg",
+      "render": "https://render.worldofwarcraft.com/forever-eu/character/57/7275577-main-raw.png",
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_tauren.jpg",
+      "lastUpdated": "2026-11-13T21:45:43Z",
+      "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beef-bong"
     },
     {
