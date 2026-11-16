@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T19:01:58Z",
+  "generatedAt": "2026-11-16T19:31:53Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1112,7 +1112,7 @@
         },
         {
           "name": "Enchanting",
-          "skill": 188,
+          "skill": 191,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1120,7 +1120,7 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 140,
+          "skill": 150,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
@@ -1132,12 +1132,12 @@
         },
         {
           "name": "First Aid",
-          "skill": 103,
+          "skill": 105,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 13,
+      "honorableKills": 16,
       "pvpRank": 0,
       "stats": [
         {
@@ -1146,7 +1146,7 @@
         },
         {
           "slug": "mana",
-          "value": 1513
+          "value": 1423
         },
         {
           "slug": "strength",
@@ -1154,7 +1154,7 @@
         },
         {
           "slug": "intellect",
-          "value": 71
+          "value": 65
         },
         {
           "slug": "agility",
@@ -1196,8 +1196,8 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Snake Hoop",
-          "quality": "uncommon"
+          "name": "Ring of Power Regulation",
+          "quality": "rare"
         },
         {
           "slot": "Legs",
@@ -1248,7 +1248,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-16T15:34:56Z",
+      "lastUpdated": "2026-11-16T19:23:23Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
