@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T00:01:45Z",
+  "generatedAt": "2026-11-16T00:31:31Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1087,8 +1087,8 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 32,
-      "ilvl": 21,
+      "level": 33,
+      "ilvl": 22,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -1097,14 +1097,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 15,
+      "specPoints": 16,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 15,
+          "points": 16,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1116,13 +1116,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 133,
+          "skill": 140,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 180,
+          "skill": 188,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1142,7 +1142,7 @@
         },
         {
           "name": "First Aid",
-          "skill": 80,
+          "skill": 99,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
@@ -1152,19 +1152,19 @@
       "stats": [
         {
           "slug": "health",
-          "value": 853
+          "value": 910
         },
         {
           "slug": "mana",
-          "value": 1819
+          "value": 1513
         },
         {
           "slug": "strength",
-          "value": 27
+          "value": 28
         },
         {
           "slug": "intellect",
-          "value": 94
+          "value": 71
         },
         {
           "slug": "agility",
@@ -1172,15 +1172,15 @@
         },
         {
           "slug": "stamina",
-          "value": 60
+          "value": 63
         },
         {
           "slug": "critical-strike",
-          "value": 0.33500016
+          "value": 0.13500015
         },
         {
           "slug": "spirit",
-          "value": 115
+          "value": 128
         }
       ],
       "gear": [
@@ -1191,7 +1191,7 @@
         },
         {
           "slot": "Chest",
-          "name": "Death Speaker Robes",
+          "name": "Civinad Robes",
           "quality": "rare"
         },
         {
@@ -1201,8 +1201,8 @@
         },
         {
           "slot": "Hands",
-          "name": "Rotmender's Gloves",
-          "quality": "rare"
+          "name": "Gloves of Meditation",
+          "quality": "uncommon"
         },
         {
           "slot": "Ring 1",
@@ -1258,7 +1258,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-15T19:01:26Z",
+      "lastUpdated": "2026-11-16T00:29:03Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
