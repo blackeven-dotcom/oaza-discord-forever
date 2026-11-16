@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T18:01:51Z",
+  "generatedAt": "2026-11-16T18:31:33Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -545,7 +545,7 @@
       "slug": "common-cfel",
       "leader": false,
       "ok": true,
-      "level": 32,
+      "level": 33,
       "ilvl": 26,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -555,14 +555,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 18,
+      "specPoints": 19,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 18,
+          "points": 19,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         },
         {
@@ -574,7 +574,7 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 219,
+          "skill": 222,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -605,12 +605,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 16,
+      "honorableKills": 21,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1639
+          "value": 1708
         },
         {
           "slug": "rage",
@@ -618,27 +618,27 @@
         },
         {
           "slug": "strength",
-          "value": 131
+          "value": 135
         },
         {
           "slug": "intellect",
-          "value": 24
+          "value": 30
         },
         {
           "slug": "agility",
-          "value": 53
+          "value": 50
         },
         {
           "slug": "stamina",
-          "value": 140
+          "value": 144
         },
         {
           "slug": "critical-strike",
-          "value": 9.9078
+          "value": 9.424999
         },
         {
           "slug": "spirit",
-          "value": 38
+          "value": 35
         }
       ],
       "gear": [
@@ -654,8 +654,8 @@
         },
         {
           "slot": "Feet",
-          "name": "Silvered Bronze Boots",
-          "quality": "uncommon"
+          "name": "Raptorclaw Greaves",
+          "quality": "rare"
         },
         {
           "slot": "Hands",
@@ -721,7 +721,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-15T19:13:48Z",
+      "lastUpdated": "2026-11-16T18:22:22Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/common-cfel"
     },
@@ -731,8 +731,8 @@
       "slug": "fea-rekt",
       "leader": false,
       "ok": true,
-      "level": 24,
-      "ilvl": 21,
+      "level": 25,
+      "ilvl": 20,
       "class": "Paladin",
       "classSlug": "paladin",
       "race": "Undead",
@@ -741,20 +741,15 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Retribution",
-      "specPoints": 12,
+      "specPoints": 15,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Retribution",
-          "points": 12,
+          "points": 15,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
-        },
-        {
-          "name": "Protection",
-          "points": 3,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135893.jpg"
         }
       ],
       "professions": [
@@ -796,35 +791,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1097
+          "value": 746
         },
         {
           "slug": "mana",
-          "value": 905
+          "value": 571
         },
         {
           "slug": "strength",
-          "value": 99
+          "value": 67
         },
         {
           "slug": "intellect",
-          "value": 44
+          "value": 19
         },
         {
           "slug": "agility",
-          "value": 32
+          "value": 8
         },
         {
           "slug": "stamina",
-          "value": 103
+          "value": 66
         },
         {
           "slug": "critical-strike",
-          "value": 10.1896
+          "value": 7.4
         },
         {
           "slug": "spirit",
-          "value": 52
+          "value": 20
         }
       ],
       "gear": [
@@ -869,11 +864,6 @@
           "quality": "uncommon"
         },
         {
-          "slot": "Off Hand",
-          "name": "Commander's Crest",
-          "quality": "rare"
-        },
-        {
           "slot": "Ring 2",
           "name": "Seal of Sylvanas",
           "quality": "rare"
@@ -895,8 +885,8 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Fighter Broadsword of the Defender",
-          "quality": "uncommon"
+          "name": "Forsaken Greataxe",
+          "quality": "rare"
         },
         {
           "slot": "Wrist",
@@ -907,7 +897,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-15T13:02:37Z",
+      "lastUpdated": "2026-11-16T18:05:33Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
