@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T20:01:50Z",
+  "generatedAt": "2026-11-16T20:31:40Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1633,7 +1633,7 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 10,
+          "skill": 11,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -1651,7 +1651,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 745
+          "value": 765
         },
         {
           "slug": "energy",
@@ -1671,11 +1671,11 @@
         },
         {
           "slug": "stamina",
-          "value": 65
+          "value": 67
         },
         {
           "slug": "critical-strike",
-          "value": 7.8028
+          "value": 8.0028
         },
         {
           "slug": "spirit",
@@ -1755,14 +1755,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Scouting Bracers of Agility",
+          "name": "Wolf Bracers",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-16T18:46:24Z",
+      "lastUpdated": "2026-11-16T20:04:54Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
