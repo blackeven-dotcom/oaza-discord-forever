@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T18:34:09Z",
+  "generatedAt": "2026-11-16T19:01:58Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -9,7 +9,7 @@
       "leader": false,
       "ok": true,
       "level": 33,
-      "ilvl": 25,
+      "ilvl": 26,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -32,7 +32,7 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 140,
+          "skill": 143,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -63,7 +63,7 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 14,
+      "honorableKills": 17,
       "pvpRank": 0,
       "stats": [
         {
@@ -76,7 +76,7 @@
         },
         {
           "slug": "strength",
-          "value": 134
+          "value": 138
         },
         {
           "slug": "intellect",
@@ -84,7 +84,7 @@
         },
         {
           "slug": "agility",
-          "value": 60
+          "value": 65
         },
         {
           "slug": "stamina",
@@ -92,7 +92,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.3180003
+          "value": 5.8045
         },
         {
           "slug": "spirit",
@@ -147,8 +147,8 @@
         },
         {
           "slot": "Ranged",
-          "name": "Iron Star",
-          "quality": "uncommon"
+          "name": "Excavated Dagger",
+          "quality": "rare"
         },
         {
           "slot": "Ring 2",
@@ -184,7 +184,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-15T21:26:36Z",
+      "lastUpdated": "2026-11-16T18:43:49Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -1604,7 +1604,7 @@
       "slug": "fore-skeenwalker",
       "leader": false,
       "ok": true,
-      "level": 22,
+      "level": 23,
       "ilvl": 18,
       "class": "Rogue",
       "classSlug": "rogue",
@@ -1614,14 +1614,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Combat",
-      "specPoints": 9,
+      "specPoints": 10,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Combat",
-          "points": 9,
+          "points": 10,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132090.jpg"
         },
         {
@@ -1633,7 +1633,7 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 9,
+          "skill": 10,
           "max": 75,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         }
@@ -1651,7 +1651,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 720
+          "value": 745
         },
         {
           "slug": "energy",
@@ -1659,7 +1659,7 @@
         },
         {
           "slug": "strength",
-          "value": 45
+          "value": 50
         },
         {
           "slug": "intellect",
@@ -1667,19 +1667,19 @@
         },
         {
           "slug": "agility",
-          "value": 75
+          "value": 76
         },
         {
           "slug": "stamina",
-          "value": 64
+          "value": 65
         },
         {
           "slug": "critical-strike",
-          "value": 8.132501
+          "value": 7.8028
         },
         {
           "slug": "spirit",
-          "value": 36
+          "value": 37
         }
       ],
       "gear": [
@@ -1695,7 +1695,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Agile Boots",
+          "name": "Stomping Boots",
           "quality": "uncommon"
         },
         {
@@ -1762,7 +1762,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-15T09:11:24Z",
+      "lastUpdated": "2026-11-16T18:46:24Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
