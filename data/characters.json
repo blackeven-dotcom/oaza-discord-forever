@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T21:31:43Z",
+  "generatedAt": "2026-11-16T22:02:01Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1282,13 +1282,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 100,
+          "skill": 106,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 121,
+          "skill": 128,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1312,11 +1312,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 755
+          "value": 775
         },
         {
           "slug": "mana",
-          "value": 1176
+          "value": 1221
         },
         {
           "slug": "strength",
@@ -1324,23 +1324,23 @@
         },
         {
           "slug": "intellect",
-          "value": 65
+          "value": 68
         },
         {
           "slug": "agility",
-          "value": 33
+          "value": 30
         },
         {
           "slug": "stamina",
-          "value": 62
+          "value": 64
         },
         {
           "slug": "critical-strike",
-          "value": 3.0560005
+          "value": 2.8400002
         },
         {
           "slug": "spirit",
-          "value": 62
+          "value": 65
         }
       ],
       "gear": [
@@ -1366,7 +1366,7 @@
         },
         {
           "slot": "Ring 1",
-          "name": "Bounty Hunter's Ring",
+          "name": "Totemic Clan Ring",
           "quality": "uncommon"
         },
         {
@@ -1413,7 +1413,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-15T23:04:56Z",
+      "lastUpdated": "2026-11-16T22:00:08Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
