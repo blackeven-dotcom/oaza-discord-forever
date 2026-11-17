@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T20:01:55Z",
+  "generatedAt": "2026-11-17T20:31:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1767,7 +1767,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-17T19:30:45Z",
+      "lastUpdated": "2026-11-17T20:05:04Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fore-skeenwalker"
     },
@@ -1807,7 +1807,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 124,
+          "skill": 125,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1855,7 +1855,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 4.402
+          "value": 4.5220003
         },
         {
           "slug": "spirit",
@@ -1927,7 +1927,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-14T12:32:26Z",
+      "lastUpdated": "2026-11-17T20:10:43Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
