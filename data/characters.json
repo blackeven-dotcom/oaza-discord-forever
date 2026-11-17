@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T00:01:53Z",
+  "generatedAt": "2026-11-17T00:31:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1077,7 +1077,7 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 33,
+      "level": 34,
       "ilvl": 22,
       "class": "Priest",
       "classSlug": "priest",
@@ -1087,14 +1087,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 17,
+      "specPoints": 18,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 17,
+          "points": 18,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1142,11 +1142,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 910
+          "value": 938
         },
         {
           "slug": "mana",
-          "value": 1423
+          "value": 1477
         },
         {
           "slug": "strength",
@@ -1154,7 +1154,7 @@
         },
         {
           "slug": "intellect",
-          "value": 65
+          "value": 67
         },
         {
           "slug": "agility",
@@ -1162,15 +1162,15 @@
         },
         {
           "slug": "stamina",
-          "value": 63
+          "value": 64
         },
         {
           "slug": "critical-strike",
-          "value": 0.21500015
+          "value": 0.015000158
         },
         {
           "slug": "spirit",
-          "value": 128
+          "value": 129
         }
       ],
       "gear": [
@@ -1248,7 +1248,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-16T23:12:21Z",
+      "lastUpdated": "2026-11-17T00:15:31Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
