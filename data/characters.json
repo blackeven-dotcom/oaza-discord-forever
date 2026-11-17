@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T18:01:45Z",
+  "generatedAt": "2026-11-17T18:31:44Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -395,7 +395,7 @@
         {
           "name": "Skinning",
           "skill": 225,
-          "max": 225,
+          "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
@@ -408,18 +408,18 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 196,
+          "skill": 225,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
         {
           "name": "First Aid",
-          "skill": 191,
+          "skill": 225,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 5,
+      "honorableKills": 8,
       "pvpRank": 0,
       "stats": [
         {
@@ -448,7 +448,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.2834
+          "value": 5.4834
         },
         {
           "slug": "spirit",
@@ -540,7 +540,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-17T00:51:33Z",
+      "lastUpdated": "2026-11-17T18:04:15Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
