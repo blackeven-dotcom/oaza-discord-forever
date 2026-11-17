@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T17:31:35Z",
+  "generatedAt": "2026-11-17T18:01:45Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -746,14 +746,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Retribution",
-      "specPoints": 15,
+      "specPoints": 16,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Retribution",
-          "points": 15,
+          "points": 16,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135873.jpg"
         }
       ],
@@ -796,35 +796,35 @@
       "stats": [
         {
           "slug": "health",
-          "value": 746
+          "value": 1106
         },
         {
           "slug": "mana",
-          "value": 571
+          "value": 947
         },
         {
           "slug": "strength",
-          "value": 67
+          "value": 103
         },
         {
           "slug": "intellect",
-          "value": 19
+          "value": 45
         },
         {
           "slug": "agility",
-          "value": 8
+          "value": 32
         },
         {
           "slug": "stamina",
-          "value": 66
+          "value": 102
         },
         {
           "slug": "critical-strike",
-          "value": 7.4
+          "value": 9.98
         },
         {
           "slug": "spirit",
-          "value": 20
+          "value": 53
         }
       ],
       "gear": [
@@ -902,7 +902,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-16T18:05:33Z",
+      "lastUpdated": "2026-11-17T17:38:48Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/fea-rekt"
     },
