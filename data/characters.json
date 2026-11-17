@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T22:31:35Z",
+  "generatedAt": "2026-11-17T23:01:53Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -370,8 +370,8 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 30,
-      "ilvl": 26,
+      "level": 31,
+      "ilvl": 29,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -380,21 +380,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 21,
+      "specPoints": 22,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 21,
+          "points": 22,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 225,
+          "skill": 228,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -419,12 +419,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 8,
+      "honorableKills": 11,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1174
+          "value": 1181
         },
         {
           "slug": "rage",
@@ -432,7 +432,7 @@
         },
         {
           "slug": "strength",
-          "value": 141
+          "value": 149
         },
         {
           "slug": "intellect",
@@ -440,19 +440,19 @@
         },
         {
           "slug": "agility",
-          "value": 57
+          "value": 58
         },
         {
           "slug": "stamina",
-          "value": 98
+          "value": 96
         },
         {
           "slug": "critical-strike",
-          "value": 5.4834
+          "value": 5.4294
         },
         {
           "slug": "spirit",
-          "value": 44
+          "value": 50
         }
       ],
       "gear": [
@@ -503,13 +503,18 @@
         },
         {
           "slot": "Ranged",
-          "name": "Compact Shotgun",
-          "quality": "uncommon"
+          "name": "Quilrager Throwing Axe",
+          "quality": "rare"
         },
         {
           "slot": "Ring 2",
           "name": "Tiger Band",
           "quality": "uncommon"
+        },
+        {
+          "slot": "Trinket 2",
+          "name": "Roogug's Severed Head",
+          "quality": "rare"
         },
         {
           "slot": "Shirt",
@@ -523,7 +528,7 @@
         },
         {
           "slot": "Waist",
-          "name": "Atrophic Girdle",
+          "name": "Stonefist Girdle",
           "quality": "rare"
         },
         {
@@ -540,7 +545,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-17T18:04:15Z",
+      "lastUpdated": "2026-11-17T23:00Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
