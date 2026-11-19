@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T06:01:42Z",
+  "generatedAt": "2026-11-19T06:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -651,83 +651,7 @@
           "value": 35
         }
       ],
-      "gear": [
-        {
-          "slot": "Back",
-          "name": "Satyrskin Cloak",
-          "quality": "rare"
-        },
-        {
-          "slot": "Chest",
-          "name": "Brutal Hauberk",
-          "quality": "rare"
-        },
-        {
-          "slot": "Feet",
-          "name": "Raptorclaw Greaves",
-          "quality": "rare"
-        },
-        {
-          "slot": "Hands",
-          "name": "Warsong Gauntlets",
-          "quality": "rare"
-        },
-        {
-          "slot": "Head",
-          "name": "Sentry's Headdress of the Bear",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Ring 1",
-          "name": "Seal of Sylvanas",
-          "quality": "rare"
-        },
-        {
-          "slot": "Trinket 1",
-          "name": "Transformative Cocoon",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Legs",
-          "name": "Plainsguard Leggings",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Ranged",
-          "name": "Crude Throwing Axe",
-          "quality": "common"
-        },
-        {
-          "slot": "Ring 2",
-          "name": "Nogg's Gold Ring",
-          "quality": "rare"
-        },
-        {
-          "slot": "Shirt",
-          "name": "Brawler's Harness",
-          "quality": "common"
-        },
-        {
-          "slot": "Shoulders",
-          "name": "Silvered Bronze Shoulders",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Waist",
-          "name": "Stonefist Girdle",
-          "quality": "rare"
-        },
-        {
-          "slot": "Main Hand",
-          "name": "Thermaplugg's Left Arm",
-          "quality": "rare"
-        },
-        {
-          "slot": "Wrist",
-          "name": "Grimtoll Wristguards",
-          "quality": "uncommon"
-        }
-      ],
+      "gear": [],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/59/12542779-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
