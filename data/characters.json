@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:31:38Z",
+  "generatedAt": "2026-11-19T22:01:46Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -370,7 +370,7 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 31,
+      "level": 32,
       "ilvl": 29,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -380,14 +380,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 22,
+      "specPoints": 23,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 22,
+          "points": 23,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
@@ -424,7 +424,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1181
+          "value": 1219
         },
         {
           "slug": "rage",
@@ -432,7 +432,7 @@
         },
         {
           "slug": "strength",
-          "value": 149
+          "value": 151
         },
         {
           "slug": "intellect",
@@ -440,19 +440,19 @@
         },
         {
           "slug": "agility",
-          "value": 58
+          "value": 59
         },
         {
           "slug": "stamina",
-          "value": 96
+          "value": 98
         },
         {
           "slug": "critical-strike",
-          "value": 5.4694
+          "value": 5.2634
         },
         {
           "slug": "spirit",
-          "value": 50
+          "value": 51
         }
       ],
       "gear": [
@@ -545,7 +545,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-19T20:44:37Z",
+      "lastUpdated": "2026-11-19T21:36:46Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
