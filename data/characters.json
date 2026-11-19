@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T14:31:35Z",
+  "generatedAt": "2026-11-19T15:01:46Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1817,7 +1817,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 140,
+          "skill": 148,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1841,11 +1841,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 832
+          "value": 852
         },
         {
           "slug": "mana",
-          "value": 976
+          "value": 1036
         },
         {
           "slug": "strength",
@@ -1853,19 +1853,19 @@
         },
         {
           "slug": "intellect",
-          "value": 43
+          "value": 47
         },
         {
           "slug": "agility",
-          "value": 89
+          "value": 93
         },
         {
           "slug": "stamina",
-          "value": 72
+          "value": 74
         },
         {
           "slug": "critical-strike",
-          "value": 4.1435003
+          "value": 4.4695005
         },
         {
           "slug": "spirit",
@@ -1875,7 +1875,7 @@
       "gear": [
         {
           "slot": "Back",
-          "name": "Greenweave Cloak of Power",
+          "name": "Quilted Cloak",
           "quality": "uncommon"
         },
         {
@@ -1930,14 +1930,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Wolfmane Wristguards",
+          "name": "Ratchet Wristwraps",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-18T14:20:26Z",
+      "lastUpdated": "2026-11-19T14:48:47Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
