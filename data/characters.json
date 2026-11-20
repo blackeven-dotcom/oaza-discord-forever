@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:31:30Z",
+  "generatedAt": "2026-11-20T21:01:55Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -617,40 +617,7 @@
       ],
       "honorableKills": 21,
       "pvpRank": 0,
-      "stats": [
-        {
-          "slug": "health",
-          "value": 1708
-        },
-        {
-          "slug": "rage",
-          "value": 100
-        },
-        {
-          "slug": "strength",
-          "value": 135
-        },
-        {
-          "slug": "intellect",
-          "value": 30
-        },
-        {
-          "slug": "agility",
-          "value": 50
-        },
-        {
-          "slug": "stamina",
-          "value": 144
-        },
-        {
-          "slug": "critical-strike",
-          "value": 9.424999
-        },
-        {
-          "slug": "spirit",
-          "value": 35
-        }
-      ],
+      "stats": [],
       "gear": [
         {
           "slot": "Back",
