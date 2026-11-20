@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:31:35Z",
+  "generatedAt": "2026-11-20T22:01:43Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1087,8 +1087,8 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 34,
-      "ilvl": 24,
+      "level": 35,
+      "ilvl": 25,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -1097,14 +1097,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 18,
+      "specPoints": 19,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 18,
+          "points": 19,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1122,7 +1122,7 @@
         },
         {
           "name": "Enchanting",
-          "skill": 191,
+          "skill": 192,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1142,21 +1142,21 @@
         },
         {
           "name": "First Aid",
-          "skill": 105,
+          "skill": 124,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 16,
+      "honorableKills": 19,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 958
+          "value": 917
         },
         {
           "slug": "mana",
-          "value": 1477
+          "value": 1666
         },
         {
           "slug": "strength",
@@ -1164,23 +1164,23 @@
         },
         {
           "slug": "intellect",
-          "value": 67
+          "value": 78
         },
         {
           "slug": "agility",
-          "value": 35
+          "value": 36
         },
         {
           "slug": "stamina",
-          "value": 66
+          "value": 59
         },
         {
           "slug": "critical-strike",
-          "value": 0.055000156
+          "value": 0
         },
         {
           "slug": "spirit",
-          "value": 133
+          "value": 136
         }
       ],
       "gear": [
@@ -1216,7 +1216,7 @@
         },
         {
           "slot": "Legs",
-          "name": "Ivycloth Pants of the Channeler",
+          "name": "Sage's Pants of the Elder",
           "quality": "uncommon"
         },
         {
@@ -1263,7 +1263,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-20T18:13:42Z",
+      "lastUpdated": "2026-11-20T21:43:36Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
@@ -1273,8 +1273,8 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 26,
-      "ilvl": 18,
+      "level": 27,
+      "ilvl": 19,
       "class": "Mage",
       "classSlug": "mage",
       "race": "Undead",
@@ -1327,11 +1327,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 753
+          "value": 722
         },
         {
           "slug": "mana",
-          "value": 1375
+          "value": 1440
         },
         {
           "slug": "strength",
@@ -1339,7 +1339,7 @@
         },
         {
           "slug": "intellect",
-          "value": 76
+          "value": 79
         },
         {
           "slug": "agility",
@@ -1347,15 +1347,15 @@
         },
         {
           "slug": "stamina",
-          "value": 60
+          "value": 56
         },
         {
           "slug": "critical-strike",
-          "value": 2.6800003
+          "value": 2.4800003
         },
         {
           "slug": "spirit",
-          "value": 65
+          "value": 71
         }
       ],
       "gear": [
@@ -1371,7 +1371,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Soft-soled Linen Boots",
+          "name": "Firewalker Boots",
           "quality": "uncommon"
         },
         {
@@ -1433,7 +1433,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-20T17:39:05Z",
+      "lastUpdated": "2026-11-20T21:40:06Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
