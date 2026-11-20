@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T08:34:31Z",
+  "generatedAt": "2026-11-20T09:01:47Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -99,88 +99,7 @@
           "value": 53
         }
       ],
-      "gear": [
-        {
-          "slot": "Back",
-          "name": "Slayer's Cape",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Chest",
-          "name": "Mutant Scale Breastplate",
-          "quality": "rare"
-        },
-        {
-          "slot": "Feet",
-          "name": "Safety Boots",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Hands",
-          "name": "Grubbis Paws",
-          "quality": "rare"
-        },
-        {
-          "slot": "Head",
-          "name": "Tusken Helm",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ring 1",
-          "name": "Nogg's Gold Ring",
-          "quality": "rare"
-        },
-        {
-          "slot": "Legs",
-          "name": "Dual Reinforced Leggings",
-          "quality": "rare"
-        },
-        {
-          "slot": "Neck",
-          "name": "Snake Eye Kaleidoscope",
-          "quality": "rare"
-        },
-        {
-          "slot": "Off Hand",
-          "name": "Arctic Buckler",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ranged",
-          "name": "Excavated Dagger",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ring 2",
-          "name": "Seal of Sylvanas",
-          "quality": "rare"
-        },
-        {
-          "slot": "Shirt",
-          "name": "Deckhand's Shirt",
-          "quality": "common"
-        },
-        {
-          "slot": "Shoulders",
-          "name": "Bronzed Shoulderguards",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Waist",
-          "name": "Officer's Belt",
-          "quality": "rare"
-        },
-        {
-          "slot": "Main Hand",
-          "name": "Outlaw Sabre",
-          "quality": "rare"
-        },
-        {
-          "slot": "Wrist",
-          "name": "Grimtoll Wristguards",
-          "quality": "uncommon"
-        }
-      ],
+      "gear": [],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
