@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T00:01:49Z",
+  "generatedAt": "2026-11-20T00:31:45Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,7 +8,7 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 33,
+      "level": 34,
       "ilvl": 26,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -18,21 +18,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 24,
+      "specPoints": 25,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 24,
+          "points": 25,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 143,
+          "skill": 146,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -63,12 +63,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 17,
+      "honorableKills": 20,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1448
+          "value": 1488
         },
         {
           "slug": "rage",
@@ -76,27 +76,27 @@
         },
         {
           "slug": "strength",
-          "value": 138
+          "value": 140
         },
         {
           "slug": "intellect",
-          "value": 22
+          "value": 23
         },
         {
           "slug": "agility",
-          "value": 65
+          "value": 66
         },
         {
           "slug": "stamina",
-          "value": 118
+          "value": 120
         },
         {
           "slug": "critical-strike",
-          "value": 5.8045
+          "value": 5.7082
         },
         {
           "slug": "spirit",
-          "value": 52
+          "value": 53
         }
       ],
       "gear": [
@@ -184,7 +184,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-16T18:43:49Z",
+      "lastUpdated": "2026-11-20T00:18:06Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -1088,7 +1088,7 @@
       "leader": false,
       "ok": true,
       "level": 34,
-      "ilvl": 22,
+      "ilvl": 24,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -1152,7 +1152,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 938
+          "value": 958
         },
         {
           "slug": "mana",
@@ -1172,15 +1172,15 @@
         },
         {
           "slug": "stamina",
-          "value": 64
+          "value": 66
         },
         {
           "slug": "critical-strike",
-          "value": 0.015000158
+          "value": 0.055000156
         },
         {
           "slug": "spirit",
-          "value": 129
+          "value": 133
         }
       ],
       "gear": [
@@ -1205,14 +1205,19 @@
           "quality": "uncommon"
         },
         {
+          "slot": "Head",
+          "name": "Hooded Cowl",
+          "quality": "common"
+        },
+        {
           "slot": "Ring 1",
           "name": "Ring of Power Regulation",
           "quality": "rare"
         },
         {
           "slot": "Legs",
-          "name": "Rotmender's Leggings",
-          "quality": "rare"
+          "name": "Ivycloth Pants of the Channeler",
+          "quality": "uncommon"
         },
         {
           "slot": "Neck",
@@ -1258,7 +1263,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-18T17:10:34Z",
+      "lastUpdated": "2026-11-20T00:21:11Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
