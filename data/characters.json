@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T22:01:43Z",
+  "generatedAt": "2026-11-20T22:31:40Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,8 +8,8 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 34,
-      "ilvl": 26,
+      "level": 35,
+      "ilvl": 27,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -18,21 +18,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 25,
+      "specPoints": 26,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 25,
+          "points": 26,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 146,
+          "skill": 151,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -59,16 +59,16 @@
         {
           "name": "First Aid",
           "skill": 150,
-          "max": 150,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 20,
+      "honorableKills": 23,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1488
+          "value": 1589
         },
         {
           "slug": "rage",
@@ -76,7 +76,7 @@
         },
         {
           "slug": "strength",
-          "value": 140
+          "value": 143
         },
         {
           "slug": "intellect",
@@ -84,15 +84,15 @@
         },
         {
           "slug": "agility",
-          "value": 66
+          "value": 63
         },
         {
           "slug": "stamina",
-          "value": 120
+          "value": 127
         },
         {
           "slug": "critical-strike",
-          "value": 5.7082
+          "value": 5.2160997
         },
         {
           "slug": "spirit",
@@ -112,7 +112,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Safety Boots",
+          "name": "Knight's Boots of the Champion",
           "quality": "uncommon"
         },
         {
@@ -184,7 +184,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-20T00:18:06Z",
+      "lastUpdated": "2026-11-20T22:08:41Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
