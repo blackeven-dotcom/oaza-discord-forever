@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:31:37Z",
+  "generatedAt": "2026-11-20T11:01:53Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1297,7 +1297,7 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 113,
+          "skill": 120,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
@@ -1433,7 +1433,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-17T21:25:16Z",
+      "lastUpdated": "2026-11-20T10:54:17Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
