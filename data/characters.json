@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T20:07:04Z",
+  "generatedAt": "2026-11-21T20:31:35Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1297,13 +1297,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 129,
-          "max": 150,
+          "skill": 135,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 130,
+          "skill": 142,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1324,40 +1324,7 @@
       ],
       "honorableKills": 1,
       "pvpRank": 0,
-      "stats": [
-        {
-          "slug": "health",
-          "value": 722
-        },
-        {
-          "slug": "mana",
-          "value": 1440
-        },
-        {
-          "slug": "strength",
-          "value": 22
-        },
-        {
-          "slug": "intellect",
-          "value": 79
-        },
-        {
-          "slug": "agility",
-          "value": 30
-        },
-        {
-          "slug": "stamina",
-          "value": 56
-        },
-        {
-          "slug": "critical-strike",
-          "value": 2.5200002
-        },
-        {
-          "slug": "spirit",
-          "value": 71
-        }
-      ],
+      "stats": [],
       "gear": [
         {
           "slot": "Back",
@@ -1371,8 +1338,8 @@
         },
         {
           "slot": "Feet",
-          "name": "Firewalker Boots",
-          "quality": "uncommon"
+          "name": "Spidersilk Boots",
+          "quality": "rare"
         },
         {
           "slot": "Hands",
@@ -1405,11 +1372,6 @@
           "quality": "uncommon"
         },
         {
-          "slot": "Shirt",
-          "name": "Apprentice's Shirt",
-          "quality": "common"
-        },
-        {
           "slot": "Shoulders",
           "name": "Double-Stitched Woolen Shoulders",
           "quality": "uncommon"
@@ -1433,7 +1395,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-21T15:48:19Z",
+      "lastUpdated": "2026-11-21T20:10:44Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
@@ -1792,8 +1754,8 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 26,
-      "ilvl": 17,
+      "level": 27,
+      "ilvl": 19,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Windshaper Skyborne",
@@ -1802,14 +1764,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 17,
+      "specPoints": 18,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 17,
+          "points": 18,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -1822,7 +1784,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 153,
+          "skill": 154,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1836,7 +1798,7 @@
         },
         {
           "name": "Fishing",
-          "skill": 117,
+          "skill": 126,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
@@ -1846,11 +1808,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 852
+          "value": 953
         },
         {
           "slug": "mana",
-          "value": 1155
+          "value": 1200
         },
         {
           "slug": "strength",
@@ -1858,23 +1820,23 @@
         },
         {
           "slug": "intellect",
-          "value": 53
+          "value": 54
         },
         {
           "slug": "agility",
-          "value": 93
+          "value": 95
         },
         {
           "slug": "stamina",
-          "value": 72
+          "value": 80
         },
         {
           "slug": "critical-strike",
-          "value": 4.2434998
+          "value": 4.044
         },
         {
           "slug": "spirit",
-          "value": 45
+          "value": 46
         }
       ],
       "gear": [
@@ -1897,6 +1859,11 @@
           "slot": "Hands",
           "name": "Toughened Leather Gloves",
           "quality": "rare"
+        },
+        {
+          "slot": "Head",
+          "name": "Hooded Cowl",
+          "quality": "common"
         },
         {
           "slot": "Ring 1",
@@ -1942,7 +1909,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-21T15:48:13Z",
+      "lastUpdated": "2026-11-21T20:11:09Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
