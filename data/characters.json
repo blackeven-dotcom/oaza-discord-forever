@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T15:31:35Z",
+  "generatedAt": "2026-11-21T16:01:53Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1283,21 +1283,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 17,
+      "specPoints": 18,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 17,
+          "points": 18,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 128,
+          "skill": 129,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
@@ -1311,7 +1311,7 @@
       "secondaryProfessions": [
         {
           "name": "Cooking",
-          "skill": 112,
+          "skill": 145,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
         },
@@ -1351,7 +1351,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 2.4800003
+          "value": 2.5200002
         },
         {
           "slug": "spirit",
@@ -1433,7 +1433,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-20T21:40:06Z",
+      "lastUpdated": "2026-11-21T15:48:19Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
@@ -1792,7 +1792,7 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 25,
+      "level": 26,
       "ilvl": 17,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -1802,14 +1802,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 16,
+      "specPoints": 17,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 16,
+          "points": 17,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -1822,8 +1822,8 @@
         },
         {
           "name": "Herbalism",
-          "skill": 150,
-          "max": 150,
+          "skill": 153,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
       ],
@@ -1846,23 +1846,23 @@
       "stats": [
         {
           "slug": "health",
-          "value": 832
+          "value": 852
         },
         {
           "slug": "mana",
-          "value": 1111
+          "value": 1155
         },
         {
           "slug": "strength",
-          "value": 33
+          "value": 38
         },
         {
           "slug": "intellect",
-          "value": 52
+          "value": 53
         },
         {
           "slug": "agility",
-          "value": 90
+          "value": 93
         },
         {
           "slug": "stamina",
@@ -1870,7 +1870,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 4.3150005
+          "value": 4.2434998
         },
         {
           "slug": "spirit",
@@ -1890,7 +1890,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Rambling Boots",
+          "name": "Stomping Boots",
           "quality": "uncommon"
         },
         {
@@ -1942,7 +1942,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-21T10:09:56Z",
+      "lastUpdated": "2026-11-21T15:48:13Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
