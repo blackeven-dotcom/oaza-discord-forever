@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T09:01:51Z",
+  "generatedAt": "2026-11-21T09:31:32Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -917,7 +917,7 @@
       "slug": "borys-kylar",
       "leader": false,
       "ok": true,
-      "level": 34,
+      "level": 35,
       "ilvl": 25,
       "class": "Hunter",
       "classSlug": "hunter",
@@ -927,14 +927,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 25,
+      "specPoints": 26,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 25,
+          "points": 26,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -971,15 +971,15 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1268
+          "value": 1307
         },
         {
           "slug": "mana",
-          "value": 1320
+          "value": 1350
         },
         {
           "slug": "strength",
-          "value": 59
+          "value": 60
         },
         {
           "slug": "intellect",
@@ -987,19 +987,19 @@
         },
         {
           "slug": "agility",
-          "value": 148
+          "value": 150
         },
         {
           "slug": "stamina",
-          "value": 95
+          "value": 96
         },
         {
           "slug": "critical-strike",
-          "value": 5.242
+          "value": 4.96
         },
         {
           "slug": "spirit",
-          "value": 51
+          "value": 52
         }
       ],
       "gear": [
@@ -1077,7 +1077,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/72/6844232-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-19T15:10:58Z",
+      "lastUpdated": "2026-11-21T09:07:56Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/borys-kylar"
     },
