@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T00:01:46Z",
+  "generatedAt": "2026-11-21T00:31:32Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -419,12 +419,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 11,
+      "honorableKills": 12,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1219
+          "value": 1259
         },
         {
           "slug": "rage",
@@ -432,7 +432,7 @@
         },
         {
           "slug": "strength",
-          "value": 151
+          "value": 147
         },
         {
           "slug": "intellect",
@@ -444,11 +444,11 @@
         },
         {
           "slug": "stamina",
-          "value": 98
+          "value": 102
         },
         {
           "slug": "critical-strike",
-          "value": 5.2634
+          "value": 5.4634
         },
         {
           "slug": "spirit",
@@ -503,7 +503,7 @@
         },
         {
           "slot": "Ranged",
-          "name": "Quilrager Throwing Axe",
+          "name": "Houndmaster Boomerang",
           "quality": "rare"
         },
         {
@@ -545,7 +545,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-19T21:36:46Z",
+      "lastUpdated": "2026-11-21T00:28:44Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
