@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:01:40Z",
+  "generatedAt": "2026-11-21T10:31:33Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1793,7 +1793,7 @@
       "leader": false,
       "ok": true,
       "level": 25,
-      "ilvl": 16,
+      "ilvl": 17,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Windshaper Skyborne",
@@ -1822,7 +1822,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 148,
+          "skill": 150,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1846,11 +1846,11 @@
       "stats": [
         {
           "slug": "health",
-          "value": 852
+          "value": 832
         },
         {
           "slug": "mana",
-          "value": 1036
+          "value": 1111
         },
         {
           "slug": "strength",
@@ -1858,23 +1858,23 @@
         },
         {
           "slug": "intellect",
-          "value": 47
+          "value": 52
         },
         {
           "slug": "agility",
-          "value": 93
+          "value": 90
         },
         {
           "slug": "stamina",
-          "value": 74
+          "value": 72
         },
         {
           "slug": "critical-strike",
-          "value": 4.4695005
+          "value": 4.3150005
         },
         {
           "slug": "spirit",
-          "value": 43
+          "value": 45
         }
       ],
       "gear": [
@@ -1925,8 +1925,8 @@
         },
         {
           "slot": "Waist",
-          "name": "Belt of the Fang",
-          "quality": "rare"
+          "name": "Screecher Belt",
+          "quality": "uncommon"
         },
         {
           "slot": "Main Hand",
@@ -1942,7 +1942,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-19T14:48:47Z",
+      "lastUpdated": "2026-11-21T10:09:56Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
