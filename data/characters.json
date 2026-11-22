@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T23:01:51Z",
+  "generatedAt": "2026-11-22T23:31:32Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -375,7 +375,7 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 33,
+      "level": 34,
       "ilvl": 30,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -385,28 +385,28 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 24,
+      "specPoints": 25,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 24,
+          "points": 25,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 231,
+          "skill": 232,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 192,
-          "max": 225,
+          "skill": 202,
+          "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
       ],
@@ -429,7 +429,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1338
+          "value": 1428
         },
         {
           "slug": "rage",
@@ -437,27 +437,27 @@
         },
         {
           "slug": "strength",
-          "value": 149
+          "value": 157
         },
         {
           "slug": "intellect",
-          "value": 27
+          "value": 28
         },
         {
           "slug": "agility",
-          "value": 65
+          "value": 66
         },
         {
           "slug": "stamina",
-          "value": 107
+          "value": 114
         },
         {
           "slug": "critical-strike",
-          "value": 5.7245
+          "value": 5.6282
         },
         {
           "slug": "spirit",
-          "value": 51
+          "value": 52
         }
       ],
       "gear": [
@@ -533,7 +533,7 @@
         },
         {
           "slot": "Waist",
-          "name": "Stonefist Girdle",
+          "name": "Scarlet Belt",
           "quality": "rare"
         },
         {
@@ -550,7 +550,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-22T02:45:54Z",
+      "lastUpdated": "2026-11-22T23:29:37Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
