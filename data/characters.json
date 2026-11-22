@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T18:31:35Z",
+  "generatedAt": "2026-11-22T19:02:03Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,7 +8,7 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 37,
+      "level": 38,
       "ilvl": 30,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -18,21 +18,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 28,
+      "specPoints": 29,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 28,
+          "points": 29,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 152,
+          "skill": 154,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -58,17 +58,17 @@
         },
         {
           "name": "First Aid",
-          "skill": 164,
+          "skill": 179,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 23,
+      "honorableKills": 24,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1715
+          "value": 1761
         },
         {
           "slug": "rage",
@@ -76,7 +76,7 @@
         },
         {
           "slug": "strength",
-          "value": 155
+          "value": 159
         },
         {
           "slug": "intellect",
@@ -88,11 +88,11 @@
         },
         {
           "slug": "stamina",
-          "value": 135
+          "value": 136
         },
         {
           "slug": "critical-strike",
-          "value": 5.828
+          "value": 5.6756
         },
         {
           "slug": "spirit",
@@ -182,14 +182,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Grimtoll Wristguards",
+          "name": "Darkspear Armsplints",
           "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-22T02:49:21Z",
+      "lastUpdated": "2026-11-22T18:38:16Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -1092,7 +1092,7 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 37,
+      "level": 38,
       "ilvl": 28,
       "class": "Priest",
       "classSlug": "priest",
@@ -1102,14 +1102,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 21,
+      "specPoints": 22,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 21,
+          "points": 22,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
@@ -1121,13 +1121,13 @@
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 140,
+          "skill": 141,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 194,
+          "skill": 197,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1147,21 +1147,21 @@
         },
         {
           "name": "First Aid",
-          "skill": 124,
+          "skill": 131,
           "max": 150,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 19,
+      "honorableKills": 20,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1048
+          "value": 1080
         },
         {
           "slug": "mana",
-          "value": 1789
+          "value": 1843
         },
         {
           "slug": "strength",
@@ -1169,11 +1169,11 @@
         },
         {
           "slug": "intellect",
-          "value": 82
+          "value": 84
         },
         {
           "slug": "agility",
-          "value": 36
+          "value": 37
         },
         {
           "slug": "stamina",
@@ -1185,7 +1185,7 @@
         },
         {
           "slug": "spirit",
-          "value": 133
+          "value": 135
         }
       ],
       "gear": [
@@ -1273,7 +1273,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-22T02:40:59Z",
+      "lastUpdated": "2026-11-22T18:38:05Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
