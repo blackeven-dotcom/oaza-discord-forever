@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T19:01:52Z",
+  "generatedAt": "2026-11-23T19:31:47Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -375,8 +375,8 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 34,
-      "ilvl": 30,
+      "level": 35,
+      "ilvl": 31,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -385,14 +385,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 25,
+      "specPoints": 26,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 25,
+          "points": 26,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
@@ -429,7 +429,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1468
+          "value": 1499
         },
         {
           "slug": "rage",
@@ -437,7 +437,7 @@
         },
         {
           "slug": "strength",
-          "value": 160
+          "value": 162
         },
         {
           "slug": "intellect",
@@ -445,7 +445,7 @@
         },
         {
           "slug": "agility",
-          "value": 63
+          "value": 72
         },
         {
           "slug": "stamina",
@@ -453,11 +453,11 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.5250998
+          "value": 5.9783998
         },
         {
           "slug": "spirit",
-          "value": 52
+          "value": 46
         }
       ],
       "gear": [
@@ -503,7 +503,7 @@
         },
         {
           "slot": "Neck",
-          "name": "Glowing Green Talisman",
+          "name": "Thallium Choker of Agility",
           "quality": "uncommon"
         },
         {
@@ -550,7 +550,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-23T14:37:35Z",
+      "lastUpdated": "2026-11-23T19:05:12Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
