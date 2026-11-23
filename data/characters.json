@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T00:31:41Z",
+  "generatedAt": "2026-11-23T01:01:46Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -32,7 +32,7 @@
       "professions": [
         {
           "name": "Mining",
-          "skill": 154,
+          "skill": 155,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -58,12 +58,12 @@
         },
         {
           "name": "First Aid",
-          "skill": 179,
+          "skill": 180,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 24,
+      "honorableKills": 25,
       "pvpRank": 0,
       "stats": [
         {
@@ -92,7 +92,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.6756
+          "value": 5.8356004
         },
         {
           "slug": "spirit",
@@ -189,7 +189,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-22T18:38:16Z",
+      "lastUpdated": "2026-11-23T00:38:43Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -399,7 +399,7 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 232,
+          "skill": 236,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -453,7 +453,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.6282
+          "value": 5.7082
         },
         {
           "slug": "spirit",
@@ -550,7 +550,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-22T23:29:37Z",
+      "lastUpdated": "2026-11-23T00:47:34Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -1148,11 +1148,11 @@
         {
           "name": "First Aid",
           "skill": 131,
-          "max": 150,
+          "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 20,
+      "honorableKills": 21,
       "pvpRank": 0,
       "stats": [
         {
@@ -1273,7 +1273,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-22T18:38:05Z",
+      "lastUpdated": "2026-11-23T00:40:28Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
