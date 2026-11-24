@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T12:01:57Z",
+  "generatedAt": "2026-11-24T12:31:51Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -399,7 +399,7 @@
       "professions": [
         {
           "name": "Skinning",
-          "skill": 246,
+          "skill": 250,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -424,7 +424,7 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 17,
+      "honorableKills": 19,
       "pvpRank": 0,
       "stats": [
         {
@@ -550,7 +550,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-23T22:58:23Z",
+      "lastUpdated": "2026-11-24T12:07:36Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
