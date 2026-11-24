@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T17:46:31Z",
+  "generatedAt": "2026-11-24T18:01:49Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -550,7 +550,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-24T15:03:54Z",
+      "lastUpdated": "2026-11-24T17:49:31Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
@@ -1101,20 +1101,15 @@
       "gender": "male",
       "ruleset": "pvp",
       "region": "eu",
-      "spec": "Discipline",
-      "specPoints": 23,
-      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
-      "role": "healer",
+      "spec": "Shadow Magic",
+      "specPoints": 31,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg",
+      "role": "range",
       "roleSource": "spec",
       "specs": [
         {
-          "name": "Discipline",
-          "points": 23,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
-        },
-        {
           "name": "Shadow Magic",
-          "points": 8,
+          "points": 31,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg"
         }
       ],
@@ -1161,7 +1156,7 @@
         },
         {
           "slug": "mana",
-          "value": 2206
+          "value": 2131
         },
         {
           "slug": "strength",
@@ -1169,7 +1164,7 @@
         },
         {
           "slug": "intellect",
-          "value": 105
+          "value": 100
         },
         {
           "slug": "agility",
@@ -1273,7 +1268,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-24T00:45:40Z",
+      "lastUpdated": "2026-11-24T17:50:38Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
