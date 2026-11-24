@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:31:38Z",
+  "generatedAt": "2026-11-24T01:01:55Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -8,8 +8,8 @@
       "slug": "beeg-gobleen",
       "leader": false,
       "ok": true,
-      "level": 38,
-      "ilvl": 30,
+      "level": 40,
+      "ilvl": 32,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -18,21 +18,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Protection",
-      "specPoints": 29,
+      "specPoints": 31,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg",
       "role": "tank",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Protection",
-          "points": 29,
+          "points": 31,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132341.jpg"
         }
       ],
       "professions": [
         {
           "name": "Mining",
-          "skill": 155,
+          "skill": 161,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
         },
@@ -58,17 +58,17 @@
         },
         {
           "name": "First Aid",
-          "skill": 180,
+          "skill": 209,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 25,
+      "honorableKills": 26,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1761
+          "value": 2099
         },
         {
           "slug": "rage",
@@ -76,7 +76,7 @@
         },
         {
           "slug": "strength",
-          "value": 159
+          "value": 148
         },
         {
           "slug": "intellect",
@@ -84,15 +84,15 @@
         },
         {
           "slug": "agility",
-          "value": 74
+          "value": 82
         },
         {
           "slug": "stamina",
-          "value": 136
+          "value": 163
         },
         {
           "slug": "critical-strike",
-          "value": 5.8356004
+          "value": 6.1756
         },
         {
           "slug": "spirit",
@@ -122,8 +122,8 @@
         },
         {
           "slot": "Head",
-          "name": "Tusken Helm",
-          "quality": "rare"
+          "name": "Sparkleshell Headwrap of the Monkey",
+          "quality": "uncommon"
         },
         {
           "slot": "Ring 1",
@@ -142,7 +142,7 @@
         },
         {
           "slot": "Neck",
-          "name": "Snake Eye Kaleidoscope",
+          "name": "Abomination Chain",
           "quality": "rare"
         },
         {
@@ -152,8 +152,8 @@
         },
         {
           "slot": "Ranged",
-          "name": "Excavated Dagger",
-          "quality": "rare"
+          "name": "Nail Spitter",
+          "quality": "uncommon"
         },
         {
           "slot": "Ring 2",
@@ -177,7 +177,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Outlaw Sabre",
+          "name": "Vanquisher's Sword",
           "quality": "rare"
         },
         {
@@ -189,7 +189,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-23T00:38:43Z",
+      "lastUpdated": "2026-11-24T00:38:21Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/beeg-gobleen"
     },
@@ -1092,8 +1092,8 @@
       "slug": "pain-keeller",
       "leader": false,
       "ok": true,
-      "level": 38,
-      "ilvl": 28,
+      "level": 40,
+      "ilvl": 29,
       "class": "Priest",
       "classSlug": "priest",
       "race": "Troll",
@@ -1102,32 +1102,32 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Discipline",
-      "specPoints": 22,
+      "specPoints": 23,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg",
       "role": "healer",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Discipline",
-          "points": 22,
+          "points": 23,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135987.jpg"
         },
         {
           "name": "Shadow Magic",
-          "points": 7,
+          "points": 8,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg"
         }
       ],
       "professions": [
         {
           "name": "Tailoring",
-          "skill": 141,
+          "skill": 142,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136249.jpg"
         },
         {
           "name": "Enchanting",
-          "skill": 197,
+          "skill": 199,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136244.jpg"
         }
@@ -1147,29 +1147,29 @@
         },
         {
           "name": "First Aid",
-          "skill": 131,
+          "skill": 132,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 21,
+      "honorableKills": 22,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1080
+          "value": 1287
         },
         {
           "slug": "mana",
-          "value": 1843
+          "value": 2206
         },
         {
           "slug": "strength",
-          "value": 29
+          "value": 30
         },
         {
           "slug": "intellect",
-          "value": 84
+          "value": 105
         },
         {
           "slug": "agility",
@@ -1177,7 +1177,7 @@
         },
         {
           "slug": "stamina",
-          "value": 68
+          "value": 83
         },
         {
           "slug": "critical-strike",
@@ -1185,7 +1185,7 @@
         },
         {
           "slug": "spirit",
-          "value": 135
+          "value": 140
         }
       ],
       "gear": [
@@ -1211,8 +1211,8 @@
         },
         {
           "slot": "Head",
-          "name": "Hooded Cowl",
-          "quality": "common"
+          "name": "Vital Headband of the Eagle",
+          "quality": "uncommon"
         },
         {
           "slot": "Ring 1",
@@ -1231,8 +1231,8 @@
         },
         {
           "slot": "Neck",
-          "name": "Roadwatcher's Confidence",
-          "quality": "uncommon"
+          "name": "Glowing Eye of Mordresh",
+          "quality": "rare"
         },
         {
           "slot": "Ranged",
@@ -1266,14 +1266,14 @@
         },
         {
           "slot": "Wrist",
-          "name": "Spidertank Oilrag",
-          "quality": "rare"
+          "name": "Crusty Cuffs",
+          "quality": "uncommon"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/111/7172975-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_troll.jpg",
-      "lastUpdated": "2026-11-23T00:40:28Z",
+      "lastUpdated": "2026-11-24T00:45:40Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pain-keeller"
     },
