@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T16:31:44Z",
+  "generatedAt": "2026-11-25T17:01:57Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1707,83 +1707,7 @@
           "value": 37
         }
       ],
-      "gear": [
-        {
-          "slot": "Back",
-          "name": "Superior Cloak of Fire Protection",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Chest",
-          "name": "Fine Leather Tunic",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Feet",
-          "name": "Stomping Boots",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Hands",
-          "name": "Hunting Gloves",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Ring 1",
-          "name": "Seal of Sylvanas",
-          "quality": "rare"
-        },
-        {
-          "slot": "Legs",
-          "name": "Dark Leather Pants",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Neck",
-          "name": "Roadwatcher's Confidence",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Off Hand",
-          "name": "Doomspike",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ranged",
-          "name": "Balanced Throwing Dagger",
-          "quality": "common"
-        },
-        {
-          "slot": "Ring 2",
-          "name": "Loop of Sacrifice",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Shirt",
-          "name": "Thug Shirt",
-          "quality": "common"
-        },
-        {
-          "slot": "Shoulders",
-          "name": "Tanned Shoulderpads",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Waist",
-          "name": "Fine Leather Belt",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Main Hand",
-          "name": "Butcher's Slicer",
-          "quality": "rare"
-        },
-        {
-          "slot": "Wrist",
-          "name": "Wolf Bracers",
-          "quality": "uncommon"
-        }
-      ],
+      "gear": [],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/101/12499813-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
