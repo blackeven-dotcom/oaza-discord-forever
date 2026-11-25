@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T23:31:35Z",
+  "generatedAt": "2026-11-25T00:01:53Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -424,7 +424,7 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 19,
+      "honorableKills": 22,
       "pvpRank": 0,
       "stats": [
         {
@@ -453,7 +453,7 @@
         },
         {
           "slug": "critical-strike",
-          "value": 5.8809
+          "value": 6.0409
         },
         {
           "slug": "spirit",
@@ -550,7 +550,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-24T17:49:31Z",
+      "lastUpdated": "2026-11-24T23:37:53Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
