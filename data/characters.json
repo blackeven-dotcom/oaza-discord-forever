@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:01:52Z",
+  "generatedAt": "2026-11-25T21:31:47Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1279,7 +1279,7 @@
       "leader": false,
       "ok": true,
       "level": 28,
-      "ilvl": 19,
+      "ilvl": null,
       "class": "Mage",
       "classSlug": "mage",
       "race": "Undead",
@@ -1438,7 +1438,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-22T21:19:29Z",
+      "lastUpdated": "2026-11-25T21:17:07Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
