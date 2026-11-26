@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T18:31:44Z",
+  "generatedAt": "2026-11-26T19:01:56Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -99,93 +99,7 @@
           "value": 58
         }
       ],
-      "gear": [
-        {
-          "slot": "Back",
-          "name": "Slayer's Cape",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Chest",
-          "name": "Mutant Scale Breastplate",
-          "quality": "rare"
-        },
-        {
-          "slot": "Feet",
-          "name": "Knight's Boots of the Champion",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Hands",
-          "name": "Grubbis Paws",
-          "quality": "rare"
-        },
-        {
-          "slot": "Head",
-          "name": "Sparkleshell Headwrap of the Monkey",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Ring 1",
-          "name": "Nogg's Gold Ring",
-          "quality": "rare"
-        },
-        {
-          "slot": "Trinket 1",
-          "name": "Satchel of Potions",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Legs",
-          "name": "Dual Reinforced Leggings",
-          "quality": "rare"
-        },
-        {
-          "slot": "Neck",
-          "name": "Abomination Chain",
-          "quality": "rare"
-        },
-        {
-          "slot": "Off Hand",
-          "name": "Marbled Buckler",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ranged",
-          "name": "Nail Spitter",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Ring 2",
-          "name": "Seal of Sylvanas",
-          "quality": "rare"
-        },
-        {
-          "slot": "Shirt",
-          "name": "Deckhand's Shirt",
-          "quality": "common"
-        },
-        {
-          "slot": "Shoulders",
-          "name": "Battle Spaulders",
-          "quality": "rare"
-        },
-        {
-          "slot": "Waist",
-          "name": "Officer's Belt",
-          "quality": "rare"
-        },
-        {
-          "slot": "Main Hand",
-          "name": "Vanquisher's Sword",
-          "quality": "rare"
-        },
-        {
-          "slot": "Wrist",
-          "name": "Darkspear Armsplints",
-          "quality": "uncommon"
-        }
-      ],
+      "gear": [],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/147/7328659-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
@@ -254,8 +168,8 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 14,
-      "pvpRank": 0,
+      "honorableKills": null,
+      "pvpRank": null,
       "stats": [
         {
           "slug": "health",
@@ -460,93 +374,7 @@
           "value": 47
         }
       ],
-      "gear": [
-        {
-          "slot": "Back",
-          "name": "Wolfmaster Cape",
-          "quality": "rare"
-        },
-        {
-          "slot": "Chest",
-          "name": "Avenger's Armor",
-          "quality": "rare"
-        },
-        {
-          "slot": "Feet",
-          "name": "Half-Eaten Boots",
-          "quality": "rare"
-        },
-        {
-          "slot": "Hands",
-          "name": "Grip of Fear",
-          "quality": "rare"
-        },
-        {
-          "slot": "Head",
-          "name": "Tusken Helm",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ring 1",
-          "name": "Band of the Fist",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Trinket 1",
-          "name": "Transformative Cocoon",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Legs",
-          "name": "Bonerust Leggings",
-          "quality": "rare"
-        },
-        {
-          "slot": "Neck",
-          "name": "Thallium Choker of Agility",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Ranged",
-          "name": "Houndmaster Boomerang",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ring 2",
-          "name": "Tiger Band",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Trinket 2",
-          "name": "Roogug's Severed Head",
-          "quality": "rare"
-        },
-        {
-          "slot": "Shirt",
-          "name": "Brawler's Harness",
-          "quality": "common"
-        },
-        {
-          "slot": "Shoulders",
-          "name": "Knight's Pauldrons of the Beast",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Waist",
-          "name": "Scarlet Belt",
-          "quality": "rare"
-        },
-        {
-          "slot": "Main Hand",
-          "name": "Whirlwind Axe",
-          "quality": "rare"
-        },
-        {
-          "slot": "Wrist",
-          "name": "Chief Brigadier Bracers",
-          "quality": "uncommon"
-        }
-      ],
+      "gear": [],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
@@ -586,40 +414,8 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132347.jpg"
         }
       ],
-      "professions": [
-        {
-          "name": "Skinning",
-          "skill": 222,
-          "max": 300,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
-        },
-        {
-          "name": "Mining",
-          "skill": 178,
-          "max": 225,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136248.jpg"
-        }
-      ],
-      "secondaryProfessions": [
-        {
-          "name": "Cooking",
-          "skill": 215,
-          "max": 225,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
-        },
-        {
-          "name": "Fishing",
-          "skill": 189,
-          "max": 225,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
-        },
-        {
-          "name": "First Aid",
-          "skill": 76,
-          "max": 150,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
-        }
-      ],
+      "professions": [],
+      "secondaryProfessions": [],
       "honorableKills": 21,
       "pvpRank": 0,
       "stats": [
@@ -837,78 +633,7 @@
           "value": 53
         }
       ],
-      "gear": [
-        {
-          "slot": "Back",
-          "name": "Grave Shroud",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Chest",
-          "name": "Orcish War Chain",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Feet",
-          "name": "Vilewalkers",
-          "quality": "rare"
-        },
-        {
-          "slot": "Hands",
-          "name": "Grip of Fear",
-          "quality": "rare"
-        },
-        {
-          "slot": "Head",
-          "name": "Veteran's Silvered Chain Helm",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ring 1",
-          "name": "Loop of Sacrifice",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Legs",
-          "name": "Guard's Chain Leggings",
-          "quality": "rare"
-        },
-        {
-          "slot": "Neck",
-          "name": "Roadwatcher's Confidence",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Ring 2",
-          "name": "Seal of Sylvanas",
-          "quality": "rare"
-        },
-        {
-          "slot": "Shirt",
-          "name": "Brawler's Harness",
-          "quality": "common"
-        },
-        {
-          "slot": "Shoulders",
-          "name": "Bronzed Shoulderguards",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Waist",
-          "name": "Atrophic Girdle",
-          "quality": "rare"
-        },
-        {
-          "slot": "Main Hand",
-          "name": "Forsaken Greataxe",
-          "quality": "rare"
-        },
-        {
-          "slot": "Wrist",
-          "name": "Death Bindings",
-          "quality": "rare"
-        }
-      ],
+      "gear": [],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/158/12583582-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
@@ -973,40 +698,7 @@
       ],
       "honorableKills": 28,
       "pvpRank": 0,
-      "stats": [
-        {
-          "slug": "health",
-          "value": 1307
-        },
-        {
-          "slug": "mana",
-          "value": 1350
-        },
-        {
-          "slug": "strength",
-          "value": 60
-        },
-        {
-          "slug": "intellect",
-          "value": 46
-        },
-        {
-          "slug": "agility",
-          "value": 150
-        },
-        {
-          "slug": "stamina",
-          "value": 96
-        },
-        {
-          "slug": "critical-strike",
-          "value": 4.96
-        },
-        {
-          "slug": "spirit",
-          "value": 52
-        }
-      ],
+      "stats": [],
       "gear": [
         {
           "slot": "Back",
@@ -1469,40 +1161,8 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136051.jpg"
         }
       ],
-      "professions": [
-        {
-          "name": "Alchemy",
-          "skill": 156,
-          "max": 225,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136240.jpg"
-        },
-        {
-          "name": "Herbalism",
-          "skill": 150,
-          "max": 225,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
-        }
-      ],
-      "secondaryProfessions": [
-        {
-          "name": "Cooking",
-          "skill": 90,
-          "max": 150,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
-        },
-        {
-          "name": "Fishing",
-          "skill": 156,
-          "max": 225,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
-        },
-        {
-          "name": "First Aid",
-          "skill": 66,
-          "max": 150,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
-        }
-      ],
+      "professions": [],
+      "secondaryProfessions": [],
       "honorableKills": 4,
       "pvpRank": 0,
       "stats": [
