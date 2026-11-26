@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T05:01:53Z",
+  "generatedAt": "2026-11-26T05:31:37Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1882,73 +1882,7 @@
           "value": 46
         }
       ],
-      "gear": [
-        {
-          "slot": "Back",
-          "name": "Quilted Cloak",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Chest",
-          "name": "Ceremonial Leather Harness",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Feet",
-          "name": "Stomping Boots",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Hands",
-          "name": "Toughened Leather Gloves",
-          "quality": "rare"
-        },
-        {
-          "slot": "Head",
-          "name": "Hooded Cowl",
-          "quality": "common"
-        },
-        {
-          "slot": "Ring 1",
-          "name": "Bounty Hunter's Ring",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Legs",
-          "name": "Slick Deviate Leggings",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Ranged",
-          "name": "Venomstrike",
-          "quality": "rare"
-        },
-        {
-          "slot": "Ring 2",
-          "name": "Clay Ring of Power",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Shoulders",
-          "name": "Talbar Mantle",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Waist",
-          "name": "Screecher Belt",
-          "quality": "uncommon"
-        },
-        {
-          "slot": "Main Hand",
-          "name": "Crescent Staff",
-          "quality": "rare"
-        },
-        {
-          "slot": "Wrist",
-          "name": "Ratchet Wristwraps",
-          "quality": "uncommon"
-        }
-      ],
+      "gear": [],
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
