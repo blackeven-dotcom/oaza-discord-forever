@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T21:57:23Z",
+  "generatedAt": "2026-11-26T22:01:47Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1327,42 +1327,9 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
       ],
-      "honorableKills": 1,
+      "honorableKills": 2,
       "pvpRank": 0,
-      "stats": [
-        {
-          "slug": "health",
-          "value": 892
-        },
-        {
-          "slug": "mana",
-          "value": 1521
-        },
-        {
-          "slug": "strength",
-          "value": 23
-        },
-        {
-          "slug": "intellect",
-          "value": 83
-        },
-        {
-          "slug": "agility",
-          "value": 30
-        },
-        {
-          "slug": "stamina",
-          "value": 71
-        },
-        {
-          "slug": "critical-strike",
-          "value": 2.3200004
-        },
-        {
-          "slug": "spirit",
-          "value": 73
-        }
-      ],
+      "stats": [],
       "gear": [
         {
           "slot": "Back",
@@ -1438,7 +1405,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-25T22:30:29Z",
+      "lastUpdated": "2026-11-26T21:57:13Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
