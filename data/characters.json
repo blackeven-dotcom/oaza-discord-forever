@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T02:01:48Z",
+  "generatedAt": "2026-11-26T02:31:39Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -375,8 +375,8 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 36,
-      "ilvl": 31,
+      "level": 37,
+      "ilvl": null,
       "class": "Warrior",
       "classSlug": "warrior",
       "race": "Orc",
@@ -385,27 +385,27 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 27,
+      "specPoints": 28,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 27,
+          "points": 28,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 250,
+          "skill": 259,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
         {
           "name": "Herbalism",
-          "skill": 206,
+          "skill": 211,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -424,12 +424,12 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 22,
+      "honorableKills": 32,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 1541
+          "value": 1655
         },
         {
           "slug": "rage",
@@ -437,7 +437,7 @@
         },
         {
           "slug": "strength",
-          "value": 164
+          "value": 166
         },
         {
           "slug": "intellect",
@@ -445,15 +445,15 @@
         },
         {
           "slug": "agility",
-          "value": 73
+          "value": 74
         },
         {
           "slug": "stamina",
-          "value": 120
+          "value": 129
         },
         {
           "slug": "critical-strike",
-          "value": 6.0409
+          "value": 6.0280004
         },
         {
           "slug": "spirit",
@@ -538,7 +538,7 @@
         },
         {
           "slot": "Main Hand",
-          "name": "Corpsemaker",
+          "name": "Whirlwind Axe",
           "quality": "rare"
         },
         {
@@ -550,7 +550,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-24T23:37:53Z",
+      "lastUpdated": "2026-11-26T02:27:49Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
