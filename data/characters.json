@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T23:01:58Z",
+  "generatedAt": "2026-11-26T23:31:35Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -424,8 +424,8 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": 32,
-      "pvpRank": 0,
+      "honorableKills": null,
+      "pvpRank": null,
       "stats": [
         {
           "slug": "health",
