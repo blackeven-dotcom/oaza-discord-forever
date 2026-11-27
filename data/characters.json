@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T04:02:10Z",
+  "generatedAt": "2026-11-27T04:16:34Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1101,12 +1101,18 @@
       "gender": "male",
       "ruleset": "pvp",
       "region": "eu",
-      "spec": null,
-      "specPoints": null,
-      "specIcon": null,
-      "role": "healer",
-      "roleSource": "class",
-      "specs": [],
+      "spec": "Shadow Magic",
+      "specPoints": 31,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg",
+      "role": "range",
+      "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Shadow Magic",
+          "points": 31,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Tailoring",
