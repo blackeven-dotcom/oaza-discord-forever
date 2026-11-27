@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T18:31:42Z",
+  "generatedAt": "2026-11-27T19:01:51Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -220,8 +220,40 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132276.jpg"
         }
       ],
-      "professions": [],
-      "secondaryProfessions": [],
+      "professions": [
+        {
+          "name": "Leatherworking",
+          "skill": 143,
+          "max": 150,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
+        },
+        {
+          "name": "Skinning",
+          "skill": 196,
+          "max": 225,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
+        }
+      ],
+      "secondaryProfessions": [
+        {
+          "name": "Cooking",
+          "skill": 42,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133971.jpg"
+        },
+        {
+          "name": "Fishing",
+          "skill": 1,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
+        },
+        {
+          "name": "First Aid",
+          "skill": 49,
+          "max": 75,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
+        }
+      ],
       "honorableKills": 14,
       "pvpRank": 0,
       "stats": [
