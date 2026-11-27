@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T22:44:10Z",
+  "generatedAt": "2026-11-27T23:01:59Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -375,7 +375,7 @@
       "slug": "mogra-mokra",
       "leader": false,
       "ok": true,
-      "level": 38,
+      "level": 39,
       "ilvl": null,
       "class": "Warrior",
       "classSlug": "warrior",
@@ -385,21 +385,21 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Arms",
-      "specPoints": 29,
+      "specPoints": 30,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Arms",
-          "points": 29,
+          "points": 30,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
         }
       ],
       "professions": [
         {
           "name": "Skinning",
-          "skill": 259,
+          "skill": 262,
           "max": 300,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134366.jpg"
         },
@@ -429,7 +429,7 @@
       "stats": [
         {
           "slug": "health",
-          "value": 1601
+          "value": 1849
         },
         {
           "slug": "rage",
@@ -437,27 +437,27 @@
         },
         {
           "slug": "strength",
-          "value": 174
+          "value": 168
         },
         {
           "slug": "intellect",
-          "value": 22
+          "value": 23
         },
         {
           "slug": "agility",
-          "value": 85
+          "value": 91
         },
         {
           "slug": "stamina",
-          "value": 120
+          "value": 142
         },
         {
           "slug": "critical-strike",
-          "value": 6.7089996
+          "value": 7.9071
         },
         {
           "slug": "spirit",
-          "value": 47
+          "value": 48
         }
       ],
       "gear": [
@@ -473,7 +473,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Half-Eaten Boots",
+          "name": "Scarlet Boots",
           "quality": "rare"
         },
         {
@@ -483,7 +483,7 @@
         },
         {
           "slot": "Head",
-          "name": "Tusken Helm",
+          "name": "Raging Berserker's Helm",
           "quality": "rare"
         },
         {
@@ -550,7 +550,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/188/2250684-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_orc.jpg",
-      "lastUpdated": "2026-11-27T02:17:40Z",
+      "lastUpdated": "2026-11-27T22:46:31Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mogra-mokra"
     },
