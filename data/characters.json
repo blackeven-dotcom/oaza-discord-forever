@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T03:31:53Z",
+  "generatedAt": "2026-11-27T04:02:10Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -569,12 +569,23 @@
       "gender": "male",
       "ruleset": "pvp",
       "region": "eu",
-      "spec": null,
-      "specPoints": null,
-      "specIcon": null,
+      "spec": "Arms",
+      "specPoints": 19,
+      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg",
       "role": "melee",
-      "roleSource": "class",
-      "specs": [],
+      "roleSource": "spec",
+      "specs": [
+        {
+          "name": "Arms",
+          "points": 19,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132292.jpg"
+        },
+        {
+          "name": "Fury",
+          "points": 5,
+          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132347.jpg"
+        }
+      ],
       "professions": [
         {
           "name": "Skinning",
@@ -1090,18 +1101,12 @@
       "gender": "male",
       "ruleset": "pvp",
       "region": "eu",
-      "spec": "Shadow Magic",
-      "specPoints": 31,
-      "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg",
-      "role": "range",
-      "roleSource": "spec",
-      "specs": [
-        {
-          "name": "Shadow Magic",
-          "points": 31,
-          "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136207.jpg"
-        }
-      ],
+      "spec": null,
+      "specPoints": null,
+      "specIcon": null,
+      "role": "healer",
+      "roleSource": "class",
+      "specs": [],
       "professions": [
         {
           "name": "Tailoring",
