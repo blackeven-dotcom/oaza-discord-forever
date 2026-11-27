@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T23:31:35Z",
+  "generatedAt": "2026-11-27T00:01:54Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -424,8 +424,8 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135966.jpg"
         }
       ],
-      "honorableKills": null,
-      "pvpRank": null,
+      "honorableKills": 32,
+      "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
@@ -1278,7 +1278,7 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 28,
+      "level": 29,
       "ilvl": null,
       "class": "Mage",
       "classSlug": "mage",
@@ -1288,14 +1288,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 19,
+      "specPoints": 20,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 19,
+          "points": 20,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
@@ -1329,7 +1329,40 @@
       ],
       "honorableKills": 2,
       "pvpRank": 0,
-      "stats": [],
+      "stats": [
+        {
+          "slug": "health",
+          "value": 933
+        },
+        {
+          "slug": "mana",
+          "value": 1527
+        },
+        {
+          "slug": "strength",
+          "value": 23
+        },
+        {
+          "slug": "intellect",
+          "value": 81
+        },
+        {
+          "slug": "agility",
+          "value": 31
+        },
+        {
+          "slug": "stamina",
+          "value": 74
+        },
+        {
+          "slug": "critical-strike",
+          "value": 2.1052
+        },
+        {
+          "slug": "spirit",
+          "value": 80
+        }
+      ],
       "gear": [
         {
           "slot": "Back",
@@ -1343,7 +1376,7 @@
         },
         {
           "slot": "Feet",
-          "name": "Spidersilk Boots",
+          "name": "Glinteye Slippers",
           "quality": "rare"
         },
         {
@@ -1405,7 +1438,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-26T21:57:13Z",
+      "lastUpdated": "2026-11-26T23:46:50Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
