@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T17:31:44Z",
+  "generatedAt": "2026-11-28T18:01:49Z",
   "source": "Blizzard Armory (World of Warcraft: Forever)",
   "characters": [
     {
@@ -1278,7 +1278,7 @@
       "slug": "zdzislaw-pirotechnik",
       "leader": false,
       "ok": true,
-      "level": 29,
+      "level": 30,
       "ilvl": null,
       "class": "Mage",
       "classSlug": "mage",
@@ -1288,14 +1288,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Frost",
-      "specPoints": 20,
+      "specPoints": 21,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Frost",
-          "points": 20,
+          "points": 21,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135846.jpg"
         }
       ],
@@ -1327,16 +1327,16 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
       ],
-      "honorableKills": 2,
+      "honorableKills": 3,
       "pvpRank": 0,
       "stats": [
         {
           "slug": "health",
-          "value": 933
+          "value": 955
         },
         {
           "slug": "mana",
-          "value": 1527
+          "value": 1578
         },
         {
           "slug": "strength",
@@ -1344,7 +1344,7 @@
         },
         {
           "slug": "intellect",
-          "value": 81
+          "value": 83
         },
         {
           "slug": "agility",
@@ -1356,11 +1356,11 @@
         },
         {
           "slug": "critical-strike",
-          "value": 2.1052
+          "value": 2.0252001
         },
         {
           "slug": "spirit",
-          "value": 80
+          "value": 82
         }
       ],
       "gear": [
@@ -1392,6 +1392,11 @@
         {
           "slot": "Ring 1",
           "name": "Totemic Clan Ring",
+          "quality": "uncommon"
+        },
+        {
+          "slot": "Trinket 1",
+          "name": "Satchel of Potions",
           "quality": "uncommon"
         },
         {
@@ -1438,7 +1443,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/100/7315812-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
-      "lastUpdated": "2026-11-26T23:46:50Z",
+      "lastUpdated": "2026-11-28T17:52:48Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zdzislaw-pirotechnik"
     },
@@ -1797,8 +1802,8 @@
       "slug": "astral-mother",
       "leader": false,
       "ok": true,
-      "level": 27,
-      "ilvl": 19,
+      "level": 28,
+      "ilvl": null,
       "class": "Hunter",
       "classSlug": "hunter",
       "race": "Windshaper Skyborne",
@@ -1807,14 +1812,14 @@
       "ruleset": "pvp",
       "region": "eu",
       "spec": "Beast Mastery",
-      "specPoints": 18,
+      "specPoints": 19,
       "specIcon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg",
       "role": "range",
       "roleSource": "spec",
       "specs": [
         {
           "name": "Beast Mastery",
-          "points": 18,
+          "points": 19,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132164.jpg"
         }
       ],
@@ -1827,7 +1832,7 @@
         },
         {
           "name": "Herbalism",
-          "skill": 154,
+          "skill": 156,
           "max": 225,
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136246.jpg"
         }
@@ -1846,42 +1851,9 @@
           "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136245.jpg"
         }
       ],
-      "honorableKills": 2,
+      "honorableKills": 3,
       "pvpRank": 0,
-      "stats": [
-        {
-          "slug": "health",
-          "value": 953
-        },
-        {
-          "slug": "mana",
-          "value": 1200
-        },
-        {
-          "slug": "strength",
-          "value": 38
-        },
-        {
-          "slug": "intellect",
-          "value": 54
-        },
-        {
-          "slug": "agility",
-          "value": 95
-        },
-        {
-          "slug": "stamina",
-          "value": 80
-        },
-        {
-          "slug": "critical-strike",
-          "value": 4.044
-        },
-        {
-          "slug": "spirit",
-          "value": 46
-        }
-      ],
+      "stats": [],
       "gear": [
         {
           "slot": "Back",
@@ -1952,7 +1924,7 @@
       "avatar": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-avatar.jpg",
       "render": "https://render.worldofwarcraft.com/forever-eu/character/145/2584209-main-raw.png",
       "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_skyborne.jpg",
-      "lastUpdated": "2026-11-21T20:11:09Z",
+      "lastUpdated": "2026-11-28T17:52:49Z",
       "outdated": false,
       "url": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/astral-mother"
     }
